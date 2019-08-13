@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 1.0.1
+
+- use darkaqua in `editor.selectionBackground`
+
 ## 1.0.0
 
 - Optimize more file types

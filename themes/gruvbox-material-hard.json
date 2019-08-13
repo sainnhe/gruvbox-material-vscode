@@ -2029,7 +2029,7 @@
         "tab.unfocusedActiveForeground": "#a89984",
         "tab.unfocusedActiveBorder": "#1d202100",
         "tab.unfocusedInactiveForeground": "#928374",
-        "editor.selectionBackground": "#3c1f1e",
+        "editor.selectionBackground": "#72966c38",
         "editor.selectionHighlightBackground": "#c18f4140",
         "editor.hoverHighlightBackground": "#72966c50",
         "editorLink.activeForeground": "#dfbf8e",
