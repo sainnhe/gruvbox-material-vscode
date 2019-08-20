@@ -332,12 +332,19 @@
             }
         },
         // }}}
-        // Html{{{
+        // Html/Xml{{{
         {
             "name": "Html orange",
-            "scope": "entity.name.tag.html",
+            "scope": "entity.name.tag.html, entity.name.tag.xml, entity.name.tag.localname.xml",
             "settings": {
                 "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Html green",
+            "scope": "text.xml",
+            "settings": {
+                "foreground": "#a9b665"
             }
         },
         {
@@ -349,7 +356,7 @@
         },
         {
             "name": "Html yellow",
-            "scope": "entity.other.attribute-name.html",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name.xml",
             "settings": {
                 "foreground": "#e3a84e"
             }
@@ -363,7 +370,7 @@
         },
         {
             "name": "Html delimiter",
-            "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
+            "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.xml",
             "settings": {
                 "foreground": "#928374"
             }
