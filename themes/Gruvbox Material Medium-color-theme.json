@@ -332,6 +332,43 @@
             }
         },
         // }}}
+        // Html{{{
+        {
+            "name": "Html orange",
+            "scope": "entity.name.tag.html",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Html aqua",
+            "scope": "punctuation.separator.key-value.html",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Html yellow",
+            "scope": "entity.other.attribute-name.html",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Html purple",
+            "scope": "meta.tag.metadata.script.start.html",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "Html delimiter",
+            "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
