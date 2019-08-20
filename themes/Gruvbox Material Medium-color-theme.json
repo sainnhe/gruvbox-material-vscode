@@ -341,13 +341,6 @@
             }
         },
         {
-            "name": "Html green",
-            "scope": "text.xml",
-            "settings": {
-                "foreground": "#a9b665"
-            }
-        },
-        {
             "name": "Html aqua",
             "scope": "punctuation.separator.key-value.html",
             "settings": {
