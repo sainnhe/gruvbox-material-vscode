@@ -1,0 +1,21 @@
+{
+    "name": "gruvbox-material",
+    "displayName": "Gruvbox Material",
+    "description": "Gruvbox with Material Palette",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gruvbox Material Medium",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Gruvbox Material Medium-color-theme.json"
+            }
+        ]
+    }
+}
