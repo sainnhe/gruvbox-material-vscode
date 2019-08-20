@@ -236,6 +236,51 @@
             }
         },
         // }}}
+        // reStructuredText{{{
+        {
+            "name": "reStructuredText delimiter",
+            "scope": "punctuation.definition.field.restructuredtext, punctuation.separator.key-value.restructuredtext, punctuation.definition.directive.restructuredtext, punctuation.definition.constant.restructuredtext, punctuation.definition.italic.restructuredtext, punctuation.definition.table.restructuredtext",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "reStructuredText delimiter bold",
+            "scope": "punctuation.definition.bold.restructuredtext",
+            "settings": {
+                "foreground": "#928374",
+                "fontStyle": "regular"
+            }
+        },
+        {
+            "name": "reStructuredText aqua",
+            "scope": "entity.name.tag.restructuredtext, punctuation.definition.link.restructuredtext, punctuation.definition.raw.restructuredtext, punctuation.section.raw.restructuredtext",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "reStructuredText purple",
+            "scope": "constant.other.footnote.link.restructuredtext",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "reStructuredText red",
+            "scope": "support.directive.restructuredtext",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "reStructuredText green",
+            "scope": "entity.name.directive.restructuredtext, markup.raw.restructuredtext, markup.raw.inner.restructuredtext",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
