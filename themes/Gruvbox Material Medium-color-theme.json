@@ -59,8 +59,8 @@
             }
         },
         {
-            "name": "Storage",
-            "scope": "storage.type, storage.modifier",
+            "name": "Storage and Operator",
+            "scope": "storage.type, storage.modifier, keyword.operator",
             "settings": {
                 "foreground": "#e78a4e"
             }
@@ -378,6 +378,13 @@
             }
         },
         {
+            "name": "CSS grey",
+            "scope": "punctuation.definition.entity.css",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
             "name": "CSS red",
             "scope": "entity.other.attribute-name.class.css, entity.other.keyframe-offset.percentage.css",
             "settings": {
@@ -389,6 +396,13 @@
             "scope": "support.constant.property-value.css",
             "settings": {
                 "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "CSS yellow",
+            "scope": "entity.other.attribute-name.id.css",
+            "settings": {
+                "foreground": "#e3a84e"
             }
         },
         {
@@ -414,7 +428,7 @@
         },
         {
             "name": "CSS purple",
-            "scope": "keyword.control.at-rule.keyframes.css, entity.name.tag.css, entity.other.keyframe-offset.css",
+            "scope": "keyword.control.at-rule.keyframes.css, entity.name.tag.css, entity.other.keyframe-offset.css, keyword.control.at-rule.font-face.css",
             "settings": {
                 "foreground": "#d3869b"
             }
