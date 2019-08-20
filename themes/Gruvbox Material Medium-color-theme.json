@@ -376,6 +376,57 @@
             }
         },
         // }}}
+        // CSS{{{
+        {
+            "name": "CSS white",
+            "scope": "punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.separator.list.comma.css",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "CSS red",
+            "scope": "entity.other.attribute-name.class.css, entity.other.keyframe-offset.percentage.css",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "CSS orange",
+            "scope": "support.constant.property-value.css",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "CSS green",
+            "scope": "keyword.other.unit.px.css, entity.other.attribute-name.css, meta.property-value.css",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "CSS aqua",
+            "scope": "support.type.property-name.css",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "CSS blue",
+            "scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "CSS purple",
+            "scope": "keyword.control.at-rule.keyframes.css, entity.name.tag.css, entity.other.keyframe-offset.css",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
