@@ -24,6 +24,13 @@
             }
         },
         {
+            "name": "Preproc",
+            "scope": "keyword.control.at-rule",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
             "name": "Boolean",
             "scope": "constant.language.boolean",
             "settings": {
@@ -428,9 +435,25 @@
         },
         {
             "name": "CSS purple",
-            "scope": "keyword.control.at-rule.keyframes.css, entity.name.tag.css, entity.other.keyframe-offset.css, keyword.control.at-rule.font-face.css",
+            "scope": "entity.name.tag.css, entity.other.keyframe-offset.css",
             "settings": {
                 "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // SASS{{{
+        {
+            "name": "SASS red",
+            "scope": "entity.other.attribute-name.placeholder-selector.sass",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "SASS green",
+            "scope": "keyword.other.unit.css.sass",
+            "settings": {
+                "foreground": "#a9b665"
             }
         },
         // }}}
