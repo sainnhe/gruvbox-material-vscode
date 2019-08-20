@@ -10,3 +10,4 @@
 - CSS
 - SASS
 - LESS
+- JavaScript
