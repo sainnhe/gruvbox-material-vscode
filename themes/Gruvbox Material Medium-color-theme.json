@@ -281,6 +281,57 @@
             }
         },
         // }}}
+        // LaTex{{{
+        {
+            "name": "LaTex red",
+            "scope": "support.function.section.latex",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "LaTex yellow",
+            "scope": "keyword.control.equation.align.latex",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "LaTex green",
+            "scope": "support.function.general.tex, support.class.math.block.environment.latex",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "LaTex purple",
+            "scope": "keyword.control.preamble.latex",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "LaTex aqua",
+            "scope": "support.class.latex",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "LaTex blue",
+            "scope": "meta.group.braces.tex",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "LaTex orange",
+            "scope": "support.function.be.latex, keyword.control.equation.newline.latex",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
