@@ -407,14 +407,14 @@
         },
         {
             "name": "CSS yellow",
-            "scope": "entity.other.attribute-name.id.css",
+            "scope": "entity.other.attribute-name.id",
             "settings": {
                 "foreground": "#e3a84e"
             }
         },
         {
             "name": "CSS green",
-            "scope": "keyword.other.unit.px.css, entity.other.attribute-name.css, meta.property-value.css",
+            "scope": "keyword.other.unit.px.css, entity.other.attribute-name.css, meta.property-value.css, entity.other.attribute-name.class.mixin.css",
             "settings": {
                 "foreground": "#a9b665"
             }
