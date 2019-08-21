@@ -11,3 +11,4 @@
 - SASS
 - LESS
 - JavaScript
+- TypeScript
