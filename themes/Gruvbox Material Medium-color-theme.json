@@ -11,7 +11,7 @@
         // Syntax{{{
         {
             "name": "String",
-            "scope": "string",
+            "scope": "string, punctuation.definition.string.end, punctuation.definition.string.begin",
             "settings": {
                 "foreground": "#a9b665"
             }
@@ -32,7 +32,14 @@
         },
         {
             "name": "Preproc",
-            "scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator",
+            "scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive.include",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "Macro",
+            "scope": "entity.name.function.preprocessor",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -810,6 +817,50 @@
             "scope": "storage.type.kotlin",
             "settings": {
                 "foreground": "#ea6962"
+            }
+        },
+        // }}}
+        // C/C++{{{
+        {
+            "name": "C white",
+            "scope": "storage.modifier.array.bracket.square.c",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "C orange",
+            "scope": "keyword.control.case.c",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "C yellow",
+            "scope": "storage.type.built-in.primitive.c, constant.other.placeholder.c",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "C aqua",
+            "scope": "constant.character.escape.c, constant.language.c, variable.other.member.c",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "C blue",
+            "scope": "meta.function-call.c, meta.conditional.switch.c",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "C purple",
+            "scope": "punctuation.definition.directive.c, keyword.control.directive.define.c, keyword.control.default.c, keyword.operator.ternary.c",
+            "settings": {
+                "foreground": "#d3869b"
             }
         },
         // }}}
