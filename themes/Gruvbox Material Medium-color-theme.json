@@ -755,6 +755,64 @@
             }
         },
         // }}}
+        // Kotlin{{{
+        {
+            "name": "Kotlin purple",
+            "scope": "keyword.other.import.kotlin, storage.type.annotation.kotlin",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "Kotlin green",
+            "scope": "entity.name.package.kotlin",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Kotlin aqua",
+            "scope": "punctuation.section.block.begin.kotlin, punctuation.section.block.end.kotlin, punctuation.definition.keyword.kotlin, constant.language.kotlin, entity.name.function.constructor",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Kotlin white",
+            "scope": "keyword.operator.declaration.kotlin",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "Kotlin blue",
+            "scope": "entity.string.template.element.kotlin",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Kotlin yellow",
+            "scope": "entity.name.class.kotlin",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Kotlin grey",
+            "scope": "punctuation.accessor.reference.kotlin",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Kotlin red",
+            "scope": "storage.type.kotlin",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {

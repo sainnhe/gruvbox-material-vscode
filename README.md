@@ -16,3 +16,4 @@
 - Dart: [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
 - Python: buildin
 - Java: buildin
+- Kotlin: [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
