@@ -658,6 +658,22 @@
             }
         },
         // }}}
+        // Dart{{{
+        {
+            "name": "Dart aqua",
+            "scope": "constant.language.dart",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Dart purple",
+            "scope": "keyword.operator.closure.dart, storage.type.annotation.dart, keyword.other.import.dart",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
