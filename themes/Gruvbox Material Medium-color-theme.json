@@ -718,6 +718,43 @@
             }
         },
         // }}}
+        // Java{{{
+        {
+            "name": "Java white",
+            "scope": "keyword.control.ternary.java",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "Java red",
+            "scope": "storage.modifier.extends.java",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Java yellow",
+            "scope": "storage.type.primitive.java, storage.type.object.array.java, storage.type.java, storage.type.generic.java",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Java aqua",
+            "scope": "variable.other.object.property.java, storage.modifier.import.java, storage.modifier.package.java, constant.other.enum.java",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Java purple",
+            "scope": "variable.other.object.java, variable.language.this.java, keyword.other.import.java, keyword.other.package.java",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
