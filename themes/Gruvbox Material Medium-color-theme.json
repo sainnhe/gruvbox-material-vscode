@@ -17,6 +17,13 @@
             }
         },
         {
+            "name": "Delimiter",
+            "scope": "punctuation",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
             "name": "String Escape",
             "scope": "constant.character.escape, text.html constant.character.entity.named, punctuation.definition.entity.html",
             "settings": {
@@ -669,6 +676,43 @@
         {
             "name": "Dart purple",
             "scope": "keyword.operator.closure.dart, storage.type.annotation.dart, keyword.other.import.dart",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // Python{{{
+        {
+            "name": "Python yellow",
+            "scope": "storage.type.format.python",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Python green",
+            "scope": "meta.function-call.generic.python",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Python aqua",
+            "scope": "storage.type.imaginary.number.python, support.function.magic.python, entity.name.function.python, constant.character.format.placeholder.other.python",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Python blue",
+            "scope": "meta.function-call.arguments.python",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Python purple",
+            "scope": "variable.language.special.self.python",
             "settings": {
                 "foreground": "#d3869b"
             }
