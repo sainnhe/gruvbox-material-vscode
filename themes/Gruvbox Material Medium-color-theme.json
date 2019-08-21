@@ -203,23 +203,72 @@
         // }}}
         // Markdown{{{
         {
-            "name": "Markdown heading",
-            "scope": "markup.heading",
+            "name": "Markdown heading1",
+            "scope": "heading.1.markdown",
             "settings": {
                 "foreground": "#e78a4e",
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Markdown link",
-            "scope": "string.other.link.title.markdown, constant.other.reference.link.markdown",
+            "name": "Markdown heading2",
+            "scope": "heading.2.markdown",
             "settings": {
-                "foreground": "#d3869b"
+                "foreground": "#7daea3",
+                "fontStyle": "bold"
             }
         },
         {
-            "name": "Markdown link text, meta.image.inline.markdown, markup.underline.link.image.markdown",
-            "scope": "text.html.markdown meta.link.inline, meta.link.reference",
+            "name": "Markdown heading3",
+            "scope": "heading.3.markdown",
+            "settings": {
+                "foreground": "#e3a84e",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown heading4",
+            "scope": "heading.4.markdown",
+            "settings": {
+                "foreground": "#89b482",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown heading5",
+            "scope": "heading.5.markdown",
+            "settings": {
+                "foreground": "#ea6962",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown heading6",
+            "scope": "heading.6.markdown",
+            "settings": {
+                "foreground": "#d3869b",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown heading delimiter",
+            "scope": "punctuation.definition.heading.markdown",
+            "settings": {
+                "foreground": "#928374",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown link",
+            "scope": "string.other.link.title.markdown, constant.other.reference.link.markdown, string.other.link.description.markdown",
+            "settings": {
+                "foreground": "#d3869b",
+                "fontStyle": "regular"
+            }
+        },
+        {
+            "name": "Markdown link text",
+            "scope": "text.html.markdown meta.link.inline, meta.link.reference, markup.underline.link.image.markdown",
             "settings": {
                 "foreground": "#a9b665",
                 "fontStyle": "underline"
