@@ -871,6 +871,50 @@
             }
         },
         // }}}
+        // C#{{{
+        {
+            "name": "C# red",
+            "scope": "punctuation.tilde.cs",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "C# orange",
+            "scope": "keyword.control.case.cs",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "C# yellow",
+            "scope": "keyword.type.cs, storage.type.cs",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "C# aqua",
+            "scope": "variable.other.object.property.cs, entity.name.variable.property.cs, entity.name.type.namespace.cs, entity.name.variable.enum-member.cs",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "C# blue",
+            "scope": "entity.name.variable.local.cs, entity.name.variable.parameter.cs, entity.name.variable.field.cs",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "C# purple",
+            "scope": "variable.other.object.cs, keyword.control.default.cs, keyword.other.this.cs, keyword.other.using.cs",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {

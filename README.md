@@ -18,3 +18,4 @@
 - Java: buildin
 - Kotlin: [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
 - C/C++: buildin
+- C#: buildin
