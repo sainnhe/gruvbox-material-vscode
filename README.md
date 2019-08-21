@@ -12,3 +12,4 @@
 - LESS
 - JavaScript
 - TypeScript
+- CoffeeScript

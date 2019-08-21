@@ -565,6 +565,50 @@
             }
         },
         // }}}
+        // CoffeeScript{{{
+        {
+            "name": "CoffeeScript white",
+            "scope": "punctuation.definition.arguments.end.bracket.round.coffee, punctuation.definition.arguments.begin.bracket.round.coffee, punctuation.definition.array.begin.bracket.square.coffee, punctuation.definition.array.end.bracket.square.coffee, punctuation.definition.character-class.regexp",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "CoffeeScript grey",
+            "scope": "keyword.operator.prototype.coffee",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "CoffeeScript yellow",
+            "scope": "constant.other.character-class.range.regexp",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "CoffeeScript aqua",
+            "scope": "variable.parameter.function.coffee, punctuation.section.embedded.coffee, meta.arguments.coffee, constant.character.character-class.regexp",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "CoffeeScript blue",
+            "scope": "source.coffee.embedded.source",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "CoffeeScript purple",
+            "scope": "keyword.operator.slice.exclusive.coffee, keyword.operator.splat.coffee, variable.language.this.coffee, variable.other.readwrite.instance.coffee, variable.parameter.function.readwrite.instance.coffee, keyword.control.anchor.regexp",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
