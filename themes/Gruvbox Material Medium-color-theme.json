@@ -829,22 +829,29 @@
             }
         },
         {
+            "name": "C grey",
+            "scope": "punctuation.separator.namespace.access.cpp",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
             "name": "C orange",
-            "scope": "keyword.control.case.c",
+            "scope": "keyword.control.case.c, keyword.control.case.cpp",
             "settings": {
                 "foreground": "#e78a4e"
             }
         },
         {
             "name": "C yellow",
-            "scope": "storage.type.built-in.primitive.c, constant.other.placeholder.c",
+            "scope": "storage.type.built-in.primitive.c, constant.other.placeholder.c, storage.type.primitive.cpp",
             "settings": {
                 "foreground": "#e3a84e"
             }
         },
         {
             "name": "C aqua",
-            "scope": "constant.character.escape.c, constant.language.c, variable.other.member.c",
+            "scope": "constant.character.escape.c, constant.language.c, variable.other.member.c, entity.name.type.namespace.cpp",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -858,7 +865,7 @@
         },
         {
             "name": "C purple",
-            "scope": "punctuation.definition.directive.c, keyword.control.directive.define.c, keyword.control.default.c, keyword.operator.ternary.c",
+            "scope": "punctuation.definition.directive.c, keyword.control.directive.define.c, keyword.control.default.c, keyword.operator.ternary.c, punctuation.definition.directive.cpp, entity.name.type.namespace.scope-resolution.cpp, constant.language.true.cpp, constant.language.false.cpp, keyword.control.default.cpp",
             "settings": {
                 "foreground": "#d3869b"
             }
