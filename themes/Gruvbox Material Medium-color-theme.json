@@ -152,7 +152,7 @@
         },
         {
             "name": "Comment",
-            "scope": "comment",
+            "scope": "comment, punctuation.definition.comment",
             "settings": {
                 "foreground": "#787878",
                 "fontStyle": "italic"
@@ -961,6 +961,36 @@
         {
             "name": "ObjectiveC purple",
             "scope": "punctuation.definition.directive.objc, keyword.control.directive.pragma.pragma-mark.objc, keyword.control.directive.import.objc, keyword.control.default.objc",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // Go{{{
+        {
+            "name": "Go orange",
+            "scope": "keyword.var.go, keyword.type.go",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Go yellow",
+            "scope": "storage.type.numeric.go, storage.type.boolean.go, storage.type.string.go, storage.type.uintptr.go, storage.type.byte.go, storage.type.rune.go, constant.other.placeholder.go",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Go aqua",
+            "scope": "entity.name.package.go, entity.alias.import.go, constant.language.go, constant.character.escape.go, entity.name.function.go",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Go purple",
+            "scope": "keyword.package.go, keyword.import.go, keyword.map.go",
             "settings": {
                 "foreground": "#d3869b"
             }

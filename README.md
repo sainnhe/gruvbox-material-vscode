@@ -20,3 +20,4 @@
 - C/C++: buildin
 - C#: buildin
 - ObjectiveC: buildin
+- Go: buildin
