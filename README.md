@@ -1,4 +1,14 @@
-# W.I.P
+<h1 align="center">
+𝐆𝐫𝐮𝐯𝐛𝐨𝐱 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
+</h1>
+
+|                                                     𝐇𝐚𝐫𝐝                                                      |                                                     𝐌𝐞𝐝𝐢𝐮𝐦                                                      |                                                     𝐒𝐨𝐟𝐭                                                      |
+| :-----------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+| ![hard](https://user-images.githubusercontent.com/37491630/63505960-0d764680-c4c4-11e9-84a6-e8abaad7425c.png) | ![medium](https://user-images.githubusercontent.com/37491630/63505969-1109cd80-c4c4-11e9-9580-725b0b111475.png) | ![soft](https://user-images.githubusercontent.com/37491630/63505971-136c2780-c4c4-11e9-9c94-52c011784e16.png) |
+
+This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code.
+
+> Gruvbox Material is based on Gruvbox, but with a very different color palette, almost all foreground colors are adjusted.
 
 ## Syntax Highlighting Logic
 
