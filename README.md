@@ -2,21 +2,21 @@
 𝐆𝐫𝐮𝐯𝐛𝐨𝐱 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h1>
 
-<h3 align="center">
+<h2 align="center">
 𝐇𝐚𝐫𝐝
-</h3>
+</h2>
 
 ![hard](https://user-images.githubusercontent.com/37491630/63505960-0d764680-c4c4-11e9-84a6-e8abaad7425c.png)
 
-<h3 align="center">
+<h2 align="center">
 𝐌𝐞𝐝𝐢𝐮𝐦
-</h3>
+</h2>
 
 ![medium](https://user-images.githubusercontent.com/37491630/63505969-1109cd80-c4c4-11e9-9580-725b0b111475.png)
 
-<h3 align="center">
+<h2 align="center">
 𝐒𝐨𝐟𝐭
-</h3>
+</h2>
 
 ![soft](https://user-images.githubusercontent.com/37491630/63505971-136c2780-c4c4-11e9-9c94-52c011784e16.png)
 
