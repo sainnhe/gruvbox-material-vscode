@@ -1220,6 +1220,43 @@
             }
         },
         // }}}
+        // Scala{{{
+        {
+            "name": "Scala yellow",
+            "scope": "storage.type.primitive.scala, storage.type.scala, entity.name.class.declaration, entity.name.class",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Scala blue",
+            "scope": "punctuation.definition.template-expression.scala",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Scala aqua",
+            "scope": "constant.language.scala, punctuation.definition.template-expression.begin.scala, punctuation.definition.template-expression.end.scala, entity.name.import.scala",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Scala orange",
+            "scope": "keyword.declaration.stable.scala",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Scala purple",
+            "scope": "entity.other.inherited-class.scala, keyword.other.import.scala",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
