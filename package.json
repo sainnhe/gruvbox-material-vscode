@@ -3,7 +3,7 @@
     "displayName": "Gruvbox Material",
     "description": "Gruvbox with Material Palette (port of vim theme)",
     "author": "Sainnhe Park (https://github.com/sainnhe)",
-    "publisher": "Sainnhe Park",
+    "publisher": "sainnhe",
     "version": "0.0.1",
     "license": "MIT, Anti-996",
     "engines": {
