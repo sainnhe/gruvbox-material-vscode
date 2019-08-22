@@ -915,6 +915,57 @@
             }
         },
         // }}}
+        // ObjectiveC{{{
+        {
+            "name": "ObjectiveC red",
+            "scope": "punctuation.definition.keyword.objc, punctuation.definition.storage.type.objc, storage.type.objc",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "ObjectiveC orange",
+            "scope": "keyword.control.case.objc, punctuation.definition.storage.modifier.objc",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "ObjectiveC yellow",
+            "scope": "storage.type.built-in.primitive.objc, constant.other.placeholder.objc",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "ObjectiveC green",
+            "scope": "meta.protocol-list.objc",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "ObjectiveC aqua",
+            "scope": "entity.name.tag.pragma-mark.objc, constant.language.objc, keyword.other.property.attribute.objc, variable.other.member.objc",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "ObjectiveC blue",
+            "scope": "meta.parens.block.objc",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "ObjectiveC purple",
+            "scope": "punctuation.definition.directive.objc, keyword.control.directive.pragma.pragma-mark.objc, keyword.control.directive.import.objc, keyword.control.default.objc",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
