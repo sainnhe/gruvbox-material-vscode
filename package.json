@@ -2,19 +2,41 @@
     "name": "gruvbox-material",
     "displayName": "Gruvbox Material",
     "description": "Gruvbox with Material Palette",
+    "author": "Sainnhe Park (https://github.com/sainnhe)",
+    "publisher": "Sainnhe Park",
     "version": "0.0.1",
+    "license": "MIT, Anti-996",
     "engines": {
         "vscode": "^1.37.0"
     },
     "categories": [
         "Themes"
     ],
+    "galleryBanner": {
+        "color": "#32302f",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/sainnhe/gruvbox-material-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sainnhe/gruvbox-material-vscode.git"
+    },
     "contributes": {
         "themes": [
             {
+                "label": "Gruvbox Material Hard",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gruvbox-material-hard.json"
+            },
+            {
                 "label": "Gruvbox Material Medium",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Gruvbox Material Medium-color-theme.json"
+                "path": "./themes/gruvbox-material-medium.json"
+            },
+            {
+                "label": "Gruvbox Material Soft",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gruvbox-material-soft.json"
             }
         ]
     }
