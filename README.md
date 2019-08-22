@@ -31,3 +31,4 @@
 - C#: buildin
 - ObjectiveC: buildin
 - Go: buildin
+- Rust: buildin

@@ -1047,6 +1047,29 @@
             }
         },
         // }}}
+        // Rust{{{
+        {
+            "name": "Rust yellow",
+            "scope": "storage.type.core.rust, storage.class.std.rust, meta.type_params.rust",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Rust aqua",
+            "scope": "entity.name.type.rust",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Rust purple",
+            "scope": "meta.attribute.rust, keyword.operator.sigil.rust, keyword.operator.misc.rust",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
