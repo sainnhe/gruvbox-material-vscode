@@ -40,3 +40,4 @@
 - **Scala:** [Scala Syntax (official)](https://marketplace.visualstudio.com/items?itemName=scala-lang.scala)
 - **Elixir:** [vscode-elixir](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir)
 - **Clojure:** buildin
+- **Julia:** [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)

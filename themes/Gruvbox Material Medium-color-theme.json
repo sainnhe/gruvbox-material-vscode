@@ -1317,6 +1317,29 @@
             }
         },
         // }}}
+        // Julia{{{
+        {
+            "name": "Julia orange",
+            "scope": "keyword.other.julia",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Julia aqua",
+            "scope": "constant.language.julia, constant.other.symbol.julia",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Julia purple",
+            "scope": "keyword.control.using.julia, support.function.macro.julia",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
