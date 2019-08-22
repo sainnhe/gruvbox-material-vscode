@@ -1280,6 +1280,43 @@
             }
         },
         // }}}
+        // Clojure{{{
+        {
+            "name": "Clojure purple",
+            "scope": "entity.global.clojure",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "Clojure aqua",
+            "scope": "constant.language.nil.clojure, constant.keyword.clojure",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Clojure orange",
+            "scope": "meta.symbol.clojure",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Clojure red",
+            "scope": "storage.control.clojure",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Clojure blue",
+            "scope": "entity.global.clojure",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
