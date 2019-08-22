@@ -20,7 +20,13 @@
 
 ![soft](https://user-images.githubusercontent.com/37491630/63505971-136c2780-c4c4-11e9-9c94-52c011784e16.png)
 
-[Marketplace](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material), [Github Repository](https://github.com/sainnhe/gruvbox-material-vscode), [Issue](https://github.com/sainnhe/gruvbox-material-vscode/issues), [CHANGELOG](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md)
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
+  <a href="https://github.com/sainnhe/gruvbox-material-vscode">Repository</a> |
+  <a href="https://github.com/sainnhe/gruvbox-material-vscode/issues">Issues</a> |
+  <a href="https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md">Changelog</a>
+  <br><br>
+</p>
 
 This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code. 
 
