@@ -1107,6 +1107,43 @@
             }
         },
         // }}}
+        // PHP{{{
+        {
+            "name": "PHP red",
+            "scope": "storage.modifier.extends.php, storage.modifier.implements.php, storage.type.trait.php",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "PHP orange",
+            "scope": "keyword.control.case.php, support.function.construct.output.php",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "PHP aqua",
+            "scope": "constant.language.php, constant.other.php, entity.name.type.namespace.php",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "PHP blue",
+            "scope": "punctuation.definition.variable.php",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "PHP purple",
+            "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, keyword.control.default.php, variable.language.this.php, keyword.other.namespace.php",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
