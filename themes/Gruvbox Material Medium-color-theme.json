@@ -1190,6 +1190,36 @@
             }
         },
         // }}}
+        // Lua{{{
+        {
+            "name": "Lua white",
+            "scope": "meta.function.anonymous.lua, meta.table.lua",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "Lua orange",
+            "scope": "storage.type.function.lua, storage.type.function.property.lua",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Lua aqua",
+            "scope": "constant.language.lua, variable.other.table.property.lua, entity.name.function-table.lua",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Lua purple",
+            "scope": "variable.language.self.lua",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
