@@ -55,3 +55,13 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **JSON:** buildin
 - **YAML:** buildin
 - **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
+
+## Color Reference
+
+[colors.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors.yml)
+
+## Thanks to
+
+- [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
+- [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox): workbench colors are based on it
+- [Tyriar/vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator): common highlight groups are inspired by it
