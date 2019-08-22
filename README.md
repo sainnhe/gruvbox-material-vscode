@@ -1,6 +1,16 @@
 # W.I.P
 
-***Currently Optimized File Types:***
+**Syntax Highlighting Logic:**
+
+- Red: keyword, conditional, repeat, exception
+- Orange: storage, operator, modifier
+- Yellow: type, class name, placeholder
+- Green: func call, method, string
+- Aqua: member, property, constant, func def(if possible)
+- Blue: identifier
+- Purple: preproc, macro, enum, special identifier, number, boolean(if possible)
+
+**Currently Optimized File Types:**
 
 - Markdown: buildin
 - reStructuredText: [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
