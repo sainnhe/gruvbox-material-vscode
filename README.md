@@ -32,3 +32,4 @@
 - ObjectiveC: buildin
 - Go: buildin
 - Rust: buildin
+- Swift: buildin

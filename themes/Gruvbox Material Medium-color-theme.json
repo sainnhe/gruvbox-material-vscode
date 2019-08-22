@@ -32,7 +32,7 @@
         },
         {
             "name": "Preproc",
-            "scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive.include, keyword.preprocessor",
+            "scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive.include, keyword.preprocessor, punctuation.definition.preprocessor",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -1067,6 +1067,43 @@
             "scope": "meta.attribute.rust, keyword.operator.sigil.rust, keyword.operator.misc.rust",
             "settings": {
                 "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // Swift{{{
+        {
+            "name": "Swift red",
+            "scope": "storage.type.enum.swift",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Swift yellow",
+            "scope": "meta.inheritance-clause.swift",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Swift orange",
+            "scope": "keyword.other.declaration-specifier.swift, keyword.control.branch.swift",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Swift aqua",
+            "scope": "punctuation.section.embedded.end.swift, punctuation.section.embedded.begin.swift, support.variable.swift, constant.language.nil.swift, entity.name.function.swift, variable.other.swift",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Swift blue",
+            "scope": "meta.function-call.swift, meta.embedded.line.swift",
+            "settings": {
+                "foreground": "#7daea3"
             }
         },
         // }}}
