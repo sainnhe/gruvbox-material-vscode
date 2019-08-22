@@ -34,3 +34,4 @@
 - Rust: buildin
 - Swift: buildin
 - PHP: buildin
+- Ruby: [Ruby Language Colorization](https://marketplace.visualstudio.com/items?itemName=groksrc.ruby)

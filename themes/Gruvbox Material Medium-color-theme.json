@@ -1144,6 +1144,29 @@
             }
         },
         // }}}
+        // Ruby{{{
+        {
+            "name": "Ruby orange",
+            "scope": "keyword.other.special-method.ruby, keyword.control.def.ruby",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Ruby aqua",
+            "scope": "constant.other.symbol.ruby, constant.language.ruby, punctuation.section.embedded.begin.ruby, punctuation.section.embedded.end.ruby, constant.other.symbol.hashkey.ruby, variable.other.readwrite.instance.ruby, variable.other.constant.ruby",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Ruby purple",
+            "scope": "punctuation.separator.key-value, punctuation.definition.variable.ruby, variable.other.readwrite.class.ruby, entity.name.type.module.ruby",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
