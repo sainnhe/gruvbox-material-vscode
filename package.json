@@ -1,7 +1,7 @@
 {
     "name": "gruvbox-material",
     "displayName": "Gruvbox Material",
-    "description": "Gruvbox with Material Palette",
+    "description": "Gruvbox with Material Palette (port of vim theme)",
     "author": "Sainnhe Park (https://github.com/sainnhe)",
     "publisher": "Sainnhe Park",
     "version": "0.0.1",
