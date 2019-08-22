@@ -1257,6 +1257,29 @@
             }
         },
         // }}}
+        // Elixir{{{
+        {
+            "name": "Elixir aqua",
+            "scope": "constant.language.elixir, punctuation.section.embedded.elixir",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Elixir blue",
+            "scope": "constant.other.symbol.elixir, source.elixir.embedded.source, punctuation.definition.variable.elixir",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Elixir purple",
+            "scope": "variable.other.constant.elixir",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {

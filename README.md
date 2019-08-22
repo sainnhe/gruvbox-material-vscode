@@ -38,3 +38,4 @@
 - **Haskell:** [Haskell Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell)
 - **Lua:** buildin, [Lua Plus](https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus)
 - **Scala:** [Scala Syntax (official)](https://marketplace.visualstudio.com/items?itemName=scala-lang.scala)
+- **Elixir:** [vscode-elixir](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir)
