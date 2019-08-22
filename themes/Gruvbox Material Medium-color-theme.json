@@ -1167,6 +1167,29 @@
             }
         },
         // }}}
+        // Haskell{{{
+        {
+            "name": "Haskell yellow",
+            "scope": "storage.type.haskell",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Haskell aqua",
+            "scope": "constant.other.haskell",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Haskell purple",
+            "scope": "keyword.other.arrow.haskell",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
