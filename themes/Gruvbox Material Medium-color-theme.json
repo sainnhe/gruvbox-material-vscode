@@ -1386,6 +1386,50 @@
             }
         },
         // }}}
+        // YAML{{{
+        {
+            "name": "YAML white",
+            "scope": "punctuation.separator.key-value.mapping.yaml, string.unquoted.plain.out.yaml",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "YAML red",
+            "scope": "punctuation.definition.block.sequence.item.yaml",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "YAML orange",
+            "scope": "punctuation.definition.alias.yaml",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "YAML aqua",
+            "scope": "constant.other.timestamp.yaml, variable.other.alias.yaml",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "YAML blue",
+            "scope": "entity.name.tag.yaml",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "YAML purple",
+            "scope": "punctuation.definition.anchor.yaml",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
