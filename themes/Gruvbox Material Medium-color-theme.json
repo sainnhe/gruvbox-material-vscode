@@ -32,7 +32,7 @@
         },
         {
             "name": "Preproc",
-            "scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive.include",
+            "scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive.include, keyword.preprocessor",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -160,14 +160,14 @@
         },
         {
             "name": "Class variable",
-            "scope": "variable.object.property, meta.field.declaration entity.name.function",
+            "scope": "variable.object.property, meta.field.declaration",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
             "name": "Property",
-            "scope": "support.variable.property, variable.other.property, meta.object-literal.key",
+            "scope": "support.variable.property, variable.other.property, meta.object-literal.key, variable.other.object.property.js",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -188,14 +188,14 @@
         },
         {
             "name": "Class method",
-            "scope": "meta.definition.method entity.name.function",
+            "scope": "meta.definition.method",
             "settings": {
                 "foreground": "#a9b665"
             }
         },
         {
             "name": "Function definition",
-            "scope": "meta.function entity.name.function",
+            "scope": "meta.function, entity.name.function",
             "settings": {
                 "foreground": "#a9b665"
             }
@@ -218,7 +218,7 @@
         // Markdown{{{
         {
             "name": "Markdown heading1",
-            "scope": "heading.1.markdown",
+            "scope": "heading.1.markdown, markup.heading.setext.1.markdown",
             "settings": {
                 "foreground": "#e78a4e",
                 "fontStyle": "bold"
@@ -226,7 +226,7 @@
         },
         {
             "name": "Markdown heading2",
-            "scope": "heading.2.markdown",
+            "scope": "heading.2.markdown, markup.heading.setext.2.markdown",
             "settings": {
                 "foreground": "#7daea3",
                 "fontStyle": "bold"
@@ -282,7 +282,7 @@
         },
         {
             "name": "Markdown link text",
-            "scope": "text.html.markdown meta.link.inline, meta.link.reference, markup.underline.link.image.markdown",
+            "scope": "markup.underline.link.image.markdown, markup.underline.link.markdown",
             "settings": {
                 "foreground": "#a9b665",
                 "fontStyle": "underline"
@@ -305,7 +305,7 @@
         },
         {
             "name": "Markdown separator delimiter",
-            "scope": "meta.separator.markdown",
+            "scope": "meta.separator.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown",
             "settings": {
                 "foreground": "#928374",
                 "fontStyle": "bold"
@@ -363,6 +363,14 @@
         // }}}
         // reStructuredText{{{
         {
+            "name": "reStructuredText heading",
+            "scope": "punctuation.definition.heading.restructuredtext",
+            "settings": {
+                "foreground": "#e78a4e",
+                "fontStyle": "bold"
+            }
+        },
+        {
             "name": "reStructuredText delimiter",
             "scope": "punctuation.definition.field.restructuredtext, punctuation.separator.key-value.restructuredtext, punctuation.definition.directive.restructuredtext, punctuation.definition.constant.restructuredtext, punctuation.definition.italic.restructuredtext, punctuation.definition.table.restructuredtext",
             "settings": {
@@ -407,6 +415,13 @@
         },
         // }}}
         // LaTex{{{
+        {
+            "name": "LaTex delimiter",
+            "scope": "punctuation.definition.function.latex, punctuation.definition.function.tex, punctuation.definition.keyword.latex, constant.character.newline.tex, punctuation.definition.keyword.tex",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
         {
             "name": "LaTex red",
             "scope": "support.function.section.latex",
@@ -467,14 +482,14 @@
         },
         {
             "name": "Html aqua",
-            "scope": "punctuation.separator.key-value.html",
+            "scope": "punctuation.separator.key-value.html, meta.internalsubset.xml",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
             "name": "Html yellow",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name.xml",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml",
             "settings": {
                 "foreground": "#e3a84e"
             }
@@ -511,7 +526,7 @@
         },
         {
             "name": "CSS red",
-            "scope": "entity.other.attribute-name.class.css, entity.other.keyframe-offset.percentage.css",
+            "scope": "entity.other.attribute-name.class.css, entity.other.keyframe-offset.percentage.css, meta.selector.css",
             "settings": {
                 "foreground": "#ea6962"
             }
@@ -532,7 +547,7 @@
         },
         {
             "name": "CSS green",
-            "scope": "keyword.other.unit.px.css, entity.other.attribute-name.css, meta.property-value.css, entity.other.attribute-name.class.mixin.css",
+            "scope": "keyword.other.unit.px.css, entity.other.attribute-name.css, meta.property-value.css, entity.other.attribute-name.class.mixin.css, keyword.other.unit.percentage.css, keyword.other.unit.em.css, keyword.other.unit.rem.css, keyword.other.unit.vw.css, keyword.other.unit.vh.css, keyword.other.unit.vmin.css, keyword.other.unit.vmax.css, keyword.other.unit.pt.css, keyword.other.unit.cm.css, keyword.other.unit.mm.css, keyword.other.unit.in.css",
             "settings": {
                 "foreground": "#a9b665"
             }
@@ -553,29 +568,51 @@
         },
         {
             "name": "CSS purple",
-            "scope": "entity.name.tag.css, entity.other.keyframe-offset.css",
+            "scope": "entity.name.tag.css, entity.other.keyframe-offset.css, punctuation.definition.keyword.css",
             "settings": {
                 "foreground": "#d3869b"
             }
         },
         // }}}
-        // SASS{{{
+        // SASS/SCSS{{{
         {
-            "name": "SASS red",
+            "name": "SASS yellow",
             "scope": "entity.other.attribute-name.placeholder-selector.sass",
             "settings": {
-                "foreground": "#ea6962"
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "SASS orange",
+            "scope": "entity.other.attribute-selector.sass",
+            "settings": {
+                "foreground": "#e78a4e"
             }
         },
         {
             "name": "SASS green",
-            "scope": "keyword.other.unit.css.sass",
+            "scope": "keyword.other.unit.css.sass, string.quoted.single.scss",
             "settings": {
-                "foreground": "#a9b665"
+                "foreground": "#a9b665",
+                "fontStyle": "regular"
+            }
+        },
+        {
+            "name": "SASS purple",
+            "scope": "punctuation.definition.keyword.scss",
+            "settings": {
+                "foreground": "#d3869b"
             }
         },
         // }}}
         // JavaScript{{{
+        {
+            "name": "JavaScript white",
+            "scope": "meta.brace.round.js, meta.brace.square.js",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
         {
             "name": "JavaScript red",
             "scope": "storage.type.function.js, keyword.operator.expression.in.js, keyword.operator.expression.of.js, storage.type.class.js",
@@ -591,14 +628,28 @@
             }
         },
         {
+            "name": "JavaScript aqua",
+            "scope": "constant.language.infinity.js",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
             "name": "JavaScript purple",
-            "scope": "variable.language.this.js, storage.type.function.arrow.js",
+            "scope": "variable.language.this.js, storage.type.function.arrow.js, variable.other.object.js",
             "settings": {
                 "foreground": "#d3869b"
             }
         },
         // }}}
         // TypeScript{{{
+        {
+            "name": "TypeScript white",
+            "scope": "meta.brace.round.ts, meta.brace.square.ts",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
         {
             "name": "TypeScript red",
             "scope": "storage.type.enum.ts, storage.type.function.ts, storage.type.interface.ts, storage.type.property.ts",
@@ -666,7 +717,7 @@
         },
         {
             "name": "CoffeeScript purple",
-            "scope": "keyword.operator.slice.exclusive.coffee, keyword.operator.splat.coffee, variable.language.this.coffee, variable.other.readwrite.instance.coffee, variable.parameter.function.readwrite.instance.coffee, keyword.control.anchor.regexp",
+            "scope": "keyword.operator.slice.exclusive.coffee, keyword.operator.splat.coffee, variable.language.this.coffee, variable.other.readwrite.instance.coffee, variable.parameter.function.readwrite.instance.coffee, keyword.control.anchor.regexp, variable.other.object.coffee",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -705,7 +756,7 @@
         },
         {
             "name": "Python aqua",
-            "scope": "storage.type.imaginary.number.python, support.function.magic.python, entity.name.function.python, constant.character.format.placeholder.other.python",
+            "scope": "storage.type.imaginary.number.python, support.function.magic.python, entity.name.function.python, constant.character.format.placeholder.other.python, constant.language.python",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -719,7 +770,7 @@
         },
         {
             "name": "Python purple",
-            "scope": "variable.language.special.self.python",
+            "scope": "variable.language.special.self.python, punctuation.definition.decorator.python",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -756,7 +807,7 @@
         },
         {
             "name": "Java purple",
-            "scope": "variable.other.object.java, variable.language.this.java, keyword.other.import.java, keyword.other.package.java",
+            "scope": "variable.other.object.java, variable.language.this.java, keyword.other.import.java, keyword.other.package.java, punctuation.definition.annotation.java, storage.type.annotation.java",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -771,15 +822,8 @@
             }
         },
         {
-            "name": "Kotlin green",
-            "scope": "entity.name.package.kotlin",
-            "settings": {
-                "foreground": "#a9b665"
-            }
-        },
-        {
             "name": "Kotlin aqua",
-            "scope": "punctuation.section.block.begin.kotlin, punctuation.section.block.end.kotlin, punctuation.definition.keyword.kotlin, constant.language.kotlin, entity.name.function.constructor",
+            "scope": "punctuation.section.block.begin.kotlin, punctuation.section.block.end.kotlin, punctuation.definition.keyword.kotlin, constant.language.kotlin, entity.name.function.constructor, entity.name.package.kotlin",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -836,6 +880,13 @@
             }
         },
         {
+            "name": "C red",
+            "scope": "storage.type.enum.cpp, keyword.operator.new.cpp",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
             "name": "C orange",
             "scope": "keyword.control.case.c, keyword.control.case.cpp",
             "settings": {
@@ -851,7 +902,7 @@
         },
         {
             "name": "C aqua",
-            "scope": "constant.character.escape.c, constant.language.c, variable.other.member.c, entity.name.type.namespace.cpp",
+            "scope": "constant.character.escape.c, constant.language.c, variable.other.member.c, entity.name.type.namespace.cpp, constant.language.nullptr.cpp",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -865,7 +916,7 @@
         },
         {
             "name": "C purple",
-            "scope": "punctuation.definition.directive.c, keyword.control.directive.define.c, keyword.control.default.c, keyword.operator.ternary.c, punctuation.definition.directive.cpp, entity.name.type.namespace.scope-resolution.cpp, constant.language.true.cpp, constant.language.false.cpp, keyword.control.default.cpp",
+            "scope": "punctuation.definition.directive.c, keyword.control.directive.define.c, keyword.control.default.c, keyword.operator.ternary.c, punctuation.definition.directive.cpp, entity.name.type.namespace.scope-resolution.cpp, constant.language.true.cpp, constant.language.false.cpp, keyword.control.default.cpp, storage.type.enum.c",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -881,7 +932,7 @@
         },
         {
             "name": "C# orange",
-            "scope": "keyword.control.case.cs",
+            "scope": "keyword.control.case.cs, keyword.control.flow.yield.cs",
             "settings": {
                 "foreground": "#e78a4e"
             }
@@ -895,7 +946,7 @@
         },
         {
             "name": "C# aqua",
-            "scope": "variable.other.object.property.cs, entity.name.variable.property.cs, entity.name.type.namespace.cs, entity.name.variable.enum-member.cs",
+            "scope": "variable.other.object.property.cs, entity.name.variable.property.cs, entity.name.type.namespace.cs, entity.name.variable.enum-member.cs, meta.preprocessor.cs",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -909,7 +960,7 @@
         },
         {
             "name": "C# purple",
-            "scope": "variable.other.object.cs, keyword.control.default.cs, keyword.other.this.cs, keyword.other.using.cs",
+            "scope": "variable.other.object.cs, keyword.control.default.cs, keyword.other.this.cs, keyword.other.using.cs, punctuation.separator.hash.cs",
             "settings": {
                 "foreground": "#d3869b"
             }
