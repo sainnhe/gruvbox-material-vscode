@@ -31,7 +31,7 @@
 - **ObjectiveC:** buildin
 - **C#:** buildin
 - **Go:** buildin
-- **Rust:** buildin
+- **Rust:** buildin, [vscode-rust-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-rust-syntax)
 - **Swift:** buildin
 - **PHP:** buildin
 - **Ruby:** [Ruby Language Colorization](https://marketplace.visualstudio.com/items?itemName=groksrc.ruby)

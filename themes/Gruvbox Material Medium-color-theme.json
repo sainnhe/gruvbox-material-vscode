@@ -1049,22 +1049,43 @@
         // }}}
         // Rust{{{
         {
+            "name": "Rust white",
+            "scope": "keyword.operator.member-access.rust",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "Rust grey",
+            "scope": "keyword.operator.path.rust",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Rust red",
+            "scope": "storage.type.rust",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
             "name": "Rust yellow",
-            "scope": "storage.type.core.rust, storage.class.std.rust, meta.type_params.rust",
+            "scope": "storage.type.core.rust, storage.class.std.rust, meta.type_params.rust, entity.name.type.rust, constant.other.placeholder.rust",
             "settings": {
                 "foreground": "#e3a84e"
             }
         },
         {
             "name": "Rust aqua",
-            "scope": "entity.name.type.rust",
+            "scope": "support.constant.core.rust, entity.name.type.mod.rust",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
             "name": "Rust purple",
-            "scope": "meta.attribute.rust, keyword.operator.sigil.rust, keyword.operator.misc.rust",
+            "scope": "meta.attribute.rust, keyword.operator.sigil.rust, keyword.operator.misc.rust, variable.language.self.rust",
             "settings": {
                 "foreground": "#d3869b"
             }
