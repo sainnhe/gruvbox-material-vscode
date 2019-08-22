@@ -2,11 +2,27 @@
 𝐆𝐫𝐮𝐯𝐛𝐨𝐱 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h1>
 
-|                                                     𝐇𝐚𝐫𝐝                                                      |                                                     𝐌𝐞𝐝𝐢𝐮𝐦                                                      |                                                     𝐒𝐨𝐟𝐭                                                      |
-| :-----------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-| ![hard](https://user-images.githubusercontent.com/37491630/63505960-0d764680-c4c4-11e9-84a6-e8abaad7425c.png) | ![medium](https://user-images.githubusercontent.com/37491630/63505969-1109cd80-c4c4-11e9-9580-725b0b111475.png) | ![soft](https://user-images.githubusercontent.com/37491630/63505971-136c2780-c4c4-11e9-9c94-52c011784e16.png) |
+<h3 align="center">
+𝐇𝐚𝐫𝐝
+</h3>
 
-This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code.
+![hard](https://user-images.githubusercontent.com/37491630/63505960-0d764680-c4c4-11e9-84a6-e8abaad7425c.png)
+
+<h3 align="center">
+𝐌𝐞𝐝𝐢𝐮𝐦
+</h3>
+
+![medium](https://user-images.githubusercontent.com/37491630/63505969-1109cd80-c4c4-11e9-9580-725b0b111475.png)
+
+<h3 align="center">
+𝐒𝐨𝐟𝐭
+</h3>
+
+![soft](https://user-images.githubusercontent.com/37491630/63505971-136c2780-c4c4-11e9-9c94-52c011784e16.png)
+
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material), [Github Repository](https://github.com/sainnhe/gruvbox-material-vscode), [Issue](https://github.com/sainnhe/gruvbox-material-vscode/issues), [CHANGELOG](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md)
+
+This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code. 
 
 > Gruvbox Material is based on Gruvbox, but with a very different color palette, almost all foreground colors are adjusted.
 
@@ -19,6 +35,8 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Aqua:** member, property, constant, func def(if possible)
 - **Blue:** identifier
 - **Purple:** preproc, macro, enum, special identifier, number, boolean(if possible)
+
+**Color Reference:** [colors.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors.yml)
 
 ## Optimized File Types
 
@@ -56,12 +74,12 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **YAML:** buildin
 - **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
 
-## Color Reference
-
-[colors.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors.yml)
-
 ## Thanks to
 
 - [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
 - [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox): workbench colors are based on it
 - [Tyriar/vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator): common highlight groups are inspired by it
+
+## License
+
+[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE), [Anti-996](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/Anti-996-LICENSE)
