@@ -42,3 +42,4 @@
 - **Clojure:** buildin
 - **Julia:** [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)
 - **Shell:** buildin
+- **JSON:** buildin

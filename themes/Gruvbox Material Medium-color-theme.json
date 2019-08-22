@@ -1363,6 +1363,29 @@
             }
         },
         // }}}
+        // JSON{{{
+        {
+            "name": "JSON grey",
+            "scope": "punctuation.support.type.property-name.end.json, punctuation.support.type.property-name.begin.json",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "JSON aqua",
+            "scope": "constant.language.json",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "JSON blue",
+            "scope": "support.type.property-name.json",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
