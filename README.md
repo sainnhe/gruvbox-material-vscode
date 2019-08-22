@@ -44,3 +44,4 @@
 - **Shell:** buildin
 - **JSON:** buildin
 - **YAML:** buildin
+- **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
