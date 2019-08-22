@@ -874,14 +874,14 @@
         },
         {
             "name": "C grey",
-            "scope": "punctuation.separator.namespace.access.cpp",
+            "scope": "punctuation.separator.namespace.access.cpp, punctuation.separator.scope-resolution.cpp, punctuation.separator.scope-resolution.parameter.cpp, punctuation.separator.scope-resolution.constructor.cpp, punctuation.separator.scope-resolution.function.definition.cpp, punctuation.separator.scope-resolution.operator.cpp",
             "settings": {
                 "foreground": "#928374"
             }
         },
         {
             "name": "C red",
-            "scope": "storage.type.enum.cpp, keyword.operator.new.cpp",
+            "scope": "storage.type.enum.cpp, keyword.operator.new.cpp, keyword.operator.delete.cpp",
             "settings": {
                 "foreground": "#ea6962"
             }
@@ -895,72 +895,28 @@
         },
         {
             "name": "C yellow",
-            "scope": "storage.type.built-in.primitive.c, constant.other.placeholder.c, storage.type.primitive.cpp",
+            "scope": "storage.type.built-in.primitive.c, constant.other.placeholder.c, storage.type.primitive.cpp, storage.type.built-in.primitive.cpp, storage.type.built-in.cpp, storage.type.integral.uint8_t.cpp, storage.type.integral.uint16_t.cpp, storage.type.integral.uint32_t.cpp, storage.type.integral.uint64_t.cpp",
             "settings": {
                 "foreground": "#e3a84e"
             }
         },
         {
             "name": "C aqua",
-            "scope": "constant.character.escape.c, constant.language.c, variable.other.member.c, entity.name.type.namespace.cpp, constant.language.nullptr.cpp",
+            "scope": "constant.character.escape.c, constant.language.c, variable.other.member.c, entity.name.type.namespace.cpp, constant.language.nullptr.cpp, entity.name.namespace.cpp",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
             "name": "C blue",
-            "scope": "meta.function-call.c, meta.conditional.switch.c",
+            "scope": "meta.function-call.c, meta.conditional.switch.c, meta.bracket.square.access.c",
             "settings": {
                 "foreground": "#7daea3"
             }
         },
         {
             "name": "C purple",
-            "scope": "punctuation.definition.directive.c, keyword.control.directive.define.c, keyword.control.default.c, keyword.operator.ternary.c, punctuation.definition.directive.cpp, entity.name.type.namespace.scope-resolution.cpp, constant.language.true.cpp, constant.language.false.cpp, keyword.control.default.cpp, storage.type.enum.c",
-            "settings": {
-                "foreground": "#d3869b"
-            }
-        },
-        // }}}
-        // C#{{{
-        {
-            "name": "C# red",
-            "scope": "punctuation.tilde.cs",
-            "settings": {
-                "foreground": "#ea6962"
-            }
-        },
-        {
-            "name": "C# orange",
-            "scope": "keyword.control.case.cs, keyword.control.flow.yield.cs",
-            "settings": {
-                "foreground": "#e78a4e"
-            }
-        },
-        {
-            "name": "C# yellow",
-            "scope": "keyword.type.cs, storage.type.cs",
-            "settings": {
-                "foreground": "#e3a84e"
-            }
-        },
-        {
-            "name": "C# aqua",
-            "scope": "variable.other.object.property.cs, entity.name.variable.property.cs, entity.name.type.namespace.cs, entity.name.variable.enum-member.cs, meta.preprocessor.cs",
-            "settings": {
-                "foreground": "#89b482"
-            }
-        },
-        {
-            "name": "C# blue",
-            "scope": "entity.name.variable.local.cs, entity.name.variable.parameter.cs, entity.name.variable.field.cs",
-            "settings": {
-                "foreground": "#7daea3"
-            }
-        },
-        {
-            "name": "C# purple",
-            "scope": "variable.other.object.cs, keyword.control.default.cs, keyword.other.this.cs, keyword.other.using.cs, punctuation.separator.hash.cs",
+            "scope": "punctuation.definition.directive.c, keyword.control.directive.define.c, keyword.control.default.c, keyword.operator.ternary.c, punctuation.definition.directive.cpp, entity.name.type.namespace.scope-resolution.cpp, constant.language.true.cpp, constant.language.false.cpp, keyword.control.default.cpp, storage.type.enum.c, entity.name.scope-resolution.cpp, entity.name.scope-resolution.function.call.cpp, entity.name.scope-resolution.parameter.cpp, entity.name.scope-resolution.function.definition.cpp, entity.name.scope-resolution.operator.cpp",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -1012,6 +968,50 @@
         {
             "name": "ObjectiveC purple",
             "scope": "punctuation.definition.directive.objc, keyword.control.directive.pragma.pragma-mark.objc, keyword.control.directive.import.objc, keyword.control.default.objc",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // C#{{{
+        {
+            "name": "C# red",
+            "scope": "punctuation.tilde.cs",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "C# orange",
+            "scope": "keyword.control.case.cs, keyword.control.flow.yield.cs",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "C# yellow",
+            "scope": "keyword.type.cs, storage.type.cs",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "C# aqua",
+            "scope": "variable.other.object.property.cs, entity.name.variable.property.cs, entity.name.type.namespace.cs, entity.name.variable.enum-member.cs, meta.preprocessor.cs",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "C# blue",
+            "scope": "entity.name.variable.local.cs, entity.name.variable.parameter.cs, entity.name.variable.field.cs",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "C# purple",
+            "scope": "variable.other.object.cs, keyword.control.default.cs, keyword.other.this.cs, keyword.other.using.cs, punctuation.separator.hash.cs",
             "settings": {
                 "foreground": "#d3869b"
             }

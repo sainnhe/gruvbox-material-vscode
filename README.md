@@ -27,9 +27,9 @@
 - **Python:** buildin
 - **Java:** buildin
 - **Kotlin:** [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
-- **C/C++:** buildin
-- **C#:** buildin
+- **C/C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
 - **ObjectiveC:** buildin
+- **C#:** buildin
 - **Go:** buildin
 - **Rust:** buildin
 - **Swift:** buildin
