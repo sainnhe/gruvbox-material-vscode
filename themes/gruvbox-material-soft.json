@@ -1537,7 +1537,7 @@
         "editor.rangeHighlightBackground": "#68948a30",
         "editorWidget.background": "#32302f",
         "editorHoverWidget.background": "#32302f",
-        "editorMarkerNavigation.background": "#303030",
+        "editorMarkerNavigation.background": "#32302f",
         "peekView.border": "#3c3836",
         "peekViewEditor.background": "#3c383650",
         "peekViewEditor.matchHighlightBackground": "#bd6f3e80",
