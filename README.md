@@ -41,3 +41,4 @@
 - **Elixir:** [vscode-elixir](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir)
 - **Clojure:** buildin
 - **Julia:** [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)
+- **Shell:** buildin

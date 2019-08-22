@@ -1340,6 +1340,29 @@
             }
         },
         // }}}
+        // Shell{{{
+        {
+            "name": "Shell orange",
+            "scope": "string.interpolated.dollar.shell, support.function.builtin.shell",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Shell aqua",
+            "scope": "entity.name.function.shell",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Shell blue",
+            "scope": "punctuation.definition.variable.shell",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        // }}}
     ],
     // UI{{{
     "colors": {
