@@ -79,6 +79,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Elixir:** [vscode-elixir](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir)
 - **Clojure:** buildin
 - **Julia:** [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)
+- **Elm:** [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm)
 - **Shell:** buildin
 - **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
 - **JSON:** buildin

@@ -1407,6 +1407,57 @@
             }
         },
         // }}}
+        // Elm{{{
+        {
+            "name": "Elm white",
+            "scope": "keyword.other.period.elm",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "Elm red",
+            "scope": "keyword.control.import.elm",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Elm orange",
+            "scope": "keyword.other.elm, keyword.type-alias.elm, keyword.other.colon.elm",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Elm yellow",
+            "scope": "constant.type-constructor.elm, storage.type.elm",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Elm aqua",
+            "scope": "entity.name.record.field.accessor.elm",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Elm blue",
+            "scope": "meta.value.elm, entity.name.record.field.elm, record.name.elm",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Elm purple",
+            "scope": "support.module.elm",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Shell{{{
         {
             "name": "Shell orange",
