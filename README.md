@@ -80,6 +80,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Clojure:** buildin
 - **Julia:** [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)
 - **Shell:** buildin
+- **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
 - **JSON:** buildin
 - **YAML:** buildin
 - **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)

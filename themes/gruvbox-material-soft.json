@@ -1430,6 +1430,36 @@
             }
         },
         // }}}
+        // Lisp{{{
+        {
+            "name": "Lisp green",
+            "scope": "constant.character.lisp",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Lisp aqua",
+            "scope": "keyword.constant.lisp, punctuation.definition.constant.lisp",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Lisp blue",
+            "scope": "entity.name.variable.lisp, variable.other.global.lisp, punctuation.definition.variable.lisp",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Lisp yellow",
+            "scope": "constant.language.lisp",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",
