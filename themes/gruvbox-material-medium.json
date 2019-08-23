@@ -1504,26 +1504,40 @@
             }
         },
         // }}}
-        // Shell{{{
+        // Fortran{{{
         {
-            "name": "Shell orange",
-            "scope": "string.interpolated.dollar.shell, support.function.builtin.shell",
+            "name": "Fortran yellow",
+            "scope": "storage.type.character.fortran, storage.type.integer.fortran, storage.type.real.fortran, storage.type.complex.fortran",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Fortran orange",
+            "scope": "keyword.logical.fortran, keyword.control.case.fortran",
             "settings": {
                 "foreground": "#e78a4e"
             }
         },
         {
-            "name": "Shell aqua",
-            "scope": "entity.name.function.shell",
+            "name": "Fortran blue",
+            "scope": "meta.parameter.fortran",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Fortran aqua",
+            "scope": "entity.name.program.fortran, keyword.other.none.fortran",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
-            "name": "Shell blue",
-            "scope": "punctuation.definition.variable.shell",
+            "name": "Fortran purple",
+            "scope": "entity.name.program.fortran, keyword.control.default.fortran, keyword.control.result.fortran",
             "settings": {
-                "foreground": "#7daea3"
+                "foreground": "#d3869b"
             }
         },
         // }}}
@@ -1554,6 +1568,29 @@
             "scope": "constant.language.lisp",
             "settings": {
                 "foreground": "#e3a84e"
+            }
+        },
+        // }}}
+        // Shell{{{
+        {
+            "name": "Shell orange",
+            "scope": "string.interpolated.dollar.shell, support.function.builtin.shell",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Shell aqua",
+            "scope": "entity.name.function.shell",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Shell blue",
+            "scope": "punctuation.definition.variable.shell",
+            "settings": {
+                "foreground": "#7daea3"
             }
         },
         // }}}
