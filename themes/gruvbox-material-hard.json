@@ -1481,6 +1481,29 @@
             }
         },
         // }}}
+        // F#{{{
+        {
+            "name": "F# white",
+            "scope": "keyword.symbol.fsharp",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "F# yellow",
+            "scope": "keyword.format.specifier.fsharp",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "F# purple",
+            "scope": "entity.name.section.fsharp",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Shell{{{
         {
             "name": "Shell orange",

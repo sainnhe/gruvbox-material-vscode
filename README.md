@@ -81,6 +81,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Julia:** [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)
 - **Elm:** [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm)
 - **Erlang:** [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang)
+- **F#:** buildin
 - **Shell:** buildin
 - **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
 - **JSON:** buildin
