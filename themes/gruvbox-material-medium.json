@@ -1781,6 +1781,22 @@
             }
         },
         // }}}
+        // {{{CMake
+        {
+            "name": "CMake aqua",
+            "scope": "entity.source.cmake",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "CMake purple",
+            "scope": "storage.source.cmake",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",
