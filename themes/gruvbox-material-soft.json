@@ -1195,6 +1195,22 @@
             }
         },
         // }}}
+        // SQL{{{
+        {
+            "name": "PHP aqua",
+            "scope": "constant.other.table-name.sql",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "SQL blue",
+            "scope": "constant.other.database-name.sql",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        // }}}
         // Ruby{{{
         {
             "name": "Ruby orange",
