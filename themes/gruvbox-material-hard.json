@@ -1758,6 +1758,29 @@
             }
         },
         // }}}
+        // {{{Makefile
+        {
+            "name": "Make white",
+            "scope": "punctuation.separator.key-value.makefile",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "Make aqua",
+            "scope": "meta.scope.prerequisites.makefile",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Make purple",
+            "scope": "keyword.control.include.makefile",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",

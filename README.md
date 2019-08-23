@@ -90,6 +90,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Shell:** buildin
 - **PowerShell:** buildin
 - **Diff:** buildin
+- **Makefile:** buildin
 - **JSON:** buildin
 - **YAML:** buildin
 - **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
