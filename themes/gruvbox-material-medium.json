@@ -1684,6 +1684,36 @@
             }
         },
         // }}}
+        // PowerShell{{{
+        {
+            "name": "PowerShell yellow",
+            "scope": "storage.type.powershell",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "PowerShell aqua",
+            "scope": "variable.other.member.powershell",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "PowerShell blue",
+            "scope": "punctuation.definition.variable.powershell",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "PowerShell purple",
+            "scope": "keyword.other.hashtable.begin.powershell, constant.language.powershell",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",
