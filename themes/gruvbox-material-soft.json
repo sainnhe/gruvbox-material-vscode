@@ -1714,6 +1714,50 @@
             }
         },
         // }}}
+        // Diff{{{
+        {
+            "name": "Diff grey",
+            "scope": "punctuation.definition.separator.diff",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Diff red",
+            "scope": "markup.deleted.diff, punctuation.definition.deleted.diff",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Diff yellow",
+            "scope": "markup.changed.diff, punctuation.definition.changed.diff",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Diff green",
+            "scope": "meta.diff.header.from-file, markup.inserted.diff, punctuation.definition.inserted.diff",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Diff aqua",
+            "scope": "meta.diff.range.context, punctuation.definition.range.diff",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Diff purple",
+            "scope": "punctuation.definition.from-file.diff",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",

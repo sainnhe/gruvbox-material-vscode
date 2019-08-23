@@ -89,6 +89,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
 - **Shell:** buildin
 - **PowerShell:** buildin
+- **Diff:** buildin
 - **JSON:** buildin
 - **YAML:** buildin
 - **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
