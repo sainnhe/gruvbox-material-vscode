@@ -642,6 +642,36 @@
             }
         },
         // }}}
+        // JSX{{{
+        {
+            "name": "JSX grey",
+            "scope": "punctuation.definition.tag.begin.js.jsx, punctuation.definition.tag.end.js.jsx",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "JSX orange",
+            "scope": "entity.name.tag.js.jsx",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "JSX aqua",
+            "scope": "entity.other.attribute-name.js.jsx",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "JSX purple",
+            "scope": "constant.language.null,js,jsx, constant.language.undefined.js.jsx, constant.language.nan.js.jsx, constant.language.infinity.js.jsx",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // TypeScript{{{
         {
             "name": "TypeScript white",

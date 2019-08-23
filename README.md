@@ -32,6 +32,8 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 
 > Gruvbox Material is based on Gruvbox, but with a very different color palette, almost all foreground colors are adjusted.
 
+**Note:** I personally recommend you to disable blur/transparent when using this theme for better experience.
+
 ## Syntax Highlighting Logic
 
 - **Red:** keyword, conditional, repeat, exception
@@ -55,6 +57,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **SASS:** [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
 - **LESS:** buildin
 - **JavaScript:** buildin
+- **JSX:** buildin
 - **TypeScript:** buildin
 - **CoffeeScript:** buildin
 - **Dart:** [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
