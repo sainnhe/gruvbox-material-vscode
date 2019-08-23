@@ -60,6 +60,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **JSX:** buildin
 - **TypeScript:** buildin
 - **CoffeeScript:** buildin
+- **PureScript:** [PureScript IDE](https://marketplace.visualstudio.com/items?itemName=nwolverson.ide-purescript)
 - **Dart:** [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
 - **Python:** buildin
 - **Java:** buildin

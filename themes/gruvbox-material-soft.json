@@ -753,6 +753,22 @@
             }
         },
         // }}}
+        // PureScript{{{
+        {
+            "name": "PureScript yellow",
+            "scope": "entity.name.tag.purescript",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "PureScript purple",
+            "scope": "support.other.module.purescript",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Dart{{{
         {
             "name": "Dart aqua",
