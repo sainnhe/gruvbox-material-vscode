@@ -96,6 +96,20 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **YAML:** buildin
 - **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
 
+## Contribution
+
+To be honest, I'm not an advanced user of vscode, I port gruvbox-material to vscode just because I need an eye-friendly working environment in Windows (WSL is painful).
+
+The workbench colors are based on [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox), but many of them haven't been tested because I don't know where I can see them, and I can't optimize popular extensions for the same reason. The only thing I can do is to optimize common file types.
+
+Therefore, if you feel that some workbench colors are weird, feel free to open a PR :)
+
+To hack this theme, clone the repository on github and open the folder using vscode, then modify colors in `./themes/*` and press `F5`.
+
+[Extension Guides: Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme)
+
+[Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
+
 ## Thanks to
 
 - [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
