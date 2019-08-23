@@ -1504,6 +1504,57 @@
             }
         },
         // }}}
+        // Groovy{{{
+        {
+            "name": "Groovy white",
+            "scope": "keyword.operator.navigation.groovy",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "Groovy red",
+            "scope": "storage.modifier.implements.groovy",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Groovy yellow",
+            "scope": "storage.type.groovy, storage.type.primitive.groovy, storage.type.object.array.groovy",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Groovy green",
+            "scope": "meta.method.groovy",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Groovy aqua",
+            "scope": "constant.language.groovy",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Groovy blue",
+            "scope": "meta.definition.variable.name.groovy, meta.method-call.groovy, meta.definition.variable.groovy",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Groovy purple",
+            "scope": "storage.modifier.import.groovy, storage.type.annotation.groovy",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Fortran{{{
         {
             "name": "Fortran yellow",

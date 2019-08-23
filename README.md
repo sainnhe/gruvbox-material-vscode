@@ -82,9 +82,10 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Elm:** [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm)
 - **Erlang:** [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang)
 - **F#:** buildin
-- **Shell:** buildin
-- **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
+- **Groovy:** buildin
 - **Fortran:** [Modern Fortran](https://marketplace.visualstudio.com/items?itemName=krvajalm.linter-gfortran)
+- **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
+- **Shell:** buildin
 - **JSON:** buildin
 - **YAML:** buildin
 - **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
