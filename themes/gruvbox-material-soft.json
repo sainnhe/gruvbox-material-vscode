@@ -1458,6 +1458,29 @@
             }
         },
         // }}}
+        // Erlang{{{
+        {
+            "name": "Erlang grey",
+            "scope": "punctuation.section.directive.begin.erlang",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Erlang aqua",
+            "scope": "constant.other.symbol.unquoted.erlang",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Erlang purple",
+            "scope": "entity.name.type.class.module.definition.erlang, entity.name.type.class.module.erlang",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Shell{{{
         {
             "name": "Shell orange",
