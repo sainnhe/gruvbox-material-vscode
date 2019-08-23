@@ -1303,6 +1303,29 @@
             }
         },
         // }}}
+        // Perl{{{
+        {
+            "name": "Perl red",
+            "scope": "storage.type.sub.perl, storage.type.declare.routine.perl",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Perl aqua",
+            "scope": "constant.other.key.perl, constant.other.bareword.perl",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Perl blue",
+            "scope": "punctuation.definition.variable.perl",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        // }}}
         // Scala{{{
         {
             "name": "Scala yellow",
