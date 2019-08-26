@@ -1976,6 +1976,8 @@
         "statusBarItem.remoteForeground": "#eaca99",
         "titleBar.activeBackground": "#282828",
         "pickerGroup.border": "#eaca991a",
+        "terminal.foreground": "#dfbf8e",
+        "terminalCursor.foreground": "#dfbf8e",
         "terminal.ansiBlue": "#7daea3",
         "terminal.ansiBrightBlue": "#7daea3",
         "terminal.ansiBrightCyan": "#89b482",

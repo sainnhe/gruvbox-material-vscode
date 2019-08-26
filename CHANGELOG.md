@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 1.0.2
+
+- Fix terminal colors
+
 ## 1.0.1
 
 - use darkaqua in `editor.selectionBackground`
