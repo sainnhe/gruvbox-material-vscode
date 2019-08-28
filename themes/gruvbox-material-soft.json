@@ -1663,24 +1663,52 @@
         // }}}
         // Shell{{{
         {
+            "name": "Shell red",
+            "scope": "support.function.builtin.shell",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
             "name": "Shell orange",
-            "scope": "string.interpolated.dollar.shell, support.function.builtin.shell",
+            "scope": "string.interpolated.dollar.shell, entity.name.command.shell",
             "settings": {
                 "foreground": "#e78a4e"
             }
         },
         {
+            "name": "Shell yellow",
+            "scope": "constant.other.option.shell, constant.other.option.dash.shell",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Shell green",
+            "scope": "meta.scope.logical-expression.shell",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
             "name": "Shell aqua",
-            "scope": "entity.name.function.shell",
+            "scope": "entity.name.function.shell, string.unquoted.argument.shell, punctuation.definition.evaluation.parens.begin.shell, punctuation.definition.evaluation.parens.end.shell",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
             "name": "Shell blue",
-            "scope": "punctuation.definition.variable.shell",
+            "scope": "punctuation.definition.variable.shell, meta.argument.shell, punctuation.section.bracket.curly.variable.begin.shell, punctuation.section.bracket.curly.variable.end.shell",
             "settings": {
                 "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Shell purple",
+            "scope": "variable.other.special.shell, variable.language.special.shell, variable.parameter.positional.shell, variable.parameter.positional.all.shell, variable.other.positional.shell",
+            "settings": {
+                "foreground": "#d3869b"
             }
         },
         // }}}

@@ -87,7 +87,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Groovy:** buildin
 - **Fortran:** [Modern Fortran](https://marketplace.visualstudio.com/items?itemName=krvajalm.linter-gfortran)
 - **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
-- **Shell:** buildin
+- **Shell:** buildin, [Better Shell Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax)
 - **PowerShell:** buildin
 - **Diff:** buildin
 - **Makefile:** buildin
