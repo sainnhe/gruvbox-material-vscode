@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 1.1.0
+
+- Optimize shell
+
 ## 1.0.2
 
 - Fix terminal colors
