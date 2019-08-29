@@ -1855,6 +1855,29 @@
             }
         },
         // }}}
+        // {{{Git
+        {
+            "name": "Git red",
+            "scope": "entity.name.section.group-title.ini, punctuation.definition.entity.ini",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Git orange",
+            "scope": "punctuation.separator.key-value.ini",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Git aqua",
+            "scope": "keyword.other.definition.ini",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",
