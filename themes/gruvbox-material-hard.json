@@ -1878,6 +1878,15 @@
             }
         },
         // }}}
+        // {{{Tmux
+        {
+            "name": "Tmux aqua",
+            "scope": "constant.language.tmux",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",

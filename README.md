@@ -95,6 +95,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Makefile:** buildin
 - **CMake:** [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 - **Git:** buildin
+- **Tmux:** [tmux](https://marketplace.visualstudio.com/items?itemName=malmaud.tmux)
 - **JSON:** buildin
 - **YAML:** buildin
 - **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
