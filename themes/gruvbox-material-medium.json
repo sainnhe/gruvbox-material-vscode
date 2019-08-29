@@ -1520,6 +1520,36 @@
             }
         },
         // }}}
+        // R{{{
+        {
+            "name": "R yellow",
+            "scope": "storage.type.r",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "R green",
+            "scope": "variable.function.r",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "R aqua",
+            "scope": "constant.language.r",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "R purple",
+            "scope": "keyword.other.r",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // F#{{{
         {
             "name": "F# white",
