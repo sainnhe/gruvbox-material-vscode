@@ -269,7 +269,7 @@
             "scope": "punctuation.definition.heading.markdown",
             "settings": {
                 "foreground": "#928374",
-                "fontStyle": "bold"
+                "fontStyle": "regular"
             }
         },
         {
