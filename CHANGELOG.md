@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 1.2.0
+
+- Optimize R
+
 ## 1.1.0
 
 - Optimize shell
