@@ -46,7 +46,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 
 **Color Reference:** [colors.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors.yml)
 
-## Optimized File Types
+## Optimized File Types and Syntax Extensions
 
 - **Markdown:** buildin
 - **reStructuredText:** [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
@@ -65,7 +65,8 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Python:** buildin
 - **Java:** buildin
 - **Kotlin:** [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
-- **C/C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
+- **C:** buildin
+- **C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
 - **ObjectiveC:** buildin
 - **C#:** buildin
 - **Go:** buildin
@@ -109,6 +110,10 @@ To hack this theme, clone the repository on github and open the folder using vsc
 [Extension Guides: Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme)
 
 [Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
+
+## Related Projects
+
+See [gruvbox-material#related-projects](https://github.com/sainnhe/gruvbox-material#related-projects)
 
 ## Thanks to
 
