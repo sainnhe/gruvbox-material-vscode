@@ -1878,6 +1878,43 @@
             }
         },
         // }}}
+        // {{{VimL
+        {
+            "name": "VimL grey",
+            "scope": "punctuation.definition.map.viml",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "VimL yellow",
+            "scope": "constant.character.map.special.viml",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "VimL orange",
+            "scope": "storage.viml, storage.plugin.viml",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "VimL aqua",
+            "scope": "support.function.viml, constant.character.map.key.viml, constant.character.map.viml",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "VimL purple",
+            "scope": "storage.type.map.viml",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Tmux
         {
             "name": "Tmux aqua",
