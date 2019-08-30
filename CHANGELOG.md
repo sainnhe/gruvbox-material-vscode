@@ -2,6 +2,12 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 1.3.0
+
+- Optimize Git
+- Optimize VimL
+- Optimize Tmux
+
 ## 1.2.0
 
 - Optimize R
