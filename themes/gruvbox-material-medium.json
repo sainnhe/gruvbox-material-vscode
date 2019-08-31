@@ -689,14 +689,14 @@
         },
         {
             "name": "TypeScript green",
-            "scope": "keyword.operator.type.annotation",
+            "scope": "keyword.operator.type.annotation, entity.name.function.ts",
             "settings": {
                 "foreground": "#a9b665"
             }
         },
         {
             "name": "TypeScript aqua",
-            "scope": "punctuation.definition.template-expression.end.ts, punctuation.definition.template-expression.begin.ts, variable.parameter.ts",
+            "scope": "punctuation.definition.template-expression.end.ts, punctuation.definition.template-expression.begin.ts, variable.parameter.ts, variable.other.readwrite.alias.ts",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -704,6 +704,57 @@
         {
             "name": "TypeScript purple",
             "scope": "keyword.operator.spread.ts, variable.language.this.ts, storage.type.function.arrow.ts, variable.other.object.ts",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // TSX{{{
+        {
+            "name": "TSX white",
+            "scope": "meta.brace.round.tsx, meta.brace.square.tsx",
+            "settings": {
+                "foreground": "#dfbf8e"
+            }
+        },
+        {
+            "name": "TSX grey",
+            "scope": "punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.tsx",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "TSX red",
+            "scope": "storage.type.enum.tsx, storage.type.function.tsx, storage.type.interface.tsx, storage.type.property.tsx",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "TSX orange",
+            "scope": "entity.name.tag.tsx",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "TSX green",
+            "scope": "keyword.operator.type.annotation, entity.name.function.tsx",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "TSX aqua",
+            "scope": "punctuation.definition.template-expression.end.tsx, variable.other.readwrite.alias.tsx, punctuation.definition.template-expression.begin.tsx, variable.parameter.tsx, constant.language.import-export-all.tsx, entity.other.attribute-name.tsx",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "TSX purple",
+            "scope": "keyword.operator.spread.tsx, variable.language.this.tsx, storage.type.function.arrow.tsx, variable.other.object.tsx",
             "settings": {
                 "foreground": "#d3869b"
             }
