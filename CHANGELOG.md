@@ -2,6 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 1.4.0
+
+- Optimize Fish
+- Optimize TSX
+
 ## 1.3.0
 
 - Optimize Git
