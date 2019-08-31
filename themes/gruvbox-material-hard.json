@@ -1742,6 +1742,50 @@
             }
         },
         // }}}
+        // Fish{{{
+        {
+            "name": "Fish red",
+            "scope": "support.function.unix.fish",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Fish orange",
+            "scope": "support.function.builtin.fish",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Fish yellow",
+            "scope": "string.other.option.fish",
+            "settings": {
+                "foreground": "#e3a84e"
+            }
+        },
+        {
+            "name": "Fish aqua",
+            "scope": "support.function.script.fish",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Fish blue",
+            "scope": "punctuation.definition.variable.fish",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Fish purple",
+            "scope": "variable.other.fixed.fish",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // PowerShell{{{
         {
             "name": "PowerShell yellow",

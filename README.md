@@ -90,6 +90,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Fortran:** [Modern Fortran](https://marketplace.visualstudio.com/items?itemName=krvajalm.linter-gfortran)
 - **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
 - **Shell:** buildin, [Better Shell Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax)
+- **Fish:** [fish-vscode](https://marketplace.visualstudio.com/items?itemName=skyapps.fish-vscode)
 - **PowerShell:** buildin
 - **Diff:** buildin
 - **Makefile:** buildin
