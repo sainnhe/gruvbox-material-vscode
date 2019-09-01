@@ -75,6 +75,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Swift:** buildin
 - **PHP:** buildin
 - **SQL:** buildin
+- **GraphQL:** [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql), [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
 - **Ruby:** [Ruby Language Colorization](https://marketplace.visualstudio.com/items?itemName=groksrc.ruby)
 - **Haskell:** [Haskell Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell)
 - **Lua:** buildin, [Lua Plus](https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus)

@@ -1278,6 +1278,22 @@
             }
         },
         // }}}
+        // GraphQL{{{
+        {
+            "name": "GraphQL aqua",
+            "scope": "variable.parameter.graphql",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "GraphQL purple",
+            "scope": "entity.name.fragment.graphql, constant.character.enum.graphql",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Ruby{{{
         {
             "name": "Ruby orange",
