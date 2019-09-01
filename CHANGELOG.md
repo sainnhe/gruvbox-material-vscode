@@ -2,6 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 2.0.0
+
+- Optimize GraphQL
+- Optimize Dockerfile
+
 ## 1.4.0
 
 - Optimize Fish
