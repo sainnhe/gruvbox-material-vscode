@@ -95,9 +95,10 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Fish:** [fish-vscode](https://marketplace.visualstudio.com/items?itemName=skyapps.fish-vscode)
 - **PowerShell:** buildin
 - **Diff:** buildin
+- **Git:** buildin
 - **Makefile:** buildin
 - **CMake:** [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
-- **Git:** buildin
+- **Dockerfile:** buildin, [vscode-docker-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-docker-syntax), [Better Dockerfile Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax)
 - **VimL:** [vscode-viml-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.viml)
 - **Tmux:** [tmux](https://marketplace.visualstudio.com/items?itemName=malmaud.tmux)
 - **JSON:** buildin
