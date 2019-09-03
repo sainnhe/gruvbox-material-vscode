@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 2.0.1
+
+- Fix comment colors
+
 ## 2.0.0
 
 - Optimize GraphQL

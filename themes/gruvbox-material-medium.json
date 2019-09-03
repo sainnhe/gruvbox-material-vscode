@@ -154,7 +154,7 @@
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "settings": {
-                "foreground": "#787878",
+                "foreground": "#928374",
                 "fontStyle": "italic"
             }
         },
