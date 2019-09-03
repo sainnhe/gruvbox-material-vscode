@@ -4,7 +4,7 @@
     "description": "Gruvbox with Material Palette (port of vim theme)",
     "author": "Sainnhe Park (https://github.com/sainnhe)",
     "publisher": "sainnhe",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "license": "MIT, Anti-996",
     "engines": {
         "vscode": "^1.37.0"
