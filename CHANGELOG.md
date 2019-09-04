@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 3.0.1
+
+- Adjust some workbench colors
+
 ## 3.0.0
 
 - Support light background
