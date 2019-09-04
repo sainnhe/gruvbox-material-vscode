@@ -2174,9 +2174,9 @@
     "colors": {
         "focusBorder": "#3c3836",
         "foreground": "#dfbf8e",
-        "button.background": "#68948a80",
-        "button.hoverBackground": "#68948a60",
-        "button.foreground": "#dfbf8e",
+        "button.background": "#928374a0",
+        "button.hoverBackground": "#92837480",
+        "button.foreground": "#eaca99",
         "dropdown.background": "#282828",
         "input.background": "#dfbf8e05",
         "inputOption.activeBorder": "#7daea3",
