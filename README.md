@@ -62,7 +62,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Blue:** identifier
 - **Purple:** preproc, macro, enum, special identifier, number, boolean(if possible)
 
-**Color Reference:** [colors-dark.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors-dark.yml) [colors-light.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors-light.yml)
+**Color Reference:** [colors-dark.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors-dark.yml), [colors-light.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors-light.yml)
 
 ## Optimized File Types and Syntax Extensions
 
