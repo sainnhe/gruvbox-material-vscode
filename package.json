@@ -24,19 +24,34 @@
     "contributes": {
         "themes": [
             {
-                "label": "Gruvbox Material Hard",
+                "label": "Gruvbox Material Hard Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/gruvbox-material-hard.json"
+                "path": "./themes/gruvbox-material-hard-dark.json"
             },
             {
-                "label": "Gruvbox Material Medium",
+                "label": "Gruvbox Material Medium Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/gruvbox-material-medium.json"
+                "path": "./themes/gruvbox-material-medium-dark.json"
             },
             {
-                "label": "Gruvbox Material Soft",
+                "label": "Gruvbox Material Soft Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/gruvbox-material-soft.json"
+                "path": "./themes/gruvbox-material-soft-dark.json"
+            },
+            {
+                "label": "Gruvbox Material Hard Light",
+                "uiTheme": "vs",
+                "path": "./themes/gruvbox-material-hard-light.json"
+            },
+            {
+                "label": "Gruvbox Material Medium Light",
+                "uiTheme": "vs",
+                "path": "./themes/gruvbox-material-medium-light.json"
+            },
+            {
+                "label": "Gruvbox Material Soft Light",
+                "uiTheme": "vs",
+                "path": "./themes/gruvbox-material-soft-light.json"
             }
         ]
     }

@@ -3,22 +3,40 @@
 </h1>
 
 <h2 align="center">
-𝐇𝐚𝐫𝐝
+𝐇𝐚𝐫𝐝 𝐃𝐚𝐫𝐤
 </h2>
 
 ![hard](https://user-images.githubusercontent.com/37491630/63505960-0d764680-c4c4-11e9-84a6-e8abaad7425c.png)
 
 <h2 align="center">
-𝐌𝐞𝐝𝐢𝐮𝐦
+𝐌𝐞𝐝𝐢𝐮𝐦 𝐃𝐚𝐫𝐤
 </h2>
 
 ![medium](https://user-images.githubusercontent.com/37491630/63505969-1109cd80-c4c4-11e9-9580-725b0b111475.png)
 
 <h2 align="center">
-𝐒𝐨𝐟𝐭
+𝐒𝐨𝐟𝐭 𝐃𝐚𝐫𝐤
 </h2>
 
 ![soft](https://user-images.githubusercontent.com/37491630/63505971-136c2780-c4c4-11e9-9c94-52c011784e16.png)
+
+<h2 align="center">
+𝐇𝐚𝐫𝐝 𝐋𝐢𝐠𝐡𝐭
+</h2>
+
+![hard](https://user-images.githubusercontent.com/37491630/64216980-de3fdc00-ceaa-11e9-8f18-03f24d389e49.png)
+
+<h2 align="center">
+𝐌𝐞𝐝𝐢𝐮𝐦 𝐋𝐢𝐠𝐡𝐭
+</h2>
+
+![medium](https://user-images.githubusercontent.com/37491630/64216985-e13acc80-ceaa-11e9-8430-947cfd6e2993.png)
+
+<h2 align="center">
+𝐒𝐨𝐟𝐭 𝐋𝐢𝐠𝐡𝐭
+</h2>
+
+![soft](https://user-images.githubusercontent.com/37491630/64216989-e435bd00-ceaa-11e9-8a0c-abf7e881dfea.png)
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
@@ -44,7 +62,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **Blue:** identifier
 - **Purple:** preproc, macro, enum, special identifier, number, boolean(if possible)
 
-**Color Reference:** [colors.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors.yml)
+**Color Reference:** [colors-dark.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors-dark.yml) [colors-light.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors-light.yml)
 
 ## Optimized File Types and Syntax Extensions
 
