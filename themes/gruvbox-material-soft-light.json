@@ -167,7 +167,7 @@
         },
         {
             "name": "Property",
-            "scope": "support.variable.property, variable.other.property, meta.object-literal.key, variable.other.object.property.js",
+            "scope": "support.variable.property, variable.other.property, meta.object-literal.key, variable.other.object.property",
             "settings": {
                 "foreground": "#4c7a5d"
             }
