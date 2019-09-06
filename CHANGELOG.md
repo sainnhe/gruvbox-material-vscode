@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 3.0.3
 
 - Add terminal white and black
+- Adjust workbench colors
 
 ## 3.0.2
 
