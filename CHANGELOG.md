@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 3.0.4
 
 - Adjust line number
+- Optimize pug
 
 ## 3.0.3
 

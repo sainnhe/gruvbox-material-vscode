@@ -81,6 +81,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **CoffeeScript:** buildin
 - **PureScript:** [PureScript IDE](https://marketplace.visualstudio.com/items?itemName=nwolverson.ide-purescript)
 - **Dart:** [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
+- **Pug:** buildin
 - **Python:** buildin
 - **Java:** buildin
 - **Kotlin:** [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)

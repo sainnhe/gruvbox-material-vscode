@@ -836,6 +836,29 @@
             }
         },
         // }}}
+        // Pug{{{
+        {
+            "name": "Pug red",
+            "scope": "entity.other.attribute-name.class.pug",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Pug aqua",
+            "scope": "entity.other.attribute-name.tag.pug, variable.control.import.include.pug",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Pug purple",
+            "scope": "entity.name.tag.pug, storage.type.import.include.pug",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Python{{{
         {
             "name": "Python yellow",
