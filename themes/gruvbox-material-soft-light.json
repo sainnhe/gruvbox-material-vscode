@@ -2212,7 +2212,7 @@
         "editor.background": "#f2e5bc",
         "editor.foreground": "#764e37",
         "editorLineNumber.foreground": "#bdae93",
-        "editorLineNumber.activeForeground": "#47747e",
+        "editorLineNumber.activeForeground": "#928374",
         "editorCursor.foreground": "#764e37",
         "editor.lineHighlightBorder": "#d5c4a100",
         "editor.rangeHighlightBackground": "#7daea330",
