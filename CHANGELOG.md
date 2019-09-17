@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 3.0.5
+
+- Adjust gutter
+
 ## 3.0.4
 
 - Adjust line number
