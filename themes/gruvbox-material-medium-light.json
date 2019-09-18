@@ -666,7 +666,7 @@
         },
         {
             "name": "JSX purple",
-            "scope": "constant.language.null,js,jsx, constant.language.undefined.js.jsx, constant.language.nan.js.jsx, constant.language.infinity.js.jsx",
+            "scope": "constant.language.null.js.jsx, constant.language.undefined.js.jsx, constant.language.nan.js.jsx, constant.language.infinity.js.jsx",
             "settings": {
                 "foreground": "#945e80"
             }
