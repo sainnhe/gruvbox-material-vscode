@@ -48,7 +48,10 @@
 
 This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code. 
 
-> Gruvbox Material is based on Gruvbox, but with a very different color palette, almost all foreground colors are adjusted.
+> In my opinion, the very first thing a color scheme should do is to be eye-friendly, anything else is secondary. This requires soft contrast and low blue light.
+>
+> Gruvbox Material is based on Gruvbox, but with a very different color palette, I'm trying to adjust the foreground colors to match these requirements.
+
 
 **Note:** I personally recommend you to disable blur/transparent when using this theme for better experience.
 
