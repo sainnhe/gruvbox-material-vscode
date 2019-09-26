@@ -6,37 +6,37 @@
 𝐇𝐚𝐫𝐝 𝐃𝐚𝐫𝐤
 </h2>
 
-![hard](https://user-images.githubusercontent.com/37491630/63505960-0d764680-c4c4-11e9-84a6-e8abaad7425c.png)
+![hard](https://user-images.githubusercontent.com/37491630/65671904-a6eec600-e037-11e9-901b-e5989f8037a1.png)
 
 <h2 align="center">
 𝐌𝐞𝐝𝐢𝐮𝐦 𝐃𝐚𝐫𝐤
 </h2>
 
-![medium](https://user-images.githubusercontent.com/37491630/63505969-1109cd80-c4c4-11e9-9580-725b0b111475.png)
+![medium](https://user-images.githubusercontent.com/37491630/65671949-b706a580-e037-11e9-9a32-fadaeeefcac9.png)
 
 <h2 align="center">
 𝐒𝐨𝐟𝐭 𝐃𝐚𝐫𝐤
 </h2>
 
-![soft](https://user-images.githubusercontent.com/37491630/63505971-136c2780-c4c4-11e9-9c94-52c011784e16.png)
+![soft](https://user-images.githubusercontent.com/37491630/65671960-bcfc8680-e037-11e9-8618-1d7ea95dca47.png)
 
 <h2 align="center">
 𝐇𝐚𝐫𝐝 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![hard](https://user-images.githubusercontent.com/37491630/64216980-de3fdc00-ceaa-11e9-8f18-03f24d389e49.png)
+![hard](https://user-images.githubusercontent.com/37491630/65671938-b3731e80-e037-11e9-801b-46cdd39311d3.png)
 
 <h2 align="center">
 𝐌𝐞𝐝𝐢𝐮𝐦 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![medium](https://user-images.githubusercontent.com/37491630/64216985-e13acc80-ceaa-11e9-8430-947cfd6e2993.png)
+![medium](https://user-images.githubusercontent.com/37491630/65671955-ba019600-e037-11e9-959a-9d8df32ebf06.png)
 
 <h2 align="center">
 𝐒𝐨𝐟𝐭 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![soft](https://user-images.githubusercontent.com/37491630/64216989-e435bd00-ceaa-11e9-8a0c-abf7e881dfea.png)
+![soft](https://user-images.githubusercontent.com/37491630/65671966-c0900d80-e037-11e9-88a5-6fd1d159e166.png)
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
