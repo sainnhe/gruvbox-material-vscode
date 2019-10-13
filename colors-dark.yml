@@ -35,5 +35,5 @@ blackblue_medium:     '#0e363e'
 blackgreen_soft:      '#3d4220'
 blackred_soft:        '#472322'
 blackblue_soft:       '#0f3a42'
-# extra colors for vim airline/lightline
+# extra color for vim airline/lightline
 dark1_alt:            '#5a524c'
