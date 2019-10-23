@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 3.0.9
+
+- `editorSuggestWidget.foreground`
+
 ## 3.0.8
 
 - Adjust color palette

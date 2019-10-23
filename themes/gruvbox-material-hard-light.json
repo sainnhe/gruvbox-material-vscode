@@ -2364,7 +2364,7 @@
         "diffEditor.removedTextBackground": "#ffdbcc80",
         "editorWidget.border": "#ebdbb2",
         "editorSuggestWidget.background": "#f2e5bc",
-        "editorSuggestWidget.foreground": "#504945",
+        "editorSuggestWidget.foreground": "#5e4536",
         "editorSuggestWidget.highlightForeground": "#67722f",
         "editorSuggestWidget.selectedBackground": "#d5c4a1",
         "editorSuggestWidget.border": "#f2e5bc",
