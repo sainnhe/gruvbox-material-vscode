@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 3.0.8
+
+- Adjust color palette
+
 ## 3.0.7
 
 - Adjust colors of list and explorer
