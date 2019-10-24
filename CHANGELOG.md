@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 3.0.10
+
+- Adjust blue and aqua
+
 ## 3.0.9
 
 - `editorSuggestWidget.foreground`
