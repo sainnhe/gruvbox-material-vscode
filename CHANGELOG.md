@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 3.1.0
+
+- Adjust black in the light variant
+
 ## 3.0.11
 
 - Use the original light color palette instead
