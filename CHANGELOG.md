@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 3.1.2
+
+- Adjust white in the dark variant
+
 ## 3.1.1
 
 - Adjust white in the dark variant
