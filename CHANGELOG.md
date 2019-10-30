@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 4.0.0
+
+- Adjust color palette
+
 ## 3.2.0
 
 - Adjust blue, orange and red in the light variant
