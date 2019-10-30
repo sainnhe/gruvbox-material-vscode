@@ -4,6 +4,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 ## 3.2.0
 
+- Adjust blue and orange in the light variant
 - Adjust blue and yellow in the dark variant
 
 ## 3.1.2
