@@ -4,7 +4,7 @@
     "description": "Gruvbox with Material Palette",
     "author": "Sainnhe Park (https://github.com/sainnhe)",
     "publisher": "sainnhe",
-    "version": "4.0.5",
+    "version": "4.0.6",
     "license": "MIT, Anti-996",
     "engines": {
         "vscode": "^1.37.0"
