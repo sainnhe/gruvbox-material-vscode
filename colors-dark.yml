@@ -7,8 +7,8 @@ dark3:                '#665c54'
 dark4:                '#7c6f64'
 grey:                 '#928374'
 lightgrey:            '#a89984'
-white0:               '#dfc79b'
-white1:               '#d7bf94'  # foreground color
+white0:               '#dec69c'
+white1:               '#d8bf94'  # foreground color
 white2:               '#c9b289'
 white3:               '#b8a37c'
 red:                  '#ea6962'
