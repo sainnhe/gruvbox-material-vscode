@@ -2315,7 +2315,7 @@
         "scrollbarSlider.activeBackground": "#72966c",
         "scrollbarSlider.hoverBackground": "#665c54",
         "scrollbarSlider.background": "#50494599",
-        "progressBar.background": "#8f9a52",
+        "progressBar.background": "#a9b665",
         "activityBar.foreground": "#d4be98",
         "activityBar.border": "#3c3836",
         "editorGroup.background": "#3c3836",
