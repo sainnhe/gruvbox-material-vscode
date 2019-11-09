@@ -2423,6 +2423,8 @@
         "settings.dropdownBackground": "#282828",
         "settings.dropdownForeground": "#89b482",
         "settings.dropdownBorder": "#504945",
+        "minimap.findMatchHighlight": "#0e363e",
+        "minimap.selectionHighlight": "#34381b",
         "editor.snippetTabstopHighlightBackground": "#8f9a5280",
         "editor.snippetFinalTabstopHighlightBackground": "#68948a80"
     }
