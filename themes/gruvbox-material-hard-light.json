@@ -1,7 +1,8 @@
 {
     "name": "Gruvbox Material Hard Light",
     "type": "light",
-    "tokenColors": [{
+    "tokenColors": [
+        {
             "name": "Global settings",
             "settings": {
                 "background": "#f9f5d7",
@@ -2197,9 +2198,9 @@
     "colors": {
         "focusBorder": "#ebdbb2",
         "foreground": "#654735",
-        "button.background": "#92837480",
-        "button.hoverBackground": "#92837460",
-        "button.foreground": "#504945",
+        "button.background": "#7c6f64",
+        "button.hoverBackground": "#928374",
+        "button.foreground": "#f9f5d7",
         "dropdown.background": "#f9f5d7",
         "input.background": "#65473505",
         "inputOption.activeBorder": "#45707a",

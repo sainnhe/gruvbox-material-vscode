@@ -1,7 +1,8 @@
 {
     "name": "Gruvbox Material Medium Light",
     "type": "light",
-    "tokenColors": [{
+    "tokenColors": [
+        {
             "name": "Global settings",
             "settings": {
                 "background": "#fbf1c7",
@@ -2197,9 +2198,9 @@
     "colors": {
         "focusBorder": "#ebdbb2",
         "foreground": "#654735",
-        "button.background": "#92837490",
-        "button.hoverBackground": "#92837470",
-        "button.foreground": "#504945",
+        "button.background": "#7c6f64",
+        "button.hoverBackground": "#928374",
+        "button.foreground": "#fbf1c7",
         "dropdown.background": "#fbf1c7",
         "input.background": "#65473505",
         "inputOption.activeBorder": "#45707a",

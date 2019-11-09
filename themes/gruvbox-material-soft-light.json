@@ -1,7 +1,8 @@
 {
     "name": "Gruvbox Material Soft Light",
     "type": "light",
-    "tokenColors": [{
+    "tokenColors": [
+        {
             "name": "Global settings",
             "settings": {
                 "background": "#f2e5bc",
@@ -2197,9 +2198,9 @@
     "colors": {
         "focusBorder": "#d5c4a1",
         "foreground": "#654735",
-        "button.background": "#928374a0",
-        "button.hoverBackground": "#92837480",
-        "button.foreground": "#504945",
+        "button.background": "#7c6f64",
+        "button.hoverBackground": "#928374",
+        "button.foreground": "#f2e5bc",
         "dropdown.background": "#f2e5bc",
         "input.background": "#65473505",
         "inputOption.activeBorder": "#45707a",

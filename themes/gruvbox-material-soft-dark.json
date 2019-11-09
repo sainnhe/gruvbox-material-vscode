@@ -1,7 +1,8 @@
 {
     "name": "Gruvbox Material Soft Dark",
     "type": "dark",
-    "tokenColors": [{
+    "tokenColors": [
+        {
             "name": "Global settings",
             "settings": {
                 "background": "#32302f",
@@ -2197,9 +2198,9 @@
     "colors": {
         "focusBorder": "#504945",
         "foreground": "#d4be98",
-        "button.background": "#928374a0",
-        "button.hoverBackground": "#92837480",
-        "button.foreground": "#ddc7a1",
+        "button.background": "#a89984",
+        "button.hoverBackground": "#928374",
+        "button.foreground": "#32302f",
         "dropdown.background": "#32302f",
         "input.background": "#d4be9805",
         "inputOption.activeBorder": "#7daea3",

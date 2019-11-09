@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 4.0.9
+
+- Fix button color.
+
 ## 4.0.8
 
 - Adjust white in the dark variant.
