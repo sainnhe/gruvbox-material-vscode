@@ -2429,6 +2429,8 @@
         "problemsErrorIcon.foreground": "#c14a4a",
         "problemsWarningIcon.foreground": "#b47109",
         "problemsInfoIcon.foreground": "#45707a",
+        "editorUnnecessaryCode.border": "#928374",
+        "editorUnnecessaryCode.opacity": "#ffffffff",
         "editor.snippetTabstopHighlightBackground": "#a9b66580",
         "editor.snippetFinalTabstopHighlightBackground": "#7daea380"
     }
