@@ -2362,6 +2362,7 @@
         "editorError.foreground": "#ea6962",
         "editorWarning.foreground": "#dfa856",
         "editorInfo.foreground": "#7daea3",
+        "editorHint.foreground": "#d3869b",
         "diffEditor.insertedTextBackground": "#daf0a780",
         "diffEditor.removedTextBackground": "#fbcdb980",
         "editorWidget.border": "#ebdbb2",
