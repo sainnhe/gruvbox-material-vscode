@@ -2221,7 +2221,7 @@
         "activityBar.dropBackground": "#32302f",
         "activityBarBadge.background": "#a9b665",
         "activityBarBadge.foreground": "#32302f",
-        "badge.background": "#a9b665",
+        "badge.background": "#a89984",
         "badge.foreground": "#32302f",
         "sideBar.background": "#32302f",
         "sideBarSectionHeader.background": "#32302f00",
