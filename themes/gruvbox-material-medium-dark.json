@@ -2426,6 +2426,9 @@
         "settings.dropdownBorder": "#504945",
         "minimap.findMatchHighlight": "#0e363e",
         "minimap.selectionHighlight": "#34381b",
+        "problemsErrorIcon.foreground": "#ea6962",
+        "problemsWarningIcon.foreground": "#d8a657",
+        "problemsInfoIcon.foreground": "#7daea3",
         "editor.snippetTabstopHighlightBackground": "#8f9a5280",
         "editor.snippetFinalTabstopHighlightBackground": "#68948a80"
     }
