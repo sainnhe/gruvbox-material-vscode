@@ -2445,6 +2445,8 @@
         "editorUnnecessaryCode.opacity": "#ffffffff",
         "editorLightBulb.foreground": "#a96b2c",
         "editorLightBulbAutoFix.foreground": "#6f8352",
+        "welcomePage.buttonBackground": "#f2e5bc",
+        "welcomePage.buttonHoverBackground": "#f2e5bca0",
         "editor.snippetTabstopHighlightBackground": "#a9b66580",
         "editor.snippetFinalTabstopHighlightBackground": "#7daea380"
     }
