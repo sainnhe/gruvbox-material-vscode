@@ -2248,7 +2248,7 @@
         "editor.lineHighlightBorder": "#ebdbb200",
         "editor.rangeHighlightBackground": "#7daea330",
         "editorWidget.background": "#f9f5d7",
-        "editorHoverWidget.background": "#f9f5d7",
+        "editorHoverWidget.background": "#fbf1c7",
         "editorMarkerNavigation.background": "#fbf1c7",
         "editorMarkerNavigationError.background": "#ae5858",
         "editorMarkerNavigationWarning.background": "#a96b2c",
