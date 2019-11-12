@@ -2330,7 +2330,7 @@
         "editor.findMatchBackground": "#68948a40",
         "editor.findMatchHighlightBackground": "#72966c40",
         "editor.findRangeHighlightBackground": "#68948a40",
-        "editor.lineHighlightBackground": "#3c383660",
+        "editor.lineHighlightBackground": "#3c383680",
         "editor.wordHighlightBackground": "#3c3836",
         "editor.wordHighlightStrongBackground": "#504945",
         "editorWhitespace.foreground": "#a8998420",
