@@ -2411,6 +2411,8 @@
         "extensionButton.prominentForeground": "#32302f",
         "extensionButton.prominentBackground": "#a89984",
         "extensionButton.prominentHoverBackground": "#928374",
+        "extensionBadge.remoteBackground": "#a89984",
+        "extensionBadge.remoteForeground": "#32302f",
         "textLink.foreground": "#a9b665",
         "textLink.activeForeground": "#8f9a52",
         "textCodeBlock.background": "#3c3836",
