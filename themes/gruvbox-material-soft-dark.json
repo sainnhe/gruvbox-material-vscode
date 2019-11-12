@@ -2239,7 +2239,7 @@
         "tab.inactiveModifiedBorder": "#4b6861",
         "tab.unfocusedActiveModifiedBorder": "#648b82",
         "tab.unfocusedInactiveModifiedBorder": "#4b6861",
-        "tab.hoverBackground": "#50494560",
+        "tab.hoverBackground": "#3c3836",
         "editor.background": "#32302f",
         "editor.foreground": "#d4be98",
         "editorLineNumber.foreground": "#665c54",
