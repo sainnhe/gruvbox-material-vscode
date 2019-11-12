@@ -2434,6 +2434,8 @@
         "problemsErrorIcon.foreground": "#ea6962",
         "problemsWarningIcon.foreground": "#d8a657",
         "problemsInfoIcon.foreground": "#7daea3",
+        "menubar.selectionBackground": "#3c3836",
+        "menubar.selectionBorder": "#32302f",
         "editorUnnecessaryCode.border": "#928374",
         "editorUnnecessaryCode.opacity": "#ffffffff",
         "editorLightBulb.foreground": "#d8a657",
