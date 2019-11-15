@@ -168,7 +168,7 @@
         },
         {
             "name": "Property",
-            "scope": "support.variable.property, variable.other.property, meta.object-literal.key, variable.other.object.property",
+            "scope": "support.variable.property, variable.other.property, meta.object-literal.key, variable.other.object.property, variable.other.constant.property",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -637,7 +637,7 @@
         },
         {
             "name": "JavaScript purple",
-            "scope": "variable.language.this.js, storage.type.function.arrow.js, variable.other.object.js",
+            "scope": "variable.language.this.js, storage.type.function.arrow.js, variable.other.object.js, support.variable.object",
             "settings": {
                 "foreground": "#d3869b"
             }
