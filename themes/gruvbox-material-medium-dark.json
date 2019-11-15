@@ -877,7 +877,7 @@
         },
         {
             "name": "Python aqua",
-            "scope": "storage.type.imaginary.number.python, support.function.magic.python, entity.name.function.python, constant.character.format.placeholder.other.python, constant.language.python",
+            "scope": "storage.type.imaginary.number.python, support.function.magic.python, entity.name.function.python, constant.character.format.placeholder.other.python, constant.language.python, meta.member.access.python",
             "settings": {
                 "foreground": "#89b482"
             }
