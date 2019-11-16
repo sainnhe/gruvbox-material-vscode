@@ -77,7 +77,7 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 - **CSS:** buildin
 - **SASS:** [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
 - **LESS:** buildin
-- **JavaScript:** buildin
+- **JavaScript:** buildin ([~~Babel JavaScript~~](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) not recommend [#6](https://github.com/sainnhe/gruvbox-material-vscode/issues/6))
 - **JSX:** buildin
 - **TypeScript:** buildin
 - **TSX:** buildin
