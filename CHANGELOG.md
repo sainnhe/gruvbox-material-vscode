@@ -2,6 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 4.1.1
+
+-   `meta.member.access.python`
+-   `variable.other.constant.property`
+
 ## 4.1.0
 
 -   Adjust workbench colors.
