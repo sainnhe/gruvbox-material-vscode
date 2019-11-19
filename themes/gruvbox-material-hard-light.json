@@ -2339,7 +2339,7 @@
         "editorRuler.foreground": "#7c6f6440",
         "editorCodeLens.foreground": "#928374",
         "editorBracketMatch.border": "#f9f5d700",
-        "editorBracketMatch.background": "#ebdbb280",
+        "editorBracketMatch.background": "#bdae9380",
         "editorHoverWidget.border": "#ebdbb2",
         "editorOverviewRuler.border": "#f9f5d700",
         "editorOverviewRuler.findMatchForeground": "#6f4f3c",
