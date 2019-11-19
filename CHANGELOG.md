@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 4.1.3
+
+-   `gitDecoration`
+
 ## 4.1.2
 
 -   `editorBracketMatch`
