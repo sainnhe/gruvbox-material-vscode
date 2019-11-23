@@ -2,6 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 4.1.4
+
+-   `editorSuggestWidget`
+-   Better support for hard light variant.
+
 ## 4.1.3
 
 -   `gitDecoration`
