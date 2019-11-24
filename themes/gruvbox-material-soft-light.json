@@ -2209,7 +2209,7 @@
         "list.hoverBackground": "#ebdbb2a0",
         "list.activeSelectionForeground": "#4c7a5d",
         "list.activeSelectionBackground": "#ebdbb2",
-        "list.inactiveSelectionForeground": "#4c7a5da0",
+        "list.inactiveSelectionForeground": "#4f3829",
         "list.inactiveSelectionBackground": "#ebdbb2a0",
         "list.dropBackground": "#ebdbb2",
         "list.focusBackground": "#ebdbb2",
