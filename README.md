@@ -129,12 +129,6 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 
 ## Contribution
 
-To be honest, I'm not an advanced user of vscode, I port gruvbox-material to vscode just because I need an eye-friendly working environment in Windows (WSL is painful).
-
-The workbench colors are based on [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox), but many of them haven't been tested because I don't know where I can see them, and I can't optimize popular extensions for the same reason. The only thing I can do is to optimize common file types.
-
-Therefore, if you feel that some workbench colors are weird, feel free to open a PR :)
-
 To hack this theme, clone the repository on github and open the folder using vscode, then modify colors in `./themes/*` and press `F5`.
 
 [Extension Guides: Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme)
@@ -154,4 +148,4 @@ See [gruvbox-material#related-projects](https://github.com/sainnhe/gruvbox-mater
 
 ## License
 
-[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE), [Anti-996](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/Anti-996-LICENSE)
+[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE) && [Anti-996](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/Anti-996-LICENSE)
