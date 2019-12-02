@@ -150,6 +150,7 @@ See [gruvbox-material#related-projects](https://github.com/sainnhe/gruvbox-mater
 - [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
 - [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox): workbench colors are based on it
 - [Tyriar/vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator): common highlight groups are inspired by it
+- [@GulajavaMinistudio](https://github.com/GulajavaMinistudio): icon for this extension
 
 ## License
 

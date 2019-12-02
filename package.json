@@ -5,6 +5,7 @@
     "author": "Sainnhe Park (https://github.com/sainnhe)",
     "publisher": "sainnhe",
     "version": "4.1.5",
+    "icon": "icon.png",
     "license": "MIT, Anti-996",
     "engines": {
         "vscode": "^1.37.0"
