@@ -221,7 +221,7 @@
             "name": "Markdown heading1",
             "scope": "heading.1.markdown, markup.heading.setext.1.markdown",
             "settings": {
-                "foreground": "#e78a4e",
+                "foreground": "#ea6962",
                 "fontStyle": "bold"
             }
         },
@@ -229,7 +229,7 @@
             "name": "Markdown heading2",
             "scope": "heading.2.markdown, markup.heading.setext.2.markdown",
             "settings": {
-                "foreground": "#7daea3",
+                "foreground": "#e78a4e",
                 "fontStyle": "bold"
             }
         },
@@ -245,7 +245,7 @@
             "name": "Markdown heading4",
             "scope": "heading.4.markdown",
             "settings": {
-                "foreground": "#89b482",
+                "foreground": "#a9b665",
                 "fontStyle": "bold"
             }
         },
@@ -253,7 +253,7 @@
             "name": "Markdown heading5",
             "scope": "heading.5.markdown",
             "settings": {
-                "foreground": "#ea6962",
+                "foreground": "#7daea3",
                 "fontStyle": "bold"
             }
         },

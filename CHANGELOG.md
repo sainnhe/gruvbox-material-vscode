@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 4.1.7
+
+-   Adjust markdown headings.
+
 ## 4.1.6
 
 -   Add icon.
