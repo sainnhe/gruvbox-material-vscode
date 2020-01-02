@@ -609,7 +609,7 @@
         // JavaScript{{{
         {
             "name": "JavaScript white",
-            "scope": "meta.brace.round.js, meta.brace.square.js",
+            "scope": "meta.brace.round.js, meta.brace.square.js, meta.brace.curly.js",
             "settings": {
                 "foreground": "#d4be98"
             }
@@ -629,15 +629,22 @@
             }
         },
         {
+            "name": "JavaScript yellow",
+            "scope": "punctuation.quasi.element.begin.js, punctuation.quasi.element.end.js",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
             "name": "JavaScript aqua",
-            "scope": "constant.language.infinity.js",
+            "scope": "constant.language.infinity.js, string.unquoted.js",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
             "name": "JavaScript purple",
-            "scope": "variable.language.this.js, storage.type.function.arrow.js, variable.other.object.js",
+            "scope": "variable.language.this.js, storage.type.function.arrow.js, variable.other.object.js, constant.other.label.js",
             "settings": {
                 "foreground": "#d3869b"
             }

@@ -4,6 +4,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 ## 4.1.8
 
+-   Optimize js.
 -   Optimize vue.
 
 ## 4.1.7
