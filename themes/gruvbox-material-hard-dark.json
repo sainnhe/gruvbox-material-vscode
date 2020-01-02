@@ -761,6 +761,36 @@
             }
         },
         // }}}
+        // VUE{{{
+        {
+            "name": "VUE grey",
+            "scope": "punctuation.definition.tag.html",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "VUE orange",
+            "scope": "entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.script.html, entity.name.tag.inline.any.html, entity.name.tag.structure.any.html, entity.name.tag.style.html, entity.name.tag.doctype.html",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "VUE aqua",
+            "scope": "meta.tag.other.html, meta.tag.inline.any.html, meta.tag.block.any.html",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "VUE purple",
+            "scope": "entity.name.label.js",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // CoffeeScript{{{
         {
             "name": "CoffeeScript white",
