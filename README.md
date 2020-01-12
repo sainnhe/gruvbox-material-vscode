@@ -6,37 +6,37 @@
 𝐇𝐚𝐫𝐝 𝐃𝐚𝐫𝐤
 </h2>
 
-![hard-dark](https://user-images.githubusercontent.com/37491630/69468765-61bfe980-0d85-11ea-86c8-3d7e062986a5.png)
+![hard-dark](https://user-images.githubusercontent.com/37491630/72215377-680f4e00-350a-11ea-95a8-3a3afb42cbd2.png)
 
 <h2 align="center">
 𝐌𝐞𝐝𝐢𝐮𝐦 𝐃𝐚𝐫𝐤
 </h2>
 
-![medium-dark](https://user-images.githubusercontent.com/37491630/69468770-671d3400-0d85-11ea-85a7-cf7ffedab468.png)
+![medium-dark](https://user-images.githubusercontent.com/37491630/72215380-6c3b6b80-350a-11ea-947a-b17796017ea5.png)
 
 <h2 align="center">
 𝐒𝐨𝐟𝐭 𝐃𝐚𝐫𝐤
 </h2>
 
-![soft-dark](https://user-images.githubusercontent.com/37491630/69468776-6a182480-0d85-11ea-863c-834a9f77f2dc.png)
+![soft-dark](https://user-images.githubusercontent.com/37491630/72215383-6fcef280-350a-11ea-98b6-f096b6f29965.png)
 
 <h2 align="center">
 𝐇𝐚𝐫𝐝 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![hard-light](https://user-images.githubusercontent.com/37491630/69468766-62f11680-0d85-11ea-9196-d7e2dcc66d36.png)
+![hard-light](https://user-images.githubusercontent.com/37491630/72215378-69d91180-350a-11ea-8da9-f230dd58c3f4.png)
 
 <h2 align="center">
 𝐌𝐞𝐝𝐢𝐮𝐦 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![medium-light](https://user-images.githubusercontent.com/37491630/69468774-684e6100-0d85-11ea-9510-3cdfda682690.png)
+![medium-light](https://user-images.githubusercontent.com/37491630/72215381-6e052f00-350a-11ea-87e0-20d3f84b7519.png)
 
 <h2 align="center">
 𝐒𝐨𝐟𝐭 𝐋𝐢𝐠𝐡𝐭
 </h2>
 
-![soft-light](https://user-images.githubusercontent.com/37491630/69468778-6c7a7e80-0d85-11ea-8e49-5f41f7c4e222.png)
+![soft-light](https://user-images.githubusercontent.com/37491630/72215384-7198b600-350a-11ea-845a-ccb4ec468626.png)
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
@@ -52,82 +52,6 @@ This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-ma
 >
 > Gruvbox Material is based on Gruvbox, but with a very different color palette, I'm trying to adjust the foreground colors to match these requirements.
 
-
-**Note:** I personally recommend you to disable blur/transparent when using this theme for better experience.
-
-## Syntax Highlighting Logic
-
-- **Red:** keyword, conditional, repeat, exception
-- **Orange:** storage, operator, modifier
-- **Yellow:** type, class name, placeholder
-- **Green:** func call, method, string
-- **Aqua:** member, property, constant, func def(if possible)
-- **Blue:** identifier
-- **Purple:** preproc, macro, enum, special identifier, number, boolean(if possible)
-
-**Color Reference:** [colors-dark.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors-dark.yml), [colors-light.yml](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/colors-light.yml)
-
-## Optimized File Types and Syntax Extensions
-
-- **Markdown:** buildin
-- **reStructuredText:** [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
-- **LaTex:** [LaTex](https://marketplace.visualstudio.com/items?itemName=torn4dom4n.latex-support)
-- **Html:** buildin
-- **Xml:** buildin
-- **CSS:** buildin
-- **SASS:** [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
-- **LESS:** buildin
-- **JavaScript:** buildin ([~~Babel JavaScript~~](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel) not recommend [#6](https://github.com/sainnhe/gruvbox-material-vscode/issues/6))
-- **JSX:** buildin
-- **TypeScript:** buildin
-- **TSX:** buildin
-- **VUE:** [jcbuisson.vue](https://marketplace.visualstudio.com/items?itemName=jcbuisson.vue), [liuji-jim.vue](https://marketplace.visualstudio.com/items?itemName=liuji-jim.vue)
-- **CoffeeScript:** buildin
-- **PureScript:** [PureScript IDE](https://marketplace.visualstudio.com/items?itemName=nwolverson.ide-purescript)
-- **Dart:** [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
-- **Pug:** buildin
-- **Python:** buildin
-- **Java:** buildin
-- **Kotlin:** [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
-- **C:** buildin
-- **C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
-- **ObjectiveC:** buildin
-- **C#:** buildin
-- **Go:** buildin
-- **Rust:** buildin, [vscode-rust-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-rust-syntax)
-- **Swift:** buildin
-- **PHP:** buildin
-- **SQL:** buildin
-- **GraphQL:** [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql), [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
-- **Ruby:** [Ruby Language Colorization](https://marketplace.visualstudio.com/items?itemName=groksrc.ruby)
-- **Haskell:** [Haskell Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell)
-- **Lua:** buildin, [Lua Plus](https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus)
-- **Perl:** buildin
-- **Scala:** [Scala Syntax (official)](https://marketplace.visualstudio.com/items?itemName=scala-lang.scala)
-- **Elixir:** [vscode-elixir](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir)
-- **Clojure:** buildin
-- **Julia:** [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)
-- **Elm:** [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm)
-- **Erlang:** [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang)
-- **R:** buildin
-- **F#:** buildin
-- **Groovy:** buildin
-- **Fortran:** [Modern Fortran](https://marketplace.visualstudio.com/items?itemName=krvajalm.linter-gfortran)
-- **Lisp:** [Lisp](https://marketplace.visualstudio.com/items?itemName=mattn.Lisp)
-- **Shell:** buildin, [Better Shell Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax)
-- **Fish:** [fish-vscode](https://marketplace.visualstudio.com/items?itemName=skyapps.fish-vscode)
-- **PowerShell:** buildin
-- **Diff:** buildin
-- **Git:** buildin
-- **Makefile:** buildin
-- **CMake:** [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
-- **Dockerfile:** buildin, [vscode-docker-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-docker-syntax), [Better Dockerfile Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax)
-- **VimL:** [vscode-viml-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.viml)
-- **Tmux:** [tmux](https://marketplace.visualstudio.com/items?itemName=malmaud.tmux)
-- **JSON:** buildin
-- **YAML:** buildin
-- **TOML:** [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
-
 ## Contribution
 
 To hack this theme, clone the repository on github and open the folder using vscode, then modify colors in `./themes/*` and press `F5`.
@@ -139,6 +63,133 @@ To hack this theme, clone the repository on github and open the folder using vsc
 ## Related Projects
 
 See [gruvbox-material#related-projects](https://github.com/sainnhe/gruvbox-material#related-projects)
+
+## FAQ
+
+**Q: What's the font used in the screenshots?**
+
+**A:** [Fira Code iCursive Op](https://github.com/sainnhe/icursive-nerd-font)
+
+**Q: How to enable italic in this theme?**
+
+**A:** See this [blog](https://dev.to/salted-bytes/adding-italics-support-to-your-favourite-vscode-theme-2ec9).
+
+Example config(enable italic in all themes):
+
+```json
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "emphasis",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "strong",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "markup.underline",
+                "settings": {
+                    "fontStyle": "underline"
+                }
+            },
+            {
+                "scope": "markup.bold",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "markup.heading",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "markup.italic",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "storage.modifier",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "String interpolation",
+                "scope": [
+                    "punctuation.definition.template-expression.begin",
+                    "punctuation.definition.template-expression.end",
+                    "punctuation.section.embedded"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator.new",
+                    "keyword.operator.expression",
+                    "keyword.operator.cast",
+                    "keyword.operator.sizeof",
+                    "keyword.operator.logical.python"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "this.self",
+                "scope": "variable.language",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "@Decorator",
+                "scope": [
+                    "meta.decorator punctuation.decorator"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.comment",
+                    "comment"
+                ],
+                "settings": {
+                    "fontStyle": "regular"
+                }
+            }
+        ]
+    }
+```
 
 ## Thanks to
 

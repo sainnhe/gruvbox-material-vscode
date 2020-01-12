@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 4.2.0
+
+-   Support italics.
+
 ## 4.1.8
 
 -   Optimize js.
