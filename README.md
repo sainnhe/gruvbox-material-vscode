@@ -40,9 +40,9 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode">Repository</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode/issues">Issues</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md">Changelog</a>
+  <a href="https://github.com/gruvbox-material/vscode">Repository</a> |
+  <a href="https://github.com/gruvbox-material/vscode/issues">Issues</a> |
+  <a href="https://github.com/gruvbox-material/vscode/blob/master/CHANGELOG.md">Changelog</a>
   <br><br>
 </p>
 
@@ -200,4 +200,4 @@ Example config(enable italic in all themes):
 
 ## License
 
-[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE)
+[MIT](https://github.com/gruvbox-material/vscode/blob/master/LICENSE)
