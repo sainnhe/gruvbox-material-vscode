@@ -6,7 +6,7 @@
     "publisher": "sainnhe",
     "version": "4.2.0",
     "icon": "icon.png",
-    "license": "MIT, Anti-996",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.37.0"
     },

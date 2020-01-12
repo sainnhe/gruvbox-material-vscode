@@ -200,4 +200,4 @@ Example config(enable italic in all themes):
 
 ## License
 
-[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE) && [Anti-996](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/Anti-996-LICENSE)
+[MIT](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE)
