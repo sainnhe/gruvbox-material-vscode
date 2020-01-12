@@ -17,10 +17,10 @@
         "color": "#32302f",
         "theme": "dark"
     },
-    "homepage": "https://github.com/sainnhe/gruvbox-material-vscode",
+    "homepage": "https://github.com/gruvbox-material/vscode",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sainnhe/gruvbox-material-vscode.git"
+        "url": "https://github.com/gruvbox-material/vscode.git"
     },
     "contributes": {
         "themes": [
