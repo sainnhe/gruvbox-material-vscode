@@ -48,7 +48,7 @@
 
 This color scheme is a port of [Gruvbox Material](https://github.com/gruvbox-material/gruvbox-material) for Visual Studio Code. 
 
-> Gruvbox Material is a color scheme designed for eye protection, based on [morhetz/gruvbox](https://github.com/morhetz/gruvbox).
+> Gruvbox Material is a modified version of [Gruvbox](https://github.com/morhetz/gruvbox), the contrast is adjusted to be softer in order to protect developers' eyes.
 
 ## Installation
 
