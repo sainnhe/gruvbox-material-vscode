@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 4.2.1
+
+-   Transfer the ownership of this repository to [gruvbox-material](https://github.com/gruvbox-material).
+
 ## 4.2.0
 
 -   Support italics.
