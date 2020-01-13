@@ -46,23 +46,31 @@
   <br><br>
 </p>
 
-This theme is a port of [gruvbox-material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code. 
+This color scheme is a port of [Gruvbox Material](https://github.com/gruvbox-material/gruvbox-material) for Visual Studio Code. 
 
-> In my opinion, the very first thing a color scheme should do is to be eye-friendly, anything else is secondary. This requires soft contrast and low blue light.
->
-> Gruvbox Material is based on Gruvbox, but with a very different color palette, I'm trying to adjust the foreground colors to match these requirements.
+> Gruvbox Material is a color scheme designed for eye protection, based on [morhetz/gruvbox](https://github.com/morhetz/gruvbox).
 
-## Contribution
+## Installation
 
-To hack this theme, clone the repository on github and open the folder using vscode, then modify colors in `./themes/*` and press `F5`.
+### Via Marketplace
 
-[Extension Guides: Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme)
+1. Press extensions icon in your vscode.
+2. Search `sainnhe.gruvbox-material`.
+3. Select this extension and press `install` button.
 
-[Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
+### Via Quick Open
 
-## Related Projects
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
-See [gruvbox-material#related-projects](https://github.com/sainnhe/gruvbox-material#related-projects)
+```
+ext install sainnhe.gruvbox-material
+```
+
+## Usage
+
+1. Click the gear button in the lower left corner.
+2. Click `Color Theme`.
+3. Select Gruvbox Material in the list.
 
 ## FAQ
 
@@ -191,9 +199,19 @@ Example config(enable italic in all themes):
     }
 ```
 
+## Related Projects
+
+See [gruvbox-material/gruvbox-material](https://github.com/gruvbox-material/gruvbox-material)
+
+## Maintainer(s)
+
+This project is maintained by
+
+- [@sainnhe](https://github.com/sainnhe/)
+- [@GulajavaMinistudio](https://github.com/GulajavaMinistudio)
+
 ## Thanks to
 
-- [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
 - [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox): workbench colors are based on it
 - [Tyriar/vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator): common highlight groups are inspired by it
 - [@GulajavaMinistudio](https://github.com/GulajavaMinistudio): icon for this extension
