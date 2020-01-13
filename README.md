@@ -223,4 +223,4 @@ See [CONTRIBUTING.md](https://github.com/gruvbox-material/gruvbox-material/blob/
 
 ## License
 
-[MIT](https://github.com/gruvbox-material/vscode/blob/master/LICENSE)
+[MIT License](https://github.com/gruvbox-material/vscode/blob/master/LICENSE) © Gruvbox Material
