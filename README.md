@@ -203,18 +203,19 @@ Example config(enable italic in all themes):
 
 See [gruvbox-material/gruvbox-material](https://github.com/gruvbox-material/gruvbox-material)
 
-## Maintainer(s)
+## Credits
 
-This project is maintained by
+- The color palette is based on [gruvbox](https://github.com/morhetz/gruvbox) by [@morhetz](https://github.com/morhetz)
+- The color palette is adjusted by [@sainnhe](https://github.com/sainnhe)
+- Workbench colors are based on [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
+- The icon is designed by [@GulajavaMinistudio](https://github.com/GulajavaMinistudio)
 
-- [@sainnhe](https://github.com/sainnhe/)
-- [@GulajavaMinistudio](https://github.com/GulajavaMinistudio)
+## Inspirations
 
-## Thanks to
-
-- [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox): workbench colors are based on it
-- [Tyriar/vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator): common highlight groups are inspired by it
-- [@GulajavaMinistudio](https://github.com/GulajavaMinistudio): icon for this extension
+- [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
+- [atom.io](https://atom.io): the `white` color in the dark variant
+- [zefei/cake16](https://github.com/zefei/cake16): the `black` color in the light variant
+- [Google Material Design](https://www.material.io)
 
 ## License
 
