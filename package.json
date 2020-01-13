@@ -1,7 +1,7 @@
 {
     "name": "gruvbox-material",
     "displayName": "Gruvbox Material",
-    "description": "Gruvbox with Material Palette",
+    "description": "A color scheme designed for eye protection, port for vscode.",
     "author": "Sainnhe Park (https://github.com/sainnhe)",
     "publisher": "sainnhe",
     "version": "4.2.0",
