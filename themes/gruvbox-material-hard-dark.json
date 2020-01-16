@@ -12,7 +12,7 @@
         // Syntax{{{
         {
             "name": "Keyword",
-            "scope": "keyword, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete",
+            "scope": "keyword, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete, storage.type.extends",
             "settings": {
                 "foreground": "#ea6962"
             }
@@ -39,20 +39,6 @@
             }
         },
         {
-            "name": "Type",
-            "scope": "storage.type, support.type, entity.name.type, keyword.type",
-            "settings": {
-                "foreground": "#7daea3"
-            }
-        },
-        {
-            "name": "String Escape",
-            "scope": "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, constant.other.placeholder, variable.interpolation",
-            "settings": {
-                "foreground": "#a9b665"
-            }
-        },
-        {
             "name": "String",
             "scope": "string, punctuation.definition.string.end, punctuation.definition.string.begin",
             "settings": {
@@ -64,6 +50,13 @@
             "scope": "entity.other.attribute-name",
             "settings": {
                 "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "String Escape",
+            "scope": "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, constant.other.placeholder, variable.interpolation",
+            "settings": {
+                "foreground": "#a9b665"
             }
         },
         {
@@ -102,6 +95,13 @@
             }
         },
         {
+            "name": "Label",
+            "scope": "entity.name.label, constant.other.label",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
             "name": "Modules",
             "scope": "support.module, support.node, support.other.module, support.type.object.module, entity.name.type.module, entity.name.type.class.module, keyword.control.module",
             "settings": {
@@ -109,10 +109,17 @@
             }
         },
         {
+            "name": "Type",
+            "scope": "storage.type, support.type, entity.name.type, keyword.type",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
             "name": "Class",
             "scope": "entity.name.type.class, support.class, entity.name.class, entity.other.inherited-class, storage.class",
             "settings": {
-                "foreground": "#d3869b"
+                "foreground": "#7daea3"
             }
         },
         {
@@ -491,7 +498,7 @@
         },
         {
             "name": "JavaScript grey",
-            "scope": "punctuation.accessor.js, punctuation.separator.key-value.js",
+            "scope": "punctuation.accessor.js, punctuation.separator.key-value.js, punctuation.separator.label.js",
             "settings": {
                 "foreground": "#928374"
             }
