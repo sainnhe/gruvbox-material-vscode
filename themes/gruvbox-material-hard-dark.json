@@ -46,15 +46,8 @@
             }
         },
         {
-            "name": "Attribute",
-            "scope": "entity.other.attribute-name",
-            "settings": {
-                "foreground": "#7daea3"
-            }
-        },
-        {
             "name": "String Escape",
-            "scope": "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, constant.other.placeholder",
+            "scope": "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, constant.other.placeholder, variable.interpolation",
             "settings": {
                 "foreground": "#a9b665"
             }
@@ -62,6 +55,13 @@
         {
             "name": "String",
             "scope": "string, punctuation.definition.string.end, punctuation.definition.string.begin",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Attribute",
+            "scope": "entity.other.attribute-name",
             "settings": {
                 "foreground": "#d8a657"
             }
@@ -381,6 +381,101 @@
         {
             "name": "Html purple",
             "scope": "variable.language.documentroot.xml, meta.tag.sgml.doctype.xml",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // CSS{{{
+        {
+            "name": "CSS grey",
+            "scope": "punctuation.definition.entity.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.separator.list.comma.css",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "CSS red",
+            "scope": "entity.other.attribute-name.class.css",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "CSS orange",
+            "scope": "keyword.other.unit",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "CSS yellow",
+            "scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "CSS green",
+            "scope": "string.quoted.single.css, string.quoted.double.css, support.constant.property-value.css, meta.property-value.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, constant.numeric.css, support.constant.font-name.css, variable.parameter.keyframe-list.css",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "CSS aqua",
+            "scope": "support.type.property-name.css",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "CSS blue",
+            "scope": "support.type.vendored.property-name.css",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "CSS purple",
+            "scope": "entity.name.tag.css, entity.other.keyframe-offset.css, punctuation.definition.keyword.css, keyword.control.at-rule.keyframes.css, meta.selector.css",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // SASS{{{
+        {
+            "name": "SASS grey",
+            "scope": "punctuation.definition.keyword.scss, punctuation.separator.key-value.scss",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "SASS orange",
+            "scope": "keyword.control.at-rule.keyframes.scss",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "SASS yellow",
+            "scope": "punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "SASS green",
+            "scope": "punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, string.quoted.double.scss, string.quoted.single.scss, constant.character.css.sass, meta.property-value.scss",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "SASS purple",
+            "scope": "keyword.control.at-rule.include.scss, keyword.control.at-rule.use.scss, keyword.control.at-rule.mixin.scss, keyword.control.at-rule.extend.scss, keyword.control.at-rule.import.scss",
             "settings": {
                 "foreground": "#d3869b"
             }
