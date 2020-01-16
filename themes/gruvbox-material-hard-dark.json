@@ -103,7 +103,7 @@
         },
         {
             "name": "Modules",
-            "scope": "support.module, support.node, support.other.module, entity.name.type.module, entity.name.type.class.module",
+            "scope": "support.module, support.node, support.other.module, support.type.object.module, entity.name.type.module, entity.name.type.class.module",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -131,14 +131,14 @@
         },
         {
             "name": "Constant",
-            "scope": "constant.language",
+            "scope": "constant.language, support.constant",
             "settings": {
                 "foreground": "#d3869b"
             }
         },
         {
             "name": "Identifier",
-            "scope": "variable, support.variable, support.constant, meta.definition.variable",
+            "scope": "variable, support.variable, meta.definition.variable",
             "settings": {
                 "foreground": "#d4be98"
             }
@@ -524,6 +524,29 @@
             "scope": "keyword.control.at-rule.include.scss, keyword.control.at-rule.use.scss, keyword.control.at-rule.mixin.scss, keyword.control.at-rule.extend.scss, keyword.control.at-rule.import.scss",
             "settings": {
                 "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // JavaScript{{{
+        {
+            "name": "JavaScript grey",
+            "scope": "punctuation.accessor.js, punctuation.separator.key-value.js",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "JavaScript red",
+            "scope": "punctuation.definition.block.tag.jsdoc",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "JavaScript orange",
+            "scope": "storage.type.js, storage.type.function.arrow.js",
+            "settings": {
+                "foreground": "#e78a4e"
             }
         },
         // }}}
