@@ -12,7 +12,7 @@
         // Syntax{{{
         {
             "name": "Keyword",
-            "scope": "keyword, support.type.object, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete",
+            "scope": "keyword, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete",
             "settings": {
                 "foreground": "#ea6962"
             }
@@ -103,7 +103,7 @@
         },
         {
             "name": "Modules",
-            "scope": "support.module, support.node, support.other.module, support.type.object.module, entity.name.type.module, entity.name.type.class.module",
+            "scope": "support.module, support.node, support.other.module, support.type.object.module, entity.name.type.module, entity.name.type.class.module, keyword.control.module",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -124,7 +124,7 @@
         },
         {
             "name": "Special identifier",
-            "scope": "variable.language.this, variable.language.super, keyword.other.this, variable.language.special",
+            "scope": "variable.language.this, variable.language.self, variable.language.super, keyword.other.this, variable.language.special",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -152,7 +152,7 @@
         },
         {
             "name": "Delimiter",
-            "scope": "punctuation, meta.brace",
+            "scope": "punctuation, meta.brace, meta.delimiter",
             "settings": {
                 "foreground": "#d4be98"
             }
@@ -528,6 +528,13 @@
         },
         // }}}
         // JavaScript{{{
+        {
+            "name": "JavaScript white",
+            "scope": "string.unquoted.js",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
         {
             "name": "JavaScript grey",
             "scope": "punctuation.accessor.js, punctuation.separator.key-value.js",
