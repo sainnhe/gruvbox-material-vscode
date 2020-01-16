@@ -375,7 +375,7 @@
         },
         {
             "name": "LaTex White",
-            "scope": "entity.name.section.latex",
+            "scope": "entity.name.section.latex, meta.group.braces.tex",
             "settings": {
                 "foreground": "#d4be98"
             }
@@ -388,13 +388,6 @@
             }
         },
         {
-            "name": "LaTex orange",
-            "scope": "support.function.section.latex, keyword.control.table.newline.latex, keyword.control.table.cell.latex",
-            "settings": {
-                "foreground": "#e78a4e"
-            }
-        },
-        {
             "name": "LaTex yellow",
             "scope": "support.class.latex",
             "settings": {
@@ -402,40 +395,54 @@
             }
         },
         {
-            "name": "LaTex aqua",
-            "scope": "variable.parameter.function.latex, variable.parameter.latex",
-            "settings": {
-                "foreground": "#89b482"
-            }
-        },
-        {
-            "name": "LaTex purple",
-            "scope": "keyword.control.preamble.latex",
-            "settings": {
-                "foreground": "#d3869b"
-            }
-        },
-        // }}}
-        // Html/Xml{{{
-        {
-            "name": "Html Green",
-            "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, string.quoted.double.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, punctuation.separator.key-value.html, punctuation.definition.tag.xml, meta.tag.xml, string.quoted.double.xml, punctuation.definition.string.begin.xml, punctuation.definition.string.end.xml",
+            "name": "LaTex green",
+            "scope": "variable.parameter.latex, variable.parameter.function.latex, meta.group.braces.tex, variable.parameter.definition.label.latex, entity.name.section.latex, markup.underline.link.latex",
             "settings": {
                 "foreground": "#a9b665"
             }
         },
         {
+            "name": "LaTex aqua",
+            "scope": "keyword.control.preamble.latex",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
+        // Html/Xml{{{
+        {
+            "name": "Html orange",
+            "scope": "entity.name.tag.html, entity.name.tag.xml, entity.name.tag.localname.xml",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
             "name": "Html aqua",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name.localname.xml",
+            "scope": "punctuation.separator.key-value.html, meta.internalsubset.xml",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
+            "name": "Html yellow",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
             "name": "Html purple",
-            "scope": "meta.tag.metadata.script.start.html, variable.language.documentroot.xml",
+            "scope": "meta.tag.metadata.script.start.html",
             "settings": {
                 "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "Html delimiter",
+            "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.xml",
+            "settings": {
+                "foreground": "#928374"
             }
         },
         // }}}
@@ -462,6 +469,13 @@
             }
         },
         {
+            "name": "CSS yellow",
+            "scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
             "name": "CSS green",
             "scope": "string.quoted.single.css, string.quoted.double.css, support.constant.property-value.css, meta.property-value.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, constant.numeric.css, support.constant.font-name.css",
             "settings": {
@@ -476,15 +490,8 @@
             }
         },
         {
-            "name": "CSS blue",
-            "scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
-            "settings": {
-                "foreground": "#7daea3"
-            }
-        },
-        {
             "name": "CSS purple",
-            "scope": "entity.name.tag.css, entity.other.keyframe-offset.css, punctuation.definition.keyword.css",
+            "scope": "entity.name.tag.css, entity.other.keyframe-offset.css, punctuation.definition.keyword.css, keyword.control.at-rule.keyframes.css",
             "settings": {
                 "foreground": "#d3869b"
             }
@@ -500,21 +507,21 @@
         },
         {
             "name": "SASS yellow",
-            "scope": "punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss",
+            "scope": "keyword.control.at-rule.keyframes.scss, punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss",
             "settings": {
                 "foreground": "#d8a657"
             }
         },
         {
             "name": "SASS green",
-            "scope": "punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, string.quoted.double.scss, string.quoted.single.scss, constant.character.css.sass",
+            "scope": "punctuation.definition.keyword.scss, punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, string.quoted.double.scss, string.quoted.single.scss, constant.character.css.sass",
             "settings": {
                 "foreground": "#a9b665"
             }
         },
         {
             "name": "SASS purple",
-            "scope": "punctuation.definition.keyword.scss",
+            "scope": "keyword.control.at-rule.include.scss, keyword.control.at-rule.use.scss, keyword.control.at-rule.mixin.scss, keyword.control.at-rule.extend.scss, keyword.control.at-rule.import.scss",
             "settings": {
                 "foreground": "#d3869b"
             }
