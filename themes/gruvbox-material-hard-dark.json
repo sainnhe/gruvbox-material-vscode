@@ -631,6 +631,80 @@
             }
         },
         // }}}
+        // Diff{{{
+        {
+            "name": "Diff grey",
+            "scope": "punctuation.definition.separator.diff",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Diff red",
+            "scope": "markup.deleted.diff, punctuation.definition.deleted.diff",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Diff orange",
+            "scope": "meta.diff.range.context, punctuation.definition.range.diff",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Diff yellow",
+            "scope": "meta.diff.header.from-file, markup.changed.diff, punctuation.definition.changed.diff",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Diff green",
+            "scope": "markup.inserted.diff, punctuation.definition.inserted.diff",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Diff purple",
+            "scope": "punctuation.definition.from-file.diff",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // {{{Git
+        {
+            "name": "Git red",
+            "scope": "entity.name.section.group-title.ini, punctuation.definition.entity.ini",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Git orange",
+            "scope": "punctuation.separator.key-value.ini",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Git green",
+            "scope": "string.quoted.double.ini, string.quoted.single.ini, punctuation.definition.string.begin.ini, punctuation.definition.string.end.ini",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Git aqua",
+            "scope": "keyword.other.definition.ini",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",
