@@ -40,7 +40,7 @@
         },
         {
             "name": "String",
-            "scope": "string, punctuation.definition.string.end, punctuation.definition.string.begin",
+            "scope": "string, punctuation.definition.string.end, punctuation.definition.string.begin, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
             "settings": {
                 "foreground": "#d8a657"
             }
@@ -82,7 +82,7 @@
         },
         {
             "name": "Preproc",
-            "scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive, keyword.preprocessor, punctuation.definition.preprocessor, punctuation.definition.directive, keyword.other.import, keyword.other.package, entity.name.type.namespace, entity.name.scope-resolution, keyword.other.using, keyword.package, keyword.import, keyword.map, keyword.control.from, keyword.control.as",
+            "scope": "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive, keyword.preprocessor, punctuation.definition.preprocessor, punctuation.definition.directive, keyword.other.import, keyword.other.package, entity.name.type.namespace, entity.name.scope-resolution, keyword.other.using, keyword.package, keyword.import, keyword.map",
             "settings": {
                 "foreground": "#89b482"
             }
@@ -531,6 +531,66 @@
             "scope": "punctuation.definition.tag.jsx, entity.other.attribute-name.jsx, punctuation.definition.tag.begin.js.jsx, punctuation.definition.tag.end.js.jsx, entity.other.attribute-name.js.jsx",
             "settings": {
                 "foreground": "#a9b665"
+            }
+        },
+        // }}}
+        // TypeScript{{{
+        {
+            "name": "TypeScript white",
+            "scope": "entity.name.type.module.ts",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "TypeScript grey",
+            "scope": "keyword.operator.type.annotation.ts, punctuation.accessor.ts, punctuation.separator.key-value.ts",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "TypeScript green",
+            "scope": "punctuation.definition.tag.directive.ts, entity.other.attribute-name.directive.ts",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "TypeScript orange",
+            "scope": "storage.type.ts, storage.type.function.arrow.ts",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        // }}}
+        // TSX{{{
+        {
+            "name": "TypeScript white",
+            "scope": "entity.name.type.module.tsx",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "TypeScript grey",
+            "scope": "keyword.operator.type.annotation.tsx, punctuation.accessor.tsx, punctuation.separator.key-value.tsx",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "TypeScript green",
+            "scope": "punctuation.definition.tag.directive.tsx, entity.other.attribute-name.directive.tsx, punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.tsx, entity.other.attribute-name.tsx",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "TypeScript orange",
+            "scope": "storage.type.tsx, storage.type.function.arrow.tsx, support.class.component.tsx",
+            "settings": {
+                "foreground": "#e78a4e"
             }
         },
         // }}}
