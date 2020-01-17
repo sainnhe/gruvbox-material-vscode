@@ -60,20 +60,6 @@
             }
         },
         {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "settings": {
-                "foreground": "#a9b665"
-            }
-        },
-        {
-            "name": "Boolean",
-            "scope": "constant.language.boolean",
-            "settings": {
-                "foreground": "#a9b665"
-            }
-        },
-        {
             "name": "Function",
             "scope": "entity.name.function, support.function, meta.function, meta.function-call, entity.name.function, meta.definition.method",
             "settings": {
@@ -120,6 +106,20 @@
             "scope": "entity.name.type.class, support.class, entity.name.class, entity.other.inherited-class, storage.class",
             "settings": {
                 "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "Boolean",
+            "scope": "constant.language.boolean",
+            "settings": {
+                "foreground": "#d3869b"
             }
         },
         {
