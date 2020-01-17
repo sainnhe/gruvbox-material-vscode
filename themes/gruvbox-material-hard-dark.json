@@ -166,7 +166,7 @@
         },
         {
             "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
+            "scope": "comment, string.comment, punctuation.definition.comment",
             "settings": {
                 "foreground": "#928374",
                 "fontStyle": "italic"
@@ -591,6 +591,126 @@
             "scope": "storage.type.tsx, storage.type.function.arrow.tsx, support.class.component.tsx",
             "settings": {
                 "foreground": "#e78a4e"
+            }
+        },
+        // }}}
+        // CoffeeScript{{{
+        {
+            "name": "CoffeeScript orange",
+            "scope": "storage.type.function.coffee",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        // }}}
+        // PureScript{{{
+        {
+            "name": "PureScript white",
+            "scope": "meta.type-signature.purescript",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "PureScript orange",
+            "scope": "keyword.other.double-colon.purescript, keyword.other.arrow.purescript, keyword.other.big-arrow.purescript",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "PureScript yellow",
+            "scope": "entity.name.function.purescript",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "PureScript green",
+            "scope": "string.quoted.single.purescript, string.quoted.double.purescript, punctuation.definition.string.begin.purescript, punctuation.definition.string.end.purescript, string.quoted.triple.purescript, entity.name.type.purescript",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "PureScript purple",
+            "scope": "support.other.module.purescript",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // Dart{{{
+        {
+            "name": "Dart grey",
+            "scope": "punctuation.dot.dart",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Dart orange",
+            "scope": "storage.type.primitive.dart",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Dart yellow",
+            "scope": "support.class.dart",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Dart green",
+            "scope": "entity.name.function.dart, string.interpolated.single.dart, string.interpolated.double.dart",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Dart blue",
+            "scope": "variable.language.dart",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Dart purple",
+            "scope": "keyword.other.import.dart, storage.type.annotation.dart",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // Pug{{{
+        {
+            "name": "Pug red",
+            "scope": "entity.other.attribute-name.class.pug",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Pug orange",
+            "scope": "storage.type.function.pug",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Pug aqua",
+            "scope": "entity.other.attribute-name.tag.pug",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Pug purple",
+            "scope": "entity.name.tag.pug, storage.type.import.include.pug",
+            "settings": {
+                "foreground": "#d3869b"
             }
         },
         // }}}
