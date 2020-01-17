@@ -594,6 +594,43 @@
             }
         },
         // }}}
+        // {{{Dockerfile
+        {
+            "name": "Dockerfile orange",
+            "scope": "entity.name.function.package-manager.dockerfile",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Dockerfile yellow",
+            "scope": "keyword.operator.flag.dockerfile",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Dockerfile green",
+            "scope": "string.quoted.double.dockerfile, string.quoted.single.dockerfile",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Dockerfile aqua",
+            "scope": "constant.character.escape.dockerfile",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Dockerfile purple",
+            "scope": "entity.name.type.base-image.dockerfile, entity.name.image.dockerfile",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // JSON{{{
         {
             "name": "JSON grey",
@@ -627,7 +664,7 @@
         },
         {
             "name": "YAML green",
-            "scope": "string.unquoted.plain.out.yaml, string.quoted.single.yaml, punctuation.definition.string.begin.yaml, punctuation.definition.string.end.yaml, string.unquoted.plain.in.yaml",
+            "scope": "string.unquoted.plain.out.yaml, string.quoted.single.yaml, string.quoted.double.yaml, punctuation.definition.string.begin.yaml, punctuation.definition.string.end.yaml, string.unquoted.plain.in.yaml",
             "settings": {
                 "foreground": "#a9b665"
             }
@@ -650,7 +687,7 @@
         },
         {
             "name": "TOML green",
-            "scope": "string.quoted.single.basic.line.toml, punctuation.definition.keyValuePair.toml",
+            "scope": "string.quoted.single.basic.line.toml, string.quoted.single.literal.line.toml, punctuation.definition.keyValuePair.toml",
             "settings": {
                 "foreground": "#a9b665"
             }
