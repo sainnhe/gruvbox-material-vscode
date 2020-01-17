@@ -594,38 +594,77 @@
             }
         },
         // }}}
-        // TOML{{{
+        // JSON{{{
         {
-            "name": "TOML red",
-            "scope": "entity.other.attribute-name.table.toml, punctuation.definition.table.toml, meta.tag.table.toml",
+            "name": "JSON grey",
+            "scope": "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, punctuation.separator.dictionary.pair.json",
             "settings": {
-                "foreground": "#ea6962"
+                "foreground": "#928374"
             }
         },
         {
-            "name": "TOML orange",
-            "scope": "punctuation.definition.keyValuePair.toml",
+            "name": "JSON orange",
+            "scope": "support.type.property-name.json",
             "settings": {
                 "foreground": "#e78a4e"
             }
         },
         {
-            "name": "TOML aqua",
-            "scope": "constant.other.datetime-with-timezone.toml, constant.other.date.toml, constant.other.datetime.toml",
+            "name": "JSON green",
+            "scope": "string.quoted.double.json",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        // }}}
+        // YAML{{{
+        {
+            "name": "YAML grey",
+            "scope": "punctuation.separator.key-value.mapping.yaml",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "YAML green",
+            "scope": "string.unquoted.plain.out.yaml, string.quoted.single.yaml, punctuation.definition.string.begin.yaml, punctuation.definition.string.end.yaml, string.unquoted.plain.in.yaml",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "YAML aqua",
+            "scope": "punctuation.definition.anchor.yaml, punctuation.definition.block.sequence.item.yaml",
             "settings": {
                 "foreground": "#89b482"
             }
         },
+        // }}}
+        // TOML{{{
+        {
+            "name": "TOML orange",
+            "scope": "keyword.key.toml",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "TOML green",
+            "scope": "string.quoted.single.basic.line.toml, punctuation.definition.keyValuePair.toml",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
         {
             "name": "TOML blue",
-            "scope": "keyword.key.toml",
+            "scope": "constant.other.boolean.toml",
             "settings": {
                 "foreground": "#7daea3"
             }
         },
         {
             "name": "TOML purple",
-            "scope": "constant.other.boolean.toml, entity.other.attribute-name.table.array.toml, punctuation.definition.table.array.toml",
+            "scope": "entity.other.attribute-name.table.toml, punctuation.definition.table.toml, entity.other.attribute-name.table.array.toml, punctuation.definition.table.array.toml",
             "settings": {
                 "foreground": "#d3869b"
             }
