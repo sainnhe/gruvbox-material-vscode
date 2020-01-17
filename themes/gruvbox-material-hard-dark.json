@@ -518,6 +518,22 @@
             }
         },
         // }}}
+        // JSX{{{
+        {
+            "name": "JSX white",
+            "scope": "JSXNested",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "JSX green",
+            "scope": "punctuation.definition.tag.jsx, entity.other.attribute-name.jsx, punctuation.definition.tag.begin.js.jsx, punctuation.definition.tag.end.js.jsx, entity.other.attribute-name.js.jsx",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        // }}}
         // TOML{{{
         {
             "name": "TOML red",
