@@ -594,6 +594,52 @@
             }
         },
         // }}}
+        // {{{Makefile
+        {
+            "name": "Makefile orange",
+            "scope": "entity.name.function.target.makefile",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Makefile yellow",
+            "scope": "variable.other.makefile",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Makefile green",
+            "scope": "meta.scope.prerequisites.makefile",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        // }}}
+        // {{{CMake
+        {
+            "name": "CMake green",
+            "scope": "string.source.cmake",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "CMake aqua",
+            "scope": "entity.source.cmake",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "CMake purple",
+            "scope": "storage.source.cmake",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Dockerfile
         {
             "name": "Dockerfile orange",
