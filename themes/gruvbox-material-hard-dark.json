@@ -1096,6 +1096,22 @@
             }
         },
         // }}}
+        // Swift{{{
+        {
+            "name": "Swift white",
+            "scope": "meta.function-call.swift, support.function.any-method.swift",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "Swift aqua",
+            "scope": "support.variable.swift",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
