@@ -557,38 +557,80 @@
             }
         },
         {
+            "name": "TypeScript aqua",
+            "scope": "entity.name.type.ts, entity.name.type.interface.ts, entity.other.inherited-class.ts, entity.name.type.alias.ts, entity.name.type.class.ts, entity.name.type.enum.ts",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
             "name": "TypeScript orange",
-            "scope": "storage.type.ts, storage.type.function.arrow.ts",
+            "scope": "storage.type.ts, storage.type.function.arrow.ts, storage.type.type.ts",
             "settings": {
                 "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "TypeScript blue",
+            "scope": "entity.name.type.module.ts",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "TypeScript purple",
+            "scope": "keyword.control.import.ts, keyword.control.export.ts, storage.type.namespace.ts",
+            "settings": {
+                "foreground": "#d3869b"
             }
         },
         // }}}
         // TSX{{{
         {
-            "name": "TypeScript white",
+            "name": "TSX white",
             "scope": "entity.name.type.module.tsx",
             "settings": {
                 "foreground": "#d4be98"
             }
         },
         {
-            "name": "TypeScript grey",
+            "name": "TSX grey",
             "scope": "keyword.operator.type.annotation.tsx, punctuation.accessor.tsx, punctuation.separator.key-value.tsx",
             "settings": {
                 "foreground": "#928374"
             }
         },
         {
-            "name": "TypeScript green",
+            "name": "TSX green",
             "scope": "punctuation.definition.tag.directive.tsx, entity.other.attribute-name.directive.tsx, punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.tsx, entity.other.attribute-name.tsx",
             "settings": {
                 "foreground": "#a9b665"
             }
         },
         {
-            "name": "TypeScript orange",
-            "scope": "storage.type.tsx, storage.type.function.arrow.tsx, support.class.component.tsx",
+            "name": "TSX aqua",
+            "scope": "entity.name.type.tsx, entity.name.type.interface.tsx, entity.other.inherited-class.tsx, entity.name.type.alias.tsx, entity.name.type.class.tsx, entity.name.type.enum.tsx",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "TSX blue",
+            "scope": "entity.name.type.module.tsx",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "TSX purple",
+            "scope": "keyword.control.import.tsx, keyword.control.export.tsx, storage.type.namespace.tsx",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "TSX orange",
+            "scope": "storage.type.tsx, storage.type.function.arrow.tsx, storage.type.type.tsx, support.class.component.tsx",
             "settings": {
                 "foreground": "#e78a4e"
             }
@@ -767,63 +809,63 @@
         // }}}
         // C++{{{
         {
-            "name": "CPP white",
+            "name": "C++ white",
             "scope": "meta.function-call.cpp, storage.modifier.array.bracket.square.cpp, meta.body.function.definition.cpp",
             "settings": {
                 "foreground": "#d4be98"
             }
         },
         {
-            "name": "CPP grey",
+            "name": "C++ grey",
             "scope": "punctuation.separator.scope-resolution.function.call.cpp, punctuation.separator.scope-resolution.cpp, punctuation.separator.scope-resolution.parameter.cpp, punctuation.separator.scope-resolution.constructor.cpp, punctuation.separator.scope-resolution.function.definition.cpp, punctuation.separator.scope-resolution.destructor.cpp, punctuation.separator.scope-resolution.template.call.cpp",
             "settings": {
                 "foreground": "#928374"
             }
         },
         {
-            "name": "CPP red",
+            "name": "C++ red",
             "scope": "keyword.control.switch.cpp, keyword.control.case.cpp",
             "settings": {
                 "foreground": "#ea6962"
             }
         },
         {
-            "name": "CPP orange",
+            "name": "C++ orange",
             "scope": "storage.type.built-in.primitive.cpp, storage.type.built-in.cpp, storage.type.struct.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp",
             "settings": {
                 "foreground": "#e78a4e"
             }
         },
         {
-            "name": "CPP yellow",
+            "name": "C++ yellow",
             "scope": "entity.name.type.cpp, entity.name.type.parameter.cpp, storage.type.built-in.cpp, storage.type.built-in.primitive.cpp, constant.other.placeholder.cpp, constant.character.escape.cpp",
             "settings": {
                 "foreground": "#d8a657"
             }
         },
         {
-            "name": "CPP green",
+            "name": "C++ green",
             "scope": "keyword.operator.sizeof.cpp, string.quoted.other.lt-gt.include.cpp, string.quoted.double.include.cpp, string.quoted.double.cpp, string.quoted.single.cpp, punctuation.definition.string.begin.cpp, punctuation.definition.string.end.cpp",
             "settings": {
                 "foreground": "#a9b665"
             }
         },
         {
-            "name": "CPP aqua",
+            "name": "C++ aqua",
             "scope": "entity.name.scope-resolution, entity.name.namespace.cpp",
             "settings": {
                 "foreground": "#89b482"
             }
         },
         {
-            "name": "CPP blue",
+            "name": "C++ blue",
             "scope": "storage.type.modifier.access.control.public.cpp, storage.type.modifier.access.control.private.cpp",
             "settings": {
                 "foreground": "#7daea3"
             }
         },
         {
-            "name": "CPP purple",
+            "name": "C++ purple",
             "scope": "entity.name.type.class.cpp, keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, storage.type.namespace.definition.cpp, keyword.other.using.directive.cpp, storage.type.namespace.directive.cpp, entity.name.label.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.define.cpp",
             "settings": {
                 "foreground": "#d3869b"
