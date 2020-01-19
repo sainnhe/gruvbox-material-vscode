@@ -934,6 +934,108 @@
             }
         },
         // }}}
+        // Scala{{{
+        {
+            "name": "Scala purple",
+            "scope": "entity.name.package.scala",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "Scala blue",
+            "scope": "constant.language.scala",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Scala aqua",
+            "scope": "entity.name.import.scala",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Scala green",
+            "scope": "string.quoted.double.scala, string.quoted.single.scala, punctuation.definition.string.begin.scala, punctuation.definition.string.end.scala, string.quoted.double.interpolated.scala, string.quoted.single.interpolated.scala, string.quoted.triple.scala",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Scala yellow",
+            "scope": "entity.name.class, entity.other.inherited-class.scala",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Scala orange",
+            "scope": "keyword.declaration.stable.scala, keyword.other.arrow.scala",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Scala red",
+            "scope": "keyword.other.import.scala",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        // }}}
+        // Groovy{{{
+        {
+            "name": "Groovy white",
+            "scope": "keyword.operator.navigation.groovy, meta.method.body.java, meta.definition.method.groovy, meta.definition.method.signature.java",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "Scala grey",
+            "scope": "punctuation.separator.groovy",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Scala red",
+            "scope": "keyword.other.import.groovy, keyword.other.package.groovy, keyword.other.import.static.groovy",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Groovy orange",
+            "scope": "storage.type.def.groovy",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Groovy green",
+            "scope": "variable.other.interpolated.groovy, meta.method.groovy",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Groovy aqua",
+            "scope": "storage.modifier.import.groovy, storage.modifier.package.groovy",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Groovy purple",
+            "scope": "storage.type.annotation.groovy",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
