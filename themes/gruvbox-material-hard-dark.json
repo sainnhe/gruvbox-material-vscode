@@ -1041,7 +1041,7 @@
         },
         {
             "name": "Diff yellow",
-            "scope": "meta.diff.header.from-file, markup.changed.diff, punctuation.definition.changed.diff",
+            "scope": "meta.diff.header.from-file",
             "settings": {
                 "foreground": "#d8a657"
             }
@@ -1051,6 +1051,13 @@
             "scope": "markup.inserted.diff, punctuation.definition.inserted.diff",
             "settings": {
                 "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Diff blue",
+            "scope": "markup.changed.diff, punctuation.definition.changed.diff",
+            "settings": {
+                "foreground": "#7daea3"
             }
         },
         {
