@@ -1149,6 +1149,36 @@
             }
         },
         // }}}
+        // Python{{{
+        {
+            "name": "Python white",
+            "scope": "meta.function-call.arguments.python",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "Python grey",
+            "scope": "punctuation.definition.decorator.python, punctuation.separator.period.python",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Python aqua",
+            "scope": "constant.language.python",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Python purple",
+            "scope": "keyword.control.import.python, keyword.control.import.from.python",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
