@@ -1112,6 +1112,43 @@
             }
         },
         // }}}
+        // PHP{{{
+        {
+            "name": "PHP white",
+            "scope": "keyword.operator.class.php",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "PHP orange",
+            "scope": "storage.type.trait.php",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "PHP aqua",
+            "scope": "constant.language.php, support.other.namespace.php",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "PHP blue",
+            "scope": "storage.type.modifier.access.control.public.cpp, storage.type.modifier.access.control.private.cpp",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "PHP purple",
+            "scope": "keyword.control.import.include.php, storage.type.php",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
