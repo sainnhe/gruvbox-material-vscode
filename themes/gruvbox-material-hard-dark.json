@@ -1036,6 +1036,29 @@
             }
         },
         // }}}
+        // Go{{{
+        {
+            "name": "Go red",
+            "scope": "keyword.type.go",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Go aqua",
+            "scope": "entity.name.package.go",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Go purple",
+            "scope": "keyword.import.go, keyword.package.go",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
