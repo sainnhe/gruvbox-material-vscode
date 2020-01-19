@@ -867,6 +867,73 @@
             }
         },
         // }}}
+        // Java{{{
+        {
+            "name": "Java grey",
+            "scope": "punctuation.separator.java, punctuation.separator.period.java",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Java red",
+            "scope": "keyword.other.import.java, keyword.other.package.java",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Java orange",
+            "scope": "storage.type.function.arrow.java, keyword.control.ternary.java",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Java aqua",
+            "scope": "variable.other.property.java",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Java purple",
+            "scope": "variable.language.wildcard.java, storage.modifier.import.java, storage.type.annotation.java, punctuation.definition.annotation.java, storage.modifier.package.java, entity.name.type.module.java",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
+        // Kotlin{{{
+        {
+            "name": "Kotlin red",
+            "scope": "keyword.other.import.kotlin",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Kotlin orange",
+            "scope": "storage.type.kotlin",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Kotlin aqua",
+            "scope": "constant.language.kotlin",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Kotlin purple",
+            "scope": "entity.name.package.kotlin, storage.type.annotation.kotlin",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
