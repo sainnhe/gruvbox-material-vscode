@@ -955,6 +955,43 @@
             }
         },
         // }}}
+        // F#{{{
+        {
+            "name": "F# white",
+            "scope": "keyword.symbol.fsharp, constant.language.unit.fsharp",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "F# yellow",
+            "scope": "keyword.format.specifier.fsharp, entity.name.type.fsharp",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "F# green",
+            "scope": "string.quoted.double.fsharp, string.quoted.single.fsharp, punctuation.definition.string.begin.fsharp, punctuation.definition.string.end.fsharp",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "F# blue",
+            "scope": "entity.name.section.fsharp",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "F# purple",
+            "scope": "support.function.attribute.fsharp",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Java{{{
         {
             "name": "Java grey",
