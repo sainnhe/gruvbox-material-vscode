@@ -415,13 +415,6 @@
                 "foreground": "#89b482"
             }
         },
-        {
-            "name": "Proto blue",
-            "scope": "entity.name.function",
-            "settings": {
-                "foreground": "#7daea3"
-            }
-        },
         // }}}
         // CSS{{{
         {
