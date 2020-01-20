@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 4.2.1
 
 -   Transfer the ownership of this repository to [gruvbox-material](https://github.com/gruvbox-material).
+-   Adjust syntax highlighting logic.
 
 ## 4.2.0
 
