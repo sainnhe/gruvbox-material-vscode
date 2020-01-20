@@ -1341,6 +1341,29 @@
             }
         },
         // }}}
+        // Elixir{{{
+        {
+            "name": "Elixir aqua",
+            "scope": "variable.other.readwrite.module.elixir, punctuation.definition.variable.elixir",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Elixir blue",
+            "scope": "constant.language.elixir",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Elixir purple",
+            "scope": "keyword.control.module.elixir",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
