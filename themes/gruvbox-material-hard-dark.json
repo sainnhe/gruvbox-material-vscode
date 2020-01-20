@@ -1440,6 +1440,36 @@
             }
         },
         // }}}
+        // Shell{{{
+        {
+            "name": "Shell white",
+            "scope": "meta.scope.if-block.shell, meta.scope.group.shell",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "Shell yellow",
+            "scope": "support.function.builtin.shell, entity.name.function.shell",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Shell green",
+            "scope": "string.quoted.double.shell, string.quoted.single.shell, punctuation.definition.string.begin.shell, punctuation.definition.string.end.shell, string.unquoted.heredoc.shell",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Shell purple",
+            "scope": "keyword.control.heredoc-token.shell, variable.other.normal.shell, punctuation.definition.variable.shell, variable.other.special.shell, variable.other.positional.shell, variable.other.bracket.shell",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
