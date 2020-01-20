@@ -1304,6 +1304,43 @@
             }
         },
         // }}}
+        // Erlang{{{
+        {
+            "name": "Erlang grey",
+            "scope": "punctuation.separator.module-function.erlang, punctuation.section.directive.begin.erlang",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "Erlang red",
+            "scope": "keyword.control.directive.erlang, keyword.control.directive.define.erlang",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Erlang yellow",
+            "scope": "entity.name.type.class.module.erlang",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Erlang green",
+            "scope": "string.quoted.double.erlang, string.quoted.single.erlang, punctuation.definition.string.begin.erlang, punctuation.definition.string.end.erlang",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Erlang purple",
+            "scope": "keyword.control.directive.export.erlang, keyword.control.directive.module.erlang, keyword.control.directive.import.erlang, keyword.control.directive.behaviour.erlang",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
