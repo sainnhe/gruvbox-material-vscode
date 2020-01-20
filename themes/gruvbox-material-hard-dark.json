@@ -1500,6 +1500,29 @@
             }
         },
         // }}}
+        // GraphQL{{{
+        {
+            "name": "GraphQL white",
+            "scope": "string.unquoted.alias.graphql",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "GraphQL red",
+            "scope": "keyword.type.graphql",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "GraphQL purple",
+            "scope": "entity.name.fragment.graphql",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
