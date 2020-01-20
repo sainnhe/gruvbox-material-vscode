@@ -1387,6 +1387,36 @@
             }
         },
         // }}}
+        // Common Lisp{{{
+        {
+            "name": "Lisp white",
+            "scope": "meta.function.lisp",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "Lisp red",
+            "scope": "storage.type.function-type.lisp",
+            "settings": {
+                "foreground": "#ea6962"
+            }
+        },
+        {
+            "name": "Lisp green",
+            "scope": "keyword.constant.lisp",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Lisp aqua",
+            "scope": "entity.name.function.lisp",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
