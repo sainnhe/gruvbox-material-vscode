@@ -1267,6 +1267,43 @@
             }
         },
         // }}}
+        // Haskell{{{
+        {
+            "name": "Haskell orange",
+            "scope": "keyword.other.arrow.haskell, keyword.other.big-arrow.haskell, keyword.other.double-colon.haskell",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "Haskell yellow",
+            "scope": "storage.type.haskell",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Haskell green",
+            "scope": "constant.other.haskell, string.quoted.double.haskell, string.quoted.single.haskell, punctuation.definition.string.begin.haskell, punctuation.definition.string.end.haskell",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Haskell blue",
+            "scope": "entity.name.function.haskell",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        {
+            "name": "Haskell aqua",
+            "scope": "entity.name.namespace, meta.preprocessor.haskell",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
