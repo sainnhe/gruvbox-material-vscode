@@ -393,6 +393,36 @@
             }
         },
         // }}}
+        // Proto{{{
+        {
+            "name": "Proto yellow",
+            "scope": "storage.type.proto",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "Proto green",
+            "scope": "string.quoted.double.proto.syntax, string.quoted.single.proto.syntax, string.quoted.double.proto, string.quoted.single.proto",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Proto aqua",
+            "scope": "entity.name.class.proto, entity.name.class.message.proto",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "Proto blue",
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        // }}}
         // CSS{{{
         {
             "name": "CSS grey",
