@@ -1387,6 +1387,36 @@
             }
         },
         // }}}
+        // R{{{
+        {
+            "name": "R orange",
+            "scope": "keyword.other.r",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "R green",
+            "scope": "entity.name.function.r, variable.function.r",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "R aqua",
+            "scope": "constant.language.r",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        {
+            "name": "R purple",
+            "scope": "entity.namespace.r",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        // }}}
         // Erlang{{{
         {
             "name": "Erlang grey",
