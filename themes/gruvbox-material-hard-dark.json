@@ -1364,6 +1364,29 @@
             }
         },
         // }}}
+        // OCaml{{{
+        {
+            "name": "OCaml white",
+            "scope": "entity.name.type.value-signature.ocaml",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "OCaml orange",
+            "scope": "keyword.other.ocaml",
+            "settings": {
+                "foreground": "#e78a4e"
+            }
+        },
+        {
+            "name": "OCaml aqua",
+            "scope": "constant.language.variant.ocaml",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
