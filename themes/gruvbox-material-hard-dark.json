@@ -1470,6 +1470,36 @@
             }
         },
         // }}}
+        // PowerShell{{{
+        {
+            "name": "PowerShell grey",
+            "scope": "punctuation.definition.variable.powershell",
+            "settings": {
+                "foreground": "#928374"
+            }
+        },
+        {
+            "name": "PowerShell yellow",
+            "scope": "entity.name.function.powershell, support.function.attribute.powershell, support.function.powershell",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        {
+            "name": "PowerShell green",
+            "scope": "string.quoted.single.powershell, string.quoted.double.powershell, punctuation.definition.string.begin.powershell, punctuation.definition.string.end.powershell, string.quoted.double.heredoc.powershell",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "PowerShell aqua",
+            "scope": "variable.other.member.powershell",
+            "settings": {
+                "foreground": "#89b482"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
