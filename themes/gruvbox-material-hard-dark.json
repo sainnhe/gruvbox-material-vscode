@@ -488,6 +488,22 @@
             }
         },
         // }}}
+        // Stylus{{{
+        {
+            "name": "Stylus white",
+            "scope": "meta.function.stylus",
+            "settings": {
+                "foreground": "#d4be98"
+            }
+        },
+        {
+            "name": "Stylus yellow",
+            "scope": "entity.name.function.stylus",
+            "settings": {
+                "foreground": "#d8a657"
+            }
+        },
+        // }}}
         // JavaScript{{{
         {
             "name": "JavaScript white",
