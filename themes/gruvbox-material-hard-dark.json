@@ -1417,6 +1417,29 @@
             }
         },
         // }}}
+        // Clojure{{{
+        {
+            "name": "Clojure green",
+            "scope": "constant.keyword.clojure",
+            "settings": {
+                "foreground": "#a9b665"
+            }
+        },
+        {
+            "name": "Clojure purple",
+            "scope": "entity.global.clojure",
+            "settings": {
+                "foreground": "#d3869b"
+            }
+        },
+        {
+            "name": "Clojure blue",
+            "scope": "entity.name.function.clojure",
+            "settings": {
+                "foreground": "#7daea3"
+            }
+        },
+        // }}}
         // {{{Makefile
         {
             "name": "Makefile orange",
