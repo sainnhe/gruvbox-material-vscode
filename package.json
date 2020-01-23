@@ -86,7 +86,7 @@
                     "default": false,
                     "description": "Italicize keywords"
                 },
-                "gruvboxMaterial.italicComment": {
+                "gruvboxMaterial.italicComments": {
                     "type": "boolean",
                     "default": true,
                     "description": "Italicize comments"

@@ -1,6 +1,9 @@
 import { join } from "path";
-import { default as data } from "../src/utils/themeData";
 import { writeFile } from "../src/utils/writeFile";
+import { getThemeData } from "../src/utils/getThemeData";
+import { getConfiguration } from "../src/utils/getConfiguration";
+
+let data = getThemeData(getConfiguration());
 
 writeFile(
   join(__dirname, "..", "themes", "gruvbox-material-dark.json"),

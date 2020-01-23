@@ -1,4 +1,4 @@
-import { default as configuration } from "../configuration";
+import { Configuration, Palette } from "../interface";
 import { default as mDarkHard } from "./material/darkHard";
 import { default as mDarkMedium } from "./material/darkMedium";
 import { default as mDarkSoft } from "./material/darkSoft";
@@ -12,48 +12,60 @@ import { default as oLightHard } from "./original/lightHard";
 import { default as oLightMedium } from "./original/lightMedium";
 import { default as oLightSoft } from "./original/lightSoft";
 
-let paletteDark = mDarkHard;
-let paletteLight = mLightHard;
-
-if (configuration.palette === "material") {
-  switch (configuration.contrast) {
-    case "hard": {
-      paletteDark = mDarkHard;
-      paletteLight = mLightHard;
-      break;
+export function getPalette(
+  configuration: Configuration,
+  variant: string
+): Palette {
+  let dark: Palette, light: Palette;
+  if (configuration.palette === "material") {
+    switch (configuration.contrast) {
+      case "hard": {
+        dark = mDarkHard;
+        light = mLightHard;
+        break;
+      }
+      case "medium": {
+        dark = mDarkMedium;
+        light = mLightMedium;
+        break;
+      }
+      case "soft": {
+        dark = mDarkSoft;
+        light = mLightSoft;
+        break;
+      }
+      default: {
+        dark = mDarkMedium;
+        light = mLightMedium;
+      }
     }
-    case "medium": {
-      paletteDark = mDarkMedium;
-      paletteLight = mLightMedium;
-      break;
-    }
-    case "soft": {
-      paletteDark = mDarkSoft;
-      paletteLight = mLightSoft;
-      break;
+  } else if (configuration.palette === "original") {
+    switch (configuration.contrast) {
+      case "hard": {
+        dark = oDarkHard;
+        light = oLightHard;
+        break;
+      }
+      case "medium": {
+        dark = oDarkMedium;
+        light = oLightMedium;
+        break;
+      }
+      case "soft": {
+        dark = oDarkSoft;
+        light = oLightSoft;
+        break;
+      }
+      default: {
+        dark = oDarkMedium;
+        light = oLightMedium;
+      }
     }
   }
-} else if (configuration.palette === "original") {
-  switch (configuration.contrast) {
-    case "hard": {
-      paletteDark = oDarkHard;
-      paletteLight = oLightHard;
-      break;
-    }
-    case "medium": {
-      paletteDark = oDarkMedium;
-      paletteLight = oLightMedium;
-      break;
-    }
-    case "soft": {
-      paletteDark = oDarkSoft;
-      paletteLight = oLightSoft;
-      break;
-    }
+
+  if (variant === "dark") {
+    return dark;
+  } else {
+    return light;
   }
 }
-
-export default {
-  paletteDark: paletteDark,
-  paletteLight: paletteLight
-};

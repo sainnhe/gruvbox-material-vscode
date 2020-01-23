@@ -1,15 +1,18 @@
-import { default as configuration } from "../configuration";
-import { default as flatWorkbench } from "./flat";
-import { default as highContrastWorkbench } from "./highContrast";
-import { default as materialWorkbench } from "./material";
+import { Configuration, Palette } from "../interface";
+import { flatWorkbench } from "./flat";
+import { highContrastWorkbench } from "./highContrast";
+import { materialWorkbench } from "./material";
 
-export default () => {
+export function getWorkbench(configuration: Configuration, palette: Palette) {
   switch (configuration.workbench) {
     case "material":
-      return materialWorkbench;
+      return materialWorkbench(palette);
     case "flat":
-      return flatWorkbench;
+      return flatWorkbench(palette);
     case "high-contrast":
-      return highContrastWorkbench;
+      return highContrastWorkbench(palette);
+    default:
+      return materialWorkbench(palette);
   }
-};
+}
+
