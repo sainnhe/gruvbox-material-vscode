@@ -5,8 +5,16 @@
     "author": "Sainnhe Park (https://github.com/sainnhe)",
     "publisher": "sainnhe",
     "version": "4.2.1",
+    "homepage": "https://github.com/gruvbox-material/vscode",
+    "bugs": {
+        "url": "https://github.com/gruvbox-material/vscode/issues"
+    },
     "icon": "icon.png",
     "license": "MIT",
+    "keywords": [
+        "gruvbox",
+        "theme"
+    ],
     "engines": {
         "vscode": "^1.37.0"
     },
@@ -17,43 +25,87 @@
         "color": "#32302f",
         "theme": "dark"
     },
-    "homepage": "https://github.com/gruvbox-material/vscode",
     "repository": {
         "type": "git",
         "url": "https://github.com/gruvbox-material/vscode.git"
     },
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/extension.js",
     "contributes": {
         "themes": [
             {
-                "label": "Gruvbox Material Hard Dark",
+                "label": "Gruvbox Material Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/gruvbox-material-hard-dark.json"
+                "path": "./themes/gruvbox-material-dark.json"
             },
             {
-                "label": "Gruvbox Material Medium Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/gruvbox-material-medium-dark.json"
-            },
-            {
-                "label": "Gruvbox Material Soft Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/gruvbox-material-soft-dark.json"
-            },
-            {
-                "label": "Gruvbox Material Hard Light",
+                "label": "Gruvbox Material Light",
                 "uiTheme": "vs",
-                "path": "./themes/gruvbox-material-hard-light.json"
-            },
-            {
-                "label": "Gruvbox Material Medium Light",
-                "uiTheme": "vs",
-                "path": "./themes/gruvbox-material-medium-light.json"
-            },
-            {
-                "label": "Gruvbox Material Soft Light",
-                "uiTheme": "vs",
-                "path": "./themes/gruvbox-material-soft-light.json"
+                "path": "./themes/gruvbox-material-light.json"
             }
-        ]
+        ],
+        "configuration": {
+            "title": "Gruvbox Material",
+            "properties": {
+                "gruvboxMaterial.contrast": {
+                    "type": "string",
+                    "default": "medium",
+                    "description": "Background contrast",
+                    "enum": [
+                        "soft",
+                        "medium",
+                        "hard"
+                    ]
+                },
+                "gruvboxMaterial.workbench": {
+                    "type": "string",
+                    "default": "material",
+                    "description": "The workbench theme",
+                    "enum": [
+                        "material",
+                        "flat",
+                        "high-contrast"
+                    ]
+                },
+                "gruvboxMaterial.palette": {
+                    "type": "string",
+                    "default": "material",
+                    "description": "The color palette used in this theme",
+                    "enum": [
+                        "material",
+                        "original"
+                    ]
+                },
+                "gruvboxMaterial.italicKeywords": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Italicize keywords"
+                },
+                "gruvboxMaterial.italicComment": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Italicize comments"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile:theme": "ts-node ./scripts/generate.ts",
+        "compile:ts": "tsc -p src",
+        "compile": "yarn compile:theme && yarn compile:ts",
+        "watch:theme": "nodemon ./scripts/generate.ts",
+        "watch:ts": "yarn compile:ts -w",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^3.3.1",
+        "tslint": "^5.12.1",
+        "nodemon": "^1.19.4",
+        "@types/vscode": "^1.40.0",
+        "@types/node": "^10.12.21",
+        "@types/mocha": "^2.2.42"
     }
 }
