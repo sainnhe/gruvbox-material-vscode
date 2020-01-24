@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import { join } from "path";
 import { ConfigurationChangeEvent, workspace, window, commands } from "vscode";
 import { Configuration } from "./interface";
 import { getWorkbench } from "./workbench";
@@ -44,6 +45,16 @@ export default class Utils {
         tokenColors: getSyntax(configuration, "light")
       }
     };
+  } // }}}
+  isNewlyInstalled(): boolean {
+    // {{{
+    const flagPath = join(__dirname, "../temp", "flag.txt");
+    if (!fs.existsSync(flagPath)) {
+      this.writeFile(flagPath, "");
+      return true;
+    } else {
+      return false;
+    }
   } // }}}
   private async writeFile(path: string, data: unknown) {
     // {{{

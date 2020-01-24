@@ -15,6 +15,15 @@ export function activate() {
       );
     });
   });
+
+  // regenerate theme files if it's newly installed
+  if (utils.isNewlyInstalled()) {
+    utils.generate(
+      join(__dirname, "..", "themes", "gruvbox-material-dark.json"),
+      join(__dirname, "..", "themes", "gruvbox-material-light.json"),
+      utils.getThemeData(utils.getConfiguration())
+    );
+  }
 }
 
 export function deactivate() {}

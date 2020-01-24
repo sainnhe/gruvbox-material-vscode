@@ -7,3 +7,4 @@ yarn-error.log*
 node_modules/
 out/
 *.vsix
+temp/flag.txt
