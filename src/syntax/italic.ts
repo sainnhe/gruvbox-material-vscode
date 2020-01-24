@@ -1,7 +1,7 @@
 import { Palette } from "../interface";
 
-export function getItalicSyntax(palette: Palette) {
-  return [
+export function getItalicSyntax(palette: Palette, italicComments: boolean) {
+  let syntax = [
     // Syntax{{{
     {
       name: "Keyword",
@@ -169,14 +169,6 @@ export function getItalicSyntax(palette: Palette) {
       scope: "punctuation, meta.brace, meta.delimiter, meta.bracket",
       settings: {
         foreground: palette.fg
-      }
-    },
-    {
-      name: "Comment",
-      scope: "comment, string.comment, punctuation.definition.comment",
-      settings: {
-        foreground: palette.grey1,
-        fontStyle: "italic"
       }
     },
     // }}}
@@ -1989,4 +1981,23 @@ export function getItalicSyntax(palette: Palette) {
     }
     // }}}
   ];
+  if (italicComments) {
+    syntax.push({
+      name: "Comment",
+      scope: "comment, string.comment, punctuation.definition.comment",
+      settings: {
+        foreground: palette.grey1,
+        fontStyle: "italic"
+      }
+    });
+  } else {
+    syntax.push({
+      name: "Comment",
+      scope: "comment, string.comment, punctuation.definition.comment",
+      settings: {
+        foreground: palette.grey1
+      }
+    });
+  }
+  return syntax;
 }

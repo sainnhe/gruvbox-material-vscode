@@ -7,9 +7,9 @@ export function getSyntax(configuration: Configuration, variant: string) {
   let palette = getPalette(configuration, variant);
   let syntax: any;
   if (configuration.italicKeywords === true) {
-    syntax = getItalicSyntax(palette);
+    syntax = getItalicSyntax(palette, configuration.italicComments);
   } else {
-    syntax = getDefaultSyntax(palette);
+    syntax = getDefaultSyntax(palette, configuration.italicComments);
   }
   return syntax;
 }

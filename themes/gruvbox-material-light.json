@@ -465,14 +465,6 @@
       }
     },
     {
-      "name": "Comment",
-      "scope": "comment, string.comment, punctuation.definition.comment",
-      "settings": {
-        "foreground": "#928374",
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Markdown heading1",
       "scope": "heading.1.markdown, markup.heading.setext.1.markdown",
       "settings": {
@@ -2070,6 +2062,14 @@
       "scope": "entity.other.attribute-name.table.toml, punctuation.definition.table.toml, entity.other.attribute-name.table.array.toml, punctuation.definition.table.array.toml",
       "settings": {
         "foreground": "#945e80"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment, string.comment, punctuation.definition.comment",
+      "settings": {
+        "foreground": "#928374",
+        "fontStyle": "italic"
       }
     }
   ]
