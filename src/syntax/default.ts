@@ -1,6 +1,6 @@
 import { Palette } from "../interface";
 
-export function getExtendedSyntax(palette: Palette) {
+export function getDefaultSyntax(palette: Palette) {
   return [
     // Syntax{{{
     {
