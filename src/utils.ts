@@ -3,7 +3,6 @@ import { ConfigurationChangeEvent, workspace, window, commands } from "vscode";
 import { Configuration } from "./interface";
 import { getWorkbench } from "./workbench";
 import { getSyntax } from "./syntax";
-import { getPalette } from "./palette";
 
 export default class Utils {
   detectConfigChanges(
@@ -19,9 +18,12 @@ export default class Utils {
     // {{{
     let workspaceConfiguration = workspace.getConfiguration("gruvboxMaterial");
     return {
-      contrast: workspaceConfiguration.get<string>("contrast"),
-      workbench: workspaceConfiguration.get<string>("workbench"),
-      palette: workspaceConfiguration.get<string>("palette"),
+      darkContrast: workspaceConfiguration.get<string>("darkContrast"),
+      lightContrast: workspaceConfiguration.get<string>("lightContrast"),
+      darkWorkbench: workspaceConfiguration.get<string>("darkWorkbench"),
+      lightWorkbench: workspaceConfiguration.get<string>("lightWorkbench"),
+      darkPalette: workspaceConfiguration.get<string>("darkPalette"),
+      lightPalette: workspaceConfiguration.get<string>("lightPalette"),
       italicKeywords: workspaceConfiguration.get<boolean>("italicKeywords"),
       italicComments: workspaceConfiguration.get<boolean>("italicComments")
     };
@@ -32,17 +34,14 @@ export default class Utils {
       dark: {
         name: "Gruvbox Material Dark",
         type: "dark",
-        colors: getWorkbench(configuration, getPalette(configuration, "dark")),
-        tokenColors: getSyntax(configuration, getPalette(configuration, "dark"))
+        colors: getWorkbench(configuration, "dark"),
+        tokenColors: getSyntax(configuration, "dark")
       },
       light: {
         name: "Gruvbox Material Light",
         type: "light",
-        colors: getWorkbench(configuration, getPalette(configuration, "light")),
-        tokenColors: getSyntax(
-          configuration,
-          getPalette(configuration, "light")
-        )
+        colors: getWorkbench(configuration, "light"),
+        tokenColors: getSyntax(configuration, "light")
       }
     };
   } // }}}
@@ -58,10 +57,7 @@ export default class Utils {
     // {{{
     const action = "Reload";
     window
-      .showInformationMessage(
-        "Reload required.",
-        action
-      )
+      .showInformationMessage("Reload required.", action)
       .then(selectedAction => {
         if (selectedAction === action) {
           commands.executeCommand("workbench.action.reloadWindow");

@@ -48,30 +48,59 @@
         "configuration": {
             "title": "Gruvbox Material",
             "properties": {
-                "gruvboxMaterial.contrast": {
+                "gruvboxMaterial.darkContrast": {
                     "type": "string",
                     "default": "medium",
-                    "description": "Background contrast",
+                    "description": "Background contrast for the dark variant",
                     "enum": [
                         "soft",
                         "medium",
                         "hard"
                     ]
                 },
-                "gruvboxMaterial.workbench": {
+                "gruvboxMaterial.lightContrast": {
+                    "type": "string",
+                    "default": "medium",
+                    "description": "Background contrast for the light variant",
+                    "enum": [
+                        "soft",
+                        "medium",
+                        "hard"
+                    ]
+                },
+                "gruvboxMaterial.darkWorkbench": {
                     "type": "string",
                     "default": "material",
-                    "description": "The workbench theme",
+                    "description": "The workbench theme for the dark variant",
                     "enum": [
                         "material",
                         "flat",
                         "high-contrast"
                     ]
                 },
-                "gruvboxMaterial.palette": {
+                "gruvboxMaterial.lightWorkbench": {
                     "type": "string",
                     "default": "material",
-                    "description": "The color palette used in this theme",
+                    "description": "The workbench theme for the light variant",
+                    "enum": [
+                        "material",
+                        "flat",
+                        "high-contrast"
+                    ]
+                },
+                "gruvboxMaterial.darkPalette": {
+                    "type": "string",
+                    "default": "material",
+                    "description": "The color palette used in the dark variant",
+                    "enum": [
+                        "material",
+                        "original"
+                    ]
+                },
+                "gruvboxMaterial.lightPalette": {
+                    "type": "string",
+                    "default": "material",
+                    "description": "The color palette used in the light variant",
                     "enum": [
                         "material",
                         "original"

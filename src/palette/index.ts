@@ -16,56 +16,83 @@ export function getPalette(
   configuration: Configuration,
   variant: string
 ): Palette {
-  let dark: Palette, light: Palette;
-  if (configuration.palette === "material") {
-    switch (configuration.contrast) {
-      case "hard": {
-        dark = mDarkHard;
-        light = mLightHard;
-        break;
-      }
-      case "medium": {
-        dark = mDarkMedium;
-        light = mLightMedium;
-        break;
-      }
-      case "soft": {
-        dark = mDarkSoft;
-        light = mLightSoft;
-        break;
-      }
-      default: {
-        dark = mDarkMedium;
-        light = mLightMedium;
-      }
-    }
-  } else if (configuration.palette === "original") {
-    switch (configuration.contrast) {
-      case "hard": {
-        dark = oDarkHard;
-        light = oLightHard;
-        break;
-      }
-      case "medium": {
-        dark = oDarkMedium;
-        light = oLightMedium;
-        break;
-      }
-      case "soft": {
-        dark = oDarkSoft;
-        light = oLightSoft;
-        break;
-      }
-      default: {
-        dark = oDarkMedium;
-        light = oLightMedium;
-      }
-    }
-  }
-
+  let palette: Palette;
   if (variant === "dark") {
-    return dark;
+    if (configuration.darkPalette === "material") {
+      switch (configuration.darkContrast) {
+        case "hard": {
+          palette = mDarkHard;
+          break;
+        }
+        case "medium": {
+          palette = mDarkMedium;
+          break;
+        }
+        case "soft": {
+          palette = mDarkSoft;
+          break;
+        }
+        default: {
+          palette = mDarkMedium;
+        }
+      }
+    } else if (configuration.darkPalette === "original") {
+      switch (configuration.darkContrast) {
+        case "hard": {
+          palette = oDarkHard;
+          break;
+        }
+        case "medium": {
+          palette = oDarkMedium;
+          break;
+        }
+        case "soft": {
+          palette = oDarkSoft;
+          break;
+        }
+        default: {
+          palette = oDarkMedium;
+        }
+      }
+    }
   } else {
-    return light;
+    if (configuration.lightPalette === "material") {
+      switch (configuration.lightContrast) {
+        case "hard": {
+          palette = mLightHard;
+          break;
+        }
+        case "medium": {
+          palette = mLightMedium;
+          break;
+        }
+        case "soft": {
+          palette = mLightSoft;
+          break;
+        }
+        default: {
+          palette = mLightMedium;
+        }
+      }
+    } else if (configuration.lightPalette === "original") {
+      switch (configuration.lightContrast) {
+        case "hard": {
+          palette = oLightHard;
+          break;
+        }
+        case "medium": {
+          palette = oLightMedium;
+          break;
+        }
+        case "soft": {
+          palette = oLightSoft;
+          break;
+        }
+        default: {
+          palette = oLightMedium;
+        }
+      }
+    }
   }
+  return palette;
 }
