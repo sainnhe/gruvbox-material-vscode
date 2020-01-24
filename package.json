@@ -45,10 +45,6 @@
                 "path": "./themes/gruvbox-material-light.json"
             }
         ],
-        "commands": [{
-            "command": "gruvboxMaterial.generateTheme",
-            "title": "Gruvbox Material: generate theme"
-        }],
         "configuration": {
             "title": "Gruvbox Material",
             "properties": {
