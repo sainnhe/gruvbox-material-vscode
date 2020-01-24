@@ -59,7 +59,7 @@ export default class Utils {
     const action = "Reload";
     window
       .showInformationMessage(
-        "Please reload to apply the theme configuration changes.",
+        "Reload required.",
         action
       )
       .then(selectedAction => {
