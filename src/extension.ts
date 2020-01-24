@@ -1,6 +1,6 @@
 import { workspace } from "vscode";
 import { join } from "path";
-import { default as Utils } from "./utils";
+import Utils from "./utils";
 
 export function activate() {
   let utils = new Utils();

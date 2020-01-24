@@ -5,7 +5,7 @@ import { getWorkbench } from "./workbench";
 import { getSyntax } from "./syntax";
 import { getPalette } from "./palette";
 
-export default class {
+export default class Utils {
   detectConfigChanges(
     // {{{
     event: ConfigurationChangeEvent,

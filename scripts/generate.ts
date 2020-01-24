@@ -1,5 +1,5 @@
 import { join } from "path";
-import { default as Utils } from "../src/utils";
+import Utils from "../src/utils";
 
 let utils = new Utils();
 utils.generate(
