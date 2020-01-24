@@ -1,5 +1,5 @@
 import * as fs from "fs";
-import { ConfigurationChangeEvent, workspace } from "vscode";
+import { ConfigurationChangeEvent, workspace, window, commands } from "vscode";
 import { Configuration } from "./interface";
 import { getWorkbench } from "./workbench";
 import { getSyntax } from "./syntax";
@@ -54,9 +54,23 @@ export default class {
       );
     });
   } // }}}
-  generate(darkPath: string, lightPath: string, data: any) {
+  private promptToReload() {
     // {{{
-    this.writeFile(darkPath, data.dark);
+    const action = "Reload";
+    window
+      .showInformationMessage(
+        "Please reload to apply the theme configuration changes.",
+        action
+      )
+      .then(selectedAction => {
+        if (selectedAction === action) {
+          commands.executeCommand("workbench.action.reloadWindow");
+        }
+      });
+  } // }}}
+  async generate(darkPath: string, lightPath: string, data: any) {
+    // {{{
+    this.writeFile(darkPath, data.dark).then(this.promptToReload);
     this.writeFile(lightPath, data.light);
   } // }}}
 }
