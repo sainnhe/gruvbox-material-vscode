@@ -133,7 +133,7 @@ export function getDefaultSyntax(palette: Palette) {
     {
       name: "Special identifier",
       scope:
-        "variable.language.this, variable.language.self, variable.language.super, keyword.other.this, variable.language.special",
+        "variable.language.this, variable.language.self, variable.language.super, keyword.other.this, variable.language.special, constant.language.null, constant.language.undefined, constant.language.nan",
       settings: {
         foreground: palette.purple
       }

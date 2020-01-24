@@ -431,7 +431,7 @@
     },
     {
       "name": "Special identifier",
-      "scope": "variable.language.this, variable.language.self, variable.language.super, keyword.other.this, variable.language.special",
+      "scope": "variable.language.this, variable.language.self, variable.language.super, keyword.other.this, variable.language.special, constant.language.null, constant.language.undefined, constant.language.nan",
       "settings": {
         "foreground": "#d3869b"
       }
