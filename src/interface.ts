@@ -47,4 +47,5 @@ export interface Palette {
   diffGreen: string;
   diffRed: string;
   diffBlue: string;
+  shadow: string;
 }

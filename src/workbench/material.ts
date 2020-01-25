@@ -4,7 +4,7 @@ export function materialWorkbench(palette: Palette) {
   return {
     "foreground": `${palette.fg}`,
     "focusBorder": `${palette.bg5}00`,
-    "widget.shadow": `#00000070`,
+    "widget.shadow": `${palette.shadow}`,
     "selection.background": `${palette.bg5}f0`,
     "errorForeground": `${palette.red}`,
     "icon.foreground": `${palette.aqua}`,
@@ -36,7 +36,7 @@ export function materialWorkbench(palette: Palette) {
     "inputValidation.warningBorder": `${palette.yellow}`,
     "inputValidation.warningBackground": `${palette.darkYellow}`,
     "inputValidation.warningForeground": `${palette.fg}`,
-    "scrollbar.shadow": `#00000050`,
+    "scrollbar.shadow": `${palette.shadow}`,
     "scrollbarSlider.activeBackground": `${palette.grey2}`,
     "scrollbarSlider.hoverBackground": `${palette.bg9}`,
     "scrollbarSlider.background": `${palette.bg9}80`,

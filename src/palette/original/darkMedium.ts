@@ -35,5 +35,6 @@ export default {
   selBlue:      "#374141",
   diffGreen:    "#34381b",
   diffRed:      "#402120",
-  diffBlue:     "#0e363e"
+  diffBlue:     "#0e363e",
+  shadow:       "#00000070"
 };
