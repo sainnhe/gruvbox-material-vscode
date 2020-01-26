@@ -2,6 +2,14 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 5.0.1
+
+-   Better support for italic keywords.
+
+## 5.0.0
+
+-   Rewrite using typescript.
+
 ## 4.2.1
 
 -   Transfer the ownership of this repository to [gruvbox-material](https://github.com/gruvbox-material).

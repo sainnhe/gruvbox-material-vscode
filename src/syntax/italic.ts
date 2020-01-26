@@ -8,7 +8,14 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
       scope:
         "keyword, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete, storage.type.extends",
       settings: {
-        foreground: palette.red,
+        foreground: palette.red
+      }
+    },
+    {
+      name: "Keyword Italic",
+      scope:
+        "keyword.control, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete, storage.type.extends",
+      settings: {
         fontStyle: "italic"
       }
     },
@@ -70,7 +77,14 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
       scope:
         "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive, keyword.preprocessor, punctuation.definition.preprocessor, punctuation.definition.directive, keyword.other.import, keyword.other.package, entity.name.type.namespace, entity.name.scope-resolution, keyword.other.using, keyword.package, keyword.import, keyword.map",
       settings: {
-        foreground: palette.aqua,
+        foreground: palette.aqua
+      }
+    },
+    {
+      name: "Preproc Italic",
+      scope:
+        "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, keyword.control.directive, keyword.preprocessor, keyword.other.import, keyword.other.package, entity.name.type.namespace, entity.name.scope-resolution, keyword.other.using, keyword.package, keyword.import, keyword.map",
+      settings: {
         fontStyle: "italic"
       }
     },
