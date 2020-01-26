@@ -199,6 +199,7 @@
     "merge.border": "#2a282700",
     "panel.background": "#2a2827",
     "panel.border": "#2a2827",
+    "panelInput.border": "#45403d",
     "panelTitle.activeForeground": "#d4be98",
     "panelTitle.activeBorder": "#928374",
     "panelTitle.inactiveForeground": "#928374",

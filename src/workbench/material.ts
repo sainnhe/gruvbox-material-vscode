@@ -199,6 +199,7 @@ export function materialWorkbench(palette: Palette) {
     "merge.border": `${palette.bg}00`,
     "panel.background": `${palette.bg}`,
     "panel.border": `${palette.bg}`,
+    "panelInput.border": `${palette.bg5}`,
     "panelTitle.activeForeground": `${palette.fg}`,
     "panelTitle.activeBorder": `${palette.grey1}`,
     "panelTitle.inactiveForeground": `${palette.grey1}`,
