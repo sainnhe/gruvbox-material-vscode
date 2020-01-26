@@ -50,6 +50,14 @@ This color scheme is a port of [Gruvbox Material](https://github.com/gruvbox-mat
 
 > Gruvbox Material is a modified version of [Gruvbox](https://github.com/morhetz/gruvbox), the contrast is adjusted to be softer in order to protect developers' eyes.
 
+## Features
+
+- Carefully designed color palette for eye protection.
+- Switch back to the original color palette whenever you like.
+- Customizable.
+- Rich support for common file types.
+- Italic support.
+
 ## Installation
 
 ### Via Marketplace
@@ -72,132 +80,23 @@ ext install sainnhe.gruvbox-material
 2. Click `Color Theme`.
 3. Select Gruvbox Material in the list.
 
+## Customization
+
+Several configuration options are provided, you can customize the contrast, workbench style, etc. used in this theme.
+
+1. Click the gear button in the lower left corner.
+2. Click `Settings`.
+3. Select `Gruvbox Material` and change the settings.
+
 ## FAQ
 
-**Q: What's the font used in the screenshots?**
+**Q: How to enable cursive italic keywords?**
 
-**A:** [Fira Code iCursive Op](https://github.com/sainnhe/icursive-nerd-font)
+**A:** The `italicKeywords` is designed to use with fonts that support cursive italic styles. To enable this feature:
 
-**Q: How to enable italic in this theme?**
-
-**A:** See this [blog](https://dev.to/salted-bytes/adding-italics-support-to-your-favourite-vscode-theme-2ec9).
-
-Example config(enable italic in all themes):
-
-```json
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "emphasis",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": "strong",
-                "settings": {
-                    "fontStyle": "bold"
-                }
-            },
-            {
-                "scope": "entity.other.attribute-name",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": "markup.underline",
-                "settings": {
-                    "fontStyle": "underline"
-                }
-            },
-            {
-                "scope": "markup.bold",
-                "settings": {
-                    "fontStyle": "bold"
-                }
-            },
-            {
-                "scope": "markup.heading",
-                "settings": {
-                    "fontStyle": "bold"
-                }
-            },
-            {
-                "scope": "markup.italic",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": "storage.type",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": "storage.modifier",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "name": "String interpolation",
-                "scope": [
-                    "punctuation.definition.template-expression.begin",
-                    "punctuation.definition.template-expression.end",
-                    "punctuation.section.embedded"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": "keyword.control",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": [
-                    "keyword.operator.new",
-                    "keyword.operator.expression",
-                    "keyword.operator.cast",
-                    "keyword.operator.sizeof",
-                    "keyword.operator.logical.python"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "name": "this.self",
-                "scope": "variable.language",
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "name": "@Decorator",
-                "scope": [
-                    "meta.decorator punctuation.decorator"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": [
-                    "punctuation.definition.comment",
-                    "comment"
-                ],
-                "settings": {
-                    "fontStyle": "regular"
-                }
-            }
-        ]
-    }
-```
+1. Install a font that supports cursive italic styles, for example: [Fira Code iCursive Op](https://github.com/sainnhe/icursive-nerd-font)(this is the font used in the screenshots).
+2. Enable the `italicKeywords` option in user settings, see [Customization](https://github.com/gruvbox-material/vscode#customization).
+3. (optional)Disable the `italicComments` option in user settings, see [Customization](https://github.com/gruvbox-material/vscode#customization).
 
 ## Related Projects
 
@@ -213,12 +112,18 @@ See [CONTRIBUTING.md](https://github.com/gruvbox-material/gruvbox-material/blob/
 - The color palette is adjusted by [@sainnhe](https://github.com/sainnhe)
 - Workbench colors are based on [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
 - The icon is designed by [@GulajavaMinistudio](https://github.com/GulajavaMinistudio)
+- The material workbench style is designed by [@sainnhe](https://github.com/sainnhe)
+- The flat workbench style is designed by [@sainnhe](https://github.com/sainnhe)
+- The high contrast workbench style is designed by [@GulajavaMinistudio](https://github.com/GulajavaMinistudio)
 
 ## Inspirations
 
 - [morhetz/gruvbox](https://github.com/morhetz/gruvbox): original gruvbox
 - [atom.io](https://atom.io): the `white` color in the dark variant
 - [zefei/cake16](https://github.com/zefei/cake16): the `black` color in the light variant
+- [material-theme/vsc-material-theme](https://github.com/material-theme/vsc-material-theme): the material workbench style
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro): the flat workbench style
+- [Monokai Pro](https://monokai.pro/vscode): the high contrast workbench style
 - [Google Material Design](https://www.material.io)
 
 ## License
