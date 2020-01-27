@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 5.0.2
+
+-   Disable italics in arrow function.
+
 ## 5.0.1
 
 -   Better support for italic keywords.

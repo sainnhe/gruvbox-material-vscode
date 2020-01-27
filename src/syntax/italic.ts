@@ -4,6 +4,13 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
   let syntax = [
     // Syntax{{{
     {
+      name: "Regular",
+      scope: "storage.type.function.arrow, keyword.other.arrow",
+      settings: {
+        fontStyle: "regular"
+      }
+    },
+    {
       name: "Keyword",
       scope:
         "keyword, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete, storage.type.extends",
