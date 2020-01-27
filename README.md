@@ -110,7 +110,6 @@ See [CONTRIBUTING.md](https://github.com/gruvbox-material/gruvbox-material/blob/
 
 - The color palette is based on [gruvbox](https://github.com/morhetz/gruvbox) by [@morhetz](https://github.com/morhetz)
 - The color palette is adjusted by [@sainnhe](https://github.com/sainnhe)
-- Workbench colors are based on [jdinhify/vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
 - The icon is designed by [@GulajavaMinistudio](https://github.com/GulajavaMinistudio)
 - The material workbench style is designed by [@sainnhe](https://github.com/sainnhe)
 - The flat workbench style is designed by [@sainnhe](https://github.com/sainnhe)
