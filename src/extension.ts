@@ -16,8 +16,11 @@ export function activate() {
     });
   });
 
-  // regenerate theme files if it's newly installed
-  if (utils.isNewlyInstalled()) {
+  // regenerate theme files if it's newly installed but the user settings are not default
+  if (
+    utils.isNewlyInstalled() &&
+    !utils.isDefaultConfiguration(utils.getConfiguration())
+  ) {
     utils.generate(
       join(__dirname, "..", "themes", "gruvbox-material-dark.json"),
       join(__dirname, "..", "themes", "gruvbox-material-light.json"),

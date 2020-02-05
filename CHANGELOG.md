@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 5.0.3
 
 -   Adjust the background color of suggestion widget.
+-   Regenerate theme when is newly installed but the user settings are not default.
 
 ## 5.0.2
 

@@ -80,4 +80,17 @@ export default class Utils {
     this.writeFile(darkPath, data.dark).then(this.promptToReload);
     this.writeFile(lightPath, data.light);
   } // }}}
+  isDefaultConfiguration(configuration: Configuration): boolean {
+    // {{{
+    return (
+      configuration.italicComments === true &&
+      configuration.italicKeywords === false &&
+      configuration.lightPalette === "material" &&
+      configuration.darkPalette === "material" &&
+      configuration.lightWorkbench === "material" &&
+      configuration.darkWorkbench === "material" &&
+      configuration.lightContrast === "medium" &&
+      configuration.darkContrast === "medium"
+    );
+  } // }}}
 }
