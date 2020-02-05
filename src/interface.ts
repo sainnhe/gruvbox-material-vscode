@@ -3,6 +3,8 @@ export interface Configuration {
   lightContrast?: string;
   darkWorkbench?: string;
   lightWorkbench?: string;
+  darkSelection?: string;
+  lightSelection?: string;
   darkPalette?: string;
   lightPalette?: string;
   italicKeywords?: boolean;

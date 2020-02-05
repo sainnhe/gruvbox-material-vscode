@@ -1,11 +1,57 @@
-import { Palette } from "../interface";
+import { Palette, Configuration } from "../interface";
 
-export function materialWorkbench(palette: Palette) {
+export function materialWorkbench(palette: Palette, configuration: Configuration, variant: string) {
+  let selectionBg: string;
+  if (variant === "dark") {
+    switch (configuration.darkSelection) {
+      case "grey": {
+        selectionBg = palette.bg8;
+        break;
+      }
+      case "green": {
+        selectionBg = palette.darkAqua;
+        break;
+      }
+      case "blue": {
+        selectionBg = palette.darkBlue;
+        break;
+      }
+      case "red": {
+        selectionBg = palette.darkRed;
+        break;
+      }
+      default: {
+        selectionBg = palette.bg8;
+      }
+    }
+  } else {
+    switch (configuration.lightSelection) {
+      case "grey": {
+        selectionBg = palette.bg8;
+        break;
+      }
+      case "green": {
+        selectionBg = palette.darkAqua;
+        break;
+      }
+      case "blue": {
+        selectionBg = palette.darkBlue;
+        break;
+      }
+      case "red": {
+        selectionBg = palette.darkRed;
+        break;
+      }
+      default: {
+        selectionBg = palette.bg8;
+      }
+    }
+  }
   return {
     "foreground": `${palette.fg}`,
     "focusBorder": `${palette.bg5}00`,
     "widget.shadow": `${palette.shadow}`,
-    "selection.background": `${palette.bg5}f0`,
+    "selection.background": `${selectionBg}80`,
     "errorForeground": `${palette.red}`,
     "icon.foreground": `${palette.aqua}`,
     "textLink.foreground": `${palette.green}`,
@@ -98,7 +144,7 @@ export function materialWorkbench(palette: Palette) {
     "editorLineNumber.foreground": `${palette.bg9}`,
     "editorLineNumber.activeForeground": `${palette.grey1}`,
     "editorCursor.foreground": `${palette.fg}`,
-    "editor.selectionBackground": `${palette.bg5}a0`,
+    "editor.selectionBackground": `${selectionBg}40`,
     "editor.selectionHighlightBackground": `${palette.bg7}78`,
     "editor.wordHighlightBackground": `${palette.bg4}b0`,
     "editor.wordHighlightStrongBackground": `${palette.darkAqua}30`,

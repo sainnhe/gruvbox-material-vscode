@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 -   Adjust the background color of suggestion widget.
 -   Regenerate theme when is newly installed but the user settings are not default.
+-   Add new options: `darkSelection` and `lightSelection`.
 
 ## 5.0.2
 

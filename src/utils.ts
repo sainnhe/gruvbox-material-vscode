@@ -23,6 +23,8 @@ export default class Utils {
       lightContrast: workspaceConfiguration.get<string>("lightContrast"),
       darkWorkbench: workspaceConfiguration.get<string>("darkWorkbench"),
       lightWorkbench: workspaceConfiguration.get<string>("lightWorkbench"),
+      darkSelection: workspaceConfiguration.get<string>("darkSelection"),
+      lightSelection: workspaceConfiguration.get<string>("lightSelection"),
       darkPalette: workspaceConfiguration.get<string>("darkPalette"),
       lightPalette: workspaceConfiguration.get<string>("lightPalette"),
       italicKeywords: workspaceConfiguration.get<boolean>("italicKeywords"),

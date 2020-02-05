@@ -89,6 +89,28 @@
                         "high-contrast"
                     ]
                 },
+                "gruvboxMaterial.darkSelection": {
+                    "type": "string",
+                    "default": "grey",
+                    "description": "The background color of selected text in the dark variant.",
+                    "enum": [
+                        "grey",
+                        "green",
+                        "blue",
+                        "red"
+                    ]
+                },
+                "gruvboxMaterial.lightSelection": {
+                    "type": "string",
+                    "default": "grey",
+                    "description": "The background color of selected text in the light variant.",
+                    "enum": [
+                        "grey",
+                        "green",
+                        "blue",
+                        "red"
+                    ]
+                },
                 "gruvboxMaterial.darkPalette": {
                     "type": "string",
                     "default": "material",
