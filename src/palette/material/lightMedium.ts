@@ -3,7 +3,7 @@ export default {
   bg1:          "#f6ebc1",
   bg:           "#fbf1c7",
   bg2:          "#f2e5bc",
-  bg3:          "#ebdbb2",
+  bg3:          "#eee0b7",
   bg4:          "#ebdbb2",
   bg5:          "#e0cfa9",
   bg6:          "#d5c4a1",
