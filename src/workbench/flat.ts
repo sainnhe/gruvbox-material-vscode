@@ -5,45 +5,45 @@ export function flatWorkbench(palette: Palette, configuration: Configuration, va
   if (variant === "dark") {
     switch (configuration.darkSelection) {
       case "grey": {
-        selectionBg = palette.bg8;
+        selectionBg = `${palette.bg4}f0`;
         break;
       }
       case "green": {
-        selectionBg = palette.darkAqua;
+        selectionBg = `${palette.darkAqua}40`;
         break;
       }
       case "blue": {
-        selectionBg = palette.darkBlue;
+        selectionBg = `${palette.darkBlue}40`;
         break;
       }
       case "red": {
-        selectionBg = palette.darkRed;
+        selectionBg = `${palette.darkRed}40`;
         break;
       }
       default: {
-        selectionBg = palette.bg8;
+        selectionBg = `${palette.bg4}f0`;
       }
     }
   } else {
     switch (configuration.lightSelection) {
       case "grey": {
-        selectionBg = palette.bg8;
+        selectionBg = `${palette.bg4}f0`;
         break;
       }
       case "green": {
-        selectionBg = palette.darkAqua;
+        selectionBg = `${palette.darkAqua}40`;
         break;
       }
       case "blue": {
-        selectionBg = palette.darkBlue;
+        selectionBg = `${palette.darkBlue}40`;
         break;
       }
       case "red": {
-        selectionBg = palette.darkRed;
+        selectionBg = `${palette.darkRed}40`;
         break;
       }
       default: {
-        selectionBg = palette.bg8;
+        selectionBg = `${palette.bg4}f0`;
       }
     }
   }
@@ -51,7 +51,7 @@ export function flatWorkbench(palette: Palette, configuration: Configuration, va
     "foreground": `${palette.fg}`,
     "focusBorder": `${palette.bg5}00`,
     "widget.shadow": `${palette.shadow}`,
-    "selection.background": `${selectionBg}80`,
+    "selection.background": `${selectionBg}`,
     "errorForeground": `${palette.red}`,
     "icon.foreground": `${palette.aqua}`,
     "textLink.foreground": `${palette.green}`,
@@ -150,7 +150,7 @@ export function flatWorkbench(palette: Palette, configuration: Configuration, va
     "editorLineNumber.foreground": `${palette.bg9}`,
     "editorLineNumber.activeForeground": `${palette.grey1}`,
     "editorCursor.foreground": `${palette.fg}`,
-    "editor.selectionBackground": `${selectionBg}40`,
+    "editor.selectionBackground": `${selectionBg}`,
     "editor.selectionHighlightBackground": `${palette.bg7}78`,
     "editor.wordHighlightBackground": `${palette.bg4}b0`,
     "editor.wordHighlightStrongBackground": `${palette.darkAqua}30`,

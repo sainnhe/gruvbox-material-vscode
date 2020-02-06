@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 -   Adjust color palette.
 -   Adjust background colors of diff editor and merge editor.
+-   Adjust selectionBackground.
 
 ## 5.0.3
 
