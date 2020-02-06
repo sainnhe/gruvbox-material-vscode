@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 5.0.4
+
+-   Adjust color palette.
+
 ## 5.0.3
 
 -   Adjust the background color of suggestion widget.
