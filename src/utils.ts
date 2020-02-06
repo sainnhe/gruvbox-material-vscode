@@ -92,7 +92,9 @@ export default class Utils {
       configuration.lightWorkbench === "material" &&
       configuration.darkWorkbench === "material" &&
       configuration.lightContrast === "medium" &&
-      configuration.darkContrast === "medium"
+      configuration.darkContrast === "medium" &&
+      configuration.darkSelection === "grey" &&
+      configuration.lightSelection === "grey"
     );
   } // }}}
 }
