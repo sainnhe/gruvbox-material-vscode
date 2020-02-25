@@ -3,40 +3,40 @@
 </h1>
 
 <h2 align="center">
-Dark Hard Flat
+𝐃𝐚𝐫𝐤 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
 </h2>
 
-![dark-hard-flat](https://user-images.githubusercontent.com/37491630/73133849-64111f00-4026-11ea-946a-27b4a95e7b56.png)
+![](https://user-images.githubusercontent.com/37491630/75229763-7956a600-57aa-11ea-955d-2a9759340f24.png)
 
 <h2 align="center">
-Dark Medium Material
+𝐃𝐚𝐫𝐤 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h2>
 
-![dark-medium-material](https://user-images.githubusercontent.com/37491630/73133850-65dae280-4026-11ea-9b0c-f87c1c39299f.png)
+![](https://user-images.githubusercontent.com/37491630/75229772-7bb90000-57aa-11ea-8722-b3de67cfc372.png)
 
 <h2 align="center">
-Dark Soft High Contrast
+𝐃𝐚𝐫𝐤 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
 </h2>
 
-![dark-soft-highContrast](https://user-images.githubusercontent.com/37491630/73133851-67a4a600-4026-11ea-83fc-9f84d2b342bc.png)
+![](https://user-images.githubusercontent.com/37491630/75229778-7fe51d80-57aa-11ea-8751-d912eba900c6.png)
 
 <h2 align="center">
-Light Hard Flat
+𝐋𝐢𝐠𝐡𝐭 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
 </h2>
 
-![light-hard-flat](https://user-images.githubusercontent.com/37491630/73133852-696e6980-4026-11ea-820d-0efc98c9bb26.png)
+![](https://user-images.githubusercontent.com/37491630/75229768-79ef3c80-57aa-11ea-8586-b6aa5098b5d8.png)
 
 <h2 align="center">
-Light Medium Material
+𝐋𝐢𝐠𝐡𝐭 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h2>
 
-![light-medium-material](https://user-images.githubusercontent.com/37491630/73133853-6a9f9680-4026-11ea-94f4-8b0d2bf534f7.png)
+![](https://user-images.githubusercontent.com/37491630/75229775-7d82c380-57aa-11ea-8cf3-b1731f273d06.png)
 
 <h2 align="center">
-Light Soft High Contrast
+𝐋𝐢𝐠𝐡𝐭 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
 </h2>
 
-![light-soft-highContrast](https://user-images.githubusercontent.com/37491630/73133854-6d01f080-4026-11ea-82e9-8d8e0e7ce7d9.png)
+![](https://user-images.githubusercontent.com/37491630/75229780-7fe51d80-57aa-11ea-83b6-688cd8836e72.png)
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
