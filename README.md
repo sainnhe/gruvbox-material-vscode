@@ -1,3 +1,5 @@
+# This project is looking for maintainers! [#12](https://github.com/gruvbox-material/vscode/issues/12)
+
 <h1 align="center">
 𝐆𝐫𝐮𝐯𝐛𝐨𝐱 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h1>
