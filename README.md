@@ -1,5 +1,3 @@
-# This project is looking for maintainers! [#12](https://github.com/gruvbox-material/vscode/issues/12)
-
 <h1 align="center">
 𝐆𝐫𝐮𝐯𝐛𝐨𝐱 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h1>
@@ -42,13 +40,13 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
-  <a href="https://github.com/gruvbox-material/vscode">Repository</a> |
-  <a href="https://github.com/gruvbox-material/vscode/issues">Issues</a> |
-  <a href="https://github.com/gruvbox-material/vscode/blob/master/CHANGELOG.md">Changelog</a>
+  <a href="https://github.com/sainnhe/gruvbox-material-vscode">Repository</a> |
+  <a href="https://github.com/sainnhe/gruvbox-material-vscode/issues">Issues</a> |
+  <a href="https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md">Changelog</a>
   <br><br>
 </p>
 
-This color scheme is a port of [Gruvbox Material](https://github.com/gruvbox-material/gruvbox-material) for Visual Studio Code. 
+This color scheme is a port of [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code. 
 
 > Gruvbox Material is a modified version of [Gruvbox](https://github.com/morhetz/gruvbox), the contrast is adjusted to be softer in order to protect developers' eyes.
 
@@ -97,16 +95,12 @@ Several configuration options are provided, you can customize the contrast, work
 **A:** The `italicKeywords` is designed to use with fonts that support cursive italic styles. To enable this feature:
 
 1. Install a font that supports cursive italic styles, for example: [Fira Code iCursive Op](https://github.com/sainnhe/icursive-nerd-font)(this is the font used in the screenshots).
-2. Enable the `italicKeywords` option in user settings, see [Customization](https://github.com/gruvbox-material/vscode#customization).
-3. (optional)Disable the `italicComments` option in user settings, see [Customization](https://github.com/gruvbox-material/vscode#customization).
+2. Enable the `italicKeywords` option in user settings.
+3. (optional)Disable the `italicComments` option in user settings.
 
 ## Related Projects
 
-See [gruvbox-material/gruvbox-material](https://github.com/gruvbox-material/gruvbox-material)
-
-## Contributing
-
-See [CONTRIBUTING.md](https://github.com/gruvbox-material/gruvbox-material/blob/master/CONTRIBUTING.md)
+See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material#related-projects)
 
 ## Credits
 
@@ -129,4 +123,4 @@ See [CONTRIBUTING.md](https://github.com/gruvbox-material/gruvbox-material/blob/
 
 ## License
 
-[MIT License](https://github.com/gruvbox-material/vscode/blob/master/LICENSE) © Gruvbox Material
+[MIT License](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE) © sainnhe

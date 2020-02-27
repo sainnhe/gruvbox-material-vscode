@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 5.0.6
+
+-   Transfer ownership.
+
 ## 5.0.5
 
 -   Add notice for [#12](https://github.com/gruvbox-material/vscode/issues/12).
