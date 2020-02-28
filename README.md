@@ -6,37 +6,37 @@
 𝐃𝐚𝐫𝐤 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
 </h2>
 
-![](https://user-images.githubusercontent.com/37491630/75229763-7956a600-57aa-11ea-955d-2a9759340f24.png)
+![dark-hard-flat](https://user-images.githubusercontent.com/37491630/75506440-f1ed7a80-59d5-11ea-8724-627bdff36a00.png)
 
 <h2 align="center">
 𝐃𝐚𝐫𝐤 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h2>
 
-![](https://user-images.githubusercontent.com/37491630/75229772-7bb90000-57aa-11ea-8722-b3de67cfc372.png)
+![dark-medium-material](https://user-images.githubusercontent.com/37491630/75506441-f31ea780-59d5-11ea-92c7-65e9cacf843a.png)
 
 <h2 align="center">
 𝐃𝐚𝐫𝐤 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
 </h2>
 
-![](https://user-images.githubusercontent.com/37491630/75229778-7fe51d80-57aa-11ea-8751-d912eba900c6.png)
+![dark-soft-high-contrast](https://user-images.githubusercontent.com/37491630/75506443-f44fd480-59d5-11ea-9754-72b9bbf86a58.png)
 
 <h2 align="center">
 𝐋𝐢𝐠𝐡𝐭 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
 </h2>
 
-![](https://user-images.githubusercontent.com/37491630/75229768-79ef3c80-57aa-11ea-8586-b6aa5098b5d8.png)
+![light-hard-flat](https://user-images.githubusercontent.com/37491630/75506444-f5810180-59d5-11ea-9844-03fb609d5d5d.png)
 
 <h2 align="center">
 𝐋𝐢𝐠𝐡𝐭 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h2>
 
-![](https://user-images.githubusercontent.com/37491630/75229775-7d82c380-57aa-11ea-8cf3-b1731f273d06.png)
+![light-medium-material](https://user-images.githubusercontent.com/37491630/75506447-f6b22e80-59d5-11ea-859f-c7b71df730e1.png)
 
 <h2 align="center">
 𝐋𝐢𝐠𝐡𝐭 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
 </h2>
 
-![](https://user-images.githubusercontent.com/37491630/75229780-7fe51d80-57aa-11ea-83b6-688cd8836e72.png)
+![light-soft-high-contrast](https://user-images.githubusercontent.com/37491630/75506451-f87bf200-59d5-11ea-8490-f318ea480a6e.png)
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
