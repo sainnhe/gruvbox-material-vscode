@@ -2,6 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 5.1.0
+
+-   Adjust some background colors in the dark variants.
+-   Adjust background colors of list and line highlight.
+
 ## 5.0.6
 
 -   Transfer ownership.
