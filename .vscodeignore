@@ -5,3 +5,7 @@ temp/flag.txt
 *.vsix
 **/*.ts
 **/tsconfig.json
+icon.svg
+tslint.json
+tsconfig.base.json
+nodemon.json
