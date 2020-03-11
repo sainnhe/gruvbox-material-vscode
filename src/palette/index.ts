@@ -5,6 +5,12 @@ import { default as mDarkSoft } from "./material/darkSoft";
 import { default as mLightHard } from "./material/lightHard";
 import { default as mLightMedium } from "./material/lightMedium";
 import { default as mLightSoft } from "./material/lightSoft";
+import { default as dDarkHard } from "./median/darkHard";
+import { default as dDarkMedium } from "./median/darkMedium";
+import { default as dDarkSoft } from "./median/darkSoft";
+import { default as dLightHard } from "./median/lightHard";
+import { default as dLightMedium } from "./median/lightMedium";
+import { default as dLightSoft } from "./median/lightSoft";
 import { default as oDarkHard } from "./original/darkHard";
 import { default as oDarkMedium } from "./original/darkMedium";
 import { default as oDarkSoft } from "./original/darkSoft";
@@ -54,6 +60,24 @@ export function getPalette(
           palette = oDarkMedium;
         }
       }
+    } else if (configuration.darkPalette === 'median') {
+      switch (configuration.darkContrast) {
+        case "hard": {
+          palette = dDarkHard;
+          break;
+        }
+        case "medium": {
+          palette = dDarkMedium;
+          break;
+        }
+        case "soft": {
+          palette = dDarkSoft;
+          break;
+        }
+        default: {
+          palette = dDarkMedium;
+        }
+      }
     }
   } else {
     if (configuration.lightPalette === "material") {
@@ -90,6 +114,24 @@ export function getPalette(
         }
         default: {
           palette = oLightMedium;
+        }
+      }
+    } else if (configuration.lightPalette === 'median') {
+      switch (configuration.lightContrast) {
+        case "hard": {
+          palette = dLightHard;
+          break;
+        }
+        case "medium": {
+          palette = dLightMedium;
+          break;
+        }
+        case "soft": {
+          palette = dLightSoft;
+          break;
+        }
+        default: {
+          palette = dLightMedium;
         }
       }
     }

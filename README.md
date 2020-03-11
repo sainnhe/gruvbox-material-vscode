@@ -50,6 +50,8 @@ This color scheme is a port of [Gruvbox Material](https://github.com/sainnhe/gru
 
 > Gruvbox Material is a modified version of [Gruvbox](https://github.com/morhetz/gruvbox), the contrast is adjusted to be softer in order to protect developers' eyes.
 
+There are 3 palettes available in this color scheme, the screenshots above only show the `material` palette. See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material) for a preview of all palettes.
+
 ## Features
 
 - Carefully designed color palette for eye protection.
@@ -82,7 +84,7 @@ ext install sainnhe.gruvbox-material
 
 ## Customization
 
-Several configuration options are provided, you can customize the contrast, workbench style, etc. used in this theme.
+Several configuration options are provided, you can customize the palette, contrast, workbench style, etc. used in this theme.
 
 1. Click the gear button in the lower left corner.
 2. Click `Settings`.

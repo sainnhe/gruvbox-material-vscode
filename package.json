@@ -117,6 +117,7 @@
                     "description": "The color palette used in the dark variant.",
                     "enum": [
                         "material",
+                        "median",
                         "original"
                     ]
                 },
@@ -126,6 +127,7 @@
                     "description": "The color palette used in the light variant.",
                     "enum": [
                         "material",
+                        "median",
                         "original"
                     ]
                 },

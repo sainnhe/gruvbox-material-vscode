@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.0.0
+
+-   Add `median` palette.
+
 ## 5.1.0
 
 -   Adjust some background colors in the dark variants.
