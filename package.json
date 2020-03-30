@@ -4,7 +4,7 @@
     "description": "Gruvbox with Material Palette",
     "author": "sainnhe (https://github.com/sainnhe)",
     "publisher": "sainnhe",
-    "version": "6.0.1",
+    "version": "6.0.2",
     "homepage": "https://github.com/sainnhe/gruvbox-material-vscode",
     "bugs": {
         "url": "https://github.com/sainnhe/gruvbox-material-vscode/issues"
@@ -15,9 +15,6 @@
         "gruvbox",
         "theme"
     ],
-    "engines": {
-        "vscode": "^1.40.0"
-    },
     "categories": [
         "Themes"
     ],
@@ -151,10 +148,13 @@
         "watch:ts": "yarn compile:ts -w",
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
+    "engines": {
+        "vscode": "^1.40.0"
+    },
     "devDependencies": {
         "@types/mocha": "^2.2.42",
         "@types/node": "^10.17.17",
-        "@types/vscode": "^1.43.0",
+        "@types/vscode": "^1.40.0",
         "nodemon": "^1.19.4",
         "tslint": "^5.12.1",
         "typescript": "^3.8.3"
