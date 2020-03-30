@@ -52,8 +52,6 @@ This color scheme is a port of [Gruvbox Material](https://github.com/sainnhe/gru
 
 There are 3 palettes available in this color scheme, the screenshots above only show the `material` palette. See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material) for a preview of all palettes.
 
-See also my another port: [Sonokai](https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai)
-
 ## Features
 
 - Carefully designed color palette for eye protection.
@@ -105,6 +103,8 @@ Several configuration options are provided, you can customize the palette, contr
 ## Related Projects
 
 See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material#related-projects)
+
+In addition, I ported my other color scheme to vscode: [Sonokai](https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai)
 
 ## Credits
 
