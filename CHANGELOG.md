@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.0.3
+
+-   Use darker foreground color in `gitDecoration.ignoredResourceForeground`.
+
 ## 6.0.2
 
 -   Add url for sonokai.
