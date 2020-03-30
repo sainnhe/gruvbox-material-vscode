@@ -2,6 +2,14 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.0.2
+
+-   Add url for sonokai.
+
+## 6.0.1
+
+-   Rename `median` as `mix`.
+
 ## 6.0.0
 
 -   Add `median` palette.
