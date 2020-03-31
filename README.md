@@ -102,9 +102,14 @@ Several configuration options are provided, you can customize the palette, contr
 
 ## Related Projects
 
-See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material#related-projects)
+See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material#related-projects) for other ports.
 
-In addition, I ported my other color scheme to vscode: [Sonokai](https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai)
+### More Color Schemes
+
+- [Forest Night](https://marketplace.visualstudio.com/items?itemName=sainnhe.forest-night)
+- [Edge](https://marketplace.visualstudio.com/items?itemName=sainnhe.edge)
+- [Sonokai](https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai)
+
 
 ## Credits
 
