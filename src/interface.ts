@@ -7,6 +7,7 @@ export interface Configuration {
   lightSelection?: string;
   darkPalette?: string;
   lightPalette?: string;
+  enhancedSyntax?: boolean;
   italicKeywords?: boolean;
   italicComments?: boolean;
 }

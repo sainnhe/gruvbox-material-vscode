@@ -128,6 +128,11 @@
                         "original"
                     ]
                 },
+                "gruvboxMaterial.enhancedSyntax": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Enabling this option will cause more tokens to be colored."
+                },
                 "gruvboxMaterial.italicKeywords": {
                     "type": "boolean",
                     "default": false,
@@ -155,9 +160,9 @@
         "@types/mocha": "^2.2.42",
         "@types/node": "^10.17.17",
         "@types/vscode": "^1.40.0",
-        "nodemon": "^1.19.4",
         "minimist": ">=1.2.2",
-        "tslint": "^5.12.1",
+        "nodemon": "^2.0.3",
+        "tslint": "^5.20.1",
         "typescript": "^3.8.3"
     }
 }
