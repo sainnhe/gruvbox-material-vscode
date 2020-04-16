@@ -1,6 +1,6 @@
 import { Palette } from "../interface";
 
-export function getEnhancedSyntax(palette: Palette, italicComments: boolean) {
+export function getColorfulSyntax(palette: Palette, italicComments: boolean) {
   let syntax = [
     // Syntax{{{
     {

@@ -27,7 +27,7 @@ export default class Utils {
       lightSelection: workspaceConfiguration.get<string>("lightSelection"),
       darkPalette: workspaceConfiguration.get<string>("darkPalette"),
       lightPalette: workspaceConfiguration.get<string>("lightPalette"),
-      enhancedSyntax: workspaceConfiguration.get<boolean>("enhancedSyntax"),
+      colorfulSyntax: workspaceConfiguration.get<boolean>("colorfulSyntax"),
       italicKeywords: workspaceConfiguration.get<boolean>("italicKeywords"),
       italicComments: workspaceConfiguration.get<boolean>("italicComments")
     };
@@ -86,7 +86,7 @@ export default class Utils {
   isDefaultConfiguration(configuration: Configuration): boolean {
     // {{{
     return (
-      configuration.enhancedSyntax === false &&
+      configuration.colorfulSyntax === false &&
       configuration.italicKeywords === false &&
       configuration.italicComments === true &&
       configuration.lightPalette === "material" &&

@@ -2,13 +2,13 @@ import { Configuration } from "../interface";
 import { getPalette } from "../palette";
 import { getDefaultSyntax } from "./default";
 import { getItalicSyntax } from "./italic";
-import { getEnhancedSyntax } from "./enhanced";
-import { getEnhancedItalicSyntax } from "./enhancedItalic";
+import { getColorfulSyntax } from "./colorful";
+import { getColorfulItalicSyntax } from "./colorfulItalic";
 
 export function getSyntax(configuration: Configuration, variant: string) {
   let palette = getPalette(configuration, variant);
   let syntax: any;
-  if (configuration.enhancedSyntax === false) {
+  if (configuration.colorfulSyntax === false) {
     if (configuration.italicKeywords === true) {
       syntax = getItalicSyntax(palette, configuration.italicComments);
     } else {
@@ -16,9 +16,9 @@ export function getSyntax(configuration: Configuration, variant: string) {
     }
   } else {
     if (configuration.italicKeywords === true) {
-      syntax = getEnhancedItalicSyntax(palette, configuration.italicComments);
+      syntax = getColorfulItalicSyntax(palette, configuration.italicComments);
     } else {
-      syntax = getEnhancedSyntax(palette, configuration.italicComments);
+      syntax = getColorfulSyntax(palette, configuration.italicComments);
     }
   }
   return syntax;
