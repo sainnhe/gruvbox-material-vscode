@@ -98,6 +98,13 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "keyword, modifier, variable.language.this, support.type.object, constant.language, storage.type.function, storage.type.class",
       settings: {
         foreground: palette.red,
+      },
+    },
+    {
+      name: "Keyword Italic",
+      scope:
+        "keyword, modifier, variable.language.this, support.type.object, storage.type.function, storage.type.class",
+      settings: {
         fontStyle: "italic"
       },
     },
@@ -202,6 +209,13 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       settings: {
         foreground: palette.fg,
       },
+    },
+    {
+      name: "Regular",
+      scope: "storage.type.function.arrow, keyword.other.arrow, keyword.operator",
+      settings: {
+        fontStyle: "regular"
+      }
     },
     // }}}
     // Markdown{{{
