@@ -189,7 +189,7 @@
   "devDependencies": {
     "@types/mocha": "^2.2.42",
     "@types/node": "^10.17.20",
-    "@types/vscode": "^1.44.0",
+    "@types/vscode": "^1.40.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.1.4",
     "minimist": ">=1.2.2",
