@@ -6,7 +6,7 @@ export function activate() {
   let utils = new Utils();
 
   // regenerate theme files when user configuration changes
-  workspace.onDidChangeConfiguration(event => {
+  workspace.onDidChangeConfiguration((event) => {
     utils.detectConfigChanges(event, () => {
       utils.generate(
         join(__dirname, "..", "themes", "gruvbox-material-dark.json"),

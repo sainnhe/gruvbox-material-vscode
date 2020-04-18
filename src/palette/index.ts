@@ -60,7 +60,7 @@ export function getPalette(
           palette = oDarkMedium;
         }
       }
-    } else if (configuration.darkPalette === 'mix') {
+    } else if (configuration.darkPalette === "mix") {
       switch (configuration.darkContrast) {
         case "hard": {
           palette = dDarkHard;
@@ -116,7 +116,7 @@ export function getPalette(
           palette = oLightMedium;
         }
       }
-    } else if (configuration.lightPalette === 'mix') {
+    } else if (configuration.lightPalette === "mix") {
       switch (configuration.lightContrast) {
         case "hard": {
           palette = dLightHard;

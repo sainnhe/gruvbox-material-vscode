@@ -1,10 +1,16 @@
 import { Palette, Configuration } from "../interface";
 
-export function materialWorkbench(palette: Palette, configuration: Configuration, variant: string) {
+export function materialWorkbench(
+  palette: Palette,
+  configuration: Configuration,
+  variant: string
+) {
   let selectionBg: string;
   let cursorFg: string;
   if (variant === "dark") {
-    switch (configuration.darkSelection) {// {{{
+    switch (
+      configuration.darkSelection // {{{
+    ) {
       case "grey": {
         selectionBg = `${palette.bg4}f0`;
         break;
@@ -24,8 +30,10 @@ export function materialWorkbench(palette: Palette, configuration: Configuration
       default: {
         selectionBg = `${palette.bg4}f0`;
       }
-    }// }}}
-    switch (configuration.darkCursor) {// {{{
+    } // }}}
+    switch (
+      configuration.darkCursor // {{{
+    ) {
       case "white": {
         cursorFg = `${palette.fg}`;
         break;
@@ -61,9 +69,11 @@ export function materialWorkbench(palette: Palette, configuration: Configuration
       default: {
         cursorFg = `${palette.fg}`;
       }
-    }// }}}
+    } // }}}
   } else {
-    switch (configuration.lightSelection) {// {{{
+    switch (
+      configuration.lightSelection // {{{
+    ) {
       case "grey": {
         selectionBg = `${palette.bg4}f0`;
         break;
@@ -83,8 +93,10 @@ export function materialWorkbench(palette: Palette, configuration: Configuration
       default: {
         selectionBg = `${palette.bg4}f0`;
       }
-    }// }}}
-    switch (configuration.lightCursor) {// {{{
+    } // }}}
+    switch (
+      configuration.lightCursor // {{{
+    ) {
       case "black": {
         cursorFg = `${palette.fg}`;
         break;
@@ -120,14 +132,14 @@ export function materialWorkbench(palette: Palette, configuration: Configuration
       default: {
         cursorFg = `${palette.fg}`;
       }
-    }// }}}
+    } // }}}
   }
   return {
-    "foreground": `${palette.fg}`,
-    "focusBorder": `${palette.bg5}00`,
+    foreground: `${palette.fg}`,
+    focusBorder: `${palette.bg5}00`,
     "widget.shadow": `${palette.shadow}`,
     "selection.background": `${selectionBg}`,
-    "errorForeground": `${palette.red}`,
+    errorForeground: `${palette.red}`,
     "icon.foreground": `${palette.aqua}`,
     "textLink.foreground": `${palette.green}`,
     "textLink.activeForeground": `${palette.darkGreen}`,
@@ -427,6 +439,6 @@ export function materialWorkbench(palette: Palette, configuration: Configuration
     "symbolIcon.packageForeground": `${palette.purple}`,
     "editor.snippetTabstopHighlightBackground": `${palette.bg5}a0`,
     "editor.snippetFinalTabstopHighlightBackground": `${palette.darkGreen}40`,
-    "editor.snippetFinalTabstopHighlightBorder": `${palette.bg}`
+    "editor.snippetFinalTabstopHighlightBorder": `${palette.bg}`,
   };
 }

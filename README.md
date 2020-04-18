@@ -46,7 +46,7 @@
   <br><br>
 </p>
 
-This color scheme is a port of [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code. 
+This color scheme is a port of [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code.
 
 > Gruvbox Material is a modified version of [Gruvbox](https://github.com/morhetz/gruvbox), the contrast is adjusted to be softer in order to protect developers' eyes.
 
@@ -109,7 +109,6 @@ See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material#relat
 - [Forest Night](https://marketplace.visualstudio.com/items?itemName=sainnhe.forest-night)
 - [Edge](https://marketplace.visualstudio.com/items?itemName=sainnhe.edge)
 - [Sonokai](https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai)
-
 
 ## Credits
 

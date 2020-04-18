@@ -1,198 +1,213 @@
 {
-    "name": "gruvbox-material",
-    "displayName": "Gruvbox Material",
-    "description": "Gruvbox with Material Palette",
-    "author": "sainnhe (https://github.com/sainnhe)",
-    "publisher": "sainnhe",
-    "version": "6.1.1",
-    "homepage": "https://github.com/sainnhe/gruvbox-material-vscode",
-    "bugs": {
-        "url": "https://github.com/sainnhe/gruvbox-material-vscode/issues"
-    },
-    "icon": "icon.png",
-    "license": "MIT",
-    "keywords": [
-        "gruvbox",
-        "theme"
+  "name": "gruvbox-material",
+  "displayName": "Gruvbox Material",
+  "description": "Gruvbox with Material Palette",
+  "author": "sainnhe (https://github.com/sainnhe)",
+  "publisher": "sainnhe",
+  "version": "6.1.1",
+  "homepage": "https://github.com/sainnhe/gruvbox-material-vscode",
+  "bugs": {
+    "url": "https://github.com/sainnhe/gruvbox-material-vscode/issues"
+  },
+  "icon": "icon.png",
+  "license": "MIT",
+  "keywords": [
+    "gruvbox",
+    "theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#32302f",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sainnhe/gruvbox-material-vscode.git"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gruvbox Material Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvbox-material-dark.json"
+      },
+      {
+        "label": "Gruvbox Material Light",
+        "uiTheme": "vs",
+        "path": "./themes/gruvbox-material-light.json"
+      }
     ],
-    "categories": [
-        "Themes"
-    ],
-    "galleryBanner": {
-        "color": "#32302f",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sainnhe/gruvbox-material-vscode.git"
-    },
-    "activationEvents": [
-        "*"
-    ],
-    "main": "./out/extension.js",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Gruvbox Material Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/gruvbox-material-dark.json"
-            },
-            {
-                "label": "Gruvbox Material Light",
-                "uiTheme": "vs",
-                "path": "./themes/gruvbox-material-light.json"
-            }
-        ],
-        "configuration": {
-            "title": "Gruvbox Material",
-            "properties": {
-                "gruvboxMaterial.darkContrast": {
-                    "type": "string",
-                    "default": "medium",
-                    "description": "Background contrast for the dark variant.",
-                    "enum": [
-                        "soft",
-                        "medium",
-                        "hard"
-                    ]
-                },
-                "gruvboxMaterial.lightContrast": {
-                    "type": "string",
-                    "default": "medium",
-                    "description": "Background contrast for the light variant.",
-                    "enum": [
-                        "soft",
-                        "medium",
-                        "hard"
-                    ]
-                },
-                "gruvboxMaterial.darkWorkbench": {
-                    "type": "string",
-                    "default": "material",
-                    "description": "Workbench style for the dark variant.",
-                    "enum": [
-                        "material",
-                        "flat",
-                        "high-contrast"
-                    ]
-                },
-                "gruvboxMaterial.lightWorkbench": {
-                    "type": "string",
-                    "default": "material",
-                    "description": "Workbench style for the light variant.",
-                    "enum": [
-                        "material",
-                        "flat",
-                        "high-contrast"
-                    ]
-                },
-                "gruvboxMaterial.darkCursor": {
-                    "type": "string",
-                    "default": "white",
-                    "description": "The cursor color in the dark variant.",
-                    "enum": [
-                        "white",
-                        "red",
-                        "orange",
-                        "yellow",
-                        "green",
-                        "aqua",
-                        "blue",
-                        "purple"
-                    ]
-                },
-                "gruvboxMaterial.lightCursor": {
-                    "type": "string",
-                    "default": "black",
-                    "description": "The cursor color in the light variant.",
-                    "enum": [
-                        "black",
-                        "red",
-                        "orange",
-                        "yellow",
-                        "green",
-                        "aqua",
-                        "blue",
-                        "purple"
-                    ]
-                },
-                "gruvboxMaterial.darkSelection": {
-                    "type": "string",
-                    "default": "grey",
-                    "description": "The background color of selected text in the dark variant.",
-                    "enum": [
-                        "grey",
-                        "green",
-                        "blue",
-                        "red"
-                    ]
-                },
-                "gruvboxMaterial.lightSelection": {
-                    "type": "string",
-                    "default": "grey",
-                    "description": "The background color of selected text in the light variant.",
-                    "enum": [
-                        "grey",
-                        "green",
-                        "blue",
-                        "red"
-                    ]
-                },
-                "gruvboxMaterial.darkPalette": {
-                    "type": "string",
-                    "default": "material",
-                    "description": "The color palette used in the dark variant.",
-                    "enum": [
-                        "material",
-                        "mix",
-                        "original"
-                    ]
-                },
-                "gruvboxMaterial.lightPalette": {
-                    "type": "string",
-                    "default": "material",
-                    "description": "The color palette used in the light variant.",
-                    "enum": [
-                        "material",
-                        "mix",
-                        "original"
-                    ]
-                },
-                "gruvboxMaterial.colorfulSyntax": {
-                    "type": "boolean",
-                    "default": false,
-                    "description": "Enabling this option will cause more tokens to be colored. By default, only the minimum but necessary tokens will be colored."
-                },
-                "gruvboxMaterial.italicKeywords": {
-                    "type": "boolean",
-                    "default": false,
-                    "description": "Italicize keywords or not."
-                },
-                "gruvboxMaterial.italicComments": {
-                    "type": "boolean",
-                    "default": true,
-                    "description": "Italicize comments or not."
-                }
-            }
+    "configuration": {
+      "title": "Gruvbox Material",
+      "properties": {
+        "gruvboxMaterial.darkContrast": {
+          "type": "string",
+          "default": "medium",
+          "description": "Background contrast for the dark variant.",
+          "enum": [
+            "soft",
+            "medium",
+            "hard"
+          ]
+        },
+        "gruvboxMaterial.lightContrast": {
+          "type": "string",
+          "default": "medium",
+          "description": "Background contrast for the light variant.",
+          "enum": [
+            "soft",
+            "medium",
+            "hard"
+          ]
+        },
+        "gruvboxMaterial.darkWorkbench": {
+          "type": "string",
+          "default": "material",
+          "description": "Workbench style for the dark variant.",
+          "enum": [
+            "material",
+            "flat",
+            "high-contrast"
+          ]
+        },
+        "gruvboxMaterial.lightWorkbench": {
+          "type": "string",
+          "default": "material",
+          "description": "Workbench style for the light variant.",
+          "enum": [
+            "material",
+            "flat",
+            "high-contrast"
+          ]
+        },
+        "gruvboxMaterial.darkCursor": {
+          "type": "string",
+          "default": "white",
+          "description": "The cursor color in the dark variant.",
+          "enum": [
+            "white",
+            "red",
+            "orange",
+            "yellow",
+            "green",
+            "aqua",
+            "blue",
+            "purple"
+          ]
+        },
+        "gruvboxMaterial.lightCursor": {
+          "type": "string",
+          "default": "black",
+          "description": "The cursor color in the light variant.",
+          "enum": [
+            "black",
+            "red",
+            "orange",
+            "yellow",
+            "green",
+            "aqua",
+            "blue",
+            "purple"
+          ]
+        },
+        "gruvboxMaterial.darkSelection": {
+          "type": "string",
+          "default": "grey",
+          "description": "The background color of selected text in the dark variant.",
+          "enum": [
+            "grey",
+            "green",
+            "blue",
+            "red"
+          ]
+        },
+        "gruvboxMaterial.lightSelection": {
+          "type": "string",
+          "default": "grey",
+          "description": "The background color of selected text in the light variant.",
+          "enum": [
+            "grey",
+            "green",
+            "blue",
+            "red"
+          ]
+        },
+        "gruvboxMaterial.darkPalette": {
+          "type": "string",
+          "default": "material",
+          "description": "The color palette used in the dark variant.",
+          "enum": [
+            "material",
+            "mix",
+            "original"
+          ]
+        },
+        "gruvboxMaterial.lightPalette": {
+          "type": "string",
+          "default": "material",
+          "description": "The color palette used in the light variant.",
+          "enum": [
+            "material",
+            "mix",
+            "original"
+          ]
+        },
+        "gruvboxMaterial.colorfulSyntax": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enabling this option will cause more tokens to be colored. By default, only the minimum but necessary tokens will be colored."
+        },
+        "gruvboxMaterial.italicKeywords": {
+          "type": "boolean",
+          "default": false,
+          "description": "Italicize keywords or not."
+        },
+        "gruvboxMaterial.italicComments": {
+          "type": "boolean",
+          "default": true,
+          "description": "Italicize comments or not."
         }
-    },
-    "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile:ts": "tsc -p src",
-        "compile": "yarn compile:ts",
-        "watch:ts": "yarn compile:ts -w",
-        "test": "npm run compile && node ./node_modules/vscode/bin/test"
-    },
-    "engines": {
-        "vscode": "^1.40.0"
-    },
-    "devDependencies": {
-        "@types/mocha": "^2.2.42",
-        "@types/node": "^10.17.20",
-        "@types/vscode": "^1.44.0",
-        "minimist": ">=1.2.2",
-        "nodemon": "^2.0.3",
-        "tslint": "^5.20.1",
-        "typescript": "^3.8.3"
+      }
     }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile:ts": "tsc -p src",
+    "compile": "yarn compile:ts",
+    "watch:ts": "yarn compile:ts -w",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^10.17.20",
+    "@types/vscode": "^1.44.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.4",
+    "minimist": ">=1.2.2",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.8.3"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
 }

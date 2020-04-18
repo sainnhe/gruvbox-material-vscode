@@ -31,7 +31,7 @@ export default class Utils {
       lightPalette: workspaceConfiguration.get<string>("lightPalette"),
       colorfulSyntax: workspaceConfiguration.get<boolean>("colorfulSyntax"),
       italicKeywords: workspaceConfiguration.get<boolean>("italicKeywords"),
-      italicComments: workspaceConfiguration.get<boolean>("italicComments")
+      italicComments: workspaceConfiguration.get<boolean>("italicComments"),
     };
   } // }}}
   getThemeData(configuration: Configuration) {
@@ -41,14 +41,14 @@ export default class Utils {
         name: "Gruvbox Material Dark",
         type: "dark",
         colors: getWorkbench(configuration, "dark"),
-        tokenColors: getSyntax(configuration, "dark")
+        tokenColors: getSyntax(configuration, "dark"),
       },
       light: {
         name: "Gruvbox Material Light",
         type: "light",
         colors: getWorkbench(configuration, "light"),
-        tokenColors: getSyntax(configuration, "light")
-      }
+        tokenColors: getSyntax(configuration, "light"),
+      },
     };
   } // }}}
   isNewlyInstalled(): boolean {
@@ -64,7 +64,7 @@ export default class Utils {
   private async writeFile(path: string, data: unknown) {
     // {{{
     return new Promise((resolve, reject) => {
-      fs.writeFile(path, JSON.stringify(data, null, 2), err =>
+      fs.writeFile(path, JSON.stringify(data, null, 2), (err) =>
         err ? reject(err) : resolve()
       );
     });
@@ -74,7 +74,7 @@ export default class Utils {
     const action = "Reload";
     window
       .showInformationMessage("Reload required.", action)
-      .then(selectedAction => {
+      .then((selectedAction) => {
         if (selectedAction === action) {
           commands.executeCommand("workbench.action.reloadWindow");
         }

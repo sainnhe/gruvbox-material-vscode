@@ -1,6 +1,9 @@
 import { Palette } from "../interface";
 
-export function getColorfulItalicSyntax(palette: Palette, italicComments: boolean) {
+export function getColorfulItalicSyntax(
+  palette: Palette,
+  italicComments: boolean
+) {
   let syntax = [
     // Syntax{{{
     {
@@ -60,7 +63,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "variable.language.this",
       settings: {
         foreground: palette.purple,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -105,7 +108,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope:
         "keyword, modifier, variable.language.this, support.type.object, storage.type.function, storage.type.class",
       settings: {
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -178,7 +181,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "constant.language.null, constant.language.undefined, constant.language.nan",
       settings: {
         foreground: palette.aqua,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -212,10 +215,11 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
     },
     {
       name: "Regular",
-      scope: "storage.type.function.arrow, keyword.other.arrow, keyword.operator",
+      scope:
+        "storage.type.function.arrow, keyword.other.arrow, keyword.operator",
       settings: {
-        fontStyle: "regular"
-      }
+        fontStyle: "regular",
+      },
     },
     // }}}
     // Markdown{{{
@@ -494,7 +498,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "entity.name.tag.html, entity.name.tag.xml, entity.name.tag.localname.xml",
       settings: {
         foreground: palette.orange,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -517,7 +521,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "meta.tag.metadata.script.start.html",
       settings: {
         foreground: palette.purple,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -551,7 +555,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "entity.other.attribute-name.class.css, entity.other.keyframe-offset.percentage.css, meta.selector.css",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -597,7 +601,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "entity.name.tag.css, entity.other.keyframe-offset.css, punctuation.definition.keyword.css",
       settings: {
         foreground: palette.purple,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     // }}}
@@ -629,7 +633,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "punctuation.definition.keyword.scss",
       settings: {
         foreground: palette.purple,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     // }}}
@@ -647,7 +651,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "storage.type.function.js, keyword.operator.expression.in.js, keyword.operator.expression.of.js, storage.type.class.js",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -727,7 +731,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "storage.type.enum.ts, storage.type.function.ts, storage.type.interface.ts, storage.type.property.ts",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -776,7 +780,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "storage.type.enum.tsx, storage.type.function.tsx, storage.type.interface.tsx, storage.type.property.tsx",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -928,7 +932,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "entity.other.attribute-name.class.pug",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -999,7 +1003,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "storage.modifier.extends.java",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1076,7 +1080,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "storage.type.kotlin",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     // }}}
@@ -1102,7 +1106,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "storage.type.enum.cpp, keyword.operator.new.cpp, keyword.operator.delete.cpp",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1152,7 +1156,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "punctuation.definition.keyword.objc, punctuation.definition.storage.type.objc, storage.type.objc",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1208,7 +1212,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "punctuation.tilde.cs",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1302,7 +1306,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "storage.type.rust",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1335,7 +1339,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "storage.type.enum.swift",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1376,7 +1380,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
         "storage.modifier.extends.php, storage.modifier.implements.php, storage.type.trait.php",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1527,7 +1531,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "storage.type.sub.perl, storage.type.declare.routine.perl",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1635,7 +1639,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "storage.control.clojure",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1682,7 +1686,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "keyword.control.import.elm",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1812,7 +1816,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "storage.modifier.implements.groovy",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1929,7 +1933,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "support.function.builtin.shell",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
@@ -1984,7 +1988,7 @@ export function getColorfulItalicSyntax(palette: Palette, italicComments: boolea
       scope: "support.function.unix.fish",
       settings: {
         foreground: palette.red,
-        fontStyle: "italic"
+        fontStyle: "italic",
       },
     },
     {
