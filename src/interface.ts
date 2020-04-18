@@ -5,6 +5,8 @@ export interface Configuration {
   lightWorkbench?: string;
   darkSelection?: string;
   lightSelection?: string;
+  darkCursor?: string;
+  lightCursor?: string;
   darkPalette?: string;
   lightPalette?: string;
   colorfulSyntax?: boolean;

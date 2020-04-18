@@ -2,13 +2,17 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.1.2
+
+-   Add `gruvboxMaterial.darkCursor` and `gruvboxMaterial.lightCursor`.
+
 ## 6.1.1
 
--   rename `gruvboxMaterial.enhancedSyntax` as `gruvboxMaterial.colorfulSyntax`.
+-   Rename `gruvboxMaterial.enhancedSyntax` as `gruvboxMaterial.colorfulSyntax`.
 
 ## 6.1.0
 
--   add `gruvboxMaterial.enhancedSyntax`.
+-   Add `gruvboxMaterial.enhancedSyntax`.
 
 ## 6.0.4
 

@@ -86,6 +86,36 @@
                         "high-contrast"
                     ]
                 },
+                "gruvboxMaterial.darkCursor": {
+                    "type": "string",
+                    "default": "white",
+                    "description": "The cursor color in the dark variant.",
+                    "enum": [
+                        "white",
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "aqua",
+                        "blue",
+                        "purple"
+                    ]
+                },
+                "gruvboxMaterial.lightCursor": {
+                    "type": "string",
+                    "default": "black",
+                    "description": "The cursor color in the light variant.",
+                    "enum": [
+                        "black",
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "aqua",
+                        "blue",
+                        "purple"
+                    ]
+                },
                 "gruvboxMaterial.darkSelection": {
                     "type": "string",
                     "default": "grey",

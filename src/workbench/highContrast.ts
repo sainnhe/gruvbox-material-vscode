@@ -2,8 +2,9 @@ import { Palette, Configuration } from "../interface";
 
 export function highContrastWorkbench(palette: Palette, configuration: Configuration, variant: string) {
   let selectionBg: string;
+  let cursorFg: string;
   if (variant === "dark") {
-    switch (configuration.darkSelection) {
+    switch (configuration.darkSelection) {// {{{
       case "grey": {
         selectionBg = `${palette.bg4}f0`;
         break;
@@ -23,9 +24,46 @@ export function highContrastWorkbench(palette: Palette, configuration: Configura
       default: {
         selectionBg = `${palette.bg4}f0`;
       }
-    }
+    }// }}}
+    switch (configuration.darkCursor) {// {{{
+      case "white": {
+        cursorFg = `${palette.fg}`;
+        break;
+      }
+      case "red": {
+        cursorFg = `${palette.red}`;
+        break;
+      }
+      case "orange": {
+        cursorFg = `${palette.orange}`;
+        break;
+      }
+      case "yellow": {
+        cursorFg = `${palette.yellow}`;
+        break;
+      }
+      case "green": {
+        cursorFg = `${palette.green}`;
+        break;
+      }
+      case "aqua": {
+        cursorFg = `${palette.aqua}`;
+        break;
+      }
+      case "blue": {
+        cursorFg = `${palette.blue}`;
+        break;
+      }
+      case "purple": {
+        cursorFg = `${palette.purple}`;
+        break;
+      }
+      default: {
+        cursorFg = `${palette.fg}`;
+      }
+    }// }}}
   } else {
-    switch (configuration.lightSelection) {
+    switch (configuration.lightSelection) {// {{{
       case "grey": {
         selectionBg = `${palette.bg4}f0`;
         break;
@@ -45,7 +83,44 @@ export function highContrastWorkbench(palette: Palette, configuration: Configura
       default: {
         selectionBg = `${palette.bg4}f0`;
       }
-    }
+    }// }}}
+    switch (configuration.lightCursor) {// {{{
+      case "black": {
+        cursorFg = `${palette.fg}`;
+        break;
+      }
+      case "red": {
+        cursorFg = `${palette.red}`;
+        break;
+      }
+      case "orange": {
+        cursorFg = `${palette.orange}`;
+        break;
+      }
+      case "yellow": {
+        cursorFg = `${palette.yellow}`;
+        break;
+      }
+      case "green": {
+        cursorFg = `${palette.green}`;
+        break;
+      }
+      case "aqua": {
+        cursorFg = `${palette.aqua}`;
+        break;
+      }
+      case "blue": {
+        cursorFg = `${palette.blue}`;
+        break;
+      }
+      case "purple": {
+        cursorFg = `${palette.purple}`;
+        break;
+      }
+      default: {
+        cursorFg = `${palette.fg}`;
+      }
+    }// }}}
   }
   return {
     "foreground": `${palette.fg}`,
@@ -143,7 +218,7 @@ export function highContrastWorkbench(palette: Palette, configuration: Configura
     "editor.foreground": `${palette.fg}`,
     "editorLineNumber.foreground": `${palette.bg9}`,
     "editorLineNumber.activeForeground": `${palette.grey1}`,
-    "editorCursor.foreground": `${palette.fg}`,
+    "editorCursor.foreground": `${cursorFg}`,
     "editor.selectionBackground": `${selectionBg}`,
     "editor.selectionHighlightBackground": `${palette.bg7}78`,
     "editor.wordHighlightBackground": `${palette.bg4}b0`,
@@ -220,7 +295,7 @@ export function highContrastWorkbench(palette: Palette, configuration: Configura
     "peekViewTitle.background": `${palette.bg4}`,
     "pickerGroup.border": `${palette.fg0}1a`,
     "terminal.foreground": `${palette.fg}`,
-    "terminalCursor.foreground": `${palette.fg}`,
+    "terminalCursor.foreground": `${cursorFg}`,
     "terminal.ansiBlack": `${palette.bg7}`,
     "terminal.ansiBlue": `${palette.blue}`,
     "terminal.ansiBrightBlack": `${palette.bg7}`,

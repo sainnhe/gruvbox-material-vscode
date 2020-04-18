@@ -25,6 +25,8 @@ export default class Utils {
       lightWorkbench: workspaceConfiguration.get<string>("lightWorkbench"),
       darkSelection: workspaceConfiguration.get<string>("darkSelection"),
       lightSelection: workspaceConfiguration.get<string>("lightSelection"),
+      darkCursor: workspaceConfiguration.get<string>("darkCursor"),
+      lightCursor: workspaceConfiguration.get<string>("lightCursor"),
       darkPalette: workspaceConfiguration.get<string>("darkPalette"),
       lightPalette: workspaceConfiguration.get<string>("lightPalette"),
       colorfulSyntax: workspaceConfiguration.get<boolean>("colorfulSyntax"),
@@ -95,6 +97,8 @@ export default class Utils {
       configuration.darkWorkbench === "material" &&
       configuration.lightContrast === "medium" &&
       configuration.darkContrast === "medium" &&
+      configuration.darkCursor === "white" &&
+      configuration.lightCursor === "black" &&
       configuration.darkSelection === "grey" &&
       configuration.lightSelection === "grey"
     );
