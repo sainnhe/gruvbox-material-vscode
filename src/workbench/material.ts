@@ -279,6 +279,7 @@ export function materialWorkbench(
     "editorGutter.modifiedBackground": `${palette.darkBlue}a0`,
     "editorGutter.addedBackground": `${palette.darkGreen}a0`,
     "editorGutter.deletedBackground": `${palette.darkRed}a0`,
+    "editorGutter.commentRangeForeground": `${palette.grey0}`,
     "diffEditor.insertedTextBackground": `${palette.darkAqua}20`,
     "diffEditor.removedTextBackground": `${palette.darkRed}20`,
     "editorSuggestWidget.background": `${palette.bg3}`,

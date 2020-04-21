@@ -146,6 +146,7 @@
     "editorGutter.modifiedBackground": "#7daea3a0",
     "editorGutter.addedBackground": "#a9b665a0",
     "editorGutter.deletedBackground": "#ea6962a0",
+    "editorGutter.commentRangeForeground": "#a89984",
     "diffEditor.insertedTextBackground": "#89b48220",
     "diffEditor.removedTextBackground": "#ea696220",
     "editorSuggestWidget.background": "#eee0b7",
