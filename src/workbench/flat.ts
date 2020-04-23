@@ -6,29 +6,35 @@ export function flatWorkbench(
   variant: string
 ) {
   let selectionBg: string;
+  let editorSelectionBg: string;
   let cursorFg: string;
   if (variant === "dark") {
     switch (
       configuration.darkSelection // {{{
     ) {
       case "grey": {
-        selectionBg = `${palette.bg4}f0`;
+        selectionBg = `${palette.bg6}90`;
+        editorSelectionBg = `${palette.bg4}f0`;
         break;
       }
       case "green": {
-        selectionBg = `${palette.darkAqua}40`;
+        selectionBg = `${palette.darkAqua}70`;
+        editorSelectionBg = `${palette.darkAqua}40`;
         break;
       }
       case "blue": {
-        selectionBg = `${palette.darkBlue}40`;
+        selectionBg = `${palette.darkBlue}70`;
+        editorSelectionBg = `${palette.darkBlue}40`;
         break;
       }
       case "red": {
-        selectionBg = `${palette.darkRed}40`;
+        selectionBg = `${palette.darkRed}70`;
+        editorSelectionBg = `${palette.darkRed}40`;
         break;
       }
       default: {
-        selectionBg = `${palette.bg4}f0`;
+        selectionBg = `${palette.bg6}90`;
+        editorSelectionBg = `${palette.bg4}f0`;
       }
     } // }}}
     switch (
@@ -75,23 +81,28 @@ export function flatWorkbench(
       configuration.lightSelection // {{{
     ) {
       case "grey": {
-        selectionBg = `${palette.bg4}f0`;
+        selectionBg = `${palette.bg6}90`;
+        editorSelectionBg = `${palette.bg4}f0`;
         break;
       }
       case "green": {
-        selectionBg = `${palette.darkAqua}40`;
+        selectionBg = `${palette.darkAqua}70`;
+        editorSelectionBg = `${palette.darkAqua}40`;
         break;
       }
       case "blue": {
-        selectionBg = `${palette.darkBlue}40`;
+        selectionBg = `${palette.darkBlue}70`;
+        editorSelectionBg = `${palette.darkBlue}40`;
         break;
       }
       case "red": {
-        selectionBg = `${palette.darkRed}40`;
+        selectionBg = `${palette.darkRed}70`;
+        editorSelectionBg = `${palette.darkRed}40`;
         break;
       }
       default: {
-        selectionBg = `${palette.bg4}f0`;
+        selectionBg = `${palette.bg6}90`;
+        editorSelectionBg = `${palette.bg4}f0`;
       }
     } // }}}
     switch (
@@ -237,7 +248,7 @@ export function flatWorkbench(
     "editorLineNumber.foreground": `${palette.bg9}`,
     "editorLineNumber.activeForeground": `${palette.grey1}`,
     "editorCursor.foreground": `${cursorFg}`,
-    "editor.selectionBackground": `${selectionBg}`,
+    "editor.selectionBackground": `${editorSelectionBg}`,
     "editor.selectionHighlightBackground": `${palette.bg7}78`,
     "editor.wordHighlightBackground": `${palette.bg4}b0`,
     "editor.wordHighlightStrongBackground": `${palette.darkAqua}30`,
