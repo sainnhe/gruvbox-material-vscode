@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.1.7
+
+- Adjust editor ruler.
+
 ## 6.1.6
 
 - Adjust editor ruler.
