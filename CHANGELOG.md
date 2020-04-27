@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.1.5
+
+- Adjust foreground colors of title bar and status bar.
+
 ## 6.1.4
 
 - Adjust selection background.
