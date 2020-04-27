@@ -258,7 +258,7 @@ export function highContrastWorkbench(
     "editorWhitespace.foreground": `${palette.bg8}`,
     "editorIndentGuide.background": `${palette.grey2}20`,
     "editorIndentGuide.activeBackground": `${palette.grey2}50`,
-    "editorRuler.foreground": `${palette.darkPurple}`,
+    "editorRuler.foreground": `${palette.bg8}`,
     "editorCodeLens.foreground": `${palette.grey1}`,
     "editorBracketMatch.border": `${palette.bg}00`,
     "editorBracketMatch.background": `${palette.grey0}80`,
