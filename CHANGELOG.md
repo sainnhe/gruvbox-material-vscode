@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.1.9
+
+- Adjust list background.
+
 ## 6.1.8
 
 - Adjust list background.
