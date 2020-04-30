@@ -1420,13 +1420,6 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
     // }}}
     // Ruby{{{
     {
-      name: "Ruby grey",
-      scope: "punctuation.separator.method.ruby",
-      settings: {
-        foreground: palette.grey1,
-      },
-    },
-    {
       name: "Ruby orange",
       scope: "keyword.control.pseudo-method.ruby",
       settings: {
