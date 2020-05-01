@@ -163,6 +163,11 @@
           "default": false,
           "description": "Enabling this option will cause more tokens to be colored. By default, only the minimum but necessary tokens will be colored."
         },
+        "gruvboxMaterial.semanticHighlighting": {
+          "type": "boolean",
+          "default": true,
+          "description": "Semantic Highlighting is a new feature since vscode 1.43, it enriches the syntax coloring based on symbol information from a language service that has the full understanding of the project."
+        },
         "gruvboxMaterial.italicKeywords": {
           "type": "boolean",
           "default": false,

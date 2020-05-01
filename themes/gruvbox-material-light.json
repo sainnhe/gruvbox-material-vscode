@@ -1,6 +1,7 @@
 {
   "name": "Gruvbox Material Light",
   "type": "light",
+  "semanticHighlighting": true,
   "colors": {
     "foreground": "#654735",
     "focusBorder": "#e0cfa900",

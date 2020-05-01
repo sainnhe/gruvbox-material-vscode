@@ -10,6 +10,7 @@ export interface Configuration {
   darkPalette?: string;
   lightPalette?: string;
   colorfulSyntax?: boolean;
+  semanticHighlighting?: boolean;
   italicKeywords?: boolean;
   italicComments?: boolean;
 }
