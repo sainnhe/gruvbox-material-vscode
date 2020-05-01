@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.2.0
+
+- Fix terminal colors.
+
 ## 6.1.11
 
 - Fix [#18](https://github.com/sainnhe/gruvbox-material-vscode/issues/18).
