@@ -4,6 +4,7 @@ import { ConfigurationChangeEvent, workspace, window, commands } from "vscode";
 import { Configuration } from "./interface";
 import { getWorkbench } from "./workbench";
 import { getSyntax } from "./syntax";
+import { getSemantic } from "./semantic";
 
 export default class Utils {
   detectConfigChanges(
@@ -44,6 +45,7 @@ export default class Utils {
         name: "Gruvbox Material Dark",
         type: "dark",
         semanticHighlighting: configuration.semanticHighlighting,
+        semanticTokenColors: getSemantic(configuration, "dark"),
         colors: getWorkbench(configuration, "dark"),
         tokenColors: getSyntax(configuration, "dark"),
       },
@@ -51,6 +53,7 @@ export default class Utils {
         name: "Gruvbox Material Light",
         type: "light",
         semanticHighlighting: configuration.semanticHighlighting,
+        semanticTokenColors: getSemantic(configuration, "dark"),
         colors: getWorkbench(configuration, "light"),
         tokenColors: getSyntax(configuration, "light"),
       },
