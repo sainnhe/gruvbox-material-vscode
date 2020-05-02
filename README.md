@@ -58,6 +58,7 @@ There are 3 palettes available in this color scheme, the screenshots above only 
 - Switch back to the original color palette whenever you like.
 - Customizable.
 - Rich support for common file types.
+- Semantic highlighting support.
 - Italic support.
 
 ## Installation
