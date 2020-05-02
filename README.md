@@ -98,8 +98,25 @@ Several configuration options are provided, you can customize the palette, contr
 **A:** The `italicKeywords` is designed to use with fonts that support cursive italic styles. To enable this feature:
 
 1. Install a font that supports cursive italic styles, for example: [Fira Code iCursive Op](https://github.com/sainnhe/icursive-nerd-font)(this is the font used in the screenshots).
-2. Enable the `italicKeywords` option in user settings.
-3. (optional)Disable the `italicComments` option in user settings.
+2. Set the `gruvboxMaterial.italicKeywords` option to `true` in user settings.
+3. (optional)Set the `gruvboxMaterial.italicComments` option to `false` in user settings.
+
+**Q: What is semantic highlighting and how can I enable it?**
+
+**A:**
+
+[Semantic Highlighting](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview) is a new feature since vscode 1.43, it enriches the syntax coloring based on symbol information from a language service that has the full understanding of the project.
+
+Currently, the following extensions support semantic highlighting:
+
+- JavaScript: Builtin and enabled by default.
+- TypeScript: Builtin and enabled by default.
+- [Java](https://github.com/redhat-developer/vscode-java/wiki/Semantic-Highlighting): WIP and disabled by default.
+- [C/C++](https://code.visualstudio.com/docs/cpp/colorization-cpp): WIP and enabled by default.
+
+This feature is experimental and might be buggy. Currently this color scheme is only optimized for JavaScript and TypeScript, Java and C/C++ are not optimized [#19](https://github.com/sainnhe/gruvbox-material-vscode/issues/19#issuecomment-622383871).
+
+To enable this feature, configure the corresponding language extension to enable semantic highlighting, and then set the `gruvboxMaterial.semanticHighlighting` option to `true` in user settings.
 
 ## Related Projects
 
