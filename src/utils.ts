@@ -35,6 +35,24 @@ export default class Utils {
       italicComments: workspaceConfiguration.get<boolean>("italicComments"),
     };
   } // }}}
+  isDefaultConfiguration(configuration: Configuration): boolean {
+    // {{{
+    return (
+      configuration.colorfulSyntax === false &&
+      configuration.italicKeywords === false &&
+      configuration.italicComments === true &&
+      configuration.lightPalette === "material" &&
+      configuration.darkPalette === "material" &&
+      configuration.lightWorkbench === "material" &&
+      configuration.darkWorkbench === "material" &&
+      configuration.lightContrast === "medium" &&
+      configuration.darkContrast === "medium" &&
+      configuration.darkCursor === "white" &&
+      configuration.lightCursor === "black" &&
+      configuration.darkSelection === "grey" &&
+      configuration.lightSelection === "grey"
+    );
+  } // }}}
   getThemeData(configuration: Configuration) {
     // {{{
     return {
@@ -89,23 +107,5 @@ export default class Utils {
     // {{{
     this.writeFile(darkPath, data.dark).then(this.promptToReload);
     this.writeFile(lightPath, data.light);
-  } // }}}
-  isDefaultConfiguration(configuration: Configuration): boolean {
-    // {{{
-    return (
-      configuration.colorfulSyntax === false &&
-      configuration.italicKeywords === false &&
-      configuration.italicComments === true &&
-      configuration.lightPalette === "material" &&
-      configuration.darkPalette === "material" &&
-      configuration.lightWorkbench === "material" &&
-      configuration.darkWorkbench === "material" &&
-      configuration.lightContrast === "medium" &&
-      configuration.darkContrast === "medium" &&
-      configuration.darkCursor === "white" &&
-      configuration.lightCursor === "black" &&
-      configuration.darkSelection === "grey" &&
-      configuration.lightSelection === "grey"
-    );
   } // }}}
 }
