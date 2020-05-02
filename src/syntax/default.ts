@@ -490,7 +490,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "SASS grey",
       scope:
-        "punctuation.definition.keyword.scss, punctuation.separator.key-value.scss",
+        "punctuation.definition.entity.scss, punctuation.separator.key-value.scss, punctuation.terminator.rule.scss, punctuation.separator.list.comma.scss",
       settings: {
         foreground: palette.grey1,
       },

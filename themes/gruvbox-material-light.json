@@ -778,7 +778,7 @@
     },
     {
       "name": "SASS grey",
-      "scope": "punctuation.definition.keyword.scss, punctuation.separator.key-value.scss",
+      "scope": "punctuation.definition.entity.scss, punctuation.separator.key-value.scss, punctuation.terminator.rule.scss, punctuation.separator.list.comma.scss",
       "settings": {
         "foreground": "#928374"
       }
