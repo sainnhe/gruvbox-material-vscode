@@ -97,7 +97,7 @@ export default class Utils {
     // {{{
     return (
       configuration.colorfulSyntax === false &&
-      configuration.semanticHighlighting === true &&
+      configuration.semanticHighlighting === false &&
       configuration.italicKeywords === false &&
       configuration.italicComments === true &&
       configuration.lightPalette === "material" &&

@@ -165,8 +165,8 @@
         },
         "gruvboxMaterial.semanticHighlighting": {
           "type": "boolean",
-          "default": true,
-          "description": "Semantic Highlighting is a new feature since vscode 1.43, it enriches the syntax coloring based on symbol information from a language service that has the full understanding of the project."
+          "default": false,
+          "description": "Semantic Highlighting is a new feature since vscode 1.43, it enriches the syntax coloring based on symbol information from a language service that has the full understanding of the project.\nThis feature is experimental and might be buggy. Currently this color scheme is only optimized for JavaScript and TypeScript."
         },
         "gruvboxMaterial.italicKeywords": {
           "type": "boolean",
