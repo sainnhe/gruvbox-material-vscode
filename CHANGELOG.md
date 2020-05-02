@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 - Support semantic highlighting.
 - Fix terminal colors.
+- Optimize julia.
 
 ## 6.1.11
 

@@ -1429,6 +1429,36 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
       },
     },
     // }}}
+    // Julia{{{
+    {
+      name: "Julia red",
+      scope: "keyword.control.import.julia, keyword.control.export.julia",
+      settings: {
+        foreground: palette.red,
+      },
+    },
+    {
+      name: "Julia orange",
+      scope: "keyword.storage.modifier.julia",
+      settings: {
+        foreground: palette.orange,
+      },
+    },
+    {
+      name: "Julia aqua",
+      scope: "constant.language.julia",
+      settings: {
+        foreground: palette.aqua,
+      },
+    },
+    {
+      name: "Julia purple",
+      scope: "support.function.macro.julia",
+      settings: {
+        foreground: palette.purple,
+      },
+    },
+    // }}}
     // R{{{
     {
       name: "R orange",
