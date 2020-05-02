@@ -31,9 +31,6 @@ export default class Utils {
       darkPalette: workspaceConfiguration.get<string>("darkPalette"),
       lightPalette: workspaceConfiguration.get<string>("lightPalette"),
       colorfulSyntax: workspaceConfiguration.get<boolean>("colorfulSyntax"),
-      semanticHighlighting: workspaceConfiguration.get<boolean>(
-        "semanticHighlighting"
-      ),
       italicKeywords: workspaceConfiguration.get<boolean>("italicKeywords"),
       italicComments: workspaceConfiguration.get<boolean>("italicComments"),
     };
@@ -44,7 +41,7 @@ export default class Utils {
       dark: {
         name: "Gruvbox Material Dark",
         type: "dark",
-        semanticHighlighting: configuration.semanticHighlighting,
+        semanticHighlighting: true,
         semanticTokenColors: getSemantic(configuration, "dark"),
         colors: getWorkbench(configuration, "dark"),
         tokenColors: getSyntax(configuration, "dark"),
@@ -52,7 +49,7 @@ export default class Utils {
       light: {
         name: "Gruvbox Material Light",
         type: "light",
-        semanticHighlighting: configuration.semanticHighlighting,
+        semanticHighlighting: true,
         semanticTokenColors: getSemantic(configuration, "dark"),
         colors: getWorkbench(configuration, "light"),
         tokenColors: getSyntax(configuration, "light"),
@@ -97,7 +94,6 @@ export default class Utils {
     // {{{
     return (
       configuration.colorfulSyntax === false &&
-      configuration.semanticHighlighting === false &&
       configuration.italicKeywords === false &&
       configuration.italicComments === true &&
       configuration.lightPalette === "material" &&

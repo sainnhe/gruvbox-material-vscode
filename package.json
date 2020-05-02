@@ -163,11 +163,6 @@
           "default": false,
           "description": "Enabling this option will cause more tokens to be colored. By default, only the minimum but necessary tokens will be colored."
         },
-        "gruvboxMaterial.semanticHighlighting": {
-          "type": "boolean",
-          "default": false,
-          "description": "Enable semantic highlighting or not."
-        },
         "gruvboxMaterial.italicKeywords": {
           "type": "boolean",
           "default": false,
