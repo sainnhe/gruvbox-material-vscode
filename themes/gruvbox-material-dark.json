@@ -834,7 +834,7 @@
     },
     {
       "name": "JavaScript grey",
-      "scope": "punctuation.accessor.js, punctuation.separator.key-value.js, punctuation.separator.label.js",
+      "scope": "punctuation.accessor.js, punctuation.separator.key-value.js, punctuation.separator.label.js, keyword.operator.accessor.js",
       "settings": {
         "foreground": "#928374"
       }

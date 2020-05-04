@@ -646,6 +646,14 @@ export function getColorfulItalicSyntax(
       },
     },
     {
+      name: "JavaScript grey",
+      scope:
+        "punctuation.accessor.js, punctuation.separator.key-value.js, punctuation.separator.label.js, keyword.operator.accessor.js",
+      settings: {
+        foreground: palette.grey1,
+      },
+    },
+    {
       name: "JavaScript red",
       scope:
         "storage.type.function.js, keyword.operator.expression.in.js, keyword.operator.expression.of.js, storage.type.class.js",

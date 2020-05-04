@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.2.1
+
+- Use grey in javascript separators.
+
 ## 6.2.0
 
 - Support semantic highlighting.

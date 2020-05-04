@@ -554,7 +554,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "JavaScript grey",
       scope:
-        "punctuation.accessor.js, punctuation.separator.key-value.js, punctuation.separator.label.js",
+        "punctuation.accessor.js, punctuation.separator.key-value.js, punctuation.separator.label.js, keyword.operator.accessor.js",
       settings: {
         foreground: palette.grey1,
       },
