@@ -111,6 +111,10 @@ See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material#relat
 - [Edge](https://marketplace.visualstudio.com/items?itemName=sainnhe.edge)
 - [Sonokai](https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai)
 
+## Contributing
+
+See [this article](https://www.sainnhe.dev/post/gruvbox-material-vscode-contrib/).
+
 ## Credits
 
 - The color palette is based on [gruvbox](https://github.com/morhetz/gruvbox) by [@morhetz](https://github.com/morhetz)
