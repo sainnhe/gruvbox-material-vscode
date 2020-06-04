@@ -103,7 +103,7 @@ Several configuration options are provided, you can customize the palette, contr
 
 ## Related Projects
 
-See [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material#related-projects) for other ports.
+See this [wiki page](https://github.com/sainnhe/gruvbox-material/wiki/Related-Projects).
 
 ### More Color Schemes
 
