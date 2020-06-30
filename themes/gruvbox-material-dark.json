@@ -93,7 +93,7 @@
     "sideBarSectionHeader.background": "#29282800",
     "sideBarTitle.foreground": "#a89984",
     "sideBarSectionHeader.foreground": "#a89984",
-    "minimap.findMatchHighlight": "#72966c40",
+    "minimap.findMatchHighlight": "#72966c60",
     "minimap.selectionHighlight": "#504945f0",
     "minimap.errorHighlight": "#b8565180",
     "minimap.warningHighlight": "#c18f4180",

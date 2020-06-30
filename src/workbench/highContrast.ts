@@ -216,7 +216,7 @@ export function highContrastWorkbench(
     "sideBarSectionHeader.background": `${palette.bg}00`,
     "sideBarTitle.foreground": `${palette.grey2}`,
     "sideBarSectionHeader.foreground": `${palette.grey2}`,
-    "minimap.findMatchHighlight": `${palette.darkAqua}40`,
+    "minimap.findMatchHighlight": `${palette.darkAqua}60`,
     "minimap.selectionHighlight": `${palette.bg6}f0`,
     "minimap.errorHighlight": `${palette.darkRed}80`,
     "minimap.warningHighlight": `${palette.darkYellow}80`,

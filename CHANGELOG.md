@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 6.2.4
 
 - Fix peek reference.
+- Use higher contrast in `minimap.findMatchHighlight`.
 
 ## 6.2.3
 
