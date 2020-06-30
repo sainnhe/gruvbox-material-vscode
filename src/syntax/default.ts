@@ -1888,7 +1888,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "JSON grey",
       scope:
-        "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, punctuation.separator.dictionary.pair.json",
+        "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, punctuation.separator.dictionary.pair.json, punctuation.separator.array.json",
       settings: {
         foreground: palette.grey1,
       },
