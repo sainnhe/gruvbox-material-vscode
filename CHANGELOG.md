@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.2.5
+
+- Adjust `list.focusBackground` in the flat and highContrast variants.
+
 ## 6.2.4
 
 - Fix peek reference.
