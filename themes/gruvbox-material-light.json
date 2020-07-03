@@ -132,7 +132,7 @@
     "editor.hoverHighlightBackground": "#89b48250",
     "editorLink.activeForeground": "#6c782e",
     "editor.lineHighlightBackground": "#eee0b770",
-    "editorWhitespace.foreground": "#bdae93",
+    "editorWhitespace.foreground": "#e0cfa9",
     "editorIndentGuide.background": "#7c6f6420",
     "editorIndentGuide.activeBackground": "#7c6f6450",
     "editorRuler.foreground": "#bdae93a0",

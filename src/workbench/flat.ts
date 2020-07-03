@@ -261,7 +261,7 @@ export function flatWorkbench(
     "editor.hoverHighlightBackground": `${palette.darkAqua}50`,
     "editorLink.activeForeground": `${palette.green}`,
     "editor.lineHighlightBackground": `${palette.bg3}70`,
-    "editorWhitespace.foreground": `${palette.bg8}`,
+    "editorWhitespace.foreground": `${palette.bg5}`,
     "editorIndentGuide.background": `${palette.grey2}20`,
     "editorIndentGuide.activeBackground": `${palette.grey2}50`,
     "editorRuler.foreground": `${palette.bg8}a0`,
