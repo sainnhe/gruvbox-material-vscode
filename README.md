@@ -6,37 +6,37 @@
 𝐃𝐚𝐫𝐤 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
 </h2>
 
-![dark-hard-flat](https://user-images.githubusercontent.com/37491630/75506440-f1ed7a80-59d5-11ea-8724-627bdff36a00.png)
+![dark-hard-flat](https://gitlab.com/sainnhe/img/-/raw/master/gm-vsc-dark-hard-flat.png)
 
 <h2 align="center">
 𝐃𝐚𝐫𝐤 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h2>
 
-![dark-medium-material](https://user-images.githubusercontent.com/37491630/75506441-f31ea780-59d5-11ea-92c7-65e9cacf843a.png)
+![dark-medium-material](https://gitlab.com/sainnhe/img/-/raw/master/gm-vsc-dark-medium-material.png)
 
 <h2 align="center">
 𝐃𝐚𝐫𝐤 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
 </h2>
 
-![dark-soft-high-contrast](https://user-images.githubusercontent.com/37491630/75506443-f44fd480-59d5-11ea-9754-72b9bbf86a58.png)
+![dark-soft-high-contrast](https://gitlab.com/sainnhe/img/-/raw/master/gm-vsc-dark-soft-high-contrast.png)
 
 <h2 align="center">
 𝐋𝐢𝐠𝐡𝐭 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
 </h2>
 
-![light-hard-flat](https://user-images.githubusercontent.com/37491630/75506444-f5810180-59d5-11ea-9844-03fb609d5d5d.png)
+![light-hard-flat](https://gitlab.com/sainnhe/img/-/raw/master/gm-vsc-light-hard-flat.png)
 
 <h2 align="center">
 𝐋𝐢𝐠𝐡𝐭 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
 </h2>
 
-![light-medium-material](https://user-images.githubusercontent.com/37491630/75506447-f6b22e80-59d5-11ea-859f-c7b71df730e1.png)
+![light-medium-material](https://gitlab.com/sainnhe/img/-/raw/master/gm-vsc-light-medium-material.png)
 
 <h2 align="center">
 𝐋𝐢𝐠𝐡𝐭 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
 </h2>
 
-![light-soft-high-contrast](https://user-images.githubusercontent.com/37491630/75506451-f87bf200-59d5-11ea-8490-f318ea480a6e.png)
+![light-soft-high-contrast](https://gitlab.com/sainnhe/img/-/raw/master/gm-vsc-light-soft-high-contrast.png)
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
