@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.2.6
+
+- Update description in user settings.
+
 ## 6.2.5
 
 - Adjust `list.focusBackground` in the flat and highContrast variants.

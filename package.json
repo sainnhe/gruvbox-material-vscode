@@ -49,7 +49,7 @@
         "gruvboxMaterial.darkContrast": {
           "type": "string",
           "default": "medium",
-          "description": "Background contrast for the dark variant.",
+          "markdownDescription": "Background contrast for the dark variant. [Preview](https://github.com/sainnhe/gruvbox-material#introduction)",
           "enum": [
             "soft",
             "medium",
@@ -59,7 +59,7 @@
         "gruvboxMaterial.lightContrast": {
           "type": "string",
           "default": "medium",
-          "description": "Background contrast for the light variant.",
+          "markdownDescription": "Background contrast for the light variant. [Preview](https://github.com/sainnhe/gruvbox-material#introduction)",
           "enum": [
             "soft",
             "medium",
@@ -69,7 +69,7 @@
         "gruvboxMaterial.darkWorkbench": {
           "type": "string",
           "default": "material",
-          "description": "Workbench style for the dark variant.",
+          "markdownDescription": "Workbench style for the dark variant. [Preview](vscode:extension/sainnhe.gruvbox-material)",
           "enum": [
             "material",
             "flat",
@@ -79,7 +79,7 @@
         "gruvboxMaterial.lightWorkbench": {
           "type": "string",
           "default": "material",
-          "description": "Workbench style for the light variant.",
+          "markdownDescription": "Workbench style for the light variant. [Preview](vscode:extension/sainnhe.gruvbox-material)",
           "enum": [
             "material",
             "flat",
@@ -141,21 +141,31 @@
         "gruvboxMaterial.darkPalette": {
           "type": "string",
           "default": "material",
-          "description": "The color palette used in the dark variant.",
+          "markdownDescription": "The color palette used in the dark variant. [Preview](https://github.com/sainnhe/gruvbox-material#introduction)",
           "enum": [
             "material",
             "mix",
             "original"
+          ],
+          "markdownEnumDescriptions": [
+            "Carefully designed to have a soft contrast.",
+            "Color palette obtained by calculating the mean of the other two.",
+            "The color palette used in the original gruvbox."
           ]
         },
         "gruvboxMaterial.lightPalette": {
           "type": "string",
           "default": "material",
-          "description": "The color palette used in the light variant.",
+          "markdownDescription": "The color palette used in the light variant. [Preview](https://github.com/sainnhe/gruvbox-material#introduction)",
           "enum": [
             "material",
             "mix",
             "original"
+          ],
+          "markdownEnumDescriptions": [
+            "Carefully designed to have a soft contrast.",
+            "Color palette obtained by calculating the mean of the other two.",
+            "The color palette used in the original gruvbox."
           ]
         },
         "gruvboxMaterial.colorfulSyntax": {
