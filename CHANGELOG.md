@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 - Update description in user settings.
 - Use darker fg for `editorWhitespace`.
+- Use dim in unnecessary code.
 
 ## 6.2.5
 
