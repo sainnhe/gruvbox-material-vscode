@@ -1570,6 +1570,13 @@
       }
     },
     {
+      "name": "Ruby white",
+      "scope": "meta.function.method.with-arguments.ruby",
+      "settings": {
+        "foreground": "#654735"
+      }
+    },
+    {
       "name": "Ruby orange",
       "scope": "keyword.control.pseudo-method.ruby",
       "settings": {

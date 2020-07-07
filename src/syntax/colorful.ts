@@ -1418,6 +1418,13 @@ export function getColorfulSyntax(palette: Palette, italicComments: boolean) {
     // }}}
     // Ruby{{{
     {
+      name: "Ruby white",
+      scope: "meta.function.method.with-arguments.ruby",
+      settings: {
+        foreground: palette.fg,
+      },
+    },
+    {
       name: "Ruby orange",
       scope: "keyword.other.special-method.ruby, keyword.control.def.ruby",
       settings: {

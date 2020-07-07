@@ -1369,6 +1369,13 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     // }}}
     // Ruby{{{
     {
+      name: "Ruby white",
+      scope: "meta.function.method.with-arguments.ruby",
+      settings: {
+        foreground: palette.fg,
+      },
+    },
+    {
       name: "Ruby orange",
       scope: "keyword.control.pseudo-method.ruby",
       settings: {

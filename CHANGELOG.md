@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.2.7
+
+- Fix [#25](https://github.com/sainnhe/gruvbox-material-vscode/issues/25).
+
 ## 6.2.6
 
 - Update description in user settings.
