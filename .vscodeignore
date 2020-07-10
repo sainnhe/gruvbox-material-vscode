@@ -9,3 +9,4 @@ icon.svg
 tslint.json
 tsconfig.base.json
 nodemon.json
+out/hook

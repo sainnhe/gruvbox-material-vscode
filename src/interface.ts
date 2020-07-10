@@ -1,3 +1,9 @@
+// To add a new configuration option:
+// 1. Edit package.json
+// 2. Add the configuration option in this interface
+// 3. utils.getConfiguration()
+// 4. utils.isDefaultConfiguration()
+// 5. generateTheme.ts
 export interface Configuration {
   darkContrast?: string;
   lightContrast?: string;
