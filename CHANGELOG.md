@@ -2,6 +2,14 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.2.9
+
+- Ruby incorrect colorization fix
+
+## 6.2.8
+
+- Fix [#27](https://github.com/sainnhe/gruvbox-material-vscode/issues/27)
+
 ## 6.2.7
 
 - Fix [#25](https://github.com/sainnhe/gruvbox-material-vscode/issues/25).
