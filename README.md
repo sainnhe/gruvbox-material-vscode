@@ -77,6 +77,24 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 ext install sainnhe.gruvbox-material
 ```
 
+### Compile From Source
+
+**Requirements**:
+
+1. [git](git-scm.com/)
+2. [nodejs](https://nodejs.org/en/download/)
+3. [typescript](https://www.typescriptlang.org/index.html#download-links)
+4. [vsce](https://www.npmjs.com/package/vsce)
+
+**Steps**:
+
+Open your terminal emulator and execute the following commands:
+
+1. Clone the repository: `git clone --depth 1 https://github.com/sainnhe/gruvbox-material-vscode.git`
+2. Install node modules: `cd gruvbox-material-vscode && npm install`
+3. Package this extension to a `.vsix` file: `vsce package`
+4. Install from this `.vsix` file: [How to install VS code extension manually? - Stack Overflow](https://stackoverflow.com/questions/37071388/how-can-i-install-visual-studio-code-extensions-offline)
+
 ## Usage
 
 1. Click the gear button in the lower left corner.
