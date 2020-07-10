@@ -1591,6 +1591,20 @@
       }
     },
     {
+      "name": "Ruby yellow",
+      "scope": "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby",
+      "settings": {
+        "foreground": "#b47109"
+      }
+    },
+    {
+      "name": "Ruby blue",
+      "scope": "variable.other.constant.ruby",
+      "settings": {
+        "foreground": "#45707a"
+      }
+    },
+    {
       "name": "Ruby purple",
       "scope": "keyword.control.module.ruby",
       "settings": {

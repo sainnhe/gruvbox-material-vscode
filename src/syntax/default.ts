@@ -1396,6 +1396,20 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
         foreground: palette.purple,
       },
     },
+    {
+      name: "Ruby yellow",
+      scope: "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby",
+      settings: {
+        foreground: palette.yellow
+      }
+    },
+    {
+      name: "Ruby blue",
+      scope: "variable.other.constant.ruby",
+      settings: {
+        foreground: palette.blue
+      }
+    },
     // }}}
     // Haskell{{{
     {
