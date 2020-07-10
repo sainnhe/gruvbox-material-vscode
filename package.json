@@ -189,8 +189,8 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile:ts": "tsc -p src",
-    "compile": "yarn compile:ts",
-    "watch:ts": "yarn compile:ts -w",
+    "compile": "npm run compile:ts",
+    "watch:ts": "npm run compile:ts -w",
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
   "engines": {
@@ -213,7 +213,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsc -p src && node out/hook/generateTheme.js && git add themes && lint-staged"
+      "pre-commit": "echo 'Regenerating /themes/*.json ...' && tsc -p src && node out/hook/generateTheme.js && git add themes && lint-staged"
     }
   },
   "lint-staged": {
