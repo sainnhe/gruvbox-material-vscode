@@ -214,7 +214,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && tsc -p src && node out/hook/generateTheme.js"
+      "pre-commit": "tsc -p src && node out/hook/generateTheme.js && git add themes && lint-staged"
     }
   },
   "lint-staged": {
