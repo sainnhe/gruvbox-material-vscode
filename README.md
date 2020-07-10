@@ -101,6 +101,10 @@ Several configuration options are provided, you can customize the palette, contr
 2. Set the `gruvboxMaterial.italicKeywords` option to `true` in user settings.
 3. (optional)Set the `gruvboxMaterial.italicComments` option to `false` in user settings.
 
+**Q: How to disable semantic highlighting?**
+
+**A:** Add this to your `settings.json`: `"editor.semanticHighlighting.enabled": false`
+
 ## Related Projects
 
 See this [wiki page](https://github.com/sainnhe/gruvbox-material/wiki/Related-Projects).
