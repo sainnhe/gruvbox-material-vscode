@@ -213,7 +213,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'Regenerating /themes/*.json ...' && tsc -p src && node out/hook/generateTheme.js && git add themes && lint-staged"
+      "pre-commit": "echo 'Regenerating /themes/*.json ...' && tsc -p src && node out/hook/generateTheme.js && git add themes && echo 'Formatting ...' && lint-staged"
     }
   },
   "lint-staged": {
