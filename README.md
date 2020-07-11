@@ -121,7 +121,14 @@ Several configuration options are provided, you can customize the palette, contr
 
 **Q: How to disable semantic highlighting?**
 
-**A:** Add this to your `settings.json`: `"editor.semanticHighlighting.enabled": false`
+**A:**
+
+In your `settings.json`:
+
+1. To disable it globally: `"editor.semanticHighlighting.enabled": false`
+2. For [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools): `"C_Cpp.enhancedColorization": "Disabled"`
+3. For [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp): `"csharp.semanticHighlighting.enabled": false`
+4. For [Java](https://marketplace.visualstudio.com/items?itemName=redhat.java): `"java.semanticHighlighting.enabled": false`
 
 ## Related Projects
 
