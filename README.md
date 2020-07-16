@@ -40,13 +40,14 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
+  <a href="https://open-vsx.org/extension/sainnhe/gruvbox-material">OVSX</a> |
   <a href="https://github.com/sainnhe/gruvbox-material-vscode">Repository</a> |
   <a href="https://github.com/sainnhe/gruvbox-material-vscode/issues">Issues</a> |
   <a href="https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md">Changelog</a>
   <br><br>
 </p>
 
-This color scheme is a port of [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code.
+This color scheme is a port of [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code and its forks.
 
 > Gruvbox Material is a modified version of [Gruvbox](https://github.com/morhetz/gruvbox), the contrast is adjusted to be softer in order to protect developers' eyes.
 
@@ -63,19 +64,15 @@ There are 3 palettes available in this color scheme, the screenshots above only 
 
 ## Installation
 
-### Via Marketplace
+### Via VSCode Marketplace
+
+For vscode users, you can install this extension from [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material):
 
 1. Press extensions icon in your vscode.
 2. Search `sainnhe.gruvbox-material`.
 3. Select this extension and press `install` button.
 
-### Via Quick Open
-
-Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
-
-```
-ext install sainnhe.gruvbox-material
-```
+### Via Open VSX Registry
 
 ### Compile From Source
 
