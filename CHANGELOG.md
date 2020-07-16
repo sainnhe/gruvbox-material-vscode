@@ -2,6 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.2.10
+
+- Publish to open vsx registry.
+- Setup a pre-commit hook that can regenerate the theme file using default settings.
+
 ## 6.2.9
 
 - Ruby incorrect colorization fix

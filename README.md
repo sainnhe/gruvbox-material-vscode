@@ -64,15 +64,13 @@ There are 3 palettes available in this color scheme, the screenshots above only 
 
 ## Installation
 
-### Via VSCode Marketplace
+### Via Marketplace/Registry
 
-For vscode users, you can install this extension from [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material):
+This extension has been published on [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material) and [open vsx registry](https://open-vsx.org/extension/sainnhe/gruvbox-material), you can install it by following these steps:
 
-1. Press extensions icon in your vscode.
-2. Search `sainnhe.gruvbox-material`.
+1. Press extensions icon in your editor.
+2. Search for `sainnhe.gruvbox-material`.
 3. Select this extension and press `install` button.
-
-### Via Open VSX Registry
 
 ### Compile From Source
 
