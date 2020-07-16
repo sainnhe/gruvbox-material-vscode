@@ -1,9 +1,8 @@
 on:
-  push:
-    tags:
-      - "*"
+  schedule:
+    - cron: "0 0 * * *"
 
-name: Stable Release
+name: Nightly Build
 jobs:
   deploy:
     runs-on: ubuntu-latest
