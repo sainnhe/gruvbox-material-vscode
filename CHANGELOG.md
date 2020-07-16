@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.2.11
+
+- Add new command `gruvboxMaterial.regenerateThemes`.
+
 ## 6.2.10
 
 - Publish to open vsx registry.

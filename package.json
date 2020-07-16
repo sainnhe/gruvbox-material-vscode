@@ -31,6 +31,13 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "commands": [
+      {
+        "command": "gruvboxMaterial.regenerateThemes",
+        "title": "Regenerate Themes",
+        "category": "Gruvbox Material"
+      }
+    ],
     "themes": [
       {
         "label": "Gruvbox Material Dark",

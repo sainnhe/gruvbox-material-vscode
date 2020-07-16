@@ -1,4 +1,4 @@
-import { workspace } from "vscode";
+import { commands, workspace } from "vscode";
 import { join } from "path";
 import Utils from "./utils";
 
@@ -27,6 +27,15 @@ export function activate() {
       utils.getThemeData(utils.getConfiguration())
     );
   }
+
+  // Register commands.
+  commands.registerCommand("gruvboxMaterial.regenerateThemes", () => {
+    utils.generate(
+      join(__dirname, "..", "themes", "gruvbox-material-dark.json"),
+      join(__dirname, "..", "themes", "gruvbox-material-light.json"),
+      utils.getThemeData(utils.getConfiguration())
+    );
+  });
 }
 
 export function deactivate() {}
