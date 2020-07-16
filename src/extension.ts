@@ -5,7 +5,7 @@ import Utils from "./utils";
 export function activate() {
   let utils = new Utils();
 
-  // regenerate theme files when user configuration changes
+  // Regenerate theme files when user configuration changes.
   workspace.onDidChangeConfiguration((event) => {
     utils.detectConfigChanges(event, () => {
       utils.generate(
@@ -16,7 +16,7 @@ export function activate() {
     });
   });
 
-  // regenerate theme files if it's newly installed but the user settings are not default
+  // Regenerate theme files if it's newly installed but the user settings are not the default.
   if (
     utils.isNewlyInstalled() &&
     !utils.isDefaultConfiguration(utils.getConfiguration())
