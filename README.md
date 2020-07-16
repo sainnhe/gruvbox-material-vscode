@@ -40,7 +40,7 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
-  <a href="https://open-vsx.org/extension/sainnhe/gruvbox-material">OVSX</a> |
+  <a href="https://open-vsx.org/extension/sainnhe/gruvbox-material">Registry</a> |
   <a href="https://github.com/sainnhe/gruvbox-material-vscode">Repository</a> |
   <a href="https://github.com/sainnhe/gruvbox-material-vscode/issues">Issues</a> |
   <a href="https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md">Changelog</a>
