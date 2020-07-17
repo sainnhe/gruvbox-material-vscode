@@ -1,9 +1,10 @@
+name: Stable Release
+
 on:
   push:
     tags:
       - "*"
 
-name: Stable Release
 jobs:
   deploy:
     runs-on: ubuntu-latest
