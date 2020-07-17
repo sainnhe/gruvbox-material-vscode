@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 6.2.11
 
 - Add new command `gruvboxMaterial.regenerateThemes`.
+- Add github action that can comment automatically when an issue is closed.
 
 ## 6.2.10
 

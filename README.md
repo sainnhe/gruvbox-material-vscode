@@ -64,31 +64,9 @@ There are 3 palettes available in this color scheme, the screenshots above only 
 
 ## Installation
 
-### Via Marketplace/Registry
-
-This extension has been published on [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material) and [open vsx registry](https://open-vsx.org/extension/sainnhe/gruvbox-material), you can install it by following these steps:
-
 1. Press extensions icon in your editor.
 2. Search for `sainnhe.gruvbox-material`.
 3. Select this extension and press `install` button.
-
-### Compile From Source
-
-**Requirements**:
-
-1. [git](git-scm.com/)
-2. [nodejs](https://nodejs.org/en/download/)
-3. [typescript](https://www.typescriptlang.org/index.html#download-links)
-4. [vsce](https://www.npmjs.com/package/vsce)
-
-**Steps**:
-
-Open your terminal emulator and execute the following commands:
-
-1. Clone the repository: `git clone --depth 1 https://github.com/sainnhe/gruvbox-material-vscode.git`
-2. Install node modules: `cd gruvbox-material-vscode && npm install`
-3. Package this extension to a `.vsix` file: `vsce package`
-4. Install from this `.vsix` file: [How to install VS code extension manually? - Stack Overflow](https://stackoverflow.com/questions/37071388/how-can-i-install-visual-studio-code-extensions-offline)
 
 ## Usage
 
