@@ -4,6 +4,11 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 ## 6.2.11
 
+- Fix [#28](https://github.com/sainnhe/gruvbox-material-vscode/issues/28).
+- Ruby and Yaml incorrect colorization fixes (RoR oriented).
+
+## 6.2.11
+
 - Add new command `gruvboxMaterial.regenerateThemes`.
 - Add github action that can comment automatically when an issue is closed.
 
