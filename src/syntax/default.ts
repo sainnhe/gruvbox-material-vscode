@@ -59,7 +59,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "Function",
       scope:
-        "entity.name.function, support.function, meta.function, meta.function-call, entity.name.function, meta.definition.method",
+        "entity.name.function, support.function, meta.function, meta.function-call, meta.definition.method",
       settings: {
         foreground: palette.green,
       },
@@ -909,7 +909,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "C++ orange",
       scope:
-        "storage.type.built-in.primitive.cpp, storage.type.built-in.cpp, storage.type.struct.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp",
+        "storage.type.built-in.primitive.cpp, storage.type.built-in.cpp, storage.type.struct.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, entity.name.function.operator",
       settings: {
         foreground: palette.orange,
       },
@@ -1391,24 +1391,26 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     },
     {
       name: "Ruby purple",
-      scope: "keyword.control.module.ruby",
+      scope:
+        "keyword.control.module.ruby, punctuation.definition.constant.ruby",
       settings: {
         foreground: palette.purple,
       },
     },
     {
       name: "Ruby yellow",
-      scope: "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby",
+      scope:
+        "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby",
       settings: {
-        foreground: palette.yellow
-      }
+        foreground: palette.yellow,
+      },
     },
     {
       name: "Ruby blue",
       scope: "variable.other.constant.ruby",
       settings: {
-        foreground: palette.blue
-      }
+        foreground: palette.blue,
+      },
     },
     // }}}
     // Haskell{{{
@@ -1940,7 +1942,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "YAML green",
       scope:
-        "string.unquoted.plain.out.yaml, string.quoted.single.yaml, string.quoted.double.yaml, punctuation.definition.string.begin.yaml, punctuation.definition.string.end.yaml, string.unquoted.plain.in.yaml",
+        "string.unquoted.plain.out.yaml, string.quoted.single.yaml, string.quoted.double.yaml, punctuation.definition.string.begin.yaml, punctuation.definition.string.end.yaml, string.unquoted.plain.in.yaml, string.unquoted.block.yaml",
       settings: {
         foreground: palette.green,
       },
