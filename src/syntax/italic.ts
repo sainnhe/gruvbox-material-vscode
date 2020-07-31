@@ -345,6 +345,62 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
       },
     },
     // }}}
+    // reStructuredText{{{
+    {
+      name: "reStructuredText heading",
+      scope: "punctuation.definition.heading.restructuredtext",
+      settings: {
+        foreground: palette.orange,
+        fontStyle: "bold",
+      },
+    },
+    {
+      name: "reStructuredText delimiter",
+      scope:
+        "punctuation.definition.field.restructuredtext, punctuation.separator.key-value.restructuredtext, punctuation.definition.directive.restructuredtext, punctuation.definition.constant.restructuredtext, punctuation.definition.italic.restructuredtext, punctuation.definition.table.restructuredtext",
+      settings: {
+        foreground: palette.grey1,
+      },
+    },
+    {
+      name: "reStructuredText delimiter bold",
+      scope: "punctuation.definition.bold.restructuredtext",
+      settings: {
+        foreground: palette.grey1,
+        fontStyle: "regular",
+      },
+    },
+    {
+      name: "reStructuredText aqua",
+      scope:
+        "entity.name.tag.restructuredtext, punctuation.definition.link.restructuredtext, punctuation.definition.raw.restructuredtext, punctuation.section.raw.restructuredtext",
+      settings: {
+        foreground: palette.aqua,
+      },
+    },
+    {
+      name: "reStructuredText purple",
+      scope: "constant.other.footnote.link.restructuredtext",
+      settings: {
+        foreground: palette.purple,
+      },
+    },
+    {
+      name: "reStructuredText red",
+      scope: "support.directive.restructuredtext",
+      settings: {
+        foreground: palette.red,
+      },
+    },
+    {
+      name: "reStructuredText green",
+      scope:
+        "entity.name.directive.restructuredtext, markup.raw.restructuredtext, markup.raw.inner.restructuredtext, string.other.link.title.restructuredtext",
+      settings: {
+        foreground: palette.green,
+      },
+    },
+    // }}}
     // LaTex{{{
     {
       name: "LaTex delimiter",
@@ -1536,6 +1592,22 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
       },
     },
     // }}}
+    // Elm{{{
+    {
+      name: "Elm white",
+      scope: "keyword.other.period.elm",
+      settings: {
+        foreground: palette.fg,
+      },
+    },
+    {
+      name: "Elm yellow",
+      scope: "storage.type.elm",
+      settings: {
+        foreground: palette.yellow,
+      },
+    },
+    // }}}
     // R{{{
     {
       name: "R orange",
@@ -1658,6 +1730,16 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
       },
     },
     // }}}
+    // Perl{{{
+    {
+      name: "Perl red",
+      scope: "storage.type.sub.perl, storage.type.declare.routine.perl",
+      settings: {
+        foreground: palette.red,
+        fontStyle: "italic",
+      },
+    },
+    // }}}
     // Common Lisp{{{
     {
       name: "Lisp white",
@@ -1740,6 +1822,46 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
       name: "Shell purple",
       scope:
         "keyword.control.heredoc-token.shell, variable.other.normal.shell, punctuation.definition.variable.shell, variable.other.special.shell, variable.other.positional.shell, variable.other.bracket.shell",
+      settings: {
+        foreground: palette.purple,
+      },
+    },
+    // }}}
+    // Fish{{{
+    {
+      name: "Fish red",
+      scope: "support.function.builtin.fish",
+      settings: {
+        foreground: palette.red,
+        fontStyle: "italic",
+      },
+    },
+    {
+      name: "Fish orange",
+      scope: "support.function.unix.fish",
+      settings: {
+        foreground: palette.orange,
+      },
+    },
+    {
+      name: "Fish blue",
+      scope:
+        "variable.other.normal.fish, punctuation.definition.variable.fish, variable.other.fixed.fish, variable.other.special.fish",
+      settings: {
+        foreground: palette.blue,
+      },
+    },
+    {
+      name: "Fish green",
+      scope:
+        "string.quoted.double.fish, punctuation.definition.string.end.fish, punctuation.definition.string.begin.fish, string.quoted.single.fish",
+      settings: {
+        foreground: palette.green,
+      },
+    },
+    {
+      name: "Fish purple",
+      scope: "constant.character.escape.single.fish",
       settings: {
         foreground: palette.purple,
       },
@@ -1843,6 +1965,45 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
       scope: "storage.source.cmake",
       settings: {
         foreground: palette.purple,
+      },
+    },
+    // }}}
+    // {{{VimL
+    {
+      name: "VimL grey",
+      scope: "punctuation.definition.map.viml",
+      settings: {
+        foreground: palette.grey1,
+      },
+    },
+    {
+      name: "VimL orange",
+      scope: "storage.type.map.viml",
+      settings: {
+        foreground: palette.orange,
+      },
+    },
+    {
+      name: "VimL green",
+      scope: "constant.character.map.viml, constant.character.map.key.viml",
+      settings: {
+        foreground: palette.green,
+      },
+    },
+    {
+      name: "VimL blue",
+      scope: "constant.character.map.special.viml",
+      settings: {
+        foreground: palette.blue,
+      },
+    },
+    // }}}
+    // {{{Tmux
+    {
+      name: "Tmux green",
+      scope: "constant.language.tmux, constant.numeric.tmux",
+      settings: {
+        foreground: palette.green,
       },
     },
     // }}}
@@ -1962,6 +2123,46 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "Git aqua",
       scope: "keyword.other.definition.ini",
+      settings: {
+        foreground: palette.aqua,
+      },
+    },
+    // }}}
+    // SQL{{{
+    {
+      name: "SQL yellow",
+      scope: "support.function.aggregate.sql",
+      settings: {
+        foreground: palette.yellow,
+      },
+    },
+    {
+      name: "SQL green",
+      scope:
+        "string.quoted.single.sql, punctuation.definition.string.end.sql, punctuation.definition.string.begin.sql, string.quoted.double.sql",
+      settings: {
+        foreground: palette.green,
+      },
+    },
+    // }}}
+    // GraphQL{{{
+    {
+      name: "GraphQL yellow",
+      scope: "support.type.graphql",
+      settings: {
+        foreground: palette.yellow,
+      },
+    },
+    {
+      name: "GraphQL blue",
+      scope: "variable.parameter.graphql",
+      settings: {
+        foreground: palette.blue,
+      },
+    },
+    {
+      name: "GraphQL aqua",
+      scope: "constant.character.enum.graphql",
       settings: {
         foreground: palette.aqua,
       },

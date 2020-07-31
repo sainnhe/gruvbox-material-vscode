@@ -6,7 +6,7 @@ temp/flag.txt
 **/*.ts
 **/tsconfig.json
 icon.svg
-tslint.json
 tsconfig.base.json
 out/hook
 .github
+tslint.json
