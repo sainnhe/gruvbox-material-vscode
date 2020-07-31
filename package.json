@@ -196,23 +196,22 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile:ts": "tsc -p src",
-    "compile": "npm run compile:ts",
-    "watch:ts": "npm run compile:ts -w",
+    "compile:themes": "node out/hook/generateTheme.js",
+    "compile": "npm run compile:ts && npm run compile:themes",
+    "package": "vsce package && git checkout -- themes",
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
   "engines": {
     "vscode": "^1.40.0"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.42",
     "@types/node": "^10.17.20",
     "@types/vscode": "^1.40.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.1.4",
-    "minimist": ">=1.2.2",
     "prettier": "^2.0.4",
-    "tslint": "^5.20.1",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "vsce": "^1.77.0"
   },
   "prettier": {
     "trailingComma": "es5",
@@ -220,10 +219,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'Regenerating /themes/*.json ...' && tsc -p src && node out/hook/generateTheme.js && git add themes && echo 'Formatting...' && lint-staged"
+      "pre-commit": "echo 'Regenerating /themes/*.json ...' && npm run compile && git add themes && echo 'Formatting...' && lint-staged"
     }
   },
   "lint-staged": {
     "*.{ts,json,md}": "prettier --write"
-  }
+  },
+  "dependencies": {}
 }
