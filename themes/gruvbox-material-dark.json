@@ -1592,7 +1592,7 @@
     },
     {
       "name": "Ruby purple",
-      "scope": "keyword.control.module.ruby, punctuation.definition.constant.ruby",
+      "scope": "keyword.control.module.ruby",
       "settings": {
         "foreground": "#d3869b"
       }
