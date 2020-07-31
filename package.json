@@ -220,7 +220,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'Regenerating /themes/*.json ...' && npm run compile && git add themes && echo 'Formatting...' && lint-staged"
+      "pre-commit": "echo '==> Regenerating /themes/*.json ...' && npm run compile && git add themes && echo '==> Formatting...' && lint-staged"
     }
   },
   "lint-staged": {
