@@ -9,3 +9,4 @@ icon.svg
 tsconfig.base.json
 out/hook
 .github
+tslint.json

@@ -210,6 +210,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.1.4",
     "prettier": "^2.0.4",
+    "tslint": "^6.1.2",
     "typescript": "^3.8.3",
     "vsce": "^1.77.0"
   },
