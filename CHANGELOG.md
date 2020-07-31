@@ -2,7 +2,7 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
-## 6.2.13
+## 6.3.0
 
 - Optimize more languages.
 
