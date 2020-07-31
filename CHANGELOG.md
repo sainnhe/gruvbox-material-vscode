@@ -2,7 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
-## 6.2.11
+## 6.2.13
+
+- Optimize more languages.
+
+## 6.2.12
 
 - Fix [#28](https://github.com/sainnhe/gruvbox-material-vscode/issues/28).
 - Ruby and Yaml incorrect colorization fixes (RoR oriented).

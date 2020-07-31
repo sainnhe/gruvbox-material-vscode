@@ -1386,7 +1386,7 @@ export function getColorfulSyntax(palette: Palette, italicComments: boolean) {
     // }}}
     // SQL{{{
     {
-      name: "PHP aqua",
+      name: "SQL aqua",
       scope: "constant.other.table-name.sql",
       settings: {
         foreground: palette.aqua,
@@ -1449,17 +1449,18 @@ export function getColorfulSyntax(palette: Palette, italicComments: boolean) {
     },
     {
       name: "Ruby yellow",
-      scope: "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby",
+      scope:
+        "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby",
       settings: {
-        foreground: palette.yellow
-      }
+        foreground: palette.yellow,
+      },
     },
     {
       name: "Ruby blue",
       scope: "variable.other.constant.ruby",
       settings: {
-        foreground: palette.blue
-      }
+        foreground: palette.blue,
+      },
     },
     // }}}
     // Haskell{{{
