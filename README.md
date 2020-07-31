@@ -150,6 +150,11 @@ Several configuration options are provided, you can customize the palette, contr
 2. Click `Settings`.
 3. Select `Gruvbox Material` and change the settings.
 
+**Note:** For better syntax highlighting support, please:
+
+1. Don't enable `gruvboxMaterial.colorfulSyntax` (this setting is disabled by default).
+2. Disable semantic highlighting for all languages except `editor.semanticHighlighting.enabled`, see [FAQ](https://github.com/sainnhe/gruvbox-material-vscode#faq).
+
 ## FAQ
 
 **Q: How to enable cursive italic keywords?**
