@@ -208,10 +208,10 @@
     "@types/node": "^10.17.20",
     "@types/vscode": "^1.40.0",
     "husky": "^4.2.5",
-    "lint-staged": "^10.1.4",
-    "prettier": "^2.0.4",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
     "tslint": "^6.1.2",
-    "typescript": "^3.8.3",
+    "typescript": "^3.9.7",
     "vsce": "^1.77.0"
   },
   "prettier": {
