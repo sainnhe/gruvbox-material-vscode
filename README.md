@@ -87,7 +87,7 @@ The following file types and syntax extensions are basically optimized, feedback
 - **Dart:** [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
 - **Pug:** builtin
 - **C:** builtin
-- **C++:** builtin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
+- **C++:** builtin, [C/C++ for Visual Studio Code](https://github.com/Microsoft/vscode-cpptools#cc-for-visual-studio-code)
 - **ObjectiveC:** builtin
 - **C#:** builtin
 - **F#:** builtin
