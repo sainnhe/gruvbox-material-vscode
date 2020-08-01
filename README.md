@@ -68,7 +68,7 @@ There are 3 palettes available in this color scheme, the screenshots above only 
 The following file types and syntax extensions are basically optimized, feedback is welcome :)
 
 - **C#:** builtin
-- **C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
+- **C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax), [C/C++](https://github.com/Microsoft/vscode-cpptools)
 - **C:** builtin
 - **Clojure:** builtin
 - **CMake:** [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
