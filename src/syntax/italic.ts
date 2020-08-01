@@ -1484,7 +1484,7 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
     },
     {
       name: "Ruby orange",
-      scope: "keyword.control.pseudo-method.ruby",
+      scope: "keyword.control.pseudo-method.ruby, storage.type.variable.ruby",
       settings: {
         foreground: palette.orange,
       },
