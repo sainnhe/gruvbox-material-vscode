@@ -1497,11 +1497,18 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
       },
     },
     {
-      name: "Ruby purple",
-      scope: "keyword.control.module.ruby", // punctuation.definition.constant.ruby
+      name: "Ruby purple italic",
+      scope: "keyword.control.module.ruby",
       settings: {
         foreground: palette.purple,
         fontStyle: "italic",
+      },
+    },
+    {
+      name: "Ruby purple regular",
+      scope: "punctuation.definition.constant.ruby",
+      settings: {
+        foreground: palette.purple,
       },
     },
     {
