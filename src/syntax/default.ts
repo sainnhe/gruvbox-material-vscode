@@ -1447,7 +1447,8 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     },
     {
       name: "Ruby purple",
-      scope: "keyword.control.module.ruby", // punctuation.definition.constant.ruby
+      scope:
+        "keyword.control.module.ruby, punctuation.definition.constant.ruby",
       settings: {
         foreground: palette.purple,
       },
