@@ -1001,7 +1001,7 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "C++ orange",
       scope:
-        "storage.type.built-in.primitive.cpp, storage.type.built-in.cpp, storage.type.struct.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, entity.name.function.operator",
+        "storage.type.built-in.primitive.cpp, storage.type.built-in.cpp, storage.type.struct.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, entity.name.function.operator, punctuation.separator.pointer-access.cpp",
       settings: {
         foreground: palette.orange,
       },
