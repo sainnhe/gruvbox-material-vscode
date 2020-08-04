@@ -1629,7 +1629,7 @@
     },
     {
       "name": "Ruby orange",
-      "scope": "keyword.control.pseudo-method.ruby",
+      "scope": "keyword.control.pseudo-method.ruby, storage.type.variable.ruby",
       "settings": {
         "foreground": "#c35e0a"
       }
