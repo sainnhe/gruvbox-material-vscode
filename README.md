@@ -65,7 +65,7 @@ There are 3 palettes available in this color scheme, the screenshots above only 
 <details>
   <summary>Optimized File Types and Syntax Extensions: (<b>click on this line to expand</b>)</summary>
 
-The following file types and syntax extensions are basically optimized, feedback is welcome :)
+The following file types and syntax extensions are basically optimized, but there might be some bugs and mistakes, feedback is welcome :)
 
 - **C#:** builtin
 - **C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax), [C/C++](https://github.com/Microsoft/vscode-cpptools)
@@ -209,6 +209,12 @@ See [this article](https://www.sainnhe.dev/post/gruvbox-material-vscode-contrib/
 - [Monokai Pro](https://monokai.pro/vscode): the high contrast workbench style
 - [Google Material Design](https://www.material.io)
 
+## Maintainers
+
+| [![Sainnhe Park](https://avatars1.githubusercontent.com/u/37491630?s=70&u=14e72916dcf467f393c532536387ec72a23747ec&v=4)](https://github.com/sainnhe) | [![Zolkin Andrew](https://avatars2.githubusercontent.com/u/58516282?s=70&u=87954a1cdbb355162ecbd9826b6b85525f498240&v=4)](https://github.com/Z4RX) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Sainnhe Park](https://github.com/sainnhe)                                                                                                           | [Zolkin Andrew](https://github.com/Z4RX)                                                                                                           |
+
 ## License
 
-[MIT License](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE) © sainnhe
+[MIT License](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/LICENSE)
