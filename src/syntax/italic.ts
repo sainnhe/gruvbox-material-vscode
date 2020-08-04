@@ -1514,7 +1514,7 @@ export function getItalicSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "Ruby yellow",
       scope:
-        "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby",
+        "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby, punctuation.section.regexp.ruby, punctuation.definition.group.ruby",
       settings: {
         foreground: palette.yellow,
       },
