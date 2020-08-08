@@ -2,6 +2,13 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.3.4
+
+- Fix [31](https://github.com/sainnhe/gruvbox-material-vscode/issues/31)
+- Optimized Ruby RegExp syntax
+- Optimized Ruby methods params syntax
+- Optimized Ruby separators color
+
 ## 6.3.3
 
 - Sort optimized languages by alphabet.
