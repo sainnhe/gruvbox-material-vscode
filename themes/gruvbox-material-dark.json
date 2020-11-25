@@ -2286,6 +2286,13 @@
       }
     },
     {
+      "name": "Clojure green",
+      "scope": "variable, support.variable.clojure, meta.definition.variable.clojure",
+      "settings": {
+        "foreground": "#a9b665"
+      }
+    },
+    {
       "name": "TOML orange",
       "scope": "keyword.key.toml",
       "settings": {
