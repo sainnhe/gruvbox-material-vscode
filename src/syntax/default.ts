@@ -2162,6 +2162,15 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
       },
     },
     // }}}
+    // CLOJURE{{{
+    {
+      name: "Clojure green",
+      scope: "variable, support.variable.clojure, meta.definition.variable.clojure",
+      settings: {
+        foreground: palette.green,
+      },
+    },
+    // }}}
     // TOML{{{
     {
       name: "TOML orange",
