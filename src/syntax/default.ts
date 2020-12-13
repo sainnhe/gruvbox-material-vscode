@@ -1721,7 +1721,8 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     // Clojure{{{
     {
       name: "Clojure green",
-      scope: "constant.keyword.clojure",
+      scope:
+        "constant.keyword.clojure, support.variable.clojure, meta.definition.variable.clojure",
       settings: {
         foreground: palette.green,
       },

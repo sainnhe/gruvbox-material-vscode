@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 - Use black as background color of remote extension icon. [#43](https://github.com/sainnhe/gruvbox-material-vscode/issues/43)
 - Add diagnostic background colors. [#44](https://github.com/sainnhe/gruvbox-material-vscode/issues/44)
+- Improve syntax for clojure lang. [#42](https://github.com/sainnhe/gruvbox-material-vscode/issues/42)
 
 ## 6.3.4
 
