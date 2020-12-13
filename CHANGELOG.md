@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.3.5
+
+- Use black as background color of remote extension icon. [#43](https://github.com/sainnhe/gruvbox-material-vscode/issues/43)
+
 ## 6.3.4
 
 - Fix [31](https://github.com/sainnhe/gruvbox-material-vscode/issues/31)
