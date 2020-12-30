@@ -892,49 +892,33 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
       },
     },
     {
+      name: "C grey",
+      scope:
+        "punctuation.separator.dot-access.c, constant.character.escape.line-continuation.c",
+      settings: {
+        foreground: palette.grey1,
+      },
+    },
+    {
       name: "C red",
-      scope: "keyword.control.switch.c, keyword.control.case.c",
+      scope:
+        "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c, keyword.control.directive.conditional.ifdef.c, keyword.control.directive.endif.c, keyword.control.directive.conditional.ifndef.c, keyword.control.directive.conditional.if.c, keyword.control.directive.else.c",
       settings: {
         foreground: palette.red,
       },
     },
     {
       name: "C orange",
-      scope:
-        "storage.type.built-in.primitive.c, storage.type.built-in.c, storage.type.struct.c",
+      scope: "punctuation.separator.pointer-access.c",
       settings: {
         foreground: palette.orange,
       },
     },
     {
-      name: "C green",
-      scope:
-        "keyword.operator.sizeof.c, string.quoted.other.lt-gt.include.c, string.quoted.double.include.c",
-      settings: {
-        foreground: palette.green,
-      },
-    },
-    {
       name: "C aqua",
-      scope:
-        "keyword.operator.logical.c, keyword.operator.increment.c, keyword.operator.c, keyword.operator.decrement.c, keyword.operator.assignment.c, keyword.operator.bitwise.shift.c, keyword.operator.comparison.c, keyword.operator.assignment.compound.c, keyword.operator.ternary.c, variable.other.member.c",
+      scope: "variable.other.member.c",
       settings: {
         foreground: palette.aqua,
-      },
-    },
-    {
-      name: "C blue",
-      scope: "constant.language.c, storage.modifier.c",
-      settings: {
-        foreground: palette.blue,
-      },
-    },
-    {
-      name: "C purple",
-      scope:
-        "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c",
-      settings: {
-        foreground: palette.purple,
       },
     },
     // }}}
@@ -942,7 +926,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "C++ white",
       scope:
-        "meta.function-call.cpp, storage.modifier.array.bracket.square.cpp, meta.body.function.definition.cpp",
+        "meta.function-call.cpp, storage.modifier.array.bracket.square.cpp, meta.function.definition.parameters.cpp, meta.body.function.definition.cpp",
       settings: {
         foreground: palette.fg,
       },
@@ -950,14 +934,15 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "C++ grey",
       scope:
-        "punctuation.separator.scope-resolution.function.call.cpp, punctuation.separator.scope-resolution.cpp, punctuation.separator.scope-resolution.parameter.cpp, punctuation.separator.scope-resolution.constructor.cpp, punctuation.separator.scope-resolution.function.definition.cpp, punctuation.separator.scope-resolution.destructor.cpp, punctuation.separator.scope-resolution.template.call.cpp",
+        "punctuation.separator.dot-access.cpp, constant.character.escape.line-continuation.cpp",
       settings: {
         foreground: palette.grey1,
       },
     },
     {
       name: "C++ red",
-      scope: "keyword.control.switch.cpp, keyword.control.case.cpp",
+      scope:
+        "keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, keyword.control.directive.define.cpp, keyword.control.directive.conditional.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.undef.cpp, keyword.control.directive.conditional.ifdef.cpp, keyword.control.directive.endif.cpp, keyword.control.directive.conditional.ifndef.cpp, keyword.control.directive.conditional.if.cpp, keyword.control.directive.else.cpp, storage.type.namespace.definition.cpp, keyword.other.using.directive.cpp, storage.type.struct.cpp",
       settings: {
         foreground: palette.red,
       },
@@ -965,48 +950,16 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "C++ orange",
       scope:
-        "storage.type.built-in.primitive.cpp, storage.type.built-in.cpp, storage.type.struct.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, entity.name.function.operator",
+        "punctuation.separator.pointer-access.cpp, punctuation.section.angle-brackets.begin.template.call.cpp, punctuation.section.angle-brackets.end.template.call.cpp",
       settings: {
         foreground: palette.orange,
       },
     },
     {
-      name: "C++ yellow",
-      scope:
-        "entity.name.type.cpp, entity.name.type.parameter.cpp, storage.type.built-in.cpp, storage.type.built-in.primitive.cpp, constant.other.placeholder.cpp, constant.character.escape.cpp",
-      settings: {
-        foreground: palette.yellow,
-      },
-    },
-    {
-      name: "C++ green",
-      scope:
-        "keyword.operator.sizeof.cpp, string.quoted.other.lt-gt.include.cpp, string.quoted.double.include.cpp, string.quoted.double.cpp, string.quoted.single.cpp, punctuation.definition.string.begin.cpp, punctuation.definition.string.end.cpp",
-      settings: {
-        foreground: palette.green,
-      },
-    },
-    {
       name: "C++ aqua",
-      scope: "entity.name.scope-resolution, entity.name.namespace.cpp",
+      scope: "variable.other.member.cpp",
       settings: {
         foreground: palette.aqua,
-      },
-    },
-    {
-      name: "C++ blue",
-      scope:
-        "storage.type.modifier.access.control.public.cpp, storage.type.modifier.access.control.private.cpp",
-      settings: {
-        foreground: palette.blue,
-      },
-    },
-    {
-      name: "C++ purple",
-      scope:
-        "entity.name.type.class.cpp, keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, storage.type.namespace.definition.cpp, keyword.other.using.directive.cpp, storage.type.namespace.directive.cpp, entity.name.label.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.define.cpp",
-      settings: {
-        foreground: palette.purple,
       },
     },
     // }}}
