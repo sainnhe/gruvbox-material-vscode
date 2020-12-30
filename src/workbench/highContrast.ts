@@ -392,6 +392,8 @@ export function highContrastWorkbench(
     "gitDecoration.ignoredResourceForeground": `${palette.bg7}`,
     "gitDecoration.conflictingResourceForeground": `${palette.purple}a0`,
     "gitDecoration.submoduleResourceForeground": `${palette.orange}a0`,
+    "gitDecoration.stageDeletedResourceForeground": `${palette.aqua}a0`,
+    "gitDecoration.stageModifiedResourceForeground": `${palette.aqua}a0`,
     "notificationCenterHeader.foreground": `${palette.fg0}`,
     "notificationCenterHeader.background": `${palette.bg6}`,
     "notifications.foreground": `${palette.fg}`,

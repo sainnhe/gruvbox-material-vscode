@@ -265,6 +265,8 @@
     "gitDecoration.ignoredResourceForeground": "#c9b99a",
     "gitDecoration.conflictingResourceForeground": "#945e80a0",
     "gitDecoration.submoduleResourceForeground": "#c35e0aa0",
+    "gitDecoration.stageDeletedResourceForeground": "#4c7a5da0",
+    "gitDecoration.stageModifiedResourceForeground": "#4c7a5da0",
     "notificationCenterHeader.foreground": "#4f3829",
     "notificationCenterHeader.background": "#d5c4a1",
     "notifications.foreground": "#654735",
