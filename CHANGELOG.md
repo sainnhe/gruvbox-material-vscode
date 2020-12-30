@@ -2,17 +2,14 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
-## 6.3.6
-
-- Keep track to vscode#v1.52
-- Rewrite C/C++ highlights.
-- More debug colors.
-
 ## 6.3.5
 
 - Use black as background color of remote extension icon. [#43](https://github.com/sainnhe/gruvbox-material-vscode/issues/43)
 - Add diagnostic background colors. [#44](https://github.com/sainnhe/gruvbox-material-vscode/issues/44)
 - Improve syntax for clojure lang. [#42](https://github.com/sainnhe/gruvbox-material-vscode/issues/42)
+- Keep track to vscode#v1.52
+- Rewrite C/C++ highlights.
+- More debug colors.
 
 ## 6.3.4
 
