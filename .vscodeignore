@@ -10,3 +10,4 @@ tsconfig.base.json
 out/hook
 .github
 tslint.json
+CONTRIBUTING.md

@@ -66,6 +66,7 @@ There are 3 palettes available in this color scheme, the screenshots above only 
   <summary>Optimized File Types and Syntax Extensions: (<b>click on this line to expand</b>)</summary>
 
 The following file types and syntax extensions are basically optimized, but there might be some bugs and mistakes, feedback is welcome :)
+
 - **Assembly:** [MASM](https://marketplace.visualstudio.com/items?itemName=bltg-team.masm)
 - **C#:** builtin
 - **C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax), [C/C++](https://github.com/Microsoft/vscode-cpptools)
@@ -188,7 +189,7 @@ See this [wiki page](https://github.com/sainnhe/gruvbox-material/wiki/Related-Pr
 
 ## Contributing
 
-See [this article](https://www.sainnhe.dev/post/gruvbox-material-vscode-contrib/).
+See [CONTRIBUTING.md](https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CONTRIBUTING.md).
 
 ## Credits
 
