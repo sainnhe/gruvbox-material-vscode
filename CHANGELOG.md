@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 - Keep track to vscode#v1.52
 - Rewrite C/C++ highlights.
+- More debug colors.
 
 ## 6.3.5
 
