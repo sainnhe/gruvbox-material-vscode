@@ -470,5 +470,6 @@ export function materialWorkbench(
     "charts.blue": `${palette.blue}`,
     "charts.purple": `${palette.purple}`,
     "charts.foreground": `${palette.fg}`,
+    "sash.hoverBorder": `${palette.grey0}`,
   };
 }

@@ -342,7 +342,8 @@
     "charts.green": "#6c782e",
     "charts.blue": "#45707a",
     "charts.purple": "#945e80",
-    "charts.foreground": "#654735"
+    "charts.foreground": "#654735",
+    "sash.hoverBorder": "#a89984"
   },
   "tokenColors": [
     {
