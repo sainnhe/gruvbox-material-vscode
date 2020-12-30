@@ -463,5 +463,12 @@ export function materialWorkbench(
     "editor.snippetTabstopHighlightBackground": `${palette.bg5}a0`,
     "editor.snippetFinalTabstopHighlightBackground": `${palette.darkGreen}40`,
     "editor.snippetFinalTabstopHighlightBorder": `${palette.bg}`,
+    "charts.red": `${palette.red}`,
+    "charts.orange": `${palette.orange}`,
+    "charts.yellow": `${palette.yellow}`,
+    "charts.green": `${palette.green}`,
+    "charts.blue": `${palette.blue}`,
+    "charts.purple": `${palette.purple}`,
+    "charts.foreground": `${palette.fg}`,
   };
 }

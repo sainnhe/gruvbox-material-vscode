@@ -335,7 +335,14 @@
     "symbolIcon.packageForeground": "#945e80",
     "editor.snippetTabstopHighlightBackground": "#e0cfa9a0",
     "editor.snippetFinalTabstopHighlightBackground": "#a9b66540",
-    "editor.snippetFinalTabstopHighlightBorder": "#fbf1c7"
+    "editor.snippetFinalTabstopHighlightBorder": "#fbf1c7",
+    "charts.red": "#c14a4a",
+    "charts.orange": "#c35e0a",
+    "charts.yellow": "#b47109",
+    "charts.green": "#6c782e",
+    "charts.blue": "#45707a",
+    "charts.purple": "#945e80",
+    "charts.foreground": "#654735"
   },
   "tokenColors": [
     {
