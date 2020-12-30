@@ -3,7 +3,7 @@
 Make sure you have the following programs installed:
 
 1. [git](git-scm.com/)
-2. [nodejs](https://nodejs.org/en/download/)
+2. [nodejs && npm](https://nodejs.org/en/download/)
 
 ## Start
 
@@ -45,6 +45,7 @@ I've setup a github action for this repository that can publish this extension t
 
 ```
 v6.2.10
+
 - Publish to open vsx registry.
 - Setup a pre-commit hook that can regenerate the theme file using default settings.
 ```
@@ -61,7 +62,13 @@ There are 3 workbench styles available in this theme:
 
 It's highly recommended to try them first if you want to modify the code of a workbench style.
 
-In addition, this theme is designed to be borderless, so please DO NOT add unnecessary borders.
+When you are modifying a workbench style, remember a principle:
+
+> Don't make elements too colorful, because this will easily distract you from the code.
+
+You may notice that I used many grey colors in workbench styles, it's exactly because of this, colorless elements will help you focus more on the code.
+
+In addition, this theme is designed to be borderless, so DO NOT add unnecessary borders.
 
 There are 2 syntax highlighting logic available in this theme: default and colorful
 
