@@ -33,6 +33,9 @@ export default class Utils {
       colorfulSyntax: workspaceConfiguration.get<boolean>("colorfulSyntax"),
       italicKeywords: workspaceConfiguration.get<boolean>("italicKeywords"),
       italicComments: workspaceConfiguration.get<boolean>("italicComments"),
+      diagnosticTextBackgroundOpacity: workspaceConfiguration.get<string>(
+        "diagnosticTextBackgroundOpacity"
+      ),
     };
   } // }}}
   isDefaultConfiguration(configuration: Configuration): boolean {
@@ -50,7 +53,8 @@ export default class Utils {
       configuration.darkCursor === "white" &&
       configuration.lightCursor === "black" &&
       configuration.darkSelection === "grey" &&
-      configuration.lightSelection === "grey"
+      configuration.lightSelection === "grey" &&
+      configuration.diagnosticTextBackgroundOpacity === "0%"
     );
   } // }}}
   getThemeData(configuration: Configuration) {

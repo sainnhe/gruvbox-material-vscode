@@ -18,6 +18,7 @@ export interface Configuration {
   colorfulSyntax?: boolean;
   italicKeywords?: boolean;
   italicComments?: boolean;
+  diagnosticTextBackgroundOpacity?: string;
 }
 
 export interface Palette {

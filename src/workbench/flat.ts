@@ -8,6 +8,7 @@ export function flatWorkbench(
   let selectionBg: string;
   let editorSelectionBg: string;
   let cursorFg: string;
+  let diagnosticTextBackgroundOpacity: string;
   if (variant === "dark") {
     switch (
       configuration.darkSelection // {{{
@@ -145,6 +146,33 @@ export function flatWorkbench(
       }
     } // }}}
   }
+  switch (
+    configuration.diagnosticTextBackgroundOpacity // {{{
+  ) {
+    case "0%": {
+      diagnosticTextBackgroundOpacity = "00";
+      break;
+    }
+    case "12.5%": {
+      diagnosticTextBackgroundOpacity = "20";
+      break;
+    }
+    case "25%": {
+      diagnosticTextBackgroundOpacity = "40";
+      break;
+    }
+    case "37.5%": {
+      diagnosticTextBackgroundOpacity = "60";
+      break;
+    }
+    case "50%": {
+      diagnosticTextBackgroundOpacity = "80";
+      break;
+    }
+    default: {
+      diagnosticTextBackgroundOpacity = "00";
+    }
+  } // }}}
   return {
     foreground: `${palette.fg}`,
     focusBorder: `${palette.bg5}00`,
@@ -292,9 +320,9 @@ export function flatWorkbench(
     "editorWarning.foreground": `${palette.darkYellow}`,
     "editorInfo.foreground": `${palette.darkBlue}`,
     "editorHint.foreground": `${palette.darkPurple}`,
-    "editorError.background": `${palette.darkRed}60`,
-    "editorWarning.background": `${palette.darkYellow}60`,
-    "editorInfo.background": `${palette.darkBlue}60`,
+    "editorError.background": `${palette.darkRed}${diagnosticTextBackgroundOpacity}`,
+    "editorWarning.background": `${palette.darkYellow}${diagnosticTextBackgroundOpacity}`,
+    "editorInfo.background": `${palette.darkBlue}${diagnosticTextBackgroundOpacity}`,
     "editorGutter.background": `${palette.bg}00`,
     "editorGutter.modifiedBackground": `${palette.darkBlue}a0`,
     "editorGutter.addedBackground": `${palette.darkGreen}a0`,

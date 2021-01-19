@@ -57,6 +57,7 @@ let configuration: Configuration = {
   colorfulSyntax: false,
   italicKeywords: false,
   italicComments: true,
+  diagnosticTextBackgroundOpacity: "0%",
 };
 
 utils.generate(
