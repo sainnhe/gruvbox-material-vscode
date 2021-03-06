@@ -71,6 +71,7 @@
     "list.dropBackground": "#32302f80",
     "list.focusForeground": "#ddc7a1",
     "list.focusBackground": "#45403d60",
+    "quickInput.list.focusBackground": "#45403d60",
     "list.inactiveFocusBackground": "#45403d48",
     "list.highlightForeground": "#a9b665",
     "list.hoverForeground": "#ddc7a1",
