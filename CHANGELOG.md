@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.3.7
+
+- Optimize tab colors.
+
 ## 6.3.6
 
 - Add new option `gruvboxMaterial.diagnosticTextBackgroundOpacity`.
