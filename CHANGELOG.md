@@ -4,7 +4,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 ## 6.3.7
 
-- Optimize tab colors.
+- Use grey as the foreground color of workbench.
 
 ## 6.3.6
 
