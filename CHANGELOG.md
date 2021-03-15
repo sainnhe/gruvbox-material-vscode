@@ -2,6 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.3.8
+
+- Optimize tab colors.
+- Use white/black as the foreground color of editor widget.
+
 ## 6.3.7
 
 - Use grey as the foreground color of workbench.
