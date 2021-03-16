@@ -12,9 +12,9 @@ First of all, let's try to package this extension and install it to your vscode.
 ```shell
 $ git clone --depth 1 https://github.com/sainnhe/gruvbox-material-vscode.git
 $ cd gruvbox-material-vscode
-$ npm install
+$ npm ci
 $ npm run package
-$ code --install-extension ./gruvbox-material-6.2.1.vsix
+$ code --install-extension ./gruvbox-material-*.vsix
 ```
 
 Now, use vscode to open this project and modify some code, then press `F5` to start debugging.
