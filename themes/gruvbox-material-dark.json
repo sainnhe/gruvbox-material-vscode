@@ -373,7 +373,18 @@
     "charts.blue": "#7daea3",
     "charts.purple": "#d3869b",
     "charts.foreground": "#d4be98",
-    "sash.hoverBorder": "#7c6f64"
+    "sash.hoverBorder": "#7c6f64",
+    "notebook.focusedCellBackground": "#292828",
+    "notebook.cellHoverBackground": "#292828",
+    "notebook.outputContainerBackgroundColor": "#32302f",
+    "notebookStatusSuccessIcon.foreground": "#a9b665",
+    "notebookStatusErrorIcon.foreground": "#ea6962",
+    "notebookStatusRunningIcon.foreground": "#7daea3",
+    "notebook.focusedCellBorder": "#5a524c",
+    "notebook.selectedCellBorder": "#5a524c",
+    "notebook.focusedRowBorder": "#5a524c",
+    "notebook.inactiveFocusedCellBorder": "#5a524c",
+    "notebook.cellToolbarSeparator": "#5a524c"
   },
   "tokenColors": [
     {

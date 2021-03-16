@@ -529,5 +529,16 @@ export function highContrastWorkbench(
     "charts.purple": `${palette.purple}`,
     "charts.foreground": `${palette.fg}`,
     "sash.hoverBorder": `${palette.grey0}`,
+    "notebook.focusedCellBackground": `${palette.bg}`,
+    "notebook.cellHoverBackground": `${palette.bg}`,
+    "notebook.outputContainerBackgroundColor": `${palette.bg2}`,
+    "notebookStatusSuccessIcon.foreground": `${palette.green}`,
+    "notebookStatusErrorIcon.foreground": `${palette.red}`,
+    "notebookStatusRunningIcon.foreground": `${palette.blue}`,
+    "notebook.focusedCellBorder": `${palette.bg7}`,
+    "notebook.selectedCellBorder": `${palette.bg7}`,
+    "notebook.focusedRowBorder": `${palette.bg7}`,
+    "notebook.inactiveFocusedCellBorder": `${palette.bg7}`,
+    "notebook.cellToolbarSeparator": `${palette.bg7}`,
   };
 }

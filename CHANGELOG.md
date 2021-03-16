@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 6.3.9
 
 - Optimize some workbench colors.
+- Support notebook colors.
 
 ## 6.3.8
 
