@@ -540,5 +540,12 @@ export function materialWorkbench(
     "notebook.focusedRowBorder": `${palette.bg7}`,
     "notebook.inactiveFocusedCellBorder": `${palette.bg7}`,
     "notebook.cellToolbarSeparator": `${palette.bg7}`,
+    "testing.iconFailed": `${palette.red}`,
+    "testing.iconErrored": `${palette.red}`,
+    "testing.iconPassed": `${palette.aqua}`,
+    "testing.runAction": `${palette.aqua}`,
+    "testing.iconQueued": `${palette.blue}`,
+    "testing.iconUnset": `${palette.yellow}`,
+    "testing.iconSkipped": `${palette.purple}`,
   };
 }

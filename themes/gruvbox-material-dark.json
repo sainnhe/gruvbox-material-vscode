@@ -384,7 +384,14 @@
     "notebook.selectedCellBorder": "#5a524c",
     "notebook.focusedRowBorder": "#5a524c",
     "notebook.inactiveFocusedCellBorder": "#5a524c",
-    "notebook.cellToolbarSeparator": "#5a524c"
+    "notebook.cellToolbarSeparator": "#5a524c",
+    "testing.iconFailed": "#ea6962",
+    "testing.iconErrored": "#ea6962",
+    "testing.iconPassed": "#89b482",
+    "testing.runAction": "#89b482",
+    "testing.iconQueued": "#7daea3",
+    "testing.iconUnset": "#d8a657",
+    "testing.iconSkipped": "#d3869b"
   },
   "tokenColors": [
     {
