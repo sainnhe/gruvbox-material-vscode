@@ -477,6 +477,8 @@ export function highContrastWorkbench(
     "settings.dropdownBackground": `${palette.bg}`,
     "settings.dropdownForeground": `${palette.aqua}`,
     "settings.dropdownBorder": `${palette.bg7}`,
+    "settings.modifiedItemIndicator": `${palette.grey0}`,
+    "settings.focusedRowBackground": `${palette.bg2}`,
     "editorLightBulb.foreground": `${palette.yellow}`,
     "editorLightBulbAutoFix.foreground": `${palette.aqua}`,
     "welcomePage.buttonBackground": `${palette.bg2}`,

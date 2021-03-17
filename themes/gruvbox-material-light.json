@@ -322,6 +322,8 @@
     "settings.dropdownBackground": "#fbf1c7",
     "settings.dropdownForeground": "#4c7a5d",
     "settings.dropdownBorder": "#c9b99a",
+    "settings.modifiedItemIndicator": "#a89984",
+    "settings.focusedRowBackground": "#f2e5bc",
     "editorLightBulb.foreground": "#b47109",
     "editorLightBulbAutoFix.foreground": "#4c7a5d",
     "welcomePage.buttonBackground": "#f2e5bc",

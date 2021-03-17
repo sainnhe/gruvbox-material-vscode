@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.3.10
+
+- Optimize setting colors.
+
 ## 6.3.9
 
 - Optimize some workbench colors.
