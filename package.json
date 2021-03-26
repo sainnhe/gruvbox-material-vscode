@@ -211,7 +211,8 @@
     "compile:themes": "node out/hook/generateTheme.js",
     "compile": "npm run compile:ts && npm run compile:themes",
     "package": "vsce package && git checkout -- themes",
-    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    "test": "npm run compile && node ./node_modules/vscode/bin/test",
+    "prepare": "husky install"
   },
   "engines": {
     "vscode": "^1.40.0"
@@ -219,7 +220,7 @@
   "devDependencies": {
     "@types/node": "^10.17.20",
     "@types/vscode": "^1.40.0",
-    "husky": "^4.2.5",
+    "husky": "^5.2.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "tslint": "^6.1.2",
@@ -230,13 +231,7 @@
     "trailingComma": "es5",
     "tabWidth": 2
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo '==> Regenerating /themes/*.json ...' && npm run compile && git add themes && echo '==> Formatting...' && lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{ts,json,md}": "prettier --write"
-  },
-  "dependencies": {}
+  }
 }

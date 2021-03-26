@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '==> Regenerating /themes/*.json ...'
+npm run compile
+git add themes
+
+echo '==> Formatting...'
+npx lint-staged

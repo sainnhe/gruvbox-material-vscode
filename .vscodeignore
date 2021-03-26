@@ -11,3 +11,4 @@ out/hook
 .github
 tslint.json
 CONTRIBUTING.md
+.husky
