@@ -92,7 +92,7 @@ export default class Utils {
     // {{{
     return new Promise((resolve, reject) => {
       fs.writeFile(path, JSON.stringify(data, null, 2), (err) =>
-        err ? reject(err) : resolve()
+        err ? reject(err) : resolve("Success")
       );
     });
   } // }}}
