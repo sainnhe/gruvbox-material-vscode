@@ -1,9 +1,12 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo '==> Regenerating /themes/*.json ...'
+BBLUE='\033[1;34m'
+NC='\033[0m' # No Color
+
+printf "${BBLUE}\n=> Regenerating /themes/*.json ...${NC}\n"
 npm run compile
 git add themes
 
-echo '==> Formatting...'
+printf "${BBLUE}=> Formatting...${NC}\n\n"
 npx lint-staged
