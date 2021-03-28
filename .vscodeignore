@@ -1,7 +1,7 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-temp/flag.txt
+.flag
 *.vsix
 **/*.ts
 **/tsconfig.json
