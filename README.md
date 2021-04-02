@@ -164,7 +164,7 @@ Several configuration options are provided, you can customize the palette, contr
 
 1. Install a font that supports cursive italic styles, for example: [Fira Code iCursive Op](https://github.com/sainnhe/icursive-nerd-font)(this is the font used in the screenshots).
 2. Set the `gruvboxMaterial.italicKeywords` option to `true` in user settings.
-3. (optional)Set the `gruvboxMaterial.italicComments` option to `false` in user settings.
+3. (optional) Set the `gruvboxMaterial.italicComments` option to `false` in user settings.
 
 **Q: How to disable semantic highlighting?**
 
