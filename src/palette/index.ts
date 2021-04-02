@@ -1,140 +1,143 @@
 import { Configuration, Palette } from "../interface";
-import { default as mDarkHard } from "./material/darkHard";
-import { default as mDarkMedium } from "./material/darkMedium";
-import { default as mDarkSoft } from "./material/darkSoft";
-import { default as mLightHard } from "./material/lightHard";
-import { default as mLightMedium } from "./material/lightMedium";
-import { default as mLightSoft } from "./material/lightSoft";
-import { default as dDarkHard } from "./mix/darkHard";
-import { default as dDarkMedium } from "./mix/darkMedium";
-import { default as dDarkSoft } from "./mix/darkSoft";
-import { default as dLightHard } from "./mix/lightHard";
-import { default as dLightMedium } from "./mix/lightMedium";
-import { default as dLightSoft } from "./mix/lightSoft";
-import { default as oDarkHard } from "./original/darkHard";
-import { default as oDarkMedium } from "./original/darkMedium";
-import { default as oDarkSoft } from "./original/darkSoft";
-import { default as oLightHard } from "./original/lightHard";
-import { default as oLightMedium } from "./original/lightMedium";
-import { default as oLightSoft } from "./original/lightSoft";
+import { default as darkForegroundMaterial } from "./dark/foreground/material";
+import { default as darkForegroundMix } from "./dark/foreground/mix";
+import { default as darkForegroundOriginal } from "./dark/foreground/original";
+import { default as darkBackgroundHard } from "./dark/background/hard";
+import { default as darkBackgroundMedium } from "./dark/background/medium";
+import { default as darkBackgroundSoft } from "./dark/background/soft";
+import { default as lightForegroundMaterial } from "./light/foreground/material";
+import { default as lightForegroundMix } from "./light/foreground/mix";
+import { default as lightForegroundOriginal } from "./light/foreground/original";
+import { default as lightBackgroundHard } from "./light/background/hard";
+import { default as lightBackgroundMedium } from "./light/background/medium";
+import { default as lightBackgroundSoft } from "./light/background/soft";
 
 export function getPalette(
   configuration: Configuration,
   variant: string
 ): Palette {
-  let palette: Palette;
+  let paletteBackground = darkBackgroundMedium;
+  let paletteForeground = darkForegroundMaterial;
   if (variant === "dark") {
-    if (configuration.darkPalette === "material") {
-      switch (configuration.darkContrast) {
-        case "hard": {
-          palette = mDarkHard;
-          break;
-        }
-        case "medium": {
-          palette = mDarkMedium;
-          break;
-        }
-        case "soft": {
-          palette = mDarkSoft;
-          break;
-        }
-        default: {
-          palette = mDarkMedium;
-        }
+    // {{{
+    switch (
+      configuration.darkContrast // {{{
+    ) {
+      case "hard": {
+        paletteBackground = darkBackgroundHard;
+        break;
       }
-    } else if (configuration.darkPalette === "original") {
-      switch (configuration.darkContrast) {
-        case "hard": {
-          palette = oDarkHard;
-          break;
-        }
-        case "medium": {
-          palette = oDarkMedium;
-          break;
-        }
-        case "soft": {
-          palette = oDarkSoft;
-          break;
-        }
-        default: {
-          palette = oDarkMedium;
-        }
+      case "medium": {
+        paletteBackground = darkBackgroundMedium;
+        break;
       }
-    } else if (configuration.darkPalette === "mix") {
-      switch (configuration.darkContrast) {
-        case "hard": {
-          palette = dDarkHard;
-          break;
-        }
-        case "medium": {
-          palette = dDarkMedium;
-          break;
-        }
-        case "soft": {
-          palette = dDarkSoft;
-          break;
-        }
-        default: {
-          palette = dDarkMedium;
-        }
+      case "soft": {
+        paletteBackground = darkBackgroundSoft;
+        break;
       }
-    }
+      default: {
+        paletteBackground = darkBackgroundMedium;
+      }
+    } // }}}
+    switch (
+      configuration.darkPalette // {{{
+    ) {
+      case "material": {
+        paletteForeground = darkForegroundMaterial;
+        break;
+      }
+      case "mix": {
+        paletteForeground = darkForegroundMix;
+        break;
+      }
+      case "original": {
+        paletteForeground = darkForegroundOriginal;
+        break;
+      }
+      default: {
+        paletteForeground = darkForegroundMaterial;
+      } // }}}
+    } // }}}
   } else {
-    if (configuration.lightPalette === "material") {
-      switch (configuration.lightContrast) {
-        case "hard": {
-          palette = mLightHard;
-          break;
-        }
-        case "medium": {
-          palette = mLightMedium;
-          break;
-        }
-        case "soft": {
-          palette = mLightSoft;
-          break;
-        }
-        default: {
-          palette = mLightMedium;
-        }
+    // {{{
+    switch (
+      configuration.lightContrast // {{{
+    ) {
+      case "hard": {
+        paletteBackground = lightBackgroundHard;
+        break;
       }
-    } else if (configuration.lightPalette === "original") {
-      switch (configuration.lightContrast) {
-        case "hard": {
-          palette = oLightHard;
-          break;
-        }
-        case "medium": {
-          palette = oLightMedium;
-          break;
-        }
-        case "soft": {
-          palette = oLightSoft;
-          break;
-        }
-        default: {
-          palette = oLightMedium;
-        }
+      case "medium": {
+        paletteBackground = lightBackgroundMedium;
+        break;
       }
-    } else if (configuration.lightPalette === "mix") {
-      switch (configuration.lightContrast) {
-        case "hard": {
-          palette = dLightHard;
-          break;
-        }
-        case "medium": {
-          palette = dLightMedium;
-          break;
-        }
-        case "soft": {
-          palette = dLightSoft;
-          break;
-        }
-        default: {
-          palette = dLightMedium;
-        }
+      case "soft": {
+        paletteBackground = lightBackgroundSoft;
+        break;
       }
-    }
-  }
-  return palette;
+      default: {
+        paletteBackground = lightBackgroundMedium;
+      }
+    } // }}}
+    switch (
+      configuration.lightPalette // {{{
+    ) {
+      case "material": {
+        paletteForeground = lightForegroundMaterial;
+        break;
+      }
+      case "mix": {
+        paletteForeground = lightForegroundMix;
+        break;
+      }
+      case "original": {
+        paletteForeground = lightForegroundOriginal;
+        break;
+      }
+      default: {
+        paletteForeground = lightForegroundMaterial;
+      }
+    } // }}}
+  } // }}}
+  return {
+    // {{{
+    bg0: paletteBackground.bg0,
+    bg1: paletteBackground.bg1,
+    bg: paletteBackground.bg,
+    bg2: paletteBackground.bg2,
+    bg3: paletteBackground.bg3,
+    bg4: paletteBackground.bg4,
+    bg5: paletteBackground.bg5,
+    bg6: paletteBackground.bg6,
+    bg7: paletteBackground.bg7,
+    bg8: paletteBackground.bg8,
+    bg9: paletteBackground.bg9,
+    grey0: paletteBackground.grey0,
+    grey1: paletteBackground.grey1,
+    grey2: paletteBackground.grey2,
+    selGreen: paletteBackground.selGreen,
+    selRed: paletteBackground.selRed,
+    selBlue: paletteBackground.selBlue,
+    diffGreen: paletteBackground.diffGreen,
+    diffRed: paletteBackground.diffRed,
+    diffBlue: paletteBackground.diffBlue,
+    shadow: paletteBackground.shadow,
+    fg0: paletteForeground.fg0,
+    fg: paletteForeground.fg,
+    fg1: paletteForeground.fg1,
+    red: paletteForeground.red,
+    orange: paletteForeground.orange,
+    yellow: paletteForeground.yellow,
+    green: paletteForeground.green,
+    aqua: paletteForeground.aqua,
+    blue: paletteForeground.blue,
+    purple: paletteForeground.purple,
+    darkRed: paletteForeground.darkRed,
+    darkOrange: paletteForeground.darkOrange,
+    darkYellow: paletteForeground.darkYellow,
+    darkGreen: paletteForeground.darkGreen,
+    darkAqua: paletteForeground.darkAqua,
+    darkBlue: paletteForeground.darkBlue,
+    darkPurple: paletteForeground.darkPurple,
+  }; // }}}
 }
