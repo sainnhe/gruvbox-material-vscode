@@ -19,18 +19,18 @@ export function materialWorkbench(
         break;
       }
       case "green": {
-        selectionBg = `${palette.darkAqua}80`;
-        editorSelectionBg = `${palette.darkAqua}40`;
+        selectionBg = `${palette.dimAqua}80`;
+        editorSelectionBg = `${palette.dimAqua}40`;
         break;
       }
       case "blue": {
-        selectionBg = `${palette.darkBlue}80`;
-        editorSelectionBg = `${palette.darkBlue}40`;
+        selectionBg = `${palette.dimBlue}80`;
+        editorSelectionBg = `${palette.dimBlue}40`;
         break;
       }
       case "red": {
-        selectionBg = `${palette.darkRed}80`;
-        editorSelectionBg = `${palette.darkRed}40`;
+        selectionBg = `${palette.dimRed}80`;
+        editorSelectionBg = `${palette.dimRed}40`;
         break;
       }
       default: {
@@ -87,18 +87,18 @@ export function materialWorkbench(
         break;
       }
       case "green": {
-        selectionBg = `${palette.darkAqua}80`;
-        editorSelectionBg = `${palette.darkAqua}40`;
+        selectionBg = `${palette.dimAqua}80`;
+        editorSelectionBg = `${palette.dimAqua}40`;
         break;
       }
       case "blue": {
-        selectionBg = `${palette.darkBlue}80`;
-        editorSelectionBg = `${palette.darkBlue}40`;
+        selectionBg = `${palette.dimBlue}80`;
+        editorSelectionBg = `${palette.dimBlue}40`;
         break;
       }
       case "red": {
-        selectionBg = `${palette.darkRed}80`;
-        editorSelectionBg = `${palette.darkRed}40`;
+        selectionBg = `${palette.dimRed}80`;
+        editorSelectionBg = `${palette.dimRed}40`;
         break;
       }
       default: {
@@ -181,7 +181,7 @@ export function materialWorkbench(
     errorForeground: `${palette.red}`,
     "icon.foreground": `${palette.aqua}`,
     "textLink.foreground": `${palette.green}`,
-    "textLink.activeForeground": `${palette.darkGreen}`,
+    "textLink.activeForeground": `${palette.dimGreen}`,
     "textCodeBlock.background": `${palette.bg2}`,
     "textBlockQuote.background": `${palette.bg2}`,
     "textBlockQuote.border": `${palette.grey2}`,
@@ -200,13 +200,13 @@ export function materialWorkbench(
     "input.placeholderForeground": `${palette.grey0}`,
     "inputOption.activeBorder": `${palette.aqua}`,
     "inputValidation.errorBorder": `${palette.red}`,
-    "inputValidation.errorBackground": `${palette.darkRed}`,
+    "inputValidation.errorBackground": `${palette.dimRed}`,
     "inputValidation.errorForeground": `${palette.fg}`,
     "inputValidation.infoBorder": `${palette.blue}`,
-    "inputValidation.infoBackground": `${palette.darkBlue}`,
+    "inputValidation.infoBackground": `${palette.dimBlue}`,
     "inputValidation.infoForeground": `${palette.fg}`,
     "inputValidation.warningBorder": `${palette.yellow}`,
-    "inputValidation.warningBackground": `${palette.darkYellow}`,
+    "inputValidation.warningBackground": `${palette.dimYellow}`,
     "inputValidation.warningForeground": `${palette.fg}`,
     "scrollbar.shadow": `${palette.shadow}`,
     "scrollbarSlider.activeBackground": `${palette.grey2}`,
@@ -227,7 +227,7 @@ export function materialWorkbench(
     "list.highlightForeground": `${palette.green}`,
     "list.hoverForeground": `${palette.fg}`,
     "list.hoverBackground": `${palette.bg}00`,
-    "list.invalidItemForeground": `${palette.darkRed}`,
+    "list.invalidItemForeground": `${palette.dimRed}`,
     "list.errorForeground": `${palette.red}`,
     "list.warningForeground": `${palette.yellow}`,
     "tree.indentGuidesStroke": `${palette.grey0}`,
@@ -245,13 +245,13 @@ export function materialWorkbench(
     "sideBarSectionHeader.background": `${palette.bg}00`,
     "sideBarTitle.foreground": `${palette.grey2}`,
     "sideBarSectionHeader.foreground": `${palette.grey2}`,
-    "minimap.findMatchHighlight": `${palette.darkAqua}60`,
+    "minimap.findMatchHighlight": `${palette.dimAqua}60`,
     "minimap.selectionHighlight": `${palette.bg6}f0`,
-    "minimap.errorHighlight": `${palette.darkRed}80`,
-    "minimap.warningHighlight": `${palette.darkYellow}80`,
-    "minimapGutter.addedBackground": `${palette.darkGreen}a0`,
-    "minimapGutter.modifiedBackground": `${palette.darkBlue}a0`,
-    "minimapGutter.deletedBackground": `${palette.darkRed}a0`,
+    "minimap.errorHighlight": `${palette.dimRed}80`,
+    "minimap.warningHighlight": `${palette.dimYellow}80`,
+    "minimapGutter.addedBackground": `${palette.dimGreen}a0`,
+    "minimapGutter.modifiedBackground": `${palette.dimBlue}a0`,
+    "minimapGutter.deletedBackground": `${palette.dimRed}a0`,
     "editorGroup.border": `${palette.bg0}`,
     "editorGroupHeader.tabsBackground": `${palette.bg}`,
     "editorGroupHeader.noTabsBackground": `${palette.bg}`,
@@ -276,14 +276,14 @@ export function materialWorkbench(
     "editor.selectionBackground": `${editorSelectionBg}`,
     "editor.selectionHighlightBackground": `${palette.bg7}78`,
     "editor.wordHighlightBackground": `${palette.bg4}b0`,
-    "editor.wordHighlightStrongBackground": `${palette.darkAqua}30`,
-    "editor.findMatchBackground": `${palette.darkRed}40`,
-    "editor.findMatchHighlightBackground": `${palette.darkAqua}40`,
-    "editor.findRangeHighlightBackground": `${palette.darkPurple}40`,
+    "editor.wordHighlightStrongBackground": `${palette.dimAqua}30`,
+    "editor.findMatchBackground": `${palette.dimRed}40`,
+    "editor.findMatchHighlightBackground": `${palette.dimAqua}40`,
+    "editor.findRangeHighlightBackground": `${palette.dimPurple}40`,
     "editor.lineHighlightBorder": `${palette.bg5}00`,
-    "editor.rangeHighlightBackground": `${palette.darkBlue}30`,
-    "editor.symbolHighlightBackground": `${palette.darkRed}40`,
-    "editor.hoverHighlightBackground": `${palette.darkAqua}50`,
+    "editor.rangeHighlightBackground": `${palette.dimBlue}30`,
+    "editor.symbolHighlightBackground": `${palette.dimRed}40`,
+    "editor.hoverHighlightBackground": `${palette.dimAqua}50`,
     "editorLink.activeForeground": `${palette.green}`,
     "editor.lineHighlightBackground": `${palette.bg3}70`,
     "editorWhitespace.foreground": `${palette.bg5}`,
@@ -294,39 +294,39 @@ export function materialWorkbench(
     "editorBracketMatch.border": `${palette.bg}00`,
     "editorBracketMatch.background": `${palette.grey0}80`,
     "editorOverviewRuler.border": `${palette.bg}00`,
-    "editorOverviewRuler.findMatchForeground": `${palette.darkAqua}`,
-    "editorOverviewRuler.rangeHighlightForeground": `${palette.darkAqua}`,
-    "editorOverviewRuler.selectionHighlightForeground": `${palette.darkAqua}`,
+    "editorOverviewRuler.findMatchForeground": `${palette.dimAqua}`,
+    "editorOverviewRuler.rangeHighlightForeground": `${palette.dimAqua}`,
+    "editorOverviewRuler.selectionHighlightForeground": `${palette.dimAqua}`,
     "editorOverviewRuler.wordHighlightForeground": `${palette.bg9}`,
     "editorOverviewRuler.wordHighlightStrongForeground": `${palette.bg9}`,
-    "editorOverviewRuler.modifiedForeground": `${palette.darkBlue}a0`,
-    "editorOverviewRuler.addedForeground": `${palette.darkGreen}a0`,
-    "editorOverviewRuler.deletedForeground": `${palette.darkRed}a0`,
+    "editorOverviewRuler.modifiedForeground": `${palette.dimBlue}a0`,
+    "editorOverviewRuler.addedForeground": `${palette.dimGreen}a0`,
+    "editorOverviewRuler.deletedForeground": `${palette.dimRed}a0`,
     "editorOverviewRuler.errorForeground": `${palette.red}`,
     "editorOverviewRuler.warningForeground": `${palette.yellow}`,
     "editorOverviewRuler.infoForeground": `${palette.purple}`,
-    "editorOverviewRuler.currentContentForeground": `${palette.darkBlue}`,
-    "editorOverviewRuler.incomingContentForeground": `${palette.darkAqua}`,
+    "editorOverviewRuler.currentContentForeground": `${palette.dimBlue}`,
+    "editorOverviewRuler.incomingContentForeground": `${palette.dimAqua}`,
     "editorOverviewRuler.commonContentForeground": `${palette.grey1}`,
     "problemsErrorIcon.foreground": `${palette.red}`,
     "problemsWarningIcon.foreground": `${palette.yellow}`,
     "problemsInfoIcon.foreground": `${palette.blue}`,
     "editorUnnecessaryCode.border": `${palette.bg}`,
     "editorUnnecessaryCode.opacity": `#00000080`,
-    "editorError.foreground": `${palette.darkRed}`,
-    "editorWarning.foreground": `${palette.darkYellow}`,
-    "editorInfo.foreground": `${palette.darkBlue}`,
-    "editorHint.foreground": `${palette.darkPurple}`,
-    "editorError.background": `${palette.darkRed}${diagnosticTextBackgroundOpacity}`,
-    "editorWarning.background": `${palette.darkYellow}${diagnosticTextBackgroundOpacity}`,
-    "editorInfo.background": `${palette.darkBlue}${diagnosticTextBackgroundOpacity}`,
+    "editorError.foreground": `${palette.dimRed}`,
+    "editorWarning.foreground": `${palette.dimYellow}`,
+    "editorInfo.foreground": `${palette.dimBlue}`,
+    "editorHint.foreground": `${palette.dimPurple}`,
+    "editorError.background": `${palette.dimRed}${diagnosticTextBackgroundOpacity}`,
+    "editorWarning.background": `${palette.dimYellow}${diagnosticTextBackgroundOpacity}`,
+    "editorInfo.background": `${palette.dimBlue}${diagnosticTextBackgroundOpacity}`,
     "editorGutter.background": `${palette.bg}00`,
-    "editorGutter.modifiedBackground": `${palette.darkBlue}a0`,
-    "editorGutter.addedBackground": `${palette.darkGreen}a0`,
-    "editorGutter.deletedBackground": `${palette.darkRed}a0`,
+    "editorGutter.modifiedBackground": `${palette.dimBlue}a0`,
+    "editorGutter.addedBackground": `${palette.dimGreen}a0`,
+    "editorGutter.deletedBackground": `${palette.dimRed}a0`,
     "editorGutter.commentRangeForeground": `${palette.grey0}`,
-    "diffEditor.insertedTextBackground": `${palette.darkAqua}30`,
-    "diffEditor.removedTextBackground": `${palette.darkRed}30`,
+    "diffEditor.insertedTextBackground": `${palette.dimAqua}30`,
+    "diffEditor.removedTextBackground": `${palette.dimRed}30`,
     "editorSuggestWidget.background": `${palette.bg3}`,
     "editorSuggestWidget.foreground": `${palette.fg}`,
     "editorSuggestWidget.highlightForeground": `${palette.green}`,
@@ -343,12 +343,12 @@ export function materialWorkbench(
     "editorMarkerNavigationInfo.background": `${palette.aqua}`,
     "peekView.border": `${palette.bg4}`,
     "peekViewEditor.background": `${palette.bg2}`,
-    "peekViewEditor.matchHighlightBackground": `${palette.darkYellow}50`,
+    "peekViewEditor.matchHighlightBackground": `${palette.dimYellow}50`,
     "peekViewEditorGutter.background": `${palette.bg2}`,
     "peekViewResult.fileForeground": `${palette.fg}`,
     "peekViewResult.lineForeground": `${palette.grey2}`,
-    "peekViewResult.matchHighlightBackground": `${palette.darkYellow}50`,
-    "peekViewResult.selectionBackground": `${palette.darkAqua}50`,
+    "peekViewResult.matchHighlightBackground": `${palette.dimYellow}50`,
+    "peekViewResult.selectionBackground": `${palette.dimAqua}50`,
     "peekViewResult.selectionForeground": `${palette.fg1}`,
     "peekViewTitleDescription.foreground": `${palette.fg1}`,
     "peekViewTitleLabel.foreground": `${palette.green}`,
@@ -385,7 +385,7 @@ export function materialWorkbench(
     "debugTokenExpression.number": `${palette.purple}`,
     "debugTokenExpression.error": `${palette.red}`,
     "debugIcon.breakpointForeground": `${palette.red}`,
-    "debugIcon.breakpointDisabledForeground": `${palette.darkRed}`,
+    "debugIcon.breakpointDisabledForeground": `${palette.dimRed}`,
     "debugIcon.breakpointUnverifiedForeground": `${palette.grey2}`,
     "debugIcon.breakpointCurrentStackframeForeground": `${palette.blue}`,
     "debugIcon.breakpointStackframeForeground": `${palette.red}`,
@@ -404,10 +404,10 @@ export function materialWorkbench(
     "debugConsole.errorForeground": `${palette.red}`,
     "debugConsole.sourceForeground": `${palette.purple}`,
     "debugConsoleInputIcon.foreground": `${palette.aqua}`,
-    "merge.incomingHeaderBackground": `${palette.darkAqua}80`,
-    "merge.incomingContentBackground": `${palette.darkAqua}40`,
-    "merge.currentHeaderBackground": `${palette.darkBlue}80`,
-    "merge.currentContentBackground": `${palette.darkBlue}40`,
+    "merge.incomingHeaderBackground": `${palette.dimAqua}80`,
+    "merge.incomingContentBackground": `${palette.dimAqua}40`,
+    "merge.currentHeaderBackground": `${palette.dimBlue}80`,
+    "merge.currentContentBackground": `${palette.dimBlue}40`,
     "merge.border": `${palette.bg}00`,
     "panel.background": `${palette.bg}`,
     "panel.border": `${palette.bg}`,
@@ -520,7 +520,7 @@ export function materialWorkbench(
     "symbolIcon.objectForeground": `${palette.purple}`,
     "symbolIcon.packageForeground": `${palette.purple}`,
     "editor.snippetTabstopHighlightBackground": `${palette.bg5}a0`,
-    "editor.snippetFinalTabstopHighlightBackground": `${palette.darkGreen}40`,
+    "editor.snippetFinalTabstopHighlightBackground": `${palette.dimGreen}40`,
     "editor.snippetFinalTabstopHighlightBorder": `${palette.bg}`,
     "charts.red": `${palette.red}`,
     "charts.orange": `${palette.orange}`,
