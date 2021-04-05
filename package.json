@@ -186,7 +186,7 @@
         "gruvboxMaterial.colorfulSyntax": {
           "type": "boolean",
           "default": false,
-          "description": "Enabling this option will cause more tokens to be colored. By default, only the minimum but necessary tokens will be colored."
+          "description": "Enabling this option will cause more tokens to be colored. By default, only the minimum but necessary tokens will be colored.\nNote that this syntax highlighting logic is deprecated, there are a lot of bugs and that's why I'm going to rewrite the syntax highlighting and set it as default."
         },
         "gruvboxMaterial.italicKeywords": {
           "type": "boolean",
