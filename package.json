@@ -129,9 +129,13 @@
           "description": "The background color of selected text in the dark variant.",
           "enum": [
             "grey",
+            "red",
+            "orange",
+            "yellow",
             "green",
+            "aqua",
             "blue",
-            "red"
+            "purple"
           ]
         },
         "gruvboxMaterial.lightSelection": {
@@ -140,9 +144,13 @@
           "description": "The background color of selected text in the light variant.",
           "enum": [
             "grey",
+            "red",
+            "orange",
+            "yellow",
             "green",
+            "aqua",
             "blue",
-            "red"
+            "purple"
           ]
         },
         "gruvboxMaterial.darkPalette": {

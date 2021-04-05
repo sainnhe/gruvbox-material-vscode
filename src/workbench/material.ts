@@ -14,28 +14,48 @@ export function materialWorkbench(
       configuration.darkSelection // {{{
     ) {
       case "grey": {
-        selectionBg = `${palette.bg6}b0`;
-        editorSelectionBg = `${palette.bg4}f0`;
+        selectionBg = `${palette.bg6}d0`;
+        editorSelectionBg = `${palette.bg6}b0`;
+        break;
+      }
+      case "red": {
+        selectionBg = `${palette.dimRed}60`;
+        editorSelectionBg = `${palette.dimRed}40`;
+        break;
+      }
+      case "orange": {
+        selectionBg = `${palette.dimOrange}60`;
+        editorSelectionBg = `${palette.dimOrange}40`;
+        break;
+      }
+      case "yellow": {
+        selectionBg = `${palette.dimYellow}60`;
+        editorSelectionBg = `${palette.dimYellow}40`;
         break;
       }
       case "green": {
-        selectionBg = `${palette.dimAqua}80`;
+        selectionBg = `${palette.dimGreen}60`;
+        editorSelectionBg = `${palette.dimGreen}40`;
+        break;
+      }
+      case "aqua": {
+        selectionBg = `${palette.dimAqua}60`;
         editorSelectionBg = `${palette.dimAqua}40`;
         break;
       }
       case "blue": {
-        selectionBg = `${palette.dimBlue}80`;
+        selectionBg = `${palette.dimBlue}60`;
         editorSelectionBg = `${palette.dimBlue}40`;
         break;
       }
-      case "red": {
-        selectionBg = `${palette.dimRed}80`;
-        editorSelectionBg = `${palette.dimRed}40`;
+      case "purple": {
+        selectionBg = `${palette.dimPurple}60`;
+        editorSelectionBg = `${palette.dimPurple}40`;
         break;
       }
       default: {
-        selectionBg = `${palette.bg6}b0`;
-        editorSelectionBg = `${palette.bg4}f0`;
+        selectionBg = `${palette.bg6}d0`;
+        editorSelectionBg = `${palette.bg6}b0`;
       }
     } // }}}
     switch (
@@ -83,27 +103,47 @@ export function materialWorkbench(
     ) {
       case "grey": {
         selectionBg = `${palette.bg6}b0`;
-        editorSelectionBg = `${palette.bg4}f0`;
+        editorSelectionBg = `${palette.bg6}90`;
+        break;
+      }
+      case "red": {
+        selectionBg = `${palette.dimRed}60`;
+        editorSelectionBg = `${palette.dimRed}40`;
+        break;
+      }
+      case "orange": {
+        selectionBg = `${palette.dimOrange}60`;
+        editorSelectionBg = `${palette.dimOrange}40`;
+        break;
+      }
+      case "yellow": {
+        selectionBg = `${palette.dimYellow}60`;
+        editorSelectionBg = `${palette.dimYellow}40`;
         break;
       }
       case "green": {
-        selectionBg = `${palette.dimAqua}80`;
+        selectionBg = `${palette.dimGreen}60`;
+        editorSelectionBg = `${palette.dimGreen}40`;
+        break;
+      }
+      case "aqua": {
+        selectionBg = `${palette.dimAqua}60`;
         editorSelectionBg = `${palette.dimAqua}40`;
         break;
       }
       case "blue": {
-        selectionBg = `${palette.dimBlue}80`;
+        selectionBg = `${palette.dimBlue}60`;
         editorSelectionBg = `${palette.dimBlue}40`;
         break;
       }
-      case "red": {
-        selectionBg = `${palette.dimRed}80`;
-        editorSelectionBg = `${palette.dimRed}40`;
+      case "purple": {
+        selectionBg = `${palette.dimPurple}60`;
+        editorSelectionBg = `${palette.dimPurple}40`;
         break;
       }
       default: {
         selectionBg = `${palette.bg6}b0`;
-        editorSelectionBg = `${palette.bg4}f0`;
+        editorSelectionBg = `${palette.bg6}90`;
       }
     } // }}}
     switch (
