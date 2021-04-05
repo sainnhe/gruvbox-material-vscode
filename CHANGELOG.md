@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 - Optimize setting colors.
 - Optimize selection colors.
+- Optimize editor colors.
 
 ## 6.3.9
 

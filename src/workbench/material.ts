@@ -7,6 +7,7 @@ export function materialWorkbench(
 ) {
   let selectionBg: string;
   let editorSelectionBg: string;
+  let editorSelectionBgHl: string;
   let cursorFg: string;
   let diagnosticTextBackgroundOpacity: string;
   if (variant === "dark") {
@@ -16,46 +17,55 @@ export function materialWorkbench(
       case "grey": {
         selectionBg = `${palette.bg6}d0`;
         editorSelectionBg = `${palette.bg6}b0`;
+        editorSelectionBgHl = `${palette.bg6}58`;
         break;
       }
       case "red": {
         selectionBg = `${palette.dimRed}60`;
         editorSelectionBg = `${palette.dimRed}40`;
+        editorSelectionBgHl = `${palette.dimRed}20`;
         break;
       }
       case "orange": {
         selectionBg = `${palette.dimOrange}60`;
         editorSelectionBg = `${palette.dimOrange}40`;
+        editorSelectionBgHl = `${palette.dimOrange}20`;
         break;
       }
       case "yellow": {
         selectionBg = `${palette.dimYellow}60`;
         editorSelectionBg = `${palette.dimYellow}40`;
+        editorSelectionBgHl = `${palette.dimYellow}20`;
         break;
       }
       case "green": {
         selectionBg = `${palette.dimGreen}60`;
         editorSelectionBg = `${palette.dimGreen}40`;
+        editorSelectionBgHl = `${palette.dimGreen}20`;
         break;
       }
       case "aqua": {
         selectionBg = `${palette.dimAqua}60`;
         editorSelectionBg = `${palette.dimAqua}40`;
+        editorSelectionBgHl = `${palette.dimAqua}20`;
         break;
       }
       case "blue": {
         selectionBg = `${palette.dimBlue}60`;
         editorSelectionBg = `${palette.dimBlue}40`;
+        editorSelectionBgHl = `${palette.dimBlue}20`;
         break;
       }
       case "purple": {
         selectionBg = `${palette.dimPurple}60`;
         editorSelectionBg = `${palette.dimPurple}40`;
+        editorSelectionBgHl = `${palette.dimPurple}20`;
         break;
       }
       default: {
         selectionBg = `${palette.bg6}d0`;
         editorSelectionBg = `${palette.bg6}b0`;
+        editorSelectionBgHl = `${palette.bg6}58`;
       }
     } // }}}
     switch (
@@ -104,46 +114,55 @@ export function materialWorkbench(
       case "grey": {
         selectionBg = `${palette.bg6}b0`;
         editorSelectionBg = `${palette.bg6}90`;
+        editorSelectionBgHl = `${palette.bg6}48`;
         break;
       }
       case "red": {
         selectionBg = `${palette.dimRed}60`;
         editorSelectionBg = `${palette.dimRed}40`;
+        editorSelectionBgHl = `${palette.dimRed}20`;
         break;
       }
       case "orange": {
         selectionBg = `${palette.dimOrange}60`;
         editorSelectionBg = `${palette.dimOrange}40`;
+        editorSelectionBgHl = `${palette.dimOrange}20`;
         break;
       }
       case "yellow": {
         selectionBg = `${palette.dimYellow}60`;
         editorSelectionBg = `${palette.dimYellow}40`;
+        editorSelectionBgHl = `${palette.dimYellow}20`;
         break;
       }
       case "green": {
         selectionBg = `${palette.dimGreen}60`;
         editorSelectionBg = `${palette.dimGreen}40`;
+        editorSelectionBgHl = `${palette.dimGreen}20`;
         break;
       }
       case "aqua": {
         selectionBg = `${palette.dimAqua}60`;
         editorSelectionBg = `${palette.dimAqua}40`;
+        editorSelectionBgHl = `${palette.dimAqua}20`;
         break;
       }
       case "blue": {
         selectionBg = `${palette.dimBlue}60`;
         editorSelectionBg = `${palette.dimBlue}40`;
+        editorSelectionBgHl = `${palette.dimBlue}20`;
         break;
       }
       case "purple": {
         selectionBg = `${palette.dimPurple}60`;
         editorSelectionBg = `${palette.dimPurple}40`;
+        editorSelectionBgHl = `${palette.dimPurple}20`;
         break;
       }
       default: {
         selectionBg = `${palette.bg6}b0`;
         editorSelectionBg = `${palette.bg6}90`;
+        editorSelectionBg = `${palette.bg6}48`;
       }
     } // }}}
     switch (
@@ -314,23 +333,29 @@ export function materialWorkbench(
     "editorLineNumber.activeForeground": `${palette.grey1}`,
     "editorCursor.foreground": `${cursorFg}`,
     "editor.selectionBackground": `${editorSelectionBg}`,
-    "editor.selectionHighlightBackground": `${palette.bg7}78`,
-    "editor.wordHighlightBackground": `${palette.bg4}b0`,
-    "editor.wordHighlightStrongBackground": `${palette.dimAqua}30`,
-    "editor.findMatchBackground": `${palette.dimRed}40`,
-    "editor.findMatchHighlightBackground": `${palette.dimAqua}40`,
-    "editor.findRangeHighlightBackground": `${palette.dimPurple}40`,
+    "editor.selectionHighlightBackground": `${editorSelectionBgHl}`,
+    "editor.inactiveSelectionBackground": `${editorSelectionBgHl}`,
+    "editor.wordHighlightBackground":
+      variant === "dark" ? `${palette.bg6}58` : `${palette.bg6}48`,
+    "editor.wordHighlightStrongBackground":
+      variant === "dark" ? `${palette.bg6}b0` : `${palette.bg6}90`,
+    "editor.hoverHighlightBackground":
+      variant === "dark" ? `${palette.bg6}b0` : `${palette.bg6}90`,
+    "editor.findMatchBackground": `${palette.dimOrange}40`,
+    "editor.findMatchHighlightBackground": `${palette.dimGreen}40`,
+    "editor.findRangeHighlightBackground": `${editorSelectionBgHl}`,
     "editor.lineHighlightBorder": `${palette.bg5}00`,
-    "editor.rangeHighlightBackground": `${palette.dimBlue}30`,
-    "editor.symbolHighlightBackground": `${palette.dimRed}40`,
-    "editor.hoverHighlightBackground": `${palette.dimAqua}50`,
+    "editor.lineHighlightBackground":
+      variant === "dark" ? `${palette.bg3}90` : `${palette.bg3}70`,
+    "editor.rangeHighlightBackground": `${palette.bg3}80`,
+    "editor.symbolHighlightBackground": `${palette.dimBlue}40`,
     "editorLink.activeForeground": `${palette.green}`,
-    "editor.lineHighlightBackground": `${palette.bg3}70`,
     "editorWhitespace.foreground": `${palette.bg5}`,
     "editorIndentGuide.background": `${palette.grey2}20`,
     "editorIndentGuide.activeBackground": `${palette.grey2}50`,
     "editorRuler.foreground": `${palette.bg8}a0`,
     "editorCodeLens.foreground": `${palette.grey1}`,
+    "editor.foldBackground": `${palette.bg5}80`,
     "editorBracketMatch.border": `${palette.bg}00`,
     "editorBracketMatch.background": `${palette.grey0}80`,
     "editorOverviewRuler.border": `${palette.bg}00`,
