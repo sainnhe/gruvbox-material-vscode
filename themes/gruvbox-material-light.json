@@ -3,6 +3,8 @@
   "type": "light",
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    "operatorOverload": "#e78a4e",
+    "memberOperatorOverload": "#e78a4e",
     "variable.defaultLibrary:javascript": "#d3869b",
     "property.defaultLibrary:javascript": "#d3869b",
     "variable.defaultLibrary:javascriptreact": "#d3869b",

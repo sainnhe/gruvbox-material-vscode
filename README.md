@@ -69,8 +69,8 @@ The following file types and syntax extensions are basically optimized, but ther
 
 - **Assembly:** [MASM](https://marketplace.visualstudio.com/items?itemName=bltg-team.masm)
 - **C#:** builtin
-- **C++:** buildin, [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
-- **C:** builtin
+- **C++:** buildin, [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax)
+- **C:** builtin, [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 - **Clojure:** builtin
 - **CMake:** [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 - **CoffeeScript:** builtin

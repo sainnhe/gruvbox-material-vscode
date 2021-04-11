@@ -2,6 +2,10 @@ import { Palette } from "../interface";
 
 export function getColorfulSemantic(palette: Palette) {
   return {
+    // General {{{
+    operatorOverload: `${palette.orange}`,
+    memberOperatorOverload: `${palette.orange}`,
+    // }}}
     // JavaScript {{{
     "variable.defaultLibrary:javascript": `${palette.purple}`,
     "property.defaultLibrary:javascript": `${palette.purple}`,
