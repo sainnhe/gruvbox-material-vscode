@@ -109,7 +109,7 @@ The following file types and syntax extensions are basically optimized, but ther
 - **Protobuf:** [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
 - **Pug:** builtin
 - **PureScript:** [PureScript IDE](https://marketplace.visualstudio.com/items?itemName=nwolverson.ide-purescript)
-- **Python:** builtin
+- **Python:** builtin, [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 - **R:** builtin
 - **reStructuredText:** [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
 - **Ruby:** [VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby), [Ruby Language Colorization](https://marketplace.visualstudio.com/items?itemName=groksrc.ruby)
@@ -151,11 +151,6 @@ Several configuration options are provided, you can customize the palette, contr
 2. Click `Settings`.
 3. Select `Gruvbox Material` and change the settings.
 
-**Note:** For better syntax highlighting support, please:
-
-1. Don't enable `gruvboxMaterial.colorfulSyntax` (this setting is disabled by default).
-2. Disable semantic highlighting for all languages except `editor.semanticHighlighting.enabled`, see [FAQ](https://github.com/sainnhe/gruvbox-material-vscode#faq).
-
 ## FAQ
 
 **Q: How to enable cursive italic keywords?**
@@ -165,17 +160,6 @@ Several configuration options are provided, you can customize the palette, contr
 1. Install a font that supports cursive italic styles, for example: [Fira Code iCursive Op](https://github.com/sainnhe/icursive-nerd-font)(this is the font used in the screenshots).
 2. Set the `gruvboxMaterial.italicKeywords` option to `true` in user settings.
 3. (optional) Set the `gruvboxMaterial.italicComments` option to `false` in user settings.
-
-**Q: How to disable semantic highlighting?**
-
-**A:**
-
-In your `settings.json`:
-
-1. To disable it globally: `"editor.semanticHighlighting.enabled": false`
-2. For [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools): `"C_Cpp.enhancedColorization": "Disabled"`
-3. For [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp): `"csharp.semanticHighlighting.enabled": false`
-4. For [Java](https://marketplace.visualstudio.com/items?itemName=redhat.java): `"java.semanticHighlighting.enabled": false`
 
 ## Related Projects
 

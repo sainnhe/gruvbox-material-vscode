@@ -20,7 +20,10 @@
     "enumMember:typescriptreact": "#7daea3",
     "namespace:typescriptreact": "#d3869b",
     "variable.defaultLibrary:typescriptreact": "#d3869b",
-    "property.defaultLibrary:typescriptreact": "#d3869b"
+    "property.defaultLibrary:typescriptreact": "#d3869b",
+    "intrinsic:python": "#d3869b",
+    "module:python": "#7daea3",
+    "class:python": "#89b482"
   },
   "colors": {
     "foreground": "#7c6f64",

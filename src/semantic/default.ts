@@ -28,5 +28,10 @@ export function getDefaultSemantic(palette: Palette) {
     "variable.defaultLibrary:typescriptreact": `${palette.purple}`,
     "property.defaultLibrary:typescriptreact": `${palette.purple}`,
     // }}}
+    // Python {{{
+    "intrinsic:python": `${palette.purple}`,
+    "module:python": `${palette.blue}`,
+    "class:python": `${palette.aqua}`,
+    // }}}
   };
 }

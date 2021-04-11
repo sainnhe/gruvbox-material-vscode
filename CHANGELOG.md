@@ -7,6 +7,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 - Optimize setting colors.
 - Optimize selection colors.
 - Optimize editor colors.
+- Optimize semantic tokens for python.
 
 ## 6.3.9
 
