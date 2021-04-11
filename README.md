@@ -113,7 +113,7 @@ The following file types and syntax extensions are basically optimized, but ther
 - **R:** builtin
 - **reStructuredText:** [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
 - **Ruby:** [VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby), [Ruby Language Colorization](https://marketplace.visualstudio.com/items?itemName=groksrc.ruby)
-- **Rust:** builtin, [vscode-rust-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-rust-syntax)
+- **Rust:** builtin, [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer), [vscode-rust-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-rust-syntax)
 - **SASS:** [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
 - **Scala:** [Scala Syntax (official)](https://marketplace.visualstudio.com/items?itemName=scala-lang.scala)
 - **Shell:** builtin, [Better Shell Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax)

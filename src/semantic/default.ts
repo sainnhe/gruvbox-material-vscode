@@ -37,5 +37,10 @@ export function getDefaultSemantic(palette: Palette) {
     "module:python": `${palette.blue}`,
     "class:python": `${palette.aqua}`,
     // }}}
+    // Rust {{{
+    "macro:rust": `${palette.aqua}`,
+    "namespace:rust": `${palette.purple}`,
+    "selfKeyword:rust": `${palette.purple}`,
+    // }}}
   };
 }

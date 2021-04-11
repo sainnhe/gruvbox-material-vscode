@@ -9,6 +9,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 - Optimize editor colors.
 - Optimize semantic tokens for python.
 - Optimize semantic tokens for C/C++.
+- Optimize semantic tokens for rust.
 
 ## 6.3.9
 

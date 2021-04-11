@@ -25,7 +25,10 @@
     "property.defaultLibrary:typescriptreact": "#d3869b",
     "intrinsic:python": "#d3869b",
     "module:python": "#7daea3",
-    "class:python": "#89b482"
+    "class:python": "#89b482",
+    "macro:rust": "#89b482",
+    "namespace:rust": "#d3869b",
+    "selfKeyword:rust": "#d3869b"
   },
   "colors": {
     "foreground": "#7c6f64",
