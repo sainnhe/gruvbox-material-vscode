@@ -50,7 +50,7 @@ let configuration: Configuration = {
   lightWorkbench: "material",
   darkSelection: "grey",
   lightSelection: "grey",
-  darkCursor: "while",
+  darkCursor: "white",
   lightCursor: "black",
   darkPalette: "material",
   lightPalette: "material",
