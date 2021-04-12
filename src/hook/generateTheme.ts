@@ -34,7 +34,7 @@ class Utils {
         name: "Gruvbox Material Light",
         type: "light",
         semanticHighlighting: true,
-        semanticTokenColors: getSemantic(configuration, "dark"),
+        semanticTokenColors: getSemantic(configuration, "light"),
         colors: getWorkbench(configuration, "light"),
         tokenColors: getSyntax(configuration, "light"),
       },
