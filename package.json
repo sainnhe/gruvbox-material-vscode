@@ -201,7 +201,7 @@
         "gruvboxMaterial.diagnosticTextBackgroundOpacity": {
           "type": "string",
           "default": "0%",
-          "markdownDescription": "VSCode introduced a new feature in v1.52 that can highlight the background color of error/warning/info text, you can use this option to control the opacity of the background colors.",
+          "description": "VSCode introduced a new feature in v1.52 that can highlight the background color of error/warning/info text, you can use this option to control the opacity of the background colors.",
           "enum": [
             "0%",
             "12.5%",
