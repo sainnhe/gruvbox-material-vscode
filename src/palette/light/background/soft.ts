@@ -13,11 +13,5 @@ export default {
   grey0: "#a89984",
   grey1: "#928374",
   grey2: "#7c6f64",
-  selGreen: "#dde5c2",
-  selRed: "#f6d2ba",
-  selBlue: "#d9e1cc",
-  diffGreen: "#e3f6b4",
-  diffRed: "#ffdbcc",
-  diffBlue: "#cff1f6",
   shadow: "#3c383620",
 };

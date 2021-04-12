@@ -53,11 +53,5 @@ export interface Palette {
   dimAqua: string;
   dimBlue: string;
   dimPurple: string;
-  selGreen: string;
-  selRed: string;
-  selBlue: string;
-  diffGreen: string;
-  diffRed: string;
-  diffBlue: string;
   shadow: string;
 }
