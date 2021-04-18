@@ -280,7 +280,7 @@ export function highContrastWorkbench(
     "list.inactiveSelectionBackground": `${palette.bg2}c0`,
     "list.dropBackground": `${palette.bg2}80`,
     "list.focusForeground": `${palette.fg}`,
-    "list.focusBackground": `${palette.bg5}60`,
+    "list.focusBackground": `${palette.bg2}c0`,
     "quickInput.list.focusBackground": `${palette.bg5}60`,
     "list.inactiveFocusBackground": `${palette.bg2}c0`,
     "list.highlightForeground": `${palette.green}`,
