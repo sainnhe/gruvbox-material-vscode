@@ -167,9 +167,9 @@ See this [wiki page](https://github.com/sainnhe/gruvbox-material/wiki/Related-Pr
 
 ### More Color Schemes
 
-- [Forest Night](https://marketplace.visualstudio.com/items?itemName=sainnhe.forest-night)
-- [Edge](https://marketplace.visualstudio.com/items?itemName=sainnhe.edge)
-- [Sonokai](https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai)
+- [Everforest](https://github.com/sainnhe/everforest-vscode)
+- [Edge](https://github.com/sainnhe/edge-vscode)
+- [Sonokai](https://github.com/sainnhe/sonokai-vscode)
 
 ## Contributing
 
