@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 - Adjust background colors in the dark variant.
 - Improve flat workbench style.
+- Improve high-contrast workbench style.
 
 ## 6.4.0
 
