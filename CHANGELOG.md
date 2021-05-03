@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.4.1
+
+- Adjust background colors in the dark variant.
+
 ## 6.4.0
 
 - Optimize setting colors.
