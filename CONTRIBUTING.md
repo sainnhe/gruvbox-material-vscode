@@ -39,9 +39,10 @@ In this extension, the json files will be automatically generated when user conf
 
 I've setup a github action for this repository that can publish this extension to vscode marketplace and open vsx registry automatically when a new tag is created. For example, to release `v6.2.10`, do something like this:
 
-1. Edit `package.json` and `package-lock.json`, modify the `version` field: `"version": "6.2.10",`
-2. Commit this change: `$ git commit -am "release v6.2.10"`
-3. Create a tag: `$ git tag -a v1.2.0` and edit the tag message based on CHANGELOG.md
+1. Edit `package.json`, modify the `version` field: `"version": "6.2.10",`
+2. Update `package-lock.json`: `$ npm install`
+3. Commit this change: `$ git commit -am "release v6.2.10"`
+4. Create a tag: `$ git tag -a v1.2.0` and edit the tag message based on CHANGELOG.md
 
 ```
 v6.2.10
