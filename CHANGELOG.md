@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 6.4.2
 
 - `tab.lastPinnedBorder`
+- Optimize button colors.
 
 ## 6.4.1
 
