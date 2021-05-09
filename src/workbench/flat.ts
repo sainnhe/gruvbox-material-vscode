@@ -651,5 +651,7 @@ export function flatWorkbench(
     "gitlens.decorations.branchUpToDateForegroundColor": `${palette.fg}`,
     "gitlens.decorations.branchUnpublishedForegroundColor": `${palette.blue}`,
     "gitlens.decorations.branchMissingUpstreamForegroundColor": `${palette.red}`,
+    "issues.open": `${palette.aqua}`,
+    "issues.closed": `${palette.red}`,
   };
 }

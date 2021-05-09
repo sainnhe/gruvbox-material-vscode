@@ -431,7 +431,9 @@
     "gitlens.decorations.branchDivergedForegroundColor": "#d8a657",
     "gitlens.decorations.branchUpToDateForegroundColor": "#d4be98",
     "gitlens.decorations.branchUnpublishedForegroundColor": "#7daea3",
-    "gitlens.decorations.branchMissingUpstreamForegroundColor": "#ea6962"
+    "gitlens.decorations.branchMissingUpstreamForegroundColor": "#ea6962",
+    "issues.open": "#89b482",
+    "issues.closed": "#ea6962"
   },
   "tokenColors": [
     {
