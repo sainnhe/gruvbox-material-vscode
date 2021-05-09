@@ -8,6 +8,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 - Optimize button colors.
 - Optimize extension `eamodio.gitlens`.
 - Optimize extension `github.vscode-pull-request-github`.
+- Optimize extension `matklad.rust-analyzer`.
 
 ## 6.4.1
 

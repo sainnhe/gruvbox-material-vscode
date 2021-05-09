@@ -644,5 +644,7 @@ export function materialWorkbench(
     "gitlens.decorations.branchMissingUpstreamForegroundColor": `${palette.red}`,
     "issues.open": `${palette.aqua}`,
     "issues.closed": `${palette.red}`,
+    "rust_analyzer.inlayHints.foreground": `${palette.grey1}`,
+    "rust_analyzer.syntaxTreeBorder": `${palette.red}`,
   };
 }

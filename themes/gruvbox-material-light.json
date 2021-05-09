@@ -433,7 +433,9 @@
     "gitlens.decorations.branchUnpublishedForegroundColor": "#45707a",
     "gitlens.decorations.branchMissingUpstreamForegroundColor": "#c14a4a",
     "issues.open": "#4c7a5d",
-    "issues.closed": "#c14a4a"
+    "issues.closed": "#c14a4a",
+    "rust_analyzer.inlayHints.foreground": "#928374",
+    "rust_analyzer.syntaxTreeBorder": "#c14a4a"
   },
   "tokenColors": [
     {
