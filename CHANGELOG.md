@@ -2,6 +2,11 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.4.3
+
+- npm audit fix
+- Adjust button colors.
+
 ## 6.4.2
 
 - `tab.lastPinnedBorder`
