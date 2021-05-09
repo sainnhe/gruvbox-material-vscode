@@ -336,6 +336,7 @@ export function flatWorkbench(
     "tab.unfocusedHoverBackground": `${palette.bg}`,
     "tab.activeBorderTop": `${palette.grey1}`,
     "tab.unfocusedActiveBorderTop": `${palette.grey1}a0`,
+    "tab.lastPinnedBorder": `${palette.bg0}`,
     "editor.background": `${palette.bg}`,
     "editor.foreground": `${palette.fg}`,
     "editorLineNumber.foreground": `${palette.bg9}`,

@@ -125,6 +125,7 @@
     "tab.unfocusedActiveBorder": "#928374",
     "tab.unfocusedInactiveForeground": "#7c6f64",
     "tab.unfocusedHoverForeground": "#d4be98",
+    "tab.lastPinnedBorder": "#a89984",
     "editor.background": "#292828",
     "editor.foreground": "#d4be98",
     "editorLineNumber.foreground": "#7c6f64",

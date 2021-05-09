@@ -327,6 +327,7 @@ export function materialWorkbench(
     "tab.unfocusedActiveBorder": `${palette.grey1}`,
     "tab.unfocusedInactiveForeground": `${palette.grey0}`,
     "tab.unfocusedHoverForeground": `${palette.fg}`,
+    "tab.lastPinnedBorder": `${palette.grey2}`,
     "editor.background": `${palette.bg}`,
     "editor.foreground": `${palette.fg}`,
     "editorLineNumber.foreground": `${palette.bg9}`,
