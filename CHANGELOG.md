@@ -6,6 +6,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 
 - `tab.lastPinnedBorder`
 - Optimize button colors.
+- Optimize extension `eamodio.gitlens`.
 
 ## 6.4.1
 
