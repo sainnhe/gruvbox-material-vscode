@@ -1,14 +1,12 @@
 .vscode/**
-.vscode-test/**
 .gitignore
 .flag
 *.vsix
 **/*.ts
-**/tsconfig.json
+tsconfig.json
 icon.svg
-tsconfig.base.json
 out/hook
 .github
-tslint.json
 CONTRIBUTING.md
 .husky
+.eslintrc.js

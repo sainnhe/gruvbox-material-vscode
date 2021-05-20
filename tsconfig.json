@@ -6,13 +6,8 @@
     "lib": ["es6"],
     "sourceMap": true,
     "rootDir": "src",
-    "strict": true
+    "strict": false
   },
-  "exclude": ["node_modules", ".vscode-test"],
-  "files": [],
-  "references": [
-    {
-      "path": "./src"
-    }
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
