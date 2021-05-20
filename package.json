@@ -213,8 +213,9 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile:ts": "tsc",
-    "compile:themes": "node out/hook/generateTheme.js",
-    "compile": "npm run compile:ts && npm run compile:themes",
+    "compile:themes": "node out/hook/generateThemes.js",
+    "compile:icon": "node out/hook/generateIcon.js",
+    "compile": "npm run compile:ts && npm run compile:themes && npm run compile:icon",
     "package": "vsce package && git checkout -- themes",
     "lint": "npx eslint . --ext .ts",
     "prepare": "husky install"
@@ -228,6 +229,7 @@
   },
   "devDependencies": {
     "@types/node": "15.3.1",
+    "@types/sharp": "^0.28.1",
     "@types/vscode": "1.55.0",
     "@typescript-eslint/eslint-plugin": "4.24.0",
     "@typescript-eslint/parser": "4.24.0",
@@ -237,6 +239,7 @@
     "husky": "6.0.0",
     "lint-staged": "11.0.0",
     "prettier": "2.3.0",
+    "sharp": "^0.28.2",
     "typescript": "4.2.4",
     "vsce": "1.88.0"
   }

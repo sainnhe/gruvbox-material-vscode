@@ -3,7 +3,7 @@
 // 2. Add the configuration option in this interface
 // 3. utils.getConfiguration()
 // 4. utils.isDefaultConfiguration()
-// 5. generateTheme.ts
+// 5. generateThemes.ts
 export interface Configuration {
   darkContrast?: string;
   lightContrast?: string;

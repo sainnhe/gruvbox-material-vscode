@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.4.5
+
+- Bigger icon size.
+
 ## 6.4.4
 
 - Support remote development by specifying extensionKind.
