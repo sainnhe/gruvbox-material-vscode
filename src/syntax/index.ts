@@ -6,7 +6,7 @@ import { getColorfulSyntax } from "./colorful";
 import { getColorfulItalicSyntax } from "./colorfulItalic";
 
 export function getSyntax(configuration: Configuration, variant: string) {
-  let palette = getPalette(configuration, variant);
+  const palette = getPalette(configuration, variant);
   let syntax: any;
   if (configuration.colorfulSyntax === false) {
     if (configuration.italicKeywords === true) {

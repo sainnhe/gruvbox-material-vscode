@@ -1,7 +1,7 @@
 import { Palette } from "../interface";
 
 export function getItalicSyntax(palette: Palette, italicComments: boolean) {
-  let syntax = [
+  const syntax = [
     // Syntax{{{
     {
       name: "Regular",

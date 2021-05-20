@@ -18,7 +18,8 @@ export default class Utils {
   } // }}}
   getConfiguration(): Configuration {
     // {{{
-    let workspaceConfiguration = workspace.getConfiguration("gruvboxMaterial");
+    const workspaceConfiguration =
+      workspace.getConfiguration("gruvboxMaterial");
     return {
       darkContrast: workspaceConfiguration.get<string>("darkContrast"),
       lightContrast: workspaceConfiguration.get<string>("lightContrast"),

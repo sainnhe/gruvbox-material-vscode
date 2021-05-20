@@ -4,7 +4,7 @@ export function getColorfulItalicSyntax(
   palette: Palette,
   italicComments: boolean
 ) {
-  let syntax = [
+  const syntax = [
     // Syntax{{{
     {
       name: "String",

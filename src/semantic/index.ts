@@ -4,7 +4,7 @@ import { getDefaultSemantic } from "./default";
 import { getColorfulSemantic } from "./colorful";
 
 export function getSemantic(configuration: Configuration, variant: string) {
-  let palette = getPalette(configuration, variant);
+  const palette = getPalette(configuration, variant);
   let semantic: any;
   if (configuration.colorfulSyntax === false) {
     semantic = getDefaultSemantic(palette);

@@ -42,8 +42,8 @@ class Utils {
   } // }}}
 }
 
-let utils = new Utils();
-let configuration: Configuration = {
+const utils = new Utils();
+const configuration: Configuration = {
   darkContrast: "medium",
   lightContrast: "medium",
   darkWorkbench: "material",

@@ -5,7 +5,7 @@ import { highContrastWorkbench } from "./highContrast";
 import { materialWorkbench } from "./material";
 
 export function getWorkbench(configuration: Configuration, variant: string) {
-  let palette: Palette = getPalette(configuration, variant);
+  const palette: Palette = getPalette(configuration, variant);
   if (variant === "dark") {
     switch (configuration.darkWorkbench) {
       case "material":

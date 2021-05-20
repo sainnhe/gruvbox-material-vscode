@@ -3,7 +3,7 @@ import { join } from "path";
 import Utils from "./utils";
 
 export function activate() {
-  let utils = new Utils();
+  const utils = new Utils();
 
   // Regenerate theme files when user configuration changes.
   workspace.onDidChangeConfiguration((event) => {
