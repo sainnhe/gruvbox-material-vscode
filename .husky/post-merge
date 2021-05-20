@@ -5,4 +5,5 @@ BBLUE='\033[1;34m'
 NC='\033[0m' # No Color
 
 printf "${BBLUE}\n=> Updating dependencies ...${NC}\n"
-npm ci
+npm ci --registry=https://registry.npmjs.org
+
