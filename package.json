@@ -26,6 +26,10 @@
     "type": "git",
     "url": "https://github.com/sainnhe/gruvbox-material-vscode.git"
   },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
   "activationEvents": [
     "*"
   ],
