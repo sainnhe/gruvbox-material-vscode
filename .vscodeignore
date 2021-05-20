@@ -10,3 +10,4 @@ out/hook
 CONTRIBUTING.md
 .husky
 .eslintrc.js
+.eslintignore
