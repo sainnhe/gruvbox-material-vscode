@@ -216,7 +216,7 @@
     "compile:themes": "node out/hook/generateTheme.js",
     "compile": "npm run compile:ts && npm run compile:themes",
     "package": "vsce package && git checkout -- themes",
-    "test": "npm run compile && node ./node_modules/vscode/bin/test",
+    "lint": "npx tslint -p .",
     "prepare": "husky install"
   },
   "engines": {
