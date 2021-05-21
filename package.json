@@ -223,7 +223,7 @@
   },
   "lint-staged": {
     "*.ts": "eslint --fix",
-    "*.{json,md}": "prettier --write"
+    "*.{js,json,md}": "prettier --write"
   },
   "engines": {
     "vscode": "^1.55.0"
