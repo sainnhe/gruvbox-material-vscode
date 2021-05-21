@@ -1,4 +1,3 @@
-.vscode/**
 .gitignore
 .flag
 *.vsix
