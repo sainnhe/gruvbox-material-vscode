@@ -1,25 +1,20 @@
-name: CI
+name: Development Release
 
 on:
-  push:
-    branches:
-      - master
+  issues:
+    types: [closed]
   pull_request:
-    branches:
-      - master
+    types: [closed]
 
 jobs:
-  ci:
-    name: Checks
+  package:
+    name: Package
     runs-on: ubuntu-latest
 
     strategy:
       fail-fast: false
       matrix:
         node-version: [16]
-
-    env:
-      NODE_ENV: test
 
     steps:
       - name: Use Node.js ${{ matrix.node-version }}
@@ -33,8 +28,11 @@ jobs:
       - name: Install node modules
         run: npm ci
 
-      - name: Lint
-        run: npm run lint
-
       - name: Package
         run: npm run package
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: gruvbox-material-dev.vsix
+          path: gruvbox-material-*.vsix
