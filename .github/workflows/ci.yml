@@ -9,7 +9,8 @@ on:
       - master
 
 jobs:
-  test:
+  ci:
+    name: Lint and package
     runs-on: ubuntu-latest
 
     strategy:
@@ -25,10 +26,21 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - uses: actions/checkout@v2
-      - name: install
+
+      - name: Check out ref
+        uses: actions/checkout@v2
+
+      - name: Install node modules
         run: npm ci
-      - name: lint
+
+      - name: Lint
         run: npm run lint
-      - name: package
+
+      - name: Package
         run: npm run package
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: gruvbox-material-dev.vsix
+          path: gruvbox-material-*.vsix
