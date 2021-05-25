@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 6.4.5
 
 - Bigger icon size.
+- Optimize diffEditor colors.
 
 ## 6.4.4
 
