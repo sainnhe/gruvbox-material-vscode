@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.4.6
+
+- Support for native bracket colorization
+
 ## 6.4.5
 
 - Bigger icon size.
