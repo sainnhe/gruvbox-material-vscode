@@ -229,10 +229,10 @@
     "vscode": "^1.55.0"
   },
   "devDependencies": {
-    "@types/node": "16.6.2",
+    "@types/node": "16.7.10",
     "@types/sharp": "0.28.3",
     "@types/vscode": "1.55.0",
-    "@typescript-eslint/eslint-plugin": "4.29.2",
+    "@typescript-eslint/eslint-plugin": "4.30.0",
     "@typescript-eslint/parser": "4.29.2",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
@@ -243,6 +243,6 @@
     "rimraf": "3.0.2",
     "sharp": "0.28.3",
     "typescript": "4.3.5",
-    "vsce": "1.93.0"
+    "vsce": "1.96.3"
   }
 }
