@@ -42,7 +42,7 @@ I've setup a github action for this repository that can publish this extension t
 1. Edit `package.json`, modify the `version` field: `"version": "6.2.10",`
 2. Update `package-lock.json`: `$ npm install`
 3. Commit this change: `$ git commit -am "release v6.2.10"`
-4. Create a tag: `$ git tag -a v1.2.0` and edit the tag message based on CHANGELOG.md
+4. Create a tag: `$ git tag -a v6.2.10` and edit the tag message based on CHANGELOG.md
 
 ```
 v6.2.10
