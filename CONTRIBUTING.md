@@ -53,6 +53,15 @@ v6.2.10
 
 4. Push the commit and tag to github: `$ git push origin master v6.2.10`
 
+### Versioning
+
+This color scheme doesn't follow the semantic versioning convention, because there are almost no "bugs" in a color scheme. Everything is regarded as a feature.
+
+Given a `MAJOR.MINOR.PATCH`, increment the: 
+1. `MAJOR` version when you make breaking changes (often with changes to design), 
+2. `MINOR` version when you change configuration options, and 
+3. `PATCH` version when you add small features (with no configuration changes).
+
 ## Some designs
 
 There are 3 workbench styles available in this theme:
