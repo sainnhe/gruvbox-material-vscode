@@ -206,6 +206,11 @@
             "37.5%",
             "50%"
           ]
+        },
+        "gruvboxMaterial.highContrast": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether to add an additional border around items across the UI to increase the contrast."
         }
       }
     }

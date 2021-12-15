@@ -58,6 +58,7 @@ const configuration: Configuration = {
   italicKeywords: false,
   italicComments: true,
   diagnosticTextBackgroundOpacity: "0%",
+  highContrast: false,
 };
 
 utils.generate(

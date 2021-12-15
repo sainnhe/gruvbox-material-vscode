@@ -232,7 +232,7 @@ export function highContrastWorkbench(
       diagnosticTextBackgroundOpacity = "00";
     }
   } // }}}
-  return {
+  const tokens = {
     foreground: `${palette.grey2}`,
     focusBorder: `${palette.bg5}00`,
     "widget.shadow": `${palette.shadow}`,
@@ -655,4 +655,11 @@ export function highContrastWorkbench(
     "rust_analyzer.inlayHints.foreground": `${palette.grey1}`,
     "rust_analyzer.syntaxTreeBorder": `${palette.red}`,
   };
+  if (configuration.highContrast) {
+    Object.assign(tokens, {
+      contrastBorder: `${palette.bg5}`,
+      contrastActiveBorder: `${palette.bg8}`,
+    });
+  }
+  return tokens;
 }
