@@ -230,7 +230,7 @@
   },
   "devDependencies": {
     "@types/node": "16.11.12",
-    "@types/sharp": "0.28.6",
+    "@types/sharp": "0.29.4",
     "@types/vscode": "1.55.0",
     "@typescript-eslint/eslint-plugin": "4.30.0",
     "@typescript-eslint/parser": "4.33.0",
