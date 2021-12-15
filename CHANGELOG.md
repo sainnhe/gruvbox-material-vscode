@@ -5,6 +5,7 @@ All notable changes to the "gruvbox-material" extension will be documented in th
 ## 6.4.7
 
 - Add new option `gruvboxMaterial.highContrast`.
+- Add some new theme tokens.
 
 ## 6.4.6
 
