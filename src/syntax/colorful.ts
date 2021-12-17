@@ -1,3 +1,9 @@
+/*---------------------------------------------------------------------------------------------
+ *  Homepage:   https://github.com/sainnhe/gruvbox-material-vscode
+ *  Copyright:  2020 Sainnhe Park <sainnhe@gmail.com>
+ *  License:    MIT
+ *--------------------------------------------------------------------------------------------*/
+
 import { Palette } from "../interface";
 
 export function getColorfulSyntax(palette: Palette, italicComments: boolean) {

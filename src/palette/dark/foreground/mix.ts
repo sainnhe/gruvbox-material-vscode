@@ -1,3 +1,9 @@
+/*---------------------------------------------------------------------------------------------
+ *  Homepage:   https://github.com/sainnhe/gruvbox-material-vscode
+ *  Copyright:  2020 Sainnhe Park <sainnhe@gmail.com>
+ *  License:    MIT
+ *--------------------------------------------------------------------------------------------*/
+
 export default {
   fg0: "#e2cca9",
   fg: "#e2cca9",

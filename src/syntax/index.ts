@@ -1,3 +1,9 @@
+/*---------------------------------------------------------------------------------------------
+ *  Homepage:   https://github.com/sainnhe/gruvbox-material-vscode
+ *  Copyright:  2020 Sainnhe Park <sainnhe@gmail.com>
+ *  License:    MIT
+ *--------------------------------------------------------------------------------------------*/
+
 import { Configuration } from "../interface";
 import { getPalette } from "../palette";
 import { getDefaultSyntax } from "./default";
