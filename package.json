@@ -183,7 +183,7 @@
         "gruvboxMaterial.colorfulSyntax": {
           "type": "boolean",
           "default": false,
-          "description": "Enabling this option will cause more tokens to be colored. By default, only the minimum but necessary tokens will be colored.\nNote that this syntax highlighting logic is deprecated, there are a lot of bugs and that's why I'm going to rewrite the syntax highlighting and set it as default."
+          "markdownDescription": "Enabling this option will cause more tokens to be colored. By default, only the minimum but necessary tokens will be colored.\n\n**Note:** This design is deprecated, there are a lot of bugs and that's why I redesigned the syntax highlighting logic and set it as default."
         },
         "gruvboxMaterial.italicKeywords": {
           "type": "boolean",
@@ -198,7 +198,7 @@
         "gruvboxMaterial.diagnosticTextBackgroundOpacity": {
           "type": "string",
           "default": "0%",
-          "description": "VSCode introduced a new feature in v1.52 that can highlight the background color of error/warning/info text, you can use this option to control the opacity of the background colors.",
+          "markdownDescription": "The opacity of the background color of [diagnostic text](https://code.visualstudio.com/updates/v1_52#_error-background-colors).",
           "enum": [
             "0%",
             "12.5%",
