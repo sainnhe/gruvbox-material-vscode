@@ -708,3 +708,5 @@ export function flatWorkbench(
   }
   return tokens;
 }
+
+// vim: fdm=marker fmr={{{,}}}:

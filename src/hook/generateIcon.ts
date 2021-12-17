@@ -5,3 +5,5 @@ const svgPath = join(__dirname, "..", "..", "icon.svg");
 const pngPath = join(__dirname, "..", "..", "icon.png");
 
 sharp(svgPath).png().toFile(pngPath);
+
+// vim: fdm=marker fmr={{{,}}}:

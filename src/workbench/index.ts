@@ -30,3 +30,5 @@ export function getWorkbench(configuration: Configuration, variant: string) {
     }
   }
 }
+
+// vim: fdm=marker fmr={{{,}}}:

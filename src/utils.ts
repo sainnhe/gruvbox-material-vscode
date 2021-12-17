@@ -116,3 +116,5 @@ export default class Utils {
     this.writeFile(lightPath, data.light);
   } // }}}
 }
+
+// vim: fdm=marker fmr={{{,}}}:

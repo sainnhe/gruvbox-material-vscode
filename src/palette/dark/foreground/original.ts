@@ -17,3 +17,5 @@ export default {
   dimBlue: "#68948a",
   dimPurple: "#ab6c7d",
 };
+
+// vim: fdm=marker fmr={{{,}}}:

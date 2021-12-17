@@ -135,3 +135,5 @@ export function getPalette(
     dimPurple: paletteForeground.dimPurple,
   }; // }}}
 }
+
+// vim: fdm=marker fmr={{{,}}}:

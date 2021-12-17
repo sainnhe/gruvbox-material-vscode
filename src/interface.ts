@@ -56,3 +56,5 @@ export interface Palette {
   dimPurple: string;
   shadow: string;
 }
+
+// vim: fdm=marker fmr={{{,}}}:

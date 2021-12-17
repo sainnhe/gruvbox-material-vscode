@@ -13,3 +13,5 @@ export function getSemantic(configuration: Configuration, variant: string) {
   }
   return semantic;
 }
+
+// vim: fdm=marker fmr={{{,}}}:

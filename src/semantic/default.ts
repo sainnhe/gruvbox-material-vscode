@@ -44,3 +44,5 @@ export function getDefaultSemantic(palette: Palette) {
     // }}}
   };
 }
+
+// vim: fdm=marker fmr={{{,}}}:

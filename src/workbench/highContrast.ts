@@ -699,3 +699,5 @@ export function highContrastWorkbench(
   }
   return tokens;
 }
+
+// vim: fdm=marker fmr={{{,}}}:

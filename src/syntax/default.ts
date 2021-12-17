@@ -2150,6 +2150,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     // }}}
   ];
   if (italicComments) {
+    // {{{
     syntax.push({
       name: "Comment",
       scope: "comment, string.comment, punctuation.definition.comment",
@@ -2157,8 +2158,9 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
         foreground: palette.grey1,
         fontStyle: "italic",
       },
-    });
+    }); // }}}
   } else {
+    // {{{
     syntax.push({
       name: "Comment",
       scope: "comment, string.comment, punctuation.definition.comment",
@@ -2166,6 +2168,8 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
         foreground: palette.grey1,
       },
     });
-  }
+  } // }}}
   return syntax;
 }
+
+// vim: fdm=marker fmr={{{,}}}:

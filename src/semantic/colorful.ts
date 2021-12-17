@@ -28,3 +28,5 @@ export function getColorfulSemantic(palette: Palette) {
     // }}}
   };
 }
+
+// vim: fdm=marker fmr={{{,}}}:

@@ -66,3 +66,5 @@ utils.generate(
   join(__dirname, "..", "..", "themes", "gruvbox-material-light.json"),
   utils.getThemeData(configuration)
 );
+
+// vim: fdm=marker fmr={{{,}}}:

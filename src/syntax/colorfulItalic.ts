@@ -2385,6 +2385,7 @@ export function getColorfulItalicSyntax(
     // }}}
   ];
   if (italicComments) {
+    // {{{
     syntax.push({
       name: "Comment",
       scope: "comment, string.comment, punctuation.definition.comment",
@@ -2392,8 +2393,9 @@ export function getColorfulItalicSyntax(
         foreground: palette.grey1,
         fontStyle: "italic",
       },
-    });
+    }); // }}}
   } else {
+    // {{{
     syntax.push({
       name: "Comment",
       scope: "comment, string.comment, punctuation.definition.comment",
@@ -2401,6 +2403,8 @@ export function getColorfulItalicSyntax(
         foreground: palette.grey1,
       },
     });
-  }
+  } // }}}
   return syntax;
 }
+
+// vim: fdm=marker fmr={{{,}}}:
