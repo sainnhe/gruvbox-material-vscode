@@ -145,7 +145,7 @@ The following file types and syntax extensions are basically optimized, but ther
 
 ## Customization
 
-Several configuration options are provided, you can customize the palette, contrast, workbench style, etc. used in this theme.
+There are some configuration options available in this theme, you can customize the palette, contrast, workbench style, etc.
 
 1. Click the gear button in the lower left corner.
 2. Click `Settings`.
