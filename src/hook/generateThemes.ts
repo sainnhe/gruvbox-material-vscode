@@ -62,7 +62,7 @@ const configuration: Configuration = {
 };
 
 utils.generate(
-  join(__dirname, "..", "..", "themes", "gruvbox-material-dark.json"),
-  join(__dirname, "..", "..", "themes", "gruvbox-material-light.json"),
+  join(__dirname, "..", "..", "..", "themes", "gruvbox-material-dark.json"),
+  join(__dirname, "..", "..", "..", "themes", "gruvbox-material-light.json"),
   utils.getThemeData(configuration)
 );

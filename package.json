@@ -33,7 +33,7 @@
   "activationEvents": [
     "*"
   ],
-  "main": "./out/extension.js",
+  "main": "./out/main/extension.js",
   "contributes": {
     "themes": [
       {
@@ -219,8 +219,8 @@
     "vscode:prepublish": "npm run compile",
     "clean": "rimraf out *.vsix icon.png",
     "compile:ts": "tsc",
-    "compile:themes": "node out/hook/generateThemes.js",
-    "compile:icon": "node out/hook/generateIcon.js",
+    "compile:themes": "node out/main/hook/generateThemes.js",
+    "compile:icon": "node out/main/hook/generateIcon.js",
     "compile": "npm run clean && npm run compile:ts && npm run compile:themes && npm run compile:icon",
     "package": "vsce package && git checkout -- themes",
     "lint": "eslint . --ext .ts",

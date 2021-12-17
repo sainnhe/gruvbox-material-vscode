@@ -9,8 +9,8 @@ export function activate() {
   workspace.onDidChangeConfiguration((event) => {
     utils.detectConfigChanges(event, () => {
       utils.generate(
-        join(__dirname, "..", "themes", "gruvbox-material-dark.json"),
-        join(__dirname, "..", "themes", "gruvbox-material-light.json"),
+        join(__dirname, "..", "..", "themes", "gruvbox-material-dark.json"),
+        join(__dirname, "..", "..", "themes", "gruvbox-material-light.json"),
         utils.getThemeData(utils.getConfiguration())
       );
     });
@@ -22,8 +22,8 @@ export function activate() {
     !utils.isDefaultConfiguration(utils.getConfiguration())
   ) {
     utils.generate(
-      join(__dirname, "..", "themes", "gruvbox-material-dark.json"),
-      join(__dirname, "..", "themes", "gruvbox-material-light.json"),
+      join(__dirname, "..", "..", "themes", "gruvbox-material-dark.json"),
+      join(__dirname, "..", "..", "themes", "gruvbox-material-light.json"),
       utils.getThemeData(utils.getConfiguration())
     );
   }
