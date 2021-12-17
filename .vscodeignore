@@ -4,7 +4,7 @@
 **/*.ts
 tsconfig.json
 icon.svg
-out/main/hook
+dist/hook
 .github
 CONTRIBUTING.md
 .husky

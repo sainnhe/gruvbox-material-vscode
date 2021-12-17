@@ -83,7 +83,7 @@ export default class Utils {
   } // }}}
   isNewlyInstalled(): boolean {
     // {{{
-    const flagPath = join(__dirname, "..", "..", ".flag");
+    const flagPath = join(__dirname, "..", ".flag");
     if (!fs.existsSync(flagPath)) {
       this.writeFile(flagPath, "");
       return true;
