@@ -33,6 +33,12 @@
   "activationEvents": [
     "*"
   ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
   "main": "./out/main/index-client.js",
   "browser": "./out/main/index-web.js",
   "contributes": {
