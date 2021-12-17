@@ -37,7 +37,7 @@ In this extension, the json files will be automatically generated when user conf
 
 ## Publishing
 
-I've setup a github action for this repository that can publish this extension to vscode marketplace and open vsx registry automatically when a new tag is created. For example, to release `v6.2.10`, do something like this:
+I set up a github action for this repository that can publish this extension to vscode marketplace and open vsx registry automatically when a new tag is created. For example, to release `v6.2.10`, do something like this:
 
 1. Edit `package.json`, modify the `version` field: `"version": "6.2.10",`
 2. Update `package-lock.json`: `$ npm install`
@@ -57,9 +57,10 @@ v6.2.10
 
 This color scheme doesn't follow the semantic versioning convention, because there are almost no "bugs" in a color scheme. Everything is regarded as a feature.
 
-Given a `MAJOR.MINOR.PATCH`, increment the: 
-1. `MAJOR` version when you make breaking changes (often with changes to design), 
-2. `MINOR` version when you change configuration options, and 
+Given a `MAJOR.MINOR.PATCH`, increment the:
+
+1. `MAJOR` version when you make breaking changes (often with changes to design),
+2. `MINOR` version when you change configuration options, and
 3. `PATCH` version when you add small features (with no configuration changes).
 
 ## Some designs
@@ -82,7 +83,7 @@ In addition, this theme is designed to be borderless, so DO NOT add unnecessary 
 
 There are 2 syntax highlighting logic available in this theme: default and colorful
 
-In the default syntax highlighting logic, only minimum but necessary tokens will be colored, because if everything is special, then nothing is special.
+In the default syntax highlighting logic, only minimum but necessary tokens will be colored.
 
 Unnecessary tokens include: variables, properties, members, parameters, etc.
 
@@ -90,7 +91,7 @@ In contrast, in the colorful syntax highlighting logic, as many tokens as possib
 
 ## Note
 
-- I've setup 2 pre-commit hook, one of which is used to generate `/themes/*.json` automatically using default user settings. So when developing this extension, don't care about how the themes files looks like but just focus on the typescript code.
+- I set up 2 pre-commit hooks, one of which is used to generate `/themes/*.json` automatically using default user settings. So when developing this extension, don't care about how the themes files looks like, but just focus on the typescript code.
 - DO NOT add new colors or modify existing colors in [/src/palette](https://github.com/sainnhe/gruvbox-material-vscode/tree/master/src/palette). The current color palettes are very carefully designed and tested on several devices. If you do want to change the color palettes, create a new theme extension instead.
 - Don't add new configuration options casually, there are already so many configuration options and too many options may confuse users.
 - Don't forget to update the changelog.
