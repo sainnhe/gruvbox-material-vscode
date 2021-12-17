@@ -33,7 +33,8 @@
   "activationEvents": [
     "*"
   ],
-  "main": "./out/main/extension.js",
+  "main": "./out/main/index-client.js",
+  "browser": "./out/main/index-web.js",
   "contributes": {
     "themes": [
       {
@@ -224,6 +225,7 @@
     "compile": "npm run clean && npm run compile:ts && npm run compile:themes && npm run compile:icon",
     "package": "vsce package && git checkout -- themes",
     "lint": "eslint . --ext .ts",
+    "browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. .",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -239,6 +241,7 @@
     "@types/vscode": "1.55.0",
     "@typescript-eslint/eslint-plugin": "4.30.0",
     "@typescript-eslint/parser": "4.33.0",
+    "@vscode/test-web": "0.0.15",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",

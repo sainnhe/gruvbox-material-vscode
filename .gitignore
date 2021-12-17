@@ -9,3 +9,4 @@ out/
 *.vsix
 .flag
 icon.png
+.vscode-test-web
