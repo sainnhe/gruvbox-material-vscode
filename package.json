@@ -245,7 +245,7 @@
     "@types/node": "16.11.13",
     "@types/sharp": "0.29.4",
     "@types/vscode": "1.55.0",
-    "@typescript-eslint/eslint-plugin": "4.30.0",
+    "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "@vscode/test-web": "0.0.15",
     "eslint": "7.32.0",
