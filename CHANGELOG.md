@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.5.1
+
+- Add badge.
+
 ## 6.5.0
 
 - Enable this extension in vscode web.

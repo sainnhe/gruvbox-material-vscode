@@ -39,12 +39,16 @@
 ![light-soft-high-contrast](https://gitlab.com/sainnhe/img/-/raw/master/gm-vsc-light-soft-high-contrast.png)
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material">Marketplace</a> |
-  <a href="https://open-vsx.org/extension/sainnhe/gruvbox-material">Registry</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode">Repository</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode/issues">Issues</a> |
-  <a href="https://github.com/sainnhe/gruvbox-material-vscode/blob/master/CHANGELOG.md">Changelog</a>
-  <br><br>
+    <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material" alt="Marketplace">
+        <img src="https://img.shields.io/badge/vscode-marketplace-blue" /></a>
+    <a href="https://open-vsx.org/extension/sainnhe/gruvbox-material" alt="Registry">
+        <img src="https://img.shields.io/badge/open--vsx-registry-green" /></a>
+    <a href="https://github.com/sainnhe/gruvbox-material-vscode" alt="Repository">
+        <img src="https://img.shields.io/badge/github-repository-blueviolet" /></a>
+    <a href="https://github.com/sainnhe/gruvbox-material-vscode/issues" alt="Issues">
+        <img src="https://img.shields.io/badge/issue-feedback-red" /></a>
+    <a href="https://vscode.dev/theme/sainnhe.gruvbox-material" alt="Preview">
+        <img src="https://img.shields.io/badge/preview-vscode.dev-yellow" /></a>
 </p>
 
 This color scheme is a port of [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) for Visual Studio Code and its forks.
