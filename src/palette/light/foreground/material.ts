@@ -1,6 +1,6 @@
 /*---------------------------------------------------------------------------------------------
  *  Homepage:   https://github.com/sainnhe/gruvbox-material-vscode
- *  Copyright:  2020 Sainnhe Park <sainnhe@gmail.com>
+ *  Copyright:  2020 Sainnhe Park <i@sainnhe.dev>
  *  License:    MIT
  *--------------------------------------------------------------------------------------------*/
 
