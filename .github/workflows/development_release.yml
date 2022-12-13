@@ -1,6 +1,7 @@
 name: Development Release
 
 on:
+  workflow_dispatch:
   issues:
     types: [closed]
 
