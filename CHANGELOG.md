@@ -2,6 +2,10 @@
 
 All notable changes to the "gruvbox-material" extension will be documented in this file.
 
+## 6.5.2
+
+- Change `activationEvents`.
+
 ## 6.5.1
 
 - Add badge.
