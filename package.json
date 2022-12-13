@@ -31,7 +31,7 @@
     "workspace"
   ],
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "capabilities": {
     "untrustedWorkspaces": {
@@ -242,21 +242,21 @@
     "vscode": "^1.55.0"
   },
   "devDependencies": {
-    "@types/node": "16.11.13",
-    "@types/sharp": "0.29.4",
+    "@types/node": "18.11.14",
+    "@types/sharp": "0.31.0",
     "@types/vscode": "1.55.0",
-    "@typescript-eslint/eslint-plugin": "4.30.0",
-    "@typescript-eslint/parser": "4.33.0",
-    "@vscode/test-web": "0.0.15",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "husky": "7.0.2",
-    "lint-staged": "11.1.2",
-    "prettier": "2.5.1",
+    "@typescript-eslint/eslint-plugin": "5.46.1",
+    "@typescript-eslint/parser": "5.46.1",
+    "@vscode/test-web": "0.0.33",
+    "@vscode/vsce": "^2.15.0",
+    "eslint": "8.29.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.2",
+    "lint-staged": "13.1.0",
+    "prettier": "2.8.1",
     "rimraf": "3.0.2",
-    "sharp": "0.29.0",
-    "typescript": "4.5.4",
-    "vsce": "1.96.3"
+    "sharp": "0.31.2",
+    "typescript": "4.9.4"
   }
 }
