@@ -47,6 +47,8 @@ export function getDefaultSemantic(palette: Palette) {
     "macro:rust": `${palette.aqua}`,
     "namespace:rust": `${palette.purple}`,
     "selfKeyword:rust": `${palette.purple}`,
+    "enum:rust": `${palette.purple}`,
+    "enumMember:rust": `${palette.blue}`,
     // }}}
   };
 }
